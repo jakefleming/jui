@@ -1,0 +1,45 @@
+.select-wrap {
+  @include radius();
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $component-border-color;
+  background-color: $component-bg-color;
+  &:hover {
+    background-color: $component-bg-color-active;
+  }
+  .input__icon {
+    right: 0px;
+    top: 0px;
+    padding: ($key-number*.6875+px) ($key-number*.9375+px);
+    z-index: 0;
+    @extend .pointer;
+  }
+  select {
+    @include vendor-prefix(appearance,none);
+    @extend %no-outline;
+    @extend .pointer;
+    background-image: none;
+    padding-left: $base-h-padding+px;
+    @include has-icon-padding(right);
+    margin: 0px;
+    width: 100%;
+    height: $key-number*2.43+px;
+    background: transparent;
+    font-family: $font-family-primary;
+    font-weight: $font-weight-light!important;
+    font-size: 1rem;
+    color: $control-color;
+    font-weight: lighter;
+    z-index: 1;
+    position: relative;
+    border: 0;
+    -moz-appearance: progresschunk;
+    &::-ms-expand {
+      display: none;
+    }
+    &::-moz-focus-inner {
+      border: 0;
+    }
+  }
+}

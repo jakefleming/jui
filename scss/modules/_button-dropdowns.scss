@@ -1,0 +1,66 @@
+
+.caret {
+  &:after {
+    font-family: 'juicons';
+    content: '\e001';
+    vertical-align: middle;
+    line-height: 1;
+  }
+}
+
+.dropdown-menu {
+  @extend .list-style-type-none;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: $base-h-padding * 12 +px;
+  background-color: $component-bg-color;
+  border: 1px solid $component-border-color;
+  margin: 1px 0 0 0;
+  z-index: 3;
+  overflow: hidden;
+  @include radius();
+  @media (min-width: 1px) and (max-width: 768px) {
+    max-width: 100%;
+  }
+  @media (min-width: 769px) {
+    max-width: $base-h-padding * 32 +px;
+  }
+
+  &__list-item {
+    display: block;
+    padding: 0;
+    margin: 0;
+    a {
+      padding: $base-v-padding+px $base-h-padding+px;
+      text-decoration: none;
+      color: $body-font-color;
+      display: block;@extend .dots;
+    }
+    &:hover {
+      a {
+        background-color: $component-bg-color-active;
+      }
+    }
+  }
+  &--right {
+    left: auto;
+    right: 0;
+  }
+}
+
+.open > {
+  .dropdown-menu {
+    display: block;
+  }
+}
+
+.dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}

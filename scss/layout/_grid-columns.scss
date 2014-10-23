@@ -1,0 +1,25 @@
+// ==========================================================================
+// Grid Columns (Layout)
+// ==========================================================================
+
+// Generate Column Classes
+
+@for $i from 1 through $grid-column-count {
+  .column--#{$i} {
+    width: percentage($i / $grid-column-count);
+  }
+}
+
+// Mobile first approach to columns
+
+[class^="column--"] {
+  @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+    width: 100%;
+    padding: 0 ($column-padding + px);
+  }
+  @media (min-width: $brkpoint-md+1) {
+    float: left;
+    min-height: 1px;
+    padding: 0 ($column-padding + px);
+  }
+}

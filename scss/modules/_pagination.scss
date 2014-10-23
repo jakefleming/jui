@@ -1,0 +1,50 @@
+.pagination {
+  @extend .inline;
+  @extend .list-style-type-none;
+  margin: 0;
+  &__item {
+    @extend .inline;
+    a {
+      @extend .left;
+      @extend .relative;
+      @extend %center-align;
+      @include spacing(padding);
+      @include border;
+      @include single-transition(background-color);
+      margin-left: -1px;
+      background-color: #fff;
+      min-width: 3rem;
+      &:hover {
+        background-color: $component-bg-color-active;
+      }
+      > .juicon {
+        @extend %icon-before-fix;
+      }
+    }
+    &:first-child {
+      a {
+        @include radius-left;
+      }
+    }
+    &:last-child {
+      a {
+        @include radius-right;
+      }
+    }
+    &.active {
+      a {
+        background-color: $color-primary;
+        border-top-color: $color-primary;
+        border-bottom-color: $color-primary;
+        color: #fff;
+      }
+    }
+    &.disabled {
+      a, a:hover, a:focus {
+        opacity: .4;
+        background-color: $white;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

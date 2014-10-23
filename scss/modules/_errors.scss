@@ -1,0 +1,49 @@
+.input-error-content {
+  padding: $base-v-padding + px $base-h-padding + px;
+  color: $white;
+  background-color: $color-error;
+  display: none;
+  @include radius-bottom();
+}
+
+.has-error {
+  input {
+    &[type="text"], &[type="password"], &[type="number"], &[type="email"]{
+      @extend %control;
+      height: $base-h-control; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+      @extend %input-error;
+    }
+  }
+  textarea, .select-wrap {
+    @extend %input-error;
+  }
+  .input-error-content {
+    display: block;
+  }
+  label, .input__icon {
+    color: $color-error;
+  }
+  input[type=checkbox], input[type=radio] {
+    border-color: lighten($color-error, 20%);
+    background-color: $color-error-light;
+  }
+  .input__group {
+    > [class^="column--"] {
+
+      @media (min-width: $brkpoint-md+1px) {
+        &:first-child {
+          > * {
+            @include erase-radius-bottom();
+            @include erase-radius-right();
+          }
+        }
+        &:last-child {
+          > * {
+            @include erase-radius-bottom();
+            @include erase-radius-left();
+          }
+        }
+      }
+    }
+  }
+}

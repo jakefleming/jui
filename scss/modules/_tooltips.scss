@@ -1,0 +1,106 @@
+.tooltip {
+  @extend .absolute;
+  z-index: 1070;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  &.in {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+  }
+  &.top {
+    margin-top: -3px;
+    padding: $arrow-width 0;
+  }
+  &.right {
+    margin-left: 3px;
+    padding: 0 $arrow-width;
+  }
+  &.bottom {
+    margin-top: 3px;
+    padding: $arrow-width 0;
+  }
+  &.left {
+    margin-left: -3px;
+    padding: 0 $arrow-width;
+  }
+  &-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: $black;
+    border-radius: 4px;
+  }
+}
+.tooltip-arrow {
+  @extend .absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.tooltip.top {
+  .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -$arrow-width;
+    border-width: $arrow-width $arrow-width 0;
+    border-top-color: $black;
+  }
+  &-left .tooltip-arrow {
+    bottom: 0;
+    left: $arrow-width;
+    border-width: $arrow-width $arrow-width 0;
+    border-top-color: $black;
+  }
+  &-right .tooltip-arrow {
+    bottom: 0;
+    right: $arrow-width;
+    border-width: $arrow-width $arrow-width 0;
+    border-top-color: $black;
+  }
+}
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -$arrow-width;
+  border-width: $arrow-width $arrow-width $arrow-width 0;
+  border-right-color: $black;
+}
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -$arrow-width;
+  border-width: $arrow-width 0 $arrow-width $arrow-width;
+  border-left-color: $black;
+}
+.tooltip.bottom {
+  .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -$arrow-width;
+    border-width: 0 $arrow-width $arrow-width;
+    border-bottom-color: $black;
+  }
+  &-left .tooltip-arrow {
+    top: 0;
+    left: $arrow-width;
+    border-width: 0 $arrow-width $arrow-width;
+    border-bottom-color: $black;
+  }
+  &-right .tooltip-arrow {
+    top: 0;
+    right: $arrow-width;
+    border-width: 0 $arrow-width $arrow-width;
+    border-bottom-color: $black;
+  }
+}
+
+.has-tooltip {
+  cursor: help;
+}

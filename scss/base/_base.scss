@@ -1,0 +1,39 @@
+// ==========================================================================
+// Base (Base)
+// ==========================================================================
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  @extend %line-height;
+  color: $body-font-color;
+  font-size: $base-font-size+px;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-light;
+}
+
+a {
+  text-decoration: none;
+  color: $color-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend %line-height;
+  color: $black;
+  font-weight: $font-weight-light;
+  display:block;
+}
+
+strong {
+  font-weight: $font-weight-medium!important;
+}
+
+hr {
+  margin-top: em(16px, 16px);
+  margin-bottom: em(16px, 16px);
+  border: 0;
+  border-top: 1px solid $component-border-color-alt;
+}

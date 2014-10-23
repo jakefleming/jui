@@ -1,0 +1,36 @@
+// ==========================================================================
+// Grid Container (Layout)
+// ==========================================================================
+
+.content {
+  @extend .centered;
+  @extend %clearfix;
+  padding: 0 ($column-padding + px);
+  @media (min-width: 1px) and (max-width: 768px) {
+    max-width: 100%;
+  }
+  @media (min-width: 769px) {
+    max-width: $content-max-width + px;
+    min-height: 1px;
+  }
+  &--full {
+    @extend .content;
+    max-width: 100%;
+  }
+  &--small {
+    @media (min-width: 769px) {
+      max-width: $content-max-width/2.5+px;
+    }
+  }
+}
+
+.row {
+  margin-left: -16px;
+  margin-right: -16px;
+  @extend %clearfix;
+  @media (min-width: 1px) and (max-width: 768px) {
+  }
+  @media (min-width: 769px) {
+    min-height: 1px;
+  }
+}

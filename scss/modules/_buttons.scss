@@ -1,0 +1,36 @@
+// ==========================================================================
+// Buttons
+// ==========================================================================
+
+.button, button.button {
+  @extend %btn;
+  @each $theme, $color in $ui-colors {
+    &--#{$theme} {
+      background-color: $color;
+      border-color: darken($color, 10%);
+      &:hover,
+      &:focus,
+      &:active,
+      &.active {
+        background-color: darken($color, 5%);
+      }
+    }
+  }
+  &--small {
+    @include button-size($padding-vertical: $base-v-padding/1.2, $padding-horizontal: $base-h-padding, $font-size: $base-font-size/1.25, $line-height: $base-line/$base-font-size, $border-radius: $br-default);
+  }
+  &--secondary {
+    @extend %btn--secondary;
+    .juicon, .caret {
+      color: $input-icon-color;
+    }
+  }
+  @include button-type(ghost, $ui-colors, $border-w-ghost);
+  @include button-type(chunky, $ui-colors, $border-w-chunky);
+  &--full {
+    width: 100%;
+  }
+  > .juicon {
+    @extend %icon-before-fix;
+  }
+}

@@ -1,0 +1,137 @@
+.nav-bar {
+  @extend %clearfix;
+  padding: 0 $base-h-padding+px;
+  margin-bottom: $base-h-padding+px;
+  min-height: $base-h-padding*3.5+px;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: $component-border-color-alt;
+  &.menu--open {
+    @include radius-bottom();
+  }
+  // The part that never hides
+  &__top {
+    @extend %clearfix;
+    padding: $base-h-padding+px 0;
+    height: $base-h-padding*3.5+px;
+    @media (min-width: $brkpoint-md+1) {
+      float: left;
+    }
+  }
+  // A list of items
+  &__list {
+    @extend .list-style-type-none;
+    margin: 0;
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      display: none;
+      margin-left: -($base-h-padding+px);
+      margin-right: -($base-h-padding+px);
+      .menu--open & {
+        display: block;
+      }
+    }
+    &--right {
+      @extend .nav-bar__list;
+      @media (min-width: $brkpoint-md+1) {
+        float: right;
+      }
+    }
+    &--left {
+      @extend .nav-bar__list;
+      @media (min-width: $brkpoint-md+1) {
+        float: left;
+      }
+    }
+    &--item {
+      margin: 0;
+      @media (min-width: $brkpoint-md+1) {
+        float: left;
+      }
+      a {
+        @extend .block;
+        @extend .pointer;
+        color: $black;
+        padding: $base-h-padding+px;
+        > .juicon {
+          @extend %icon-before-fix;
+        }
+        @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+          background-color: $grey-xx-light;
+        }
+      }
+      &:hover {
+        a {
+          @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+            background-color: $grey-xx-light;
+            color: $grey;
+          }
+        }
+      }
+      &.active, &:hover.active {
+        a {
+          background-color: $component-border-color-alt;
+          color: $black;
+        }
+      }
+      &:last-child {
+        a {
+          @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+            @include radius-bottom();
+          }
+        }
+      }
+    }
+  }
+  &__appendage {
+    @extend %clearfix;
+    clear: both;
+    display: none;
+    &--inner {
+      @include radius-bottom();
+      padding-top: $base-h-padding+px;
+      background-color: $component-border-color-light;
+    }
+    .appendage--open & {
+      @extend .block;
+    }
+  }
+  // Meant for use other than (stuck to) the top of the page
+  &--solo {
+    @extend .nav-bar;
+    @include radius();
+    background-color: $grey-xx-light;
+    border-width: 0;
+    .nav-bar__list {
+      &--item {
+        a {
+        }
+      }
+    }
+  }
+  &__menu-toggle {
+    @extend .pointer;
+    @extend .right;
+    @include radius-right();
+    display: none;
+    font-size: $key-number*2+px;
+    height: $base-h-padding*3.5+px;
+    margin-right: -($base-h-padding+px);
+    padding: $base-v-padding+px $base-h-padding+px;
+    .menu--open & {
+      @include erase-radius-bottom();
+      background-color: $grey-light;
+      color: $white;
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        @include erase-radius();
+      }
+    }
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      display: block;
+    }
+  }
+  .content {
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      padding: 0;
+    }
+  }
+}

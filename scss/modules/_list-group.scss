@@ -1,0 +1,54 @@
+.list-group {
+  @extend .list-style-type-none;
+  overflow: hidden;
+  &--bordered {
+    @include border();
+    @include radius();
+    .list-group__item {
+      @include erase-radius();
+      background-color: $white;
+      border-bottom: 1px solid $component-border-color-alt;
+    }
+  }
+  &__item {
+    @extend .pointer;
+    @extend .dots;
+    @extend %clearfix;
+    @extend .relative;
+    @include radius();
+    display: block;
+    max-width: 100%;
+    a {
+      @extend .block;
+      color: $component-color;
+      padding: $base-v-padding+px $base-h-padding+px;
+    }
+    &:last-child {
+      border-bottom: 0;
+    }
+    &:hover {
+      background-color: $component-bg-color-active;
+    }
+    &.active {
+      background-color: $color-primary;
+      color: $white;
+      a {
+        color: $white;
+      }
+    }
+    &.has-icon--right {
+      @extend %has-icon--right;
+      padding-right: $key-number*2+px;
+      .input__icon {
+        padding: $key-number*1.25 1rem;
+      }
+    }
+    &.has-icon--left {
+      @extend %has-icon--left;
+      padding-left: $key-number*2+px;
+      .input__icon {
+        padding: $key-number*1.25 1rem;
+      }
+    }
+  }
+}

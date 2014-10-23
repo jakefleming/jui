@@ -1,0 +1,277 @@
+// ==========================================================================
+// Helpers (Utilities)
+// ==========================================================================
+
+// Clearfix
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Screen reader text
+
+.srt {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+// Center alignment
+
+%center-align {
+  text-align: center;
+}
+
+// For pseudo-elements
+
+%pseudos {
+  display: block;
+  content: '';
+  position: absolute;
+}
+
+// Center elements
+
+.centered {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Float elements
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+// Cursors
+
+.pointer {
+  cursor: pointer;
+}
+
+// Positioning
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+// Text
+
+%underline {
+  text-decoration: underline;
+}
+
+.text-center {
+  @extend %center-align;
+}
+
+.text-underline {
+  @extend %underline;
+}
+
+.text-right-left {
+
+  @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+    text-align: left;
+  }
+  @media (min-width: $brkpoint-md+1) {
+    text-align: right;
+  }
+}
+
+%line-height {
+  line-height: ($base-line/$base-font-size);
+}
+
+// Outline
+
+%no-outline {
+  outline: none;
+}
+
+// wrapping
+
+.dots {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// lists
+
+.list-style-type-none {
+  list-style-type: none;
+  padding: 0;
+}
+
+// Display
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+
+.table {
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  &-focusable {
+    &:active, &:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      clip: auto;
+    }
+  }
+}
+
+// Surgical
+
+.m {
+  &an      {margin:0}
+  &tn      {margin-top: 0}
+  &txs     {margin-top:$key-number*.25+px}
+  &ts      {margin-top:$key-number*.5+px}
+  &tm      {margin-top:$key-number+px}
+  &tl      {margin-top:$key-number*1.5+px}
+  &txl     {margin-top:$key-number*2+px}
+
+  &rn      {margin-right: 0}
+  &rxs     {margin-right:$key-number*.25+px}
+  &rs      {margin-right:$key-number*.5+px}
+  &rm      {margin-right:$key-number+px}
+  &rl      {margin-right:$key-number*1.5+px}
+  &rxl     {margin-right:$key-number*2+px}
+
+  &bn      {margin-bottom: 0}
+  &bxs     {margin-bottom:$key-number*.25+px}
+  &bs      {margin-bottom:$key-number*.5+px}
+  &bm      {margin-bottom:$key-number+px}
+  &bl      {margin-bottom:$key-number*1.5+px}
+  &bxl     {margin-bottom:$key-number*2+px}
+
+  &ln      {margin-bottom: 0}
+  &lxs     {margin-bottom:$key-number*.25+px}
+  &ls      {margin-bottom:$key-number*.5+px}
+  &lm      {margin-bottom:$key-number+px}
+  &ll      {margin-bottom:$key-number*1.5+px}
+  &lxl     {margin-bottom:$key-number*2+px}
+}
+
+.p {
+  &an      {margin:0}
+  &tn      {margin-top: 0}
+  &txs     {margin-top:$key-number*.25+px}
+  &ts      {margin-top:$key-number*.5+px}
+  &tm      {margin-top:$key-number+px}
+  &tl      {margin-top:$key-number*1.5+px}
+  &txl     {margin-top:$key-number*2+px}
+
+  &rn      {margin-right: 0}
+  &rxs     {margin-right:$key-number*.25+px}
+  &rs      {margin-right:$key-number*.5+px}
+  &rm      {margin-right:$key-number+px}
+  &rl      {margin-right:$key-number*1.5+px}
+  &rxl     {margin-right:$key-number*2+px}
+
+  &bn      {margin-bottom: 0}
+  &bxs     {margin-bottom:$key-number*.25+px}
+  &bs      {margin-bottom:$key-number*.5+px}
+  &bm      {margin-bottom:$key-number+px}
+  &bl      {margin-bottom:$key-number*1.5+px}
+  &bxl     {margin-bottom:$key-number*2+px}
+
+  &ln      {margin-bottom: 0}
+  &lxs     {margin-bottom:$key-number*.25+px}
+  &ls      {margin-bottom:$key-number*.5+px}
+  &lm      {margin-bottom:$key-number+px}
+  &ll      {margin-bottom:$key-number*1.5+px}
+  &lxl     {margin-bottom:$key-number*2+px}
+}
+
+.show-brkpoint--sm {
+    @media (min-width: $brkpoint-sm) {
+      display: block;
+    }
+    &--only {
+      display: none;
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        display: block;
+      }
+    }
+  }
+.show-brkpoint--md {
+  @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+    display: none;
+  }
+  @media (min-width: $brkpoint-md) {
+    display: block;
+  }
+  &--only {
+    display: none;
+    @media (min-width: $brkpoint-md) and (max-width: $brkpoint-lg) {
+      display: block;
+    }
+  }
+}
+.show-brkpoint--lg {
+  @media (min-width: $brkpoint-md) and (max-width: $brkpoint-lg) {
+    display: none;
+  }
+  @media (min-width: $brkpoint-lg) {
+    display: block;
+  }
+  &--only {
+    display: none;
+    @media (min-width: $brkpoint-lg) {
+      display: block;
+    }
+  }
+}
+
+
+

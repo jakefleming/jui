@@ -1,0 +1,122 @@
+// ==========================================================================
+// Placeholders
+// ==========================================================================
+
+// Buttons
+
+%btn {
+  @extend %center-align;
+  @extend .pointer;
+  @include single-transition(border-color, color, background-color);
+  @include button-size();
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  background-image: none; // fixes salesforce button
+  border-width: 0;
+  border-style: solid;
+  border-color: transparent;
+  outline: none;
+  white-space: nowrap;
+}
+
+%btn--secondary {
+  background-color: $component-bg-color;
+  border-color: $component-border-color;
+  color: $component-color;
+  border-width: 1px;
+  padding: ($base-v-padding - 1px) ($base-h-padding - 1px);
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    background-color: $component-bg-color-active;
+  }
+  &.button--ghost {
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      background-color: $component-border-color;
+      color: #fff;
+    }
+  }
+  &.button--chunky {
+    border-bottom-width: $border-w-chunky + px;
+    padding: ($base-v-padding - ($border-w-chunky / 1.5) + px) $base-h-padding + px;
+    &:hover {
+      border-color: darken($component-border-color, 5%);
+    }
+    &:focus,
+    &:active,
+    &.active {
+      background-color: $component-bg-color-active;
+      border-bottom-width: 1px;
+      border-top-width: $border-w-chunky + px;
+    }
+  }
+  &.button--small {
+    @include button-size($padding-vertical: $base-v-padding/1.5, $padding-horizontal: $base-h-padding, $font-size: $base-font-size/1.25, $line-height: $base-line/$base-font-size, $border-radius: $br-default);
+  }
+}
+
+// Inputs
+
+%control {
+  display: block;
+  width: 100%;
+  padding: $base-v-padding + px $base-h-padding + px;
+  font-size: $base-font-size+px;
+  color: $body-font-color;
+  background-color: $input-bg-color;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid $input-border-color;
+  outline: none;
+  @include single-transition(background-color);
+  @include radius();
+  &:focus {
+    background-color: $input-bg-color-active;
+  }
+  &:-moz-placeholder {
+    color: $input-placeholder-color;
+  }
+  &::-moz-placeholder {
+    color: $input-placeholder-color;
+  }
+  &:-ms-input-placeholder {
+    color: $input-placeholder-color;
+  }
+  &::-webkit-input-placeholder {
+    color: $input-placeholder-color;
+  }
+}
+
+%input-error {
+  border-color: lighten($color-error, 20%);
+  background-color: $color-error-light;
+  @include erase-radius-bottom();
+}
+
+%has-icon--right {
+  .input__icon {
+    right: 0;
+  }
+}
+
+%has-icon--left {
+  .input__icon {
+    left: 0;
+  }
+}
+
+@mixin has-icon-padding($position: right) {
+    padding-#{$position}: 3rem;
+}
+
+%icon-before-fix {
+  &:before {
+    position: relative;
+    top: $base-v-padding/4 +px;
+  }
+}

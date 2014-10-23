@@ -1,0 +1,98 @@
+.alert {
+  padding: ($base-h-padding - 1 +px);
+  border-width: 0px;
+  border-style: solid;
+  border-color: $component-border-color;
+  //border-left-width: ($key-number/4+px);
+  padding-right: $base-h-padding*3+px;
+  @extend .relative;
+  &-close-x {
+    line-height: 3.4rem;
+    opacity: .4;
+    @include single-transition(opacity);
+    @extend .pointer;
+
+    &:after {
+      font-family: 'juicons';
+      content: '\e00c';
+      vertical-align: middle;
+      line-height: 1;
+    }
+  }
+  .close {
+    @extend .absolute;
+    @extend %no-outline;
+    right: $base-h-padding + 2 +px;
+    top: 0;
+    -webkit-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+    -moz-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+    -o-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+    transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+    &:hover {
+      .alert-close-x {
+        opacity: 1;
+      }
+    }
+
+  }
+  .close-timeout {
+    font-size: 12px;
+    right: $base-h-padding*1.5+px;
+    .close-progress {
+      @extend .pointer;
+      @extend .absolute;
+      height: $key-number*2+px;
+      width: $key-number*2+px;
+      right: -($base-h-padding*.625+px);
+      top: ($base-h-padding*.75+px);
+      opacity: 0;
+      .progress {
+        stroke-dasharray: 0, 120;
+        stroke-width: 2.5;
+        stroke: $white;
+        -webkit-transition:.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        -moz-transition:.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        -o-transition:.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        transition:.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+      }
+      .progress-track {
+        stroke-dasharray: 120, 120;
+        stroke-width: 2.5;
+        opacity: .4;
+      }
+      .progress-track, .progress {
+
+        @each $theme, $color in $ui-colors {
+          &--#{$theme} {
+            stroke: $color;
+          }
+        }
+      }
+    }
+    &:active {
+      .progress {
+        stroke-dasharray:120,120;
+        -webkit-transition:3s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        -moz-transition:3s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        -o-transition:3s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        transition:3s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+      }
+    }
+  }
+  @include radius();
+  background-color: $white;
+  @each $theme, $color in $ui-colors {
+    &--#{$theme} {
+      background-color: adjust-color($color, $lightness: $color-adjust-lightness);
+      //border-color: lighten($color, 20%);
+      border-color: $color;
+      color: darken($color, 10%);
+    }
+  }
+  &:hover {
+    .close-progress {
+      @include single-transition(opacity);
+      opacity: 1;
+    }
+  }
+}

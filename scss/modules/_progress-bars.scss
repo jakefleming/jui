@@ -1,0 +1,58 @@
+//
+// Progress bars
+// --------------------------------------------------
+
+
+// Bar animations
+// -------------------------
+
+// WebKit
+@-webkit-keyframes progress-bar-stripes {
+  from  { background-position: 40px 0; }
+  to    { background-position: 0 0; }
+}
+
+// Spec and IE10+
+@keyframes progress-bar-stripes {
+  from  { background-position: 40px 0; }
+  to    { background-position: 0 0; }
+}
+
+
+
+// Bar itself
+// -------------------------
+
+// Outer container
+.progress {
+  @include radius(100px);
+  overflow: hidden;
+  height: $base-h-padding+px;
+  background-color: $grey-x-light;
+  padding: $base-v-padding/2+px;
+  &__bar {
+    @include radius(100px);
+    @include single-transition(width);
+    float: left;
+    width: 0%;
+    height: 100%;
+    //  font-size: $font-size-small;
+    line-height: $base-line/$base-font-size+px;
+    color: #fff;
+    text-align: center;
+    background-color: $color-primary;
+    // Account for lower percentages
+    &[aria-valuenow="1"],
+    &[aria-valuenow="2"] {
+      min-width: 30px;
+    }
+    &[aria-valuenow="0"] {
+      color: $grey-light;
+      min-width: 30px;
+      background-color: transparent;
+      background-image: none;
+      box-shadow: none;
+    }
+    @include bg-colors($ui-colors) {}
+  }
+}

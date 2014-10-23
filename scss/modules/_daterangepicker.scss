@@ -1,0 +1,299 @@
+/*!
+ * Stylesheet for the Date Range Picker, for use with Bootstrap 3.x
+ *
+ * Copyright 2013 Dan Grossman ( http://www.dangrossman.info )
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Built for http://www.improvely.com
+ */
+
+.daterangepicker {
+  @extend .absolute;
+  @include radius();
+  background: $white;
+  top: 100px;
+  left: 0px;
+  margin-top: 1px;
+  &.dropdown-menu {
+    max-width: none;
+    z-index: 3000;
+  }
+  &.opensleft {
+    &:before {
+      @extend .absolute;
+      top: -7px;
+      right: 9px;
+      display: inline-block;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid $grey-light;
+      border-left: 7px solid transparent;
+      border-bottom-color: rgba(0, 0, 0, 0.2);
+      content: '';
+    }
+    &:after {
+      @extend .absolute;
+      top: -6px;
+      right: 10px;
+      display: inline-block;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid $white;
+      border-left: 6px solid transparent;
+      content: '';
+    }
+    .ranges, .calendar {
+      @extend .left;
+      padding: $base-v-padding+px;
+    }
+  }
+  &.opensright, &.openscenter {
+    .ranges, .calendar {
+      @extend .right;
+      padding: $base-v-padding+px;
+    }
+  }
+  &.daterangepicker.opensright {
+    &:before {
+      @extend .absolute;
+      top: -7px;
+      left: 9px;
+      display: inline-block;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid $grey-light;
+      border-left: 7px solid transparent;
+      border-bottom-color: rgba(0, 0, 0, 0.2);
+      content: '';
+    }
+    &:after {
+      @extend .absolute;
+      top: -6px;
+      left: 10px;
+      display: inline-block;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid $white;
+      border-left: 6px solid transparent;
+      content: '';
+    }
+  }
+  &.openscenter {
+    &:before {
+      @extend .absolute;
+      top: -7px;
+      left: 0;
+      right: 0;
+      width: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid $grey-light;
+      border-left: 7px solid transparent;
+      border-bottom-color: rgba(0, 0, 0, 0.2);
+      content: '';
+    }
+    &:after {
+      @extend .absolute;
+      top: -6px;
+      left: 0;
+      right: 0;
+      width: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid $white;
+      border-left: 6px solid transparent;
+      content: '';
+    }
+  }
+  &.single {
+    .ranges, .calendar {
+      float: none;
+    }
+  }
+  &.show-calendar {
+    .calendar {
+      @extend .block;
+    }
+  }
+  &.daterangepicker_start_input, &.daterangepicker_end_input {
+    label {
+    }
+  }
+  .ranges {
+    max-width: 288px;
+    text-align: left;
+    .ranges_inputs > div {
+      @extend .left;
+      &:nth-child(2) {
+        padding-left: $base-h-padding+px;
+      }
+    }
+    .input-mini {
+      margin-bottom: $base-v-padding+px;
+    }
+    ul {
+      @include radius();
+      list-style: none;
+      margin: 0;
+      margin-bottom: $base-v-padding/2+px;
+      padding: 0;
+      border: 1px solid $component-border-color;
+    }
+    li {
+      @extend .pointer;
+      padding: $base-v-padding+px $base-h-padding+px;
+      border-bottom: 1px solid $component-border-color-alt;
+      &.active, &.active:hover {
+        background: $color-primary;
+        color: $white;
+      }
+      &:hover {
+        background: $component-bg-color-active;
+      }
+      &:first-child {
+        @include radius-top();
+      }
+      &:last-child {
+        @include radius-bottom();
+        border: 0;
+      }
+    }
+    @media (min-width: 1px) and (max-width: $brkpoint-md) {
+      max-width: none;
+    }
+  }
+  .calendar {
+    display: none;
+    //max-width: 270px;
+    &.single {
+      .calendar-date {
+        border: none;
+      }
+    }
+    th, td {
+      text-align: center;
+      min-width: $key-number*2+px;
+    }
+    @media (min-width: 1px) and (max-width: $brkpoint-md) {
+      float: none!important;
+    }
+  }
+  .calendar-date {
+    background: $white;
+    thead {
+      tr {
+        background-color: $component-border-color-light;
+      }
+    }
+  }
+  .calendar-time {
+    text-align: center;
+    margin: 8px auto 0 auto;
+    line-height: 30px;
+  }
+  table {
+    width: 100%;
+    margin: 0;
+  }
+  td, th {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: $base-v-padding+px ($base-h-padding*.625 +px);
+    font-size: em(14px, 16px);
+    line-height: 1.675;
+    border: 1px solid $component-border-color-light!important;
+    &.available {
+      &:hover {
+        background: $grey-x-light;
+      }
+      &.active, &:active:hover {
+        background-color: $color-primary;
+        border-color: $color-primary!important;
+        color: $white;
+      }
+      &.in-range, &:in-range:hover {
+        background: darken($color-primary, 10%);
+        color: $color-primary-light;
+        border-color: $color-primary!important;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+      }
+    }
+    &.week {
+      font-size: 80%;
+      color: $grey-light;
+    }
+  }
+  td {
+    &.available {
+      background-color: $white;
+      color: $black;
+    }
+    &.off, &.disabled {
+      background: $grey-xx-light;
+      color: $grey-dark;
+    }
+  }
+  th {
+    &.month {
+      color: $black;
+
+      width: auto;
+    }
+  }
+  option {
+    &.disabled {
+      color: $component-icon-color;
+    }
+  }
+  select {
+    &.monthselect, &.yearselect {
+      font-size: 12px;
+      padding: 1px;
+      height: auto;
+      margin: 0;
+      cursor: default;
+    }
+    &.monthselect {
+      margin-right: 2%;
+      width: 56%;
+    }
+    &.yearselect {
+      width: 40%;
+    }
+    &.hourselect, &.minuteselect, &.ampmselect {
+      width: 50px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.daterangepicker_start_input, .daterangepicker_end_input {
+  @extend .left;
+  padding: 0 $base-v-padding+px;
+  width: 50%;
+}
+
+.range_inputs, .range_inputs_container, .range_buttons_container {
+  @extend %clearfix;
+}
+
+.range_inputs_container {
+  margin-left: -($base-v-padding+px);
+  margin-right: -($base-v-padding+px);
+}
+
+.range_inputs_container, .range_buttons_container {
+}
+
+.applyBtn {
+  @extend .right;
+}
+.cancelBtn {
+  @extend .left;
+}

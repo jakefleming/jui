@@ -1,0 +1,78 @@
+.button-group {
+  @extend %clearfix;
+  @extend .relative;
+  @extend .inline-block;
+  .button {
+    @extend .block;
+    z-index: 1;
+    margin: 0;
+    float: left;
+    &:first-of-type {
+      @include radius-left();
+    }
+    &:last-of-type {
+      @include radius-right();
+    }
+    &--ghost {
+      margin-left: -1px;
+    }
+    &--ghost {
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+    @extend .relative;
+    @include erase-radius();
+    &:hover {
+      z-index: 2;
+    }
+  }
+}
+
+.button-group--collapse {
+  @extend %clearfix;
+  @extend .relative;
+  .button {
+    @extend .block;
+    z-index: 1;
+    @extend .relative;
+    @include erase-radius();
+    &:hover {
+      z-index: 2;
+    }
+    @media (min-width: 1px) and (max-width: 768px) {
+      &--ghost {
+        margin-top: -1px;
+      }
+      &--ghost {
+        &:first-of-type {
+          margin-top: 0px;
+        }
+      }
+      &:first-of-type {
+        @include radius-top();
+      }
+      &:last-child {
+        @include radius-bottom();
+      }
+    }
+    @media (min-width: 769px) {
+      margin: 0;
+      float: left;
+      &:first-of-type {
+        @include radius-left();
+      }
+      &:last-of-type {
+        @include radius-right();
+      }
+      &--ghost {
+        margin-left: -1px;
+      }
+      &--ghost {
+        &:first-of-type {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

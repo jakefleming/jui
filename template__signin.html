@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template : Sign In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="scope-container">
+    <div class="content content--small">
+        <h4><a href="templates.html"><span class="juicon juicon-backward"></span> Back to templates</a></h4>
+        <h1>Sign In</h1>
+        <div class="panel">
+            <div class="panel__section">
+                <form>
+                    <div class="form__group">
+                        <label for="email" class="sr-only">Email address</label>
+                        <div class="input__wrap has-icon--right">
+                            <div class="input__icon juicon juicon-envelope"></div>
+                            <input id="email" type="email" placeholder="Email address"/>
+                        </div>
+                        <small class="input-error-content">This thing is wrong.</small>
+                    </div>
+                    <div class="form__group">
+                        <label for="password" class="sr-only">Password</label>
+                        <div class="input__wrap has-icon--right">
+                            <div class="input__icon juicon juicon-lock"></div>
+                            <input id="password" type="password" placeholder="Password"/>
+                        </div>
+                        <small class="input-error-content">This thing is wrong.</small>
+                    </div>
+                    <div class="form__group">
+                        <input type="checkbox" name="remember" value="yes" id="remember"/><label for="remember"> Remember me</label>
+                    </div>
+                </form>
+            </div>
+            <div class="panel__bottom">
+                <button type="button" class="button button--primary right">Sign in</button>
+                <button type="button" class="button button--primary button--ghost">Create account</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/jui.js"></script>
+</body>
+</html>

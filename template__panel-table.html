@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template : Panel Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="scope-container">
+    <div class="content">
+        <h4><a href="templates.html"><span class="juicon juicon-backward"></span> Back to templates</a></h4>
+        <h1>Panel Table</h1>
+        <div class="panel">
+            <div class="panel__top">
+                <div class="row">
+                    <div class="column--8">
+                        <h2 class="panel__heading has-subheading">Data from things</h2>
+                        <h3 class="panel__subheading">These are things that need to be looked at</h3>
+                    </div>
+                    <div class="column--4">
+                        <div class="form__group">
+                            <label for="search" class="sr-only">Search</label>
+                            <div class="input__wrap has-icon--right">
+                                <div class="input__icon juicon juicon-search"></div>
+                                <input id="search" type="text" placeholder="Search"/>
+                            </div>
+                            <small class="input-error-content">You gotta search bro.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Location</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Jake Fleming</td>
+                    <td>27</td>
+                    <td>M</td>
+                    <td>Chicago, IL</td>
+                </tr>
+                <tr class="tr__selected">
+                    <td>Jake Fleming</td>
+                    <td>27</td>
+                    <td>M</td>
+                    <td>Chicago, IL</td>
+                </tr>
+                <tr>
+                    <td>Jake Fleming</td>
+                    <td>27</td>
+                    <td>M</td>
+                    <td>Chicago, IL</td>
+                </tr>
+                <tr>
+                    <td>Jake Fleming</td>
+                    <td>27</td>
+                    <td>M</td>
+                    <td>Chicago, IL</td>
+                </tr>
+                <tr>
+                    <td>Jake Fleming</td>
+                    <td>27</td>
+                    <td>M</td>
+                    <td>Chicago, IL</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="panel__bottom">
+                <ul class="pagination right">
+                    <li class="pagination__item disabled"><a href="#"><span class="juicon juicon-chevron-left"></span></a></li>
+                    <li class="pagination__item active"><a href="#">1</a></li>
+                    <li class="pagination__item"><a href="#">2</a></li>
+                    <li class="pagination__item"><a href="#">3</a></li>
+                    <li class="pagination__item"><a href="#">4</a></li>
+                    <li class="pagination__item"><a href="#">5</a></li>
+                    <li class="pagination__item"><a href="#"><span class="juicon juicon-chevron-right"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/jui.js"></script>
+</body>
+</html>

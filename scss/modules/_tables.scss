@@ -1,0 +1,66 @@
+table {
+
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0;
+
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      &.tr__selected {
+        > th,
+        > td {
+          background-color: $color-primary;
+          color: #fff;
+        }
+      }
+      > th,
+      > td {
+        text-align: left;
+        padding: ($base-v-padding + px) ($base-h-padding + px);
+        line-height: $base-line+px;
+        vertical-align: top;
+        border-top: 1px solid $grey-x-light;
+      }
+      > th {
+        font-weight: $font-weight-medium;
+      }
+    }
+  }
+  // Bottom align for column headings
+  > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid $grey-x-light;
+  }
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 0;
+      }
+    }
+  }
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border-bottom: 1px solid $grey-x-light;
+      }
+      &:last-of-type {
+        td {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+
+
+
+}

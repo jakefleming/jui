@@ -1,0 +1,135 @@
+// ==========================================================================
+// Config (Utilities)
+// ==========================================================================
+
+// Font Stacks
+
+$font-family-primary    : 'ProximaNovaSoft', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Weights
+
+//$font-weight-thin       : 100;
+$font-weight-light      : 300;
+$font-weight-medium     : 500;
+$font-weight-bold       : 700;
+$font-weight-ultra-bold : 900;
+
+// Descriptive Base Colors
+
+
+$my-blue        : #2a94d6;
+$my-green       : #43b66a;
+$my-red         : #c06057;
+$my-orange      : #f49756;
+$my-gold        : #e6b739;
+$my-purple      : #8b9ae3;
+$my-turquoise   : #47cfd2;
+
+// Color adjust variables
+
+$color-adjust-lightness: 40;
+
+// Color Usage
+
+$color-primary        : $my-blue;
+$color-primary-light  : adjust-color($color-primary, $lightness: $color-adjust-lightness);
+$color-success        : $my-green;
+$color-success-light  : adjust-color($color-success, $lightness: $color-adjust-lightness);
+$color-error          : $my-red;
+$color-error-light    : adjust-color($color-error, $lightness: $color-adjust-lightness);
+$color-info           : $my-turquoise;
+$color-info-light     : adjust-color($color-info, $lightness: $color-adjust-lightness);
+$color-warning        : $my-gold;
+$color-warning-light  : adjust-color($color-warning, $lightness: $color-adjust-lightness);
+
+// white to black
+
+$white : #fff;
+
+$grey-xx-light : #f5f6f7;
+$grey-x-light  : #e8eaeb;
+$grey-light    : #cfd0d2;
+$grey          : #8d9aa5;
+$grey-dark     : #686c70;
+$grey-x-dark   : #525354;
+
+$black : #384047;
+
+// Font Colors
+
+$body-font-color: $grey-dark;
+
+// Component Variables
+
+$component-border-color         : #dadee2;
+$component-border-color-alt     : $grey-x-light;
+$component-border-color-light   : #f0f1f2;
+$component-color                : #33536d;
+$component-bg-color             : $white;
+$component-bg-color-active      : #f5f6f7;
+$control-color                  : $grey-dark;
+$component-icon-color           : #9faab5;
+
+$input-bg-color           : $grey-x-light;
+$input-bg-color-active    : $white;
+$input-border-color       : $grey-light;
+$input-placeholder-color  : $grey-dark;
+$input-icon-color         : #9faab5;
+
+// UI Colors
+
+$ui-colors: (
+  primary     : $color-primary,
+  success     : $my-green,
+  error       : $my-red,
+  warning     : $my-gold,
+  info        : $my-turquoise,
+);
+
+// Text
+
+$key-number   : 16;
+
+$base-font-size : $key-number; // 16
+$base-line      : $key-number * 1.5; // 24
+
+// Border radius
+
+$br-default    : $key-number/4+px; // 4
+$br-round      : 50%;
+
+// Transitions
+
+$trns-duration  : .2s;
+
+// Sizes
+
+$base-h-padding: $key-number; // 16
+$base-v-padding: $base-h-padding / 2; // 8
+
+$base-h-control: $key-number * 2.5 +px; // 40
+
+$border-w-chunky: 3;
+$border-w-ghost: 1;
+
+// Grid & content box
+
+$grid-column-count: 12;
+$column-padding: $base-h-padding;
+$content-max-width: 1000;
+
+// Breakpoints
+
+$brkpoint-sm    : 1px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1100px;
+
+// z-indexes
+
+$z-index-modal: 1050;
+$z-index-modal-background: 1020;
+
+// arrows
+
+$arrow-width  : $base-v-padding / 2+px;

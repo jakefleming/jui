@@ -1,0 +1,72 @@
+.panel {
+  border: 1px solid $component-border-color;
+  @include radius();
+  &__top, &__bottom, &__section, &__component {
+    @extend %clearfix;
+    padding: ($base-h-padding + px);
+  }
+  &__top {
+    border-bottom: 1px solid $component-border-color-alt;
+    .button {
+      &--small {
+        margin-top: $base-v-padding/2+px;
+      }
+    }
+    .form__group {
+      margin-bottom: 0;
+    }
+  }
+  &__bottom {
+    border-top: 1px solid $component-border-color-alt;
+  }
+  &__heading {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    @include spacing(margin, $base-v-padding, 0);
+    &.has-subheading {
+      margin: 0;
+    }
+  }
+  &__subheading {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0;
+    color: $grey;
+  }
+  &__component {
+    @include border($w-bottom: 0, $w-left: 0, $w-right: 0);
+    @extend .relative;
+    &--removable {
+      padding-right: 4rem;
+    }
+    &:first-child {
+      border-top: 0;
+    }
+    .form__group {
+      margin-bottom: 0;
+      @media (min-width: 1px) and (max-width: $brkpoint-md) {
+        margin-bottom: $base-h-padding+px;
+      }
+    }
+    > .close {
+      @extend .absolute;
+      top: 1.5rem;
+      right: 1rem;
+      .component-remove-x {
+        @extend .juicon;
+        @extend .juicon-x;
+        @include single-transition(color);
+        color: $component-icon-color;
+        padding: $base-v-padding+px;
+
+      }
+      &:hover {
+        .component-remove-x {
+          color: $color-error;
+        }
+      }
+    }
+  }
+}
+
+

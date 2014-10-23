@@ -1,0 +1,223 @@
+// ==========================================================================
+// Mixins (Utilities)
+// ==========================================================================
+
+// vendor prefix
+
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+@mixin translate3d($x, $y, $z) {
+  -webkit-transform: translate3d($x, $y, $z);
+  transform: translate3d($x, $y, $z);
+}
+
+// BEM selectors
+
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+// Media queries
+
+@mixin mq($break) {
+  @if $break == "small" {
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      @content;
+    }
+  }
+  @else if $break == "medium" {
+    @media (min-width: $brkpoint-md + 1) {
+      @content;
+    }
+  }
+  @else if $break == "large" {
+    @media (min-width: $brkpoint-lg) {
+      @content;
+    }
+  }
+  @else {
+    @error "Whoops! No value could be retrieved for `#{$break}`. "
+  }
+}
+
+// Generate modifier color classes
+
+@mixin bg-colors($map) {
+  @each $theme, $color in $map {
+    &--#{$theme} {
+      background-color: $color;
+    }
+  }
+}
+
+// Generating :before or :after pseudo-element shapes
+
+@mixin p-el(
+$el,
+$el-w: null,
+$el-h: null) {
+  @if $el == "before" or $el == "after" {
+    &:#{$el} {
+    @extend %pseudos;
+    width: $el-w;
+    height: $el-h;
+    @content;
+  }
+  }
+  @else {
+    @error "`#{$el}` is not a valid pseudo-element.";
+  }
+}
+
+// Transitions
+
+@mixin single-transition($attr...) {
+  -webkit-transition: $attr $trns-duration ease;
+  -moz-transition: $attr $trns-duration ease;
+  -o-transition: $attr $trns-duration ease;
+  transition: $attr $trns-duration ease;
+}
+
+@mixin transition-transform($transition...) {
+  -webkit-transition: -webkit-transform $transition;
+  -moz-transition: -moz-transform $transition;
+  -o-transition: -o-transform $transition;
+  transition: transform $transition;
+}
+
+// radius
+
+@mixin radius($radius: $br-default) {
+  @include vendor-prefix($name: border-radius, $argument: $radius);
+}
+
+@mixin erase-radius-right($radius: 0) {
+  @include vendor-prefix($name: border-top-right-radius, $argument: $radius);
+  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius);
+}
+
+@mixin erase-radius-left($radius: 0) {
+  @include vendor-prefix($name: border-top-left-radius, $argument: $radius);
+  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius);
+}
+
+@mixin erase-radius($radius: 0) {
+  @include vendor-prefix($name: border-radius, $argument: $radius);
+}
+
+@mixin erase-radius-bottom($radius: 0) {
+  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius);
+  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius);
+}
+
+@mixin radius-left($radius: $br-default) {
+  @include vendor-prefix($name: border-top-left-radius, $argument: $radius);
+  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius);
+}
+
+@mixin radius-right($radius: $br-default) {
+  @include vendor-prefix($name: border-top-right-radius, $argument: $radius);
+  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius);
+}
+
+@mixin radius-top($radius: $br-default) {
+  @include vendor-prefix($name: border-top-left-radius, $argument: $radius);
+  @include vendor-prefix($name: border-top-right-radius, $argument: $radius);
+}
+
+@mixin radius-bottom($radius: $br-default) {
+  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius);
+  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius);
+}
+
+
+// buttons
+
+@mixin button-size($padding-vertical: $base-v-padding, $padding-horizontal: $base-h-padding, $font-size: $base-font-size, $line-height: $base-line/$font-size, $border-radius: $br-default) {
+  padding: ($padding-vertical + px) ($padding-horizontal + px);
+  font-size: $font-size+px;
+  line-height: $line-height;
+  border-radius: $border-radius;
+}
+
+@mixin button-color ($background-color) {
+  background-color: $background-color;
+  border-color: darken($background-color, 10%);
+
+}
+
+@mixin button-type($type:null, $map: $ui-colors, $border-width: null) {
+  @each $theme, $color in $map {
+    @if $type == ghost {
+      &--#{$theme} {
+        &.button--#{$type} {
+          color: $color;
+          border-color: $color;
+          background-color: transparent;
+          border-width: $border-width + px;
+          padding: ($base-v-padding - $border-width + px) ($base-h-padding - $border-width + px);
+          &:hover,
+          &:focus,
+          &:active,
+          &.active {
+            background: $color;
+            color: #fff;
+          }
+          &.button--small {
+            @include button-size($padding-vertical: $base-v-padding/1.5, $padding-horizontal: $base-h-padding, $font-size: $base-font-size/1.25, $line-height: $base-line/$base-font-size, $border-radius: $br-default);
+          }
+        }
+      }
+    } @else if $type == chunky {
+      &--#{$theme} {
+        &.button--#{$type} {
+          border-bottom-width: $border-width + px;
+          border-color: darken($color, 10%);
+          padding: ($base-v-padding - ($border-width / 2) + px) $base-h-padding + px;
+
+          &:hover {
+            border-color: darken($color, 15%);
+          }
+          &:focus,
+          &:active,
+          &.active {
+            background-color: darken($color, 10%);
+            border-bottom-width: 0;
+            border-top-width: $border-width + px;
+            border-color: darken($color, 15%);
+          }
+          &.button--split {
+            border-left-color: darken($color, 10%);
+          }
+        }
+      }
+    }
+  }
+}
+
+// spacing
+
+@mixin spacing($attr:padding, $vertical: $base-v-padding, $horizontal: $base-h-padding, $unit: px) {
+  #{$attr}: ($vertical+$unit) ($horizontal+$unit);
+}
+
+// border
+
+@mixin border($w-top: 1px, $w-right: 1px, $w-bottom: 1px, $w-left: 1px, $width: $w-top $w-right $w-bottom $w-left, $style: solid, $color: $component-border-color) {
+  border-width: $width;
+  border-style: $style;
+  border-color: $color;
+}

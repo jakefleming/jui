@@ -1,0 +1,87 @@
+
+
+
+
+///*effects*/
+//.slide-in-right {
+//  -webkit-animation:slide-in-right 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -moz-animation:slide-in-right 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -o-animation:slide-in-right 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  animation:slide-in-right 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//}
+//
+//.sfwp-banner.fade-in {
+//  -webkit-animation:fade-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -moz-animation:fade-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -o-animation:fade-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  animation:fade-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//}
+//
+//.sfwp-banner.slide-in-left {
+//  -webkit-animation:slide-in-left  1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -moz-animation:slide-in-left  1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -o-animation:slide-in-left  1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  animation:slide-in-left  1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//}
+//
+//.sfwp-banner.slide-in-right {
+//  -webkit-animation:slide-in-right  1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -moz-animation:slide-in-right  1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -o-animation:slide-in-right  1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  animation:slide-in-right  1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//}
+//
+//.sfwp-banner.zoom-in {
+//  -webkit-animation:zoom-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -moz-animation:zoom-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -o-animation:zoom-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  animation:zoom-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//}
+//
+//.sfwp-banner.drop-in {
+//  -webkit-animation:drop-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -moz-animation:drop-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -o-animation:drop-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  animation:drop-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//}
+//
+//.sfwp-banner.drop-up {
+//  -webkit-animation:drop-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -moz-animation:drop-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  -o-animation:drop-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//  animation:drop-in 1s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+//}
+//
+//@-webkit-keyframes zoom-in {from {-webkit-transform:scale(0.1);opacity:0;}}
+//@-moz-keyframes zoom-in {from {-moz-transform:scale(0.1);opacity:0;}}
+//@-o-keyframes zoom-in {from {-o-transform:scale(0.1);opacity:0;}}
+//@keyframes zoom-in {from {transform:scale(0.1);opacity:0;}}
+//
+//@-webkit-keyframes drop-in {from {-webkit-transform:translateY(-50px) scale(0.85); opacity:0;}}
+//@-moz-keyframes drop-in {from {-moz-transform:translateY(-50px) scale(0.85); opacity:0;}}
+//@-o-keyframes drop-in {from {-o-transform:translateY(-50px) scale(0.85); opacity:0;}}
+//@keyframes drop-in {from {transform:translateY(-50px) scale(0.85); opacity:0;}}
+//
+//@-webkit-keyframes drop-up {from {-webkit-transform:translateY(50px) scale(0.85); opacity:0;}}
+//@-moz-keyframes drop-up {from {-moz-transform:translateY(50px) scale(0.85); opacity:0;}}
+//@-o-keyframes drop-up {from {-o-transform:translateY(50px) scale(0.85); opacity:0;}}
+//@keyframes drop-up {from {transform:translateY(50px) scale(0.85); opacity:0;}}
+//
+//@-webkit-keyframes fade-in {from {-webkit-transform:scale(1.2); opacity:0;}}
+//@-moz-keyframes fade-in {from {-moz-transform:scale(1.2); opacity:0;}}
+//@-o-keyframes fade-in {from {-o-transform:scale(1.2); opacity:0;}}
+//@keyframes fade-in {from {transform:scale(1.2); opacity:0;}}
+//
+//@-webkit-keyframes slide-in-left {from {-webkit-transform:translateX(-50px);opacity:0;}}
+//@-moz-keyframes slide-in-left {from {-moz-transform:translateX(-50px);opacity:0;}}
+//@-o-keyframes slide-in-left {from {-o-transform:translateX(-50px);opacity:0;}}
+//@keyframes slide-in-left {from {transform:translateX(-50px);opacity:0;}}
+//
+//@-webkit-keyframes slide-in-right {from {-webkit-transform:translateX(50px);opacity:0;}}
+//@-moz-keyframes slide-in-right {from {-moz-transform:translateX(50px);opacity:0;}}
+//@-o-keyframes slide-in-right {from {-o-transform:translateX(50px);opacity:0;}}
+//@keyframes slide-in-right {from {transform:translateX(50px);opacity:0;}}
+//
+//@media screen and (max-width: 1108px) {
+//  .top-banner-sfwp {display:none;}
+//}
