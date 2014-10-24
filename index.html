@@ -776,7 +776,12 @@
                     </p>
                 </section>
                 <section>
-                    <h2>Date Range Picker</h2>
+                    <h2>Date Pickers</h2>
+                    <div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+                        <input type="text" class="span2 datepicker" value="02/16/12" data-date-format="mm/dd/yy" id="dp2">
+                        <span class="add-on"><i class="icon-th"></i></span>
+                    </div>
+
                     <button type="button" class="button button--secondary" id="daterange" name="daterange">Date Range Picker <span class="juicon juicon-calendar"></span></button>
                 </section>
                 <section id="docs__progress">
@@ -795,16 +800,19 @@
                 </section>
             </div>
         </div>
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/jui.js"></script>
-        <script src="js/docs.js"></script>
-        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jui.js"></script>
+        <script type="text/javascript" src="js/docs.js"></script>
 
         <script type="text/javascript" src="lib/moment/moment.js"></script>
         <script type="text/javascript" src="lib/daterangepicker/daterangepicker.js"></script>
+        <script type="text/javascript" src="lib/datepicker/js/datepicker.js"></script>
 
         <script type="text/javascript">
+
             $(document).ready(function() {
+                $('.datepicker').datepicker()
+
                 var alertTimeout;
                 $('button[name="daterange"]').daterangepicker(
                         {

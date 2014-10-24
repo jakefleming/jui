@@ -1,0 +1,133 @@
+/*!
+ * Datepicker for Bootstrap
+ *
+ * Copyright 2012 Stefan Petre
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+.datepicker {
+  top: 0;
+  left: 0;
+  margin-top: 1px;
+  border: 0px solid $component-border-color;
+  &.dropdown-menu {
+    @media (min-width: 1px) and (max-width: $brkpoint-md) {
+      width: 100%;
+      left: 0!important;
+    }
+  }
+  > div {
+    @extend .hide;
+  }
+  table {
+    width: 100%;
+    margin: 0;
+  }
+  td, th {
+    border: 1px solid $component-border-color-light!important;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    font-size: em(14px, 16px);
+  }
+  td {
+    background-color: $white;
+    color: $black;
+    padding: $base-v-padding+px ($base-h-padding*.625 +px);
+    &.day {
+      &:hover {
+        background: $grey-x-light;
+        cursor: pointer;
+      }
+      &.disabled {
+        color: $grey-x-light;
+      }
+      &.old, &.new {
+        background: $grey-xx-light;
+        color: $grey-dark;
+      }
+      &.old {
+        background: $grey-xx-light;
+        color: $grey-dark;
+      }
+      &.active, &.active:hover {
+        color: $white;
+        background-color: $color-primary;
+        border-color: $color-primary;
+      }
+      &.active {
+        &:hover, &:hover:hover, &:focus, &:hover:focus, &:active, &:hover:active, &.active, &:hover.active, &.disabled, &:hover.disabled, &[disabled], &:hover[disabled]  {
+          color: $white;
+          background-color: $color-primary;
+        }
+        &:active, &:hover:active, &.active, &:hover.active {
+          background-color: $color-primary;
+        }
+      }
+    }
+    span {
+      display: block;
+      height: 52px;
+      width: 52px;
+      line-height: 52px;
+      float: left;
+      margin: 2px;
+      cursor: pointer;
+
+      &:hover {
+        background: $grey-x-light;
+      }
+      &.active {
+        background-color: $color-primary;
+        color: $white;
+
+
+      }
+      &.active {
+        &:hover,&:focus, &:active, &.active, &.disabled, &[disabled] {
+          color: $white;
+          background-color: $color-primary;
+        }
+        &:active, &.active {
+          background-color: $color-primary;
+        }
+      }
+      &.old {
+        background: $grey-xx-light;
+        color: $grey-dark;
+      }
+      &.datepicker th.switch {
+        width: 145px;
+      }
+    }
+  }
+  thead {
+    tr {
+      background-color: $component-border-color-light;
+      &:first-child {
+        th {
+          color: $black;
+          cursor: pointer;
+          &.next, &.prev {
+            font-size: 14px;
+            color: $body-font-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.input-append {
+  &.date {
+    .add-on {
+      i {
+        display: block;
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
