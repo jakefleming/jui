@@ -3,7 +3,7 @@ jui
 
 An ever-evolving UI kit created by [Jake Fleming](http://jakefleming.net) for [Appiphony](http://appiphony.com).
 
-[View the kit](https://dl.dropboxusercontent.com/u/43912228/jui/index.html)
+[View the kit](https://appiphony.com/jui/index.html)
 
 ===
 
@@ -22,5 +22,3 @@ Licensed under the [Apache License](http://www.apache.org/licenses/LICENSE-2.0),
 -   [Eyecon Bootstrap Slider: bootstrap-slider.js v2.0.0](http://www.eyecon.ro/bootstrap-slider)
 -   [Eyecon Bootstrap Date Picker: bootstrap-datepicker.js](http://www.eyecon.ro/bootstrap-datepicker)
 -   [Dan Grossman's](http://www.dangrossman.info/) date range picker [plugin](https://github.com/dangrossman/bootstrap-daterangepicker)
-
-===
