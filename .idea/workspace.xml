@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ef72ac-7dca-49c3-8b73-f4f7b0075623" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/modules/_date-picker.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jui.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/base/_base.scss" afterPath="$PROJECT_DIR$/scss/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/docs.css.map" afterPath="$PROJECT_DIR$/css/docs.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/docs.css" afterPath="$PROJECT_DIR$/css/docs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css.map" afterPath="$PROJECT_DIR$/css/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/styles.scss" afterPath="$PROJECT_DIR$/scss/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template__add-conditions.html" afterPath="$PROJECT_DIR$/template__add-conditions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template__nav-bar.html" afterPath="$PROJECT_DIR$/template__nav-bar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template__panel-table.html" afterPath="$PROJECT_DIR$/template__panel-table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template__setup-tabs.html" afterPath="$PROJECT_DIR$/template__setup-tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template__signin.html" afterPath="$PROJECT_DIR$/template__signin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates.html" afterPath="$PROJECT_DIR$/templates.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="jui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +42,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="jui.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="jui.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/jui.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="4725" max-vertical-offset="22215">
-                  <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+                <state vertical-scroll-proportion="-0.04964539" vertical-offset="6935" max-vertical-offset="22215">
+                  <caret line="460" column="48" selection-start-line="460" selection-start-column="48" selection-end-line="460" selection-end-column="48" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -105,16 +86,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="template__setup-tabs.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/template__setup-tabs.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="900">
-                  <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="template__signin.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/template__signin.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -145,11 +116,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_config.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_config.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/utilities/_config.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.33946252" vertical-offset="240" max-vertical-offset="2100">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="-3.125" vertical-offset="240" max-vertical-offset="2100">
+                  <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -189,10 +160,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_date-picker.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_date-picker.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/modules/_date-picker.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.36079547" vertical-offset="1366" max-vertical-offset="2070">
+                <state vertical-scroll-proportion="-5.08" vertical-offset="1366" max-vertical-offset="2070">
                   <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
                   <folding />
                 </state>
@@ -204,6 +175,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1470">
                   <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.198939" vertical-offset="0" max-vertical-offset="754">
+                  <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
                   <folding />
                 </state>
               </provider>
@@ -237,6 +218,7 @@
         <option value="$PROJECT_DIR$/lib/datepicker/js/datepicker.js" />
         <option value="$PROJECT_DIR$/template__nav-bar.html" />
         <option value="$PROJECT_DIR$/scss/modules/_date-picker.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -601,16 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4725" max-vertical-offset="22215">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template__nav-bar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.5" vertical-offset="606" max-vertical-offset="1290">
@@ -627,18 +599,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/utilities/_config.scss">
+    <entry file="file://$PROJECT_DIR$/scss/modules/_date-picker.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.33946252" vertical-offset="240" max-vertical-offset="2100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.08" vertical-offset="1366" max-vertical-offset="2070">
+          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_date-picker.scss">
+    <entry file="file://$PROJECT_DIR$/scss/utilities/_config.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36079547" vertical-offset="1366" max-vertical-offset="2070">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+        <state vertical-scroll-proportion="-3.125" vertical-offset="240" max-vertical-offset="2100">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.04964539" vertical-offset="6935" max-vertical-offset="22215">
+          <caret line="460" column="48" selection-start-line="460" selection-start-column="48" selection-end-line="460" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.198939" vertical-offset="0" max-vertical-offset="754">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
           <folding />
         </state>
       </provider>
