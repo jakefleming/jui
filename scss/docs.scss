@@ -21,7 +21,7 @@
 }
 
 section {
-  margin: 8rem 0;
+  margin: 12rem 0;
 }
 
 #docs__button-groups, #docs__buttons--split, #docs__buttons--dropdown {
@@ -64,4 +64,33 @@ section {
   @extend %center-align;
   margin-top: 4rem;
   margin-bottom: 0rem;
+}
+
+.code-container {
+  @include radius();
+  border: 1px solid $grey-xx-light;
+  font-size: 12px;
+  padding: $base-h-padding+px;
+  margin: $key-number+px 0;
+  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s1 {
+    color: $color-error;
+  }
+  .nt {
+    color: $my-purple;
+  }
+  .na, .nv, .vc, .vg, .vi {
+    color: $my-turquoise;
+  }
+  .kc, .kd, .kn, .kp, .kr, .kt, .k, .o {
+    font-weight: bold;
+  }
+}
+
+.toc {
+  @extend .list-style-type-none;
+  @extend %center-align;
+  column-count: 3;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  margin-top: 4rem;
 }

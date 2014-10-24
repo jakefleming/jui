@@ -1,6 +1,7 @@
 .pagination {
   @extend .inline;
   @extend .list-style-type-none;
+  @extend %clearfix;
   margin: 0;
   &__item {
     @extend .inline;

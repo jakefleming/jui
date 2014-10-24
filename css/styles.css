@@ -229,7 +229,7 @@
 .juicon-downward:before {
   content: "\e040"; }
 
-.content:after, .content--full:after, .row:after, .button-group:after, .button-group--collapse:after, .range_inputs:after, .range_inputs_container:after, .range_buttons_container:after, .list-group__item:after, .modal__footer:after, .nav-bar:after, .nav-bar--solo:after, .nav-bar__top:after, .nav-bar__appendage:after, .panel__top:after, .panel__bottom:after, .panel__section:after, .panel__component:after {
+.content:after, .content--full:after, .row:after, .button-group:after, .button-group--collapse:after, .range_inputs:after, .range_inputs_container:after, .range_buttons_container:after, .list-group__item:after, .modal__footer:after, .nav-bar:after, .nav-bar--solo:after, .nav-bar__top:after, .nav-bar__appendage:after, .pagination:after, .panel__top:after, .panel__bottom:after, .panel__section:after, .panel__component:after {
   content: "";
   display: table;
   clear: both; }
@@ -326,108 +326,6 @@ body, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     overflow: visible;
     clip: auto; }
-
-.man {
-  margin: 0; }
-.mtn {
-  margin-top: 0; }
-.mtxs {
-  margin-top: 4px; }
-.mts {
-  margin-top: 8px; }
-.mtm {
-  margin-top: 16px; }
-.mtl {
-  margin-top: 24px; }
-.mtxl {
-  margin-top: 32px; }
-.mrn {
-  margin-right: 0; }
-.mrxs {
-  margin-right: 4px; }
-.mrs {
-  margin-right: 8px; }
-.mrm {
-  margin-right: 16px; }
-.mrl {
-  margin-right: 24px; }
-.mrxl {
-  margin-right: 32px; }
-.mbn {
-  margin-bottom: 0; }
-.mbxs {
-  margin-bottom: 4px; }
-.mbs {
-  margin-bottom: 8px; }
-.mbm {
-  margin-bottom: 16px; }
-.mbl {
-  margin-bottom: 24px; }
-.mbxl {
-  margin-bottom: 32px; }
-.mln {
-  margin-bottom: 0; }
-.mlxs {
-  margin-bottom: 4px; }
-.mls {
-  margin-bottom: 8px; }
-.mlm {
-  margin-bottom: 16px; }
-.mll {
-  margin-bottom: 24px; }
-.mlxl {
-  margin-bottom: 32px; }
-
-.pan {
-  margin: 0; }
-.ptn {
-  margin-top: 0; }
-.ptxs {
-  margin-top: 4px; }
-.pts {
-  margin-top: 8px; }
-.ptm {
-  margin-top: 16px; }
-.ptl {
-  margin-top: 24px; }
-.ptxl {
-  margin-top: 32px; }
-.prn {
-  margin-right: 0; }
-.prxs {
-  margin-right: 4px; }
-.prs {
-  margin-right: 8px; }
-.prm {
-  margin-right: 16px; }
-.prl {
-  margin-right: 24px; }
-.prxl {
-  margin-right: 32px; }
-.pbn {
-  margin-bottom: 0; }
-.pbxs {
-  margin-bottom: 4px; }
-.pbs {
-  margin-bottom: 8px; }
-.pbm {
-  margin-bottom: 16px; }
-.pbl {
-  margin-bottom: 24px; }
-.pbxl {
-  margin-bottom: 32px; }
-.pln {
-  margin-bottom: 0; }
-.plxs {
-  margin-bottom: 4px; }
-.pls {
-  margin-bottom: 8px; }
-.plm {
-  margin-bottom: 16px; }
-.pll {
-  margin-bottom: 24px; }
-.plxl {
-  margin-bottom: 32px; }
 
 @media (min-width: 1px) {
   .show-brkpoint--sm {
@@ -2563,5 +2461,107 @@ table {
 
 .has-tooltip {
   cursor: help; }
+
+.man {
+  margin: 0; }
+.mtn {
+  margin-top: 0; }
+.mtxs {
+  margin-top: 4px; }
+.mts {
+  margin-top: 8px; }
+.mtm {
+  margin-top: 16px; }
+.mtl {
+  margin-top: 24px; }
+.mtxl {
+  margin-top: 32px; }
+.mrn {
+  margin-right: 0; }
+.mrxs {
+  margin-right: 4px; }
+.mrs {
+  margin-right: 8px; }
+.mrm {
+  margin-right: 16px; }
+.mrl {
+  margin-right: 24px; }
+.mrxl {
+  margin-right: 32px; }
+.mbn {
+  margin-bottom: 0; }
+.mbxs {
+  margin-bottom: 4px; }
+.mbs {
+  margin-bottom: 8px; }
+.mbm {
+  margin-bottom: 16px; }
+.mbl {
+  margin-bottom: 24px; }
+.mbxl {
+  margin-bottom: 32px; }
+.mln {
+  margin-bottom: 0; }
+.mlxs {
+  margin-bottom: 4px; }
+.mls {
+  margin-bottom: 8px; }
+.mlm {
+  margin-bottom: 16px; }
+.mll {
+  margin-bottom: 24px; }
+.mlxl {
+  margin-bottom: 32px; }
+
+.pan {
+  margin: 0; }
+.ptn {
+  margin-top: 0; }
+.ptxs {
+  margin-top: 4px; }
+.pts {
+  margin-top: 8px; }
+.ptm {
+  margin-top: 16px; }
+.ptl {
+  margin-top: 24px; }
+.ptxl {
+  margin-top: 32px; }
+.prn {
+  margin-right: 0; }
+.prxs {
+  margin-right: 4px; }
+.prs {
+  margin-right: 8px; }
+.prm {
+  margin-right: 16px; }
+.prl {
+  margin-right: 24px; }
+.prxl {
+  margin-right: 32px; }
+.pbn {
+  margin-bottom: 0; }
+.pbxs {
+  margin-bottom: 4px; }
+.pbs {
+  margin-bottom: 8px; }
+.pbm {
+  margin-bottom: 16px; }
+.pbl {
+  margin-bottom: 24px; }
+.pbxl {
+  margin-bottom: 32px; }
+.pln {
+  margin-bottom: 0; }
+.plxs {
+  margin-bottom: 4px; }
+.pls {
+  margin-bottom: 8px; }
+.plm {
+  margin-bottom: 16px; }
+.pll {
+  margin-bottom: 24px; }
+.plxl {
+  margin-bottom: 32px; }
 
 /*# sourceMappingURL=styles.css.map */
