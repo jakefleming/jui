@@ -3,6 +3,8 @@ jui
 
 An ever-evolving UI kit created by [Jake Fleming](http://jakefleming.net) for [Appiphony](http://appiphony.com).
 
+[View the kit](https://dl.dropboxusercontent.com/u/43912228/jui/index.html)
+
 ===
 
 JS/Plugins used partially or completely (slightly modified to meet naming conventions):
