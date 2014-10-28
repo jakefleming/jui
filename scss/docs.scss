@@ -1,8 +1,10 @@
-@import "styles";
+@import "styles-scoped";
 
 // ==========================================================================
 // Docs (Utilities)
 // ==========================================================================
+
+body .scope-container {
 
 #docs__grid {
 
@@ -93,4 +95,6 @@ section {
   -moz-column-count: 3;
   -webkit-column-count: 3;
   margin-top: 4rem;
+}
+
 }

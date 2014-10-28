@@ -244,16 +244,11 @@
   position: absolute;
   width: 1px; }
 
-.text-center, body .scope-container .button.width--full, body .scope-container button.button.width--full, body .scope-container .label--notification, body .scope-container .pagination__item a, body .scope-container #docs__grid .column--sm--1:before, body .scope-container #docs__grid .column--md--1:before, body .scope-container #docs__grid .column--lg--1:before, body .scope-container #docs__grid .column--sm--2:before, body .scope-container #docs__grid .column--md--2:before, body .scope-container #docs__grid .column--lg--2:before, body .scope-container #docs__grid .column--sm--3:before, body .scope-container #docs__grid .column--md--3:before, body .scope-container #docs__grid .column--lg--3:before, body .scope-container #docs__grid .column--sm--4:before, body .scope-container #docs__grid .column--md--4:before, body .scope-container #docs__grid .column--lg--4:before, body .scope-container #docs__grid .column--sm--5:before, body .scope-container #docs__grid .column--md--5:before, body .scope-container #docs__grid .column--lg--5:before, body .scope-container #docs__grid .column--sm--6:before, body .scope-container #docs__grid .column--md--6:before, body .scope-container #docs__grid .column--lg--6:before, body .scope-container #docs__grid .column--sm--7:before, body .scope-container #docs__grid .column--md--7:before, body .scope-container #docs__grid .column--lg--7:before, body .scope-container #docs__grid .column--sm--8:before, body .scope-container #docs__grid .column--md--8:before, body .scope-container #docs__grid .column--lg--8:before, body .scope-container #docs__grid .column--sm--9:before, body .scope-container #docs__grid .column--md--9:before, body .scope-container #docs__grid .column--lg--9:before, body .scope-container #docs__grid .column--sm--10:before, body .scope-container #docs__grid .column--md--10:before, body .scope-container #docs__grid .column--lg--10:before, body .scope-container #docs__grid .column--sm--11:before, body .scope-container #docs__grid .column--md--11:before, body .scope-container #docs__grid .column--lg--11:before, body .scope-container #docs__grid .column--sm--12:before, body .scope-container #docs__grid .column--md--12:before, body .scope-container #docs__grid .column--lg--12:before, body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x, body .scope-container .page-headline, body .scope-container .toc {
+.text-center, body .scope-container .button.width--full, body .scope-container button.button.width--full, body .scope-container .label--notification, body .scope-container .pagination__item a {
   text-align: center; }
 
 .vertical-align-top, body .scope-container .button-group {
   vertical-align: top; }
-
-body .scope-container #docs__grid .column--sm--1:before, body .scope-container #docs__grid .column--md--1:before, body .scope-container #docs__grid .column--lg--1:before, body .scope-container #docs__grid .column--sm--2:before, body .scope-container #docs__grid .column--md--2:before, body .scope-container #docs__grid .column--lg--2:before, body .scope-container #docs__grid .column--sm--3:before, body .scope-container #docs__grid .column--md--3:before, body .scope-container #docs__grid .column--lg--3:before, body .scope-container #docs__grid .column--sm--4:before, body .scope-container #docs__grid .column--md--4:before, body .scope-container #docs__grid .column--lg--4:before, body .scope-container #docs__grid .column--sm--5:before, body .scope-container #docs__grid .column--md--5:before, body .scope-container #docs__grid .column--lg--5:before, body .scope-container #docs__grid .column--sm--6:before, body .scope-container #docs__grid .column--md--6:before, body .scope-container #docs__grid .column--lg--6:before, body .scope-container #docs__grid .column--sm--7:before, body .scope-container #docs__grid .column--md--7:before, body .scope-container #docs__grid .column--lg--7:before, body .scope-container #docs__grid .column--sm--8:before, body .scope-container #docs__grid .column--md--8:before, body .scope-container #docs__grid .column--lg--8:before, body .scope-container #docs__grid .column--sm--9:before, body .scope-container #docs__grid .column--md--9:before, body .scope-container #docs__grid .column--lg--9:before, body .scope-container #docs__grid .column--sm--10:before, body .scope-container #docs__grid .column--md--10:before, body .scope-container #docs__grid .column--lg--10:before, body .scope-container #docs__grid .column--sm--11:before, body .scope-container #docs__grid .column--md--11:before, body .scope-container #docs__grid .column--lg--11:before, body .scope-container #docs__grid .column--sm--12:before, body .scope-container #docs__grid .column--md--12:before, body .scope-container #docs__grid .column--lg--12:before {
-  display: block;
-  content: '';
-  position: absolute; }
 
 .centered, body .scope-container .content, body .scope-container .content--full {
   float: none;
@@ -310,7 +305,7 @@ body .scope-container .panel__sidebar {
   overflow: scroll;
   -webkit-overflow-scrolling: touch; }
 
-.list-style-type-none, body .scope-container .dropdown-menu, body .scope-container .list-group, body .scope-container .panel__sidebar__list-group, body .scope-container .inline-list, body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left, body .scope-container .pagination, body .scope-container .toc {
+.list-style-type-none, body .scope-container .dropdown-menu, body .scope-container .list-group, body .scope-container .panel__sidebar__list-group, body .scope-container .inline-list, body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left, body .scope-container .pagination {
   list-style-type: none;
   padding: 0; }
 
@@ -323,7 +318,7 @@ body .scope-container .panel__sidebar {
 .inline, body .scope-container .pagination, body .scope-container .pagination__item {
   display: inline; }
 
-.hide, body .scope-container .datepicker > div, body .scope-container .code-container {
+.hide, body .scope-container .datepicker > div {
   display: none; }
 
 .table {
@@ -3223,153 +3218,4 @@ button.close {
   body .scope-container .pad--lg--lxl {
     padding-bottom: 32px; } }
 
-body .scope-container #docs__grid .column--sm--1, body .scope-container #docs__grid .column--md--1, body .scope-container #docs__grid .column--lg--1 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--1:before, body .scope-container #docs__grid .column--md--1:before, body .scope-container #docs__grid .column--lg--1:before {
-    width: 100%;
-    content: "1";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--2, body .scope-container #docs__grid .column--md--2, body .scope-container #docs__grid .column--lg--2 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--2:before, body .scope-container #docs__grid .column--md--2:before, body .scope-container #docs__grid .column--lg--2:before {
-    width: 100%;
-    content: "2";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--3, body .scope-container #docs__grid .column--md--3, body .scope-container #docs__grid .column--lg--3 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--3:before, body .scope-container #docs__grid .column--md--3:before, body .scope-container #docs__grid .column--lg--3:before {
-    width: 100%;
-    content: "3";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--4, body .scope-container #docs__grid .column--md--4, body .scope-container #docs__grid .column--lg--4 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--4:before, body .scope-container #docs__grid .column--md--4:before, body .scope-container #docs__grid .column--lg--4:before {
-    width: 100%;
-    content: "4";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--5, body .scope-container #docs__grid .column--md--5, body .scope-container #docs__grid .column--lg--5 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--5:before, body .scope-container #docs__grid .column--md--5:before, body .scope-container #docs__grid .column--lg--5:before {
-    width: 100%;
-    content: "5";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--6, body .scope-container #docs__grid .column--md--6, body .scope-container #docs__grid .column--lg--6 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--6:before, body .scope-container #docs__grid .column--md--6:before, body .scope-container #docs__grid .column--lg--6:before {
-    width: 100%;
-    content: "6";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--7, body .scope-container #docs__grid .column--md--7, body .scope-container #docs__grid .column--lg--7 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--7:before, body .scope-container #docs__grid .column--md--7:before, body .scope-container #docs__grid .column--lg--7:before {
-    width: 100%;
-    content: "7";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--8, body .scope-container #docs__grid .column--md--8, body .scope-container #docs__grid .column--lg--8 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--8:before, body .scope-container #docs__grid .column--md--8:before, body .scope-container #docs__grid .column--lg--8:before {
-    width: 100%;
-    content: "8";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--9, body .scope-container #docs__grid .column--md--9, body .scope-container #docs__grid .column--lg--9 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--9:before, body .scope-container #docs__grid .column--md--9:before, body .scope-container #docs__grid .column--lg--9:before {
-    width: 100%;
-    content: "9";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--10, body .scope-container #docs__grid .column--md--10, body .scope-container #docs__grid .column--lg--10 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--10:before, body .scope-container #docs__grid .column--md--10:before, body .scope-container #docs__grid .column--lg--10:before {
-    width: 100%;
-    content: "10";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--11, body .scope-container #docs__grid .column--md--11, body .scope-container #docs__grid .column--lg--11 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--11:before, body .scope-container #docs__grid .column--md--11:before, body .scope-container #docs__grid .column--lg--11:before {
-    width: 100%;
-    content: "11";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container #docs__grid .column--sm--12, body .scope-container #docs__grid .column--md--12, body .scope-container #docs__grid .column--lg--12 {
-  background: rgba(232, 234, 235, 0.5);
-  border: 1px solid rgba(207, 208, 210, 0.5); }
-  body .scope-container #docs__grid .column--sm--12:before, body .scope-container #docs__grid .column--md--12:before, body .scope-container #docs__grid .column--lg--12:before {
-    width: 100%;
-    content: "12";
-    padding: 16px 0;
-    position: relative; }
-body .scope-container section {
-  margin: 12rem 0; }
-body .scope-container #docs__button-groups [class^="button-group"], body .scope-container #docs__buttons--split [class^="button-group"], body .scope-container #docs__buttons--dropdown [class^="button-group"] {
-  margin-bottom: 16px; }
-body .scope-container .alert {
-  margin-bottom: 1rem; }
-body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x {
-  background: #e8eaeb;
-  padding: 3rem 1rem;
-  font-size: 2rem;
-  color: #8d9aa5;
-  margin-top: 2rem;
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px; }
-  @media (min-width: 1px) and (max-width: 768px) {
-    body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x {
-      padding: 1rem;
-      font-size: 1rem; } }
-@media (min-width: 1px) and (max-width: 768px) {
-  body .scope-container #docs__juicons .icon-section [class*="--2"] {
-    width: 25%;
-    float: left; } }
-body .scope-container .page-headline {
-  font-size: 4rem;
-  margin-top: 4rem;
-  margin-bottom: 0rem; }
-body .scope-container .code-container {
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  border: 1px solid #f5f6f7;
-  font-size: 12px;
-  padding: 16px;
-  margin: 16px 0; }
-  body .scope-container .code-container .s, body .scope-container .code-container .sb, body .scope-container .code-container .sc, body .scope-container .code-container .sd, body .scope-container .code-container .s2, body .scope-container .code-container .se, body .scope-container .code-container .sh, body .scope-container .code-container .si, body .scope-container .code-container .sx, body .scope-container .code-container .s1 {
-    color: #c06057; }
-  body .scope-container .code-container .nt {
-    color: #8b9ae3; }
-  body .scope-container .code-container .na, body .scope-container .code-container .nv, body .scope-container .code-container .vc, body .scope-container .code-container .vg, body .scope-container .code-container .vi {
-    color: #47cfd2; }
-  body .scope-container .code-container .kc, body .scope-container .code-container .kd, body .scope-container .code-container .kn, body .scope-container .code-container .kp, body .scope-container .code-container .kr, body .scope-container .code-container .kt, body .scope-container .code-container .k, body .scope-container .code-container .o {
-    font-weight: bold; }
-body .scope-container .toc {
-  column-count: 3;
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  margin-top: 4rem; }
-
-/*# sourceMappingURL=docs.css.map */
+/*# sourceMappingURL=styles-scoped.css.map */
