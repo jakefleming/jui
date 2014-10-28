@@ -2054,9 +2054,9 @@ body .scope-container {
     body .scope-container .label--notification {
       min-width: 2em;
       font-size: .75em; }
-    .list-group__item body .scope-container .label {
-      line-height: .675;
-      padding: .675em; }
+  body .scope-container .list-group__item .label {
+    line-height: .675;
+    padding: .675em; }
   body .scope-container .label > .juicon, body .scope-container .panel__component > .close .label > .component-remove-x, body .scope-container .label > .close-modal-x {
     margin-left: -4px;
     margin-right: -4px; }
@@ -2126,8 +2126,8 @@ body .scope-container {
     border-width: 1px 0 1px 0;
     border-style: solid;
     border-color: #f0f1f2; }
-    .list-heading:first-child > body .scope-container .list-heading__title {
-      border-top: 0; }
+  body .scope-container .list-heading:first-child > .list-heading__title {
+    border-top: 0; }
   body .scope-container .inline-list {
     margin: 0; }
     body .scope-container .inline-list__item {

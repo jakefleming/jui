@@ -2174,9 +2174,10 @@ input[type=radio] {
   .label--notification {
     min-width: 2em;
     font-size: .75em; }
-  .list-group__item .label {
-    line-height: .675;
-    padding: .675em; }
+
+.list-group__item .label {
+  line-height: .675;
+  padding: .675em; }
 
 .label > .juicon, .label > .close-modal-x, .panel__component > .close .label > .component-remove-x {
   margin-left: -4px;
@@ -2250,8 +2251,8 @@ input[type=radio] {
   border-width: 1px 0 1px 0;
   border-style: solid;
   border-color: #f0f1f2; }
-  .list-heading:first-child > .list-heading__title {
-    border-top: 0; }
+.list-heading:first-child > .list-heading__title {
+  border-top: 0; }
 
 .inline-list {
   margin: 0; }

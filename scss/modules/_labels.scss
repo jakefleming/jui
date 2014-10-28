@@ -23,7 +23,11 @@
     min-width: 2em;
     font-size: .75em;
   }
-  .list-group__item & {
+
+}
+
+.list-group__item {
+  .label {
     line-height: .675;
     padding: .675em;
   }

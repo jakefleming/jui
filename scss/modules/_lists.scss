@@ -61,11 +61,15 @@
     margin: 0;
     padding: $base-v-padding+px $base-h-padding+px;
     @include border(1px, 0, 1px, 0, $color: $component-border-color-light);
-    .list-heading:first-child > & {
+  }
+  &:first-child {
+    > .list-heading__title {
       border-top: 0;
     }
   }
 }
+
+
 
 .inline-list {
   @extend .list-style-type-none;
