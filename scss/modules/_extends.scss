@@ -5,7 +5,7 @@
 // Buttons
 
 %btn {
-  @extend %center-align;
+  //@extend %center-align;
   @extend .pointer;
   @include single-transition(border-color, color, background-color);
   @include button-size();

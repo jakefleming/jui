@@ -16,10 +16,11 @@
     @extend %clearfix;
     @extend .relative;
     @include radius();
-    display: block;
+    @extend .block;
     max-width: 100%;
     a {
       @extend .block;
+      @extend .dots;
       color: $component-color;
       padding: $base-v-padding+px $base-h-padding+px;
     }
@@ -49,6 +50,31 @@
       .input__icon {
         padding: $key-number*1.25 1rem;
       }
+    }
+  }
+}
+
+.list-heading {
+  &__title {
+    background-color: $component-border-color-light;
+    color: $grey;
+    margin: 0;
+    padding: $base-v-padding+px $base-h-padding+px;
+    @include border(1px, 0, 1px, 0, $color: $component-border-color-light);
+    .list-heading:first-child > & {
+      border-top: 0;
+    }
+  }
+}
+
+.inline-list {
+  @extend .list-style-type-none;
+  margin: 0;
+  &__item {
+    @extend .inline-block;
+    padding: 0 $base-v-padding/2+px;
+    a > .juicon {
+      @extend %icon-before-fix;
     }
   }
 }

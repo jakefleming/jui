@@ -38,3 +38,8 @@ hr {
   border: 0;
   border-top: 1px solid $component-border-color-alt;
 }
+
+label {
+  font-size: em(16px, 16px);
+  color: $grey;
+}

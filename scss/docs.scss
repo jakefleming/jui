@@ -7,7 +7,7 @@
 #docs__grid {
 
   @for $i from 1 through $grid-column-count {
-    .column--#{$i} {
+    .column--sm--#{$i},.column--md--#{$i},.column--lg--#{$i} {
       background: transparentize($grey-x-light, .5);
       border: 1px solid transparentize($grey-light, .5);
       @include p-el(before, 100%) {
@@ -47,12 +47,11 @@ section {
     @include radius();
     @media (min-width: 1px) and (max-width: 768px) {
       padding: 1rem;
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
-  .column--2 {
+  [class*="--2"] {
     @media (min-width: 1px) and (max-width: 768px) {
-
       width: 25%;
       float: left;
     }
@@ -67,6 +66,7 @@ section {
 }
 
 .code-container {
+  @extend .hide;
   @include radius();
   border: 1px solid $grey-xx-light;
   font-size: 12px;

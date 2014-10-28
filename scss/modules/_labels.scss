@@ -15,8 +15,7 @@
     background-color: $component-bg-color;
     border-color: $component-border-color;
     color: $component-color;
-    border-width: 1px;
-    border-style: solid;
+    @include vendor-prefix(box-shadow, inset 0 0 0 1px $component-border-color);
   }
   &--notification {
     @extend .right;
@@ -47,6 +46,13 @@
 .list-group__item {
   > .label {
     margin: $base-h-padding/2+px;
+  }
+  &.active {
+    .label {
+      &--secondary {
+        @include vendor-prefix(box-shadow, none);
+      }
+    }
   }
 }
 

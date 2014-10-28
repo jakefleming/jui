@@ -221,3 +221,76 @@ $el-h: null) {
   border-style: $style;
   border-color: $color;
 }
+
+//rotate
+
+@mixin rotate($degree) {
+  transform:rotate($degree+deg);
+  -ms-transform:rotate($degree+deg); /* IE 9 */
+  -webkit-transform:rotate($degree+deg); /* Opera, Chrome, and Safari */
+}
+
+// squares
+
+@mixin square($number: $key-number*2.5) {
+  width: $number+px;
+  height: $number+px;
+}
+
+// surgical space
+
+@mixin surgical-space($attr) {
+  &n      {#{$attr}:0}
+  &xs     {#{$attr}:$key-number*.25+px}
+  &s      {#{$attr}:$key-number*.5+px}
+  &m      {#{$attr}:$key-number+px}
+  &l      {#{$attr}:$key-number*1.5+px}
+  &xl     {#{$attr}:$key-number*2+px}
+
+  &tn      {#{$attr}-top: 0}
+  &txs     {#{$attr}-top:$key-number*.25+px}
+  &ts      {#{$attr}-top:$key-number*.5+px}
+  &tm      {#{$attr}-top:$key-number+px}
+  &tl      {#{$attr}-top:$key-number*1.5+px}
+  &txl     {#{$attr}-top:$key-number*2+px}
+
+  &rn      {#{$attr}-right: 0}
+  &rxs     {#{$attr}-right:$key-number*.25+px}
+  &rs      {#{$attr}-right:$key-number*.5+px}
+  &rm      {#{$attr}-right:$key-number+px}
+  &rl      {#{$attr}-right:$key-number*1.5+px}
+  &rxl     {#{$attr}-right:$key-number*2+px}
+
+  &bn      {#{$attr}-bottom: 0}
+  &bxs     {#{$attr}-bottom:$key-number*.25+px}
+  &bs      {#{$attr}-bottom:$key-number*.5+px}
+  &bm      {#{$attr}-bottom:$key-number+px}
+  &bl      {#{$attr}-bottom:$key-number*1.5+px}
+  &bxl     {#{$attr}-bottom:$key-number*2+px}
+
+  &ln      {#{$attr}-bottom: 0}
+  &lxs     {#{$attr}-bottom:$key-number*.25+px}
+  &ls      {#{$attr}-bottom:$key-number*.5+px}
+  &lm      {#{$attr}-bottom:$key-number+px}
+  &ll      {#{$attr}-bottom:$key-number*1.5+px}
+  &lxl     {#{$attr}-bottom:$key-number*2+px}
+}
+
+
+@mixin add-surgical-space($attr) {
+  &--sm-- {
+    @media (min-width: $brkpoint-sm) {
+      @include surgical-space($attr: $attr);
+    }
+  }
+  &--md-- {
+    @media (min-width: $brkpoint-md) {
+      @include surgical-space($attr: $attr);
+    }
+  }
+  &--lg-- {
+    @media (min-width: $brkpoint-lg) {
+      @include surgical-space($attr: $attr);
+    }
+  }
+}

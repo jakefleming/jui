@@ -4,22 +4,51 @@
 
 // Generate Column Classes
 
+[class^="column--"] {
+  padding: 0 ($column-padding + px);
+  position: relative;
+}
+
 @for $i from 1 through $grid-column-count {
-  .column--#{$i} {
-    width: percentage($i / $grid-column-count);
+  .column--sm--#{$i} {
+    @media (min-width: $brkpoint-sm) {
+      width: percentage($i / $grid-column-count);
+      float: left;
+      min-height: 1px;
+    }
+  }
+}
+@for $i from 1 through $grid-column-count {
+  .column--md--#{$i}{
+    @media (min-width: $brkpoint-md) {
+      width: percentage($i / $grid-column-count);
+      float: left;
+      min-height: 1px;
+      padding: 0 ($column-padding + px);
+    }
+  }
+}
+@for $i from 1 through $grid-column-count {
+  .column--lg--#{$i} {
+    @media (min-width: $brkpoint-lg) {
+      width: percentage($i / $grid-column-count);
+      float: left;
+      min-height: 1px;
+    }
   }
 }
 
-// Mobile first approach to columns
-
-[class^="column--"] {
-  @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
-    width: 100%;
-    padding: 0 ($column-padding + px);
+@for $i from 1 through $grid-column-count {
+  .right--#{$i} {
+    left: percentage($i / $grid-column-count);
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      left: auto;
+    }
   }
-  @media (min-width: $brkpoint-md+1) {
-    float: left;
-    min-height: 1px;
-    padding: 0 ($column-padding + px);
+  .left--#{$i} {
+    right: percentage($i / $grid-column-count);
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      right: auto;
+    }
   }
 }

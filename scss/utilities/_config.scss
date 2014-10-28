@@ -87,6 +87,12 @@ $ui-colors: (
   info        : $my-turquoise,
 );
 
+// UI Sizes {
+
+$ui-sizes: (
+  n, xs, s, m, l, xl
+) !default;
+
 // Text
 
 $key-number   : 16;

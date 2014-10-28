@@ -1472,4 +1472,9 @@ $(document).ready(function () {
         $(e.target).closest('.nav-bar').toggleClass("appendage--open");
         $(e.target).closest('.nav-bar--solo').toggleClass("appendage--open");
     });
+
+    // sort arrow
+    $(".sort-arrow").click(function(e){
+        $(e.target).toggleClass("sort-arrow--flipped");
+    });
 });

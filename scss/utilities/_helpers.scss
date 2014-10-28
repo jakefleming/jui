@@ -12,6 +12,10 @@
   }
 }
 
+.clearfix {
+  @extend %clearfix;
+}
+
 // Screen reader text
 
 .srt {
@@ -25,10 +29,14 @@
   width: 1px;
 }
 
-// Center alignment
+// Alignment
 
 %center-align {
   text-align: center;
+}
+
+.vertical-align-top {
+  vertical-align: top;
 }
 
 // For pseudo-elements
@@ -55,6 +63,12 @@
 
 .right {
   float: right;
+}
+
+.right-left {
+  @media (min-width: $brkpoint-md+1) {
+    float: right;
+  }
 }
 
 // Cursors
@@ -88,7 +102,6 @@
 }
 
 .text-right-left {
-
   @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
     text-align: left;
   }
@@ -101,18 +114,31 @@
   line-height: ($base-line/$base-font-size);
 }
 
+.text-faded {
+  color: $grey;
+}
+
+.fsl {
+  font-size: $base-font-size * 2 +px;
+}
+
 // Outline
 
 %no-outline {
   outline: none;
 }
 
-// wrapping
+// overflow/wrapping
 
 .dots {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+%overflow-scroll-mobile {
+  overflow:scroll;
+  -webkit-overflow-scrolling:touch;
 }
 
 // lists
@@ -207,6 +233,10 @@
       display: block;
     }
   }
+}
+
+.width--full {
+  width: 100%;
 }
 
 

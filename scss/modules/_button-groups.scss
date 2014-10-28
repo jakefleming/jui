@@ -2,6 +2,7 @@
   @extend %clearfix;
   @extend .relative;
   @extend .inline-block;
+  @extend .vertical-align-top;
   .button {
     @extend .block;
     z-index: 1;

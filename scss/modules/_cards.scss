@@ -1,0 +1,53 @@
+.card {
+  @include radius();
+  @extend %clearfix;
+  background-color: $white;
+  border: 1px solid $component-border-color-light;
+  padding: $base-h-padding+px;
+  margin-bottom: $base-h-padding+px;
+}
+
+.card {
+  &__heading {
+    @extend .block;
+    @extend .dots;
+    font-size: $base-font-size+px;
+    margin: 0;
+  }
+  &__subheading {
+    @extend .block;
+    @extend .dots;
+    color: $grey;
+    margin: 0;
+  }
+  &__text {
+    font-size: em(14px, 16px);
+    line-height: em(20px, 14px);
+  }
+  .avatar-container--sm + .card__top {
+    padding-left: $key-number*1.5+$key-number+px;
+    .card__heading, .card__subheading {
+      font-size: $base-font-size*.75+px;
+      line-height: 1;
+    }
+  }
+  .avatar-container--md + .card__top {
+    padding-left: $key-number*2+$key-number+px;
+    .card__heading {
+      line-height: 1;
+    }
+  }
+  .avatar-container--lg + .card__top {
+    padding-left: $key-number*2.5+$key-number+px;
+  }
+  >*:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-set__timestamp {
+  padding: $base-v-padding/2+px 0;
+  font-size: $base-font-size*.875+px;
+  line-height: em(16px, 14px);
+  color: $grey;
+}

@@ -1,63 +1,9 @@
 // Surgical
 
-.m {
-  &an      {margin:0}
-  &tn      {margin-top: 0}
-  &txs     {margin-top:$key-number*.25+px}
-  &ts      {margin-top:$key-number*.5+px}
-  &tm      {margin-top:$key-number+px}
-  &tl      {margin-top:$key-number*1.5+px}
-  &txl     {margin-top:$key-number*2+px}
-
-  &rn      {margin-right: 0}
-  &rxs     {margin-right:$key-number*.25+px}
-  &rs      {margin-right:$key-number*.5+px}
-  &rm      {margin-right:$key-number+px}
-  &rl      {margin-right:$key-number*1.5+px}
-  &rxl     {margin-right:$key-number*2+px}
-
-  &bn      {margin-bottom: 0}
-  &bxs     {margin-bottom:$key-number*.25+px}
-  &bs      {margin-bottom:$key-number*.5+px}
-  &bm      {margin-bottom:$key-number+px}
-  &bl      {margin-bottom:$key-number*1.5+px}
-  &bxl     {margin-bottom:$key-number*2+px}
-
-  &ln      {margin-bottom: 0}
-  &lxs     {margin-bottom:$key-number*.25+px}
-  &ls      {margin-bottom:$key-number*.5+px}
-  &lm      {margin-bottom:$key-number+px}
-  &ll      {margin-bottom:$key-number*1.5+px}
-  &lxl     {margin-bottom:$key-number*2+px}
+.mar {
+  @include add-surgical-space(margin);
 }
 
-.p {
-  &an      {margin:0}
-  &tn      {margin-top: 0}
-  &txs     {margin-top:$key-number*.25+px}
-  &ts      {margin-top:$key-number*.5+px}
-  &tm      {margin-top:$key-number+px}
-  &tl      {margin-top:$key-number*1.5+px}
-  &txl     {margin-top:$key-number*2+px}
-
-  &rn      {margin-right: 0}
-  &rxs     {margin-right:$key-number*.25+px}
-  &rs      {margin-right:$key-number*.5+px}
-  &rm      {margin-right:$key-number+px}
-  &rl      {margin-right:$key-number*1.5+px}
-  &rxl     {margin-right:$key-number*2+px}
-
-  &bn      {margin-bottom: 0}
-  &bxs     {margin-bottom:$key-number*.25+px}
-  &bs      {margin-bottom:$key-number*.5+px}
-  &bm      {margin-bottom:$key-number+px}
-  &bl      {margin-bottom:$key-number*1.5+px}
-  &bxl     {margin-bottom:$key-number*2+px}
-
-  &ln      {margin-bottom: 0}
-  &lxs     {margin-bottom:$key-number*.25+px}
-  &ls      {margin-bottom:$key-number*.5+px}
-  &lm      {margin-bottom:$key-number+px}
-  &ll      {margin-bottom:$key-number*1.5+px}
-  &lxl     {margin-bottom:$key-number*2+px}
+.pad{
+  @include add-surgical-space(padding);
 }

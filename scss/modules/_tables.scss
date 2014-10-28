@@ -60,7 +60,30 @@ table {
       }
     }
   }
+  &.vertical-align-middle {
+    td {
+      vertical-align: middle;
+    }
+  }
+  tbody {
+    tr {
+      &:hover {
+        @extend .pointer;
+        background-color: $component-bg-color-active;
+      }
+    }
+  }
+}
 
-
-
+.sort-arrow {
+  @extend .right;
+  @extend .pointer;
+  color: $input-icon-color;
+  padding: $base-v-padding/2+px;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-duration: .25s;
+  &--flipped {
+    @include rotate(180);
+  }
 }

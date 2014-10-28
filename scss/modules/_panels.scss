@@ -15,6 +15,9 @@
     .form__group {
       margin-bottom: 0;
     }
+    @media (min-width: $brkpoint-md+1) {
+      height: ($key-number*4.5+1)+px;
+    }
   }
   &__bottom {
     border-top: 1px solid $component-border-color-alt;
@@ -26,12 +29,22 @@
     &.has-subheading {
       margin: 0;
     }
+    @media (min-width: $brkpoint-md+1) {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
   &__subheading {
     font-size: 1rem;
     line-height: 1rem;
     margin: 0;
     color: $grey;
+    @media (min-width: $brkpoint-md+1) {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
   &__component {
     @include border($w-bottom: 0, $w-left: 0, $w-right: 0);
@@ -39,7 +52,7 @@
     &--removable {
       padding-right: 4rem;
     }
-    &:first-child {
+    &:first-child, &:first-of-type, &:nth-of-type(1) {
       border-top: 0;
     }
     .form__group {
@@ -65,6 +78,54 @@
           color: $color-error;
         }
       }
+    }
+  }
+  // Stuff created for sidebar purposes
+  $sidebar-width: 300px;
+  &__box {
+    @extend %clearfix;
+    @extend .relative;
+    background-color: lighten($grey-xx-light, 2%);
+
+    @include radius-bottom();
+  }
+
+  &__sidebar {
+    @extend .relative;
+    @extend %overflow-scroll-mobile;
+    width: $sidebar-width;
+    height: 100%;
+    &__list-group {
+      @extend .list-group;
+      .list-group__item {
+        @include erase-radius();
+      }
+    }
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      width: 100%;
+      padding: 0;
+    }
+    @media (min-width: $brkpoint-md+1) {
+      float: left;
+      border-right: 1px solid $component-border-color-alt;
+      min-height: 1px;
+      padding: 0;
+    }
+  }
+  &.has-sidebar {
+    .panel__section, .panel__content {
+      @media (min-width: $brkpoint-md+1) {
+        margin-left: $sidebar-width - 1;
+      }
+    }
+  }
+  &__content {
+    @extend %clearfix;
+    background: $white;
+    min-height: $key-number*20+px;
+    @media (min-width: $brkpoint-md+1) {
+      @include vendor-prefix(border-bottom-right-radius, $br-default);
+      border-left: 1px solid $component-border-color-alt;
     }
   }
 }

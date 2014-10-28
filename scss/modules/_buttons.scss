@@ -33,4 +33,7 @@
   > .juicon {
     @extend %icon-before-fix;
   }
+  &.width--full {
+    @extend %center-align;
+  }
 }
