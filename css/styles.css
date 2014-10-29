@@ -2251,14 +2251,17 @@ input[type=radio] {
   border-radius: 4px ;
   background-color: #384047;
   color: #fff; }
-  .tile__title {
-    max-width: 64px; }
   @media (min-width: 1px) {
     .tile {
       width: 64px;
       height: 64px;
       padding: 20px 0px;
       font-size: 28px; } }
+
+.tile__title {
+  color: #fff;
+  font-size: 75%;
+  max-width: 64px; }
 
 .avatar-container--lg {
   width: 40px;

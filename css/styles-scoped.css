@@ -2129,14 +2129,16 @@ body .scope-container {
     border-radius: 4px ;
     background-color: #384047;
     color: #fff; }
-    body .scope-container .tile__title {
-      max-width: 64px; }
     @media (min-width: 1px) {
       body .scope-container .tile {
         width: 64px;
         height: 64px;
         padding: 20px 0px;
         font-size: 28px; } }
+  body .scope-container .tile__title {
+    color: #fff;
+    font-size: 75%;
+    max-width: 64px; }
   body .scope-container .avatar-container--lg {
     width: 40px;
     height: 40px; }

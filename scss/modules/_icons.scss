@@ -22,13 +22,16 @@
   @include radius();
   background-color: $black;
   color: $white;
-  &__title {
-    @extend .dots;
-    max-width: $key-number*4+px;
-  }
   @media (min-width: $brkpoint-sm) {
     @include square($key-number*4);
     @include spacing(padding, $key-number*1.25, 0);
     font-size: $base-font-size*1.75+px;
   }
+}
+
+.tile__title {
+  @extend .dots;
+  color: $white;
+  font-size: 75%;
+  max-width: $key-number*4+px
 }
