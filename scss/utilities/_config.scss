@@ -87,6 +87,113 @@ $ui-colors: (
   info        : $my-turquoise,
 );
 
+$jui-color-1: #ff7b84;
+$jui-color-2: #cfd05c;
+$jui-color-3: #ecb46c;
+$jui-color-4: #e1d951;
+$jui-color-5: #9fdb66;
+$jui-color-6: #54c473;
+$jui-color-7: #6a89e5;
+$jui-color-8: #50ceb9;
+$jui-color-9: #6b9ee2;
+$jui-color-10: #6488e3;
+$jui-color-11: #8784ea;
+$jui-color-12: #dc71d1;
+$jui-color-13: #df6184;
+$jui-color-14: #3cc2b3;
+$jui-color-15: #f77e75;
+$jui-color-16: #e9af67;
+$jui-color-17: #acd360;
+$jui-color-18: #4dca76;
+$jui-color-19: #3abeb1;
+$jui-color-20: #48c7c8;
+$jui-color-21: #8a7aed;
+$jui-color-22: #8b85f9;
+$jui-color-23: #b070e6;
+$jui-color-24: #e56798;
+$jui-color-25: #e46fbe;
+$jui-color-26: #7698f0;
+$jui-color-27: #5ab0d2;
+$jui-color-28: #89c059;
+$jui-color-29: #bdd25f;
+$jui-color-30: #f59f71;
+$jui-color-31: #eb687f;
+$jui-color-32: #38c393;
+$jui-color-33: #97cf5d;
+$jui-color-34: #d58a6a;
+$jui-color-35: #e9637e;
+$jui-color-36: #d472d4;
+$jui-color-37: #8c89f2;
+$jui-color-38: #53b6d7;
+$jui-color-39: #4fbe75;
+$jui-color-40: #83c75e;
+$jui-color-41: #43b5b5;
+$jui-color-42: #cfd05b;
+$jui-color-43: #7f93f9;
+$jui-color-44: #c8ca58;
+$jui-color-45: #d95879;
+$jui-color-46: #67a5e7;
+$jui-color-47: #5fcc64;
+$jui-color-48: #ef697f;
+$jui-color-49: #e25c80;
+$jui-color-50: #49bcd3;
+$jui-color-51: #d8c760;
+$jui-color-52: #ee8e6f;
+$jui-color-53: #f36e83;
+$jui-color-54: #ea70b1;
+$jui-color-55: #d66ee0;
+$jui-color-56: #718deb;
+$jui-color-57: #5a9cdd;
+$jui-color-58: #34b59d;
+$jui-color-59: #e3d067;
+$jui-color-60: #bf5a88;
+$jui-color-61: #f57376;
+$jui-color-62: #6b92dc;
+$jui-color-63: #7ccf60;
+$jui-color-64: #618fd8;
+$jui-color-65: #f279ab;
+$jui-color-66: #d8be5f;
+$jui-color-67: #f87d76;
+$jui-color-68: #f26979;
+$jui-color-69: #ed6387;
+$jui-color-70: #e769b4;
+$jui-color-71: #e36ee3;
+$jui-color-72: #8d9bfb;
+$jui-color-73: #679ef0;
+$jui-color-74: #41c8a0;
+$jui-color-75: #cd9f65;
+$jui-color-76: #db6d7a;
+$jui-color-77: #b55d5b;
+$jui-color-78: #5a95dd;
+$jui-color-79: #8ed363;
+$jui-color-80: #659ad5;
+$jui-color-81: #da627f;
+$jui-color-82: #d15b97;
+$jui-color-83: #e7806f;
+$jui-color-84: #f6707b;
+$jui-color-85: #f26891;
+$jui-color-86: #e260ab;
+$jui-color-87: #d876e5;
+$jui-color-88: #996fe6;
+$jui-color-89: #3e99be;
+$jui-color-90: #22a48a;
+$jui-color-91: #bf7b66;
+$jui-color-92: #517e82;
+$jui-color-93: #904d4c;
+$jui-color-94: #439cba;
+$jui-color-95: #8bcf6a;
+$jui-color-96: #6d9de3;
+$jui-color-97: #dd6085;
+$jui-color-98: #e1be5c;
+$jui-color-99: #f0856e;
+$jui-color-100: #e15d76;
+
+
+
+$all-colors: (
+        $jui-color-1, $jui-color-2, $jui-color-3, $jui-color-4, $jui-color-5, $jui-color-6, $jui-color-7, $jui-color-8, $jui-color-9, $jui-color-10, $jui-color-11, $jui-color-12, $jui-color-13, $jui-color-14, $jui-color-15, $jui-color-16, $jui-color-17, $jui-color-18, $jui-color-19, $jui-color-20, $jui-color-21, $jui-color-22, $jui-color-23, $jui-color-24, $jui-color-25, $jui-color-26, $jui-color-27, $jui-color-28, $jui-color-29, $jui-color-30, $jui-color-31, $jui-color-32, $jui-color-33, $jui-color-34, $jui-color-35, $jui-color-36, $jui-color-37, $jui-color-38, $jui-color-39, $jui-color-40, $jui-color-41, $jui-color-42, $jui-color-43, $jui-color-44, $jui-color-45, $jui-color-46, $jui-color-47, $jui-color-48, $jui-color-49, $jui-color-50, $jui-color-51, $jui-color-52, $jui-color-53, $jui-color-54, $jui-color-55, $jui-color-56, $jui-color-57, $jui-color-58, $jui-color-59, $jui-color-60, $jui-color-61, $jui-color-62, $jui-color-63, $jui-color-64, $jui-color-65, $jui-color-66, $jui-color-67, $jui-color-68, $jui-color-69, $jui-color-70, $jui-color-71, $jui-color-72, $jui-color-73, $jui-color-74, $jui-color-75, $jui-color-76, $jui-color-77, $jui-color-78, $jui-color-79, $jui-color-80, $jui-color-81, $jui-color-82, $jui-color-83, $jui-color-84, $jui-color-85, $jui-color-86, $jui-color-87, $jui-color-88, $jui-color-89, $jui-color-90, $jui-color-91, $jui-color-92, $jui-color-93, $jui-color-94, $jui-color-95, $jui-color-96, $jui-color-97, $jui-color-98, $jui-color-99, $jui-color-100
+);
+
 // UI Sizes {
 
 $ui-sizes: (
@@ -128,7 +235,7 @@ $content-max-width: 1000;
 // Breakpoints
 
 $brkpoint-sm    : 1px;
-$brkpoint-md    : 768px;
+$brkpoint-md    : 769px;
 $brkpoint-lg    : 1100px;
 
 // z-indexes

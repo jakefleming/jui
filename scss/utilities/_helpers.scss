@@ -87,6 +87,10 @@
   position: absolute;
 }
 
+.fixed {
+  position: absolute;
+}
+
 // Text
 
 %underline {
@@ -107,6 +111,15 @@
   }
   @media (min-width: $brkpoint-md+1) {
     text-align: right;
+  }
+}
+
+.text-center-left {
+  @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+    text-align: left;
+  }
+  @media (min-width: $brkpoint-md+1) {
+    text-align: center;
   }
 }
 
@@ -141,6 +154,10 @@
   -webkit-overflow-scrolling:touch;
 }
 
+%overflow-hidden {
+  overflow: hidden;
+}
+
 // lists
 
 .list-style-type-none {
@@ -160,10 +177,6 @@
 
 .inline {
   display: inline;
-}
-
-.hide {
-  display: none;
 }
 
 .table {
@@ -196,16 +209,16 @@
 }
 
 .show-brkpoint--sm {
-    @media (min-width: $brkpoint-sm) {
+  @media (min-width: $brkpoint-sm) {
+    display: block;
+  }
+  &--only {
+    display: none;
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
       display: block;
     }
-    &--only {
-      display: none;
-      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
-        display: block;
-      }
-    }
   }
+}
 .show-brkpoint--md {
   @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
     display: none;
@@ -220,6 +233,8 @@
     }
   }
 }
+
+
 .show-brkpoint--lg {
   @media (min-width: $brkpoint-md) and (max-width: $brkpoint-lg) {
     display: none;
@@ -231,6 +246,27 @@
     display: none;
     @media (min-width: $brkpoint-lg) {
       display: block;
+    }
+  }
+}
+
+.hide {
+  display: none;
+  &-brkpoint {
+    &--sm {
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        display: none;
+      }
+    }
+    &--md {
+      @media (min-width: $brkpoint-md) and (max-width: $brkpoint-lg) {
+        display: none;
+      }
+    }
+    &--lg {
+      @media (min-width: $brkpoint-lg) {
+        display: none;
+      }
     }
   }
 }

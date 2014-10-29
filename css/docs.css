@@ -229,7 +229,7 @@
 .juicon-downward:before {
   content: "\e040"; }
 
-.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__section:after, body .scope-container .panel__component:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
+.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__section:after, body .scope-container .panel__component:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
   content: "";
   display: table;
   clear: both; }
@@ -244,7 +244,7 @@
   position: absolute;
   width: 1px; }
 
-.text-center, body .scope-container .button.width--full, body .scope-container button.button.width--full, body .scope-container .label--notification, body .scope-container .pagination__item a, body .scope-container #docs__grid .column--sm--1:before, body .scope-container #docs__grid .column--md--1:before, body .scope-container #docs__grid .column--lg--1:before, body .scope-container #docs__grid .column--sm--2:before, body .scope-container #docs__grid .column--md--2:before, body .scope-container #docs__grid .column--lg--2:before, body .scope-container #docs__grid .column--sm--3:before, body .scope-container #docs__grid .column--md--3:before, body .scope-container #docs__grid .column--lg--3:before, body .scope-container #docs__grid .column--sm--4:before, body .scope-container #docs__grid .column--md--4:before, body .scope-container #docs__grid .column--lg--4:before, body .scope-container #docs__grid .column--sm--5:before, body .scope-container #docs__grid .column--md--5:before, body .scope-container #docs__grid .column--lg--5:before, body .scope-container #docs__grid .column--sm--6:before, body .scope-container #docs__grid .column--md--6:before, body .scope-container #docs__grid .column--lg--6:before, body .scope-container #docs__grid .column--sm--7:before, body .scope-container #docs__grid .column--md--7:before, body .scope-container #docs__grid .column--lg--7:before, body .scope-container #docs__grid .column--sm--8:before, body .scope-container #docs__grid .column--md--8:before, body .scope-container #docs__grid .column--lg--8:before, body .scope-container #docs__grid .column--sm--9:before, body .scope-container #docs__grid .column--md--9:before, body .scope-container #docs__grid .column--lg--9:before, body .scope-container #docs__grid .column--sm--10:before, body .scope-container #docs__grid .column--md--10:before, body .scope-container #docs__grid .column--lg--10:before, body .scope-container #docs__grid .column--sm--11:before, body .scope-container #docs__grid .column--md--11:before, body .scope-container #docs__grid .column--lg--11:before, body .scope-container #docs__grid .column--sm--12:before, body .scope-container #docs__grid .column--md--12:before, body .scope-container #docs__grid .column--lg--12:before, body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x, body .scope-container .page-headline, body .scope-container .toc {
+.text-center, body .scope-container .button.width--full, body .scope-container .button.panel__bottom, body .scope-container .button.panel__component, body .scope-container button.button.width--full, body .scope-container button.button.panel__bottom, body .scope-container button.button.panel__component, body .scope-container .tile-container, body .scope-container .tile, body .scope-container .label--notification, body .scope-container .inline-list, body .scope-container .pagination__item a, body .scope-container #docs__grid .column--sm--1:before, body .scope-container #docs__grid .column--md--1:before, body .scope-container #docs__grid .column--lg--1:before, body .scope-container #docs__grid .column--sm--2:before, body .scope-container #docs__grid .column--md--2:before, body .scope-container #docs__grid .column--lg--2:before, body .scope-container #docs__grid .column--sm--3:before, body .scope-container #docs__grid .column--md--3:before, body .scope-container #docs__grid .column--lg--3:before, body .scope-container #docs__grid .column--sm--4:before, body .scope-container #docs__grid .column--md--4:before, body .scope-container #docs__grid .column--lg--4:before, body .scope-container #docs__grid .column--sm--5:before, body .scope-container #docs__grid .column--md--5:before, body .scope-container #docs__grid .column--lg--5:before, body .scope-container #docs__grid .column--sm--6:before, body .scope-container #docs__grid .column--md--6:before, body .scope-container #docs__grid .column--lg--6:before, body .scope-container #docs__grid .column--sm--7:before, body .scope-container #docs__grid .column--md--7:before, body .scope-container #docs__grid .column--lg--7:before, body .scope-container #docs__grid .column--sm--8:before, body .scope-container #docs__grid .column--md--8:before, body .scope-container #docs__grid .column--lg--8:before, body .scope-container #docs__grid .column--sm--9:before, body .scope-container #docs__grid .column--md--9:before, body .scope-container #docs__grid .column--lg--9:before, body .scope-container #docs__grid .column--sm--10:before, body .scope-container #docs__grid .column--md--10:before, body .scope-container #docs__grid .column--lg--10:before, body .scope-container #docs__grid .column--sm--11:before, body .scope-container #docs__grid .column--md--11:before, body .scope-container #docs__grid .column--lg--11:before, body .scope-container #docs__grid .column--sm--12:before, body .scope-container #docs__grid .column--md--12:before, body .scope-container #docs__grid .column--lg--12:before, body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x, body .scope-container .page-headline, body .scope-container .toc {
   text-align: center; }
 
 .vertical-align-top, body .scope-container .button-group {
@@ -255,39 +255,49 @@ body .scope-container #docs__grid .column--sm--1:before, body .scope-container #
   content: '';
   position: absolute; }
 
-.centered, body .scope-container .content, body .scope-container .content--full {
+.centered, body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small {
   float: none;
   margin-left: auto;
   margin-right: auto; }
 
-.left, body .scope-container .daterangepicker.opensleft .ranges, body .scope-container .daterangepicker.opensleft .calendar, body .scope-container .daterangepicker .ranges .ranges_inputs > div, body .scope-container .daterangepicker_start_input, body .scope-container .daterangepicker_end_input, body .scope-container .cancelBtn, body .scope-container .pagination__item a, body .scope-container .slider--horizontal .slider__selection {
+.left, body .scope-container .daterangepicker.opensleft .ranges, body .scope-container .daterangepicker.opensleft .calendar, body .scope-container .daterangepicker .ranges .ranges_inputs > div, body .scope-container .daterangepicker_start_input, body .scope-container .daterangepicker_end_input, body .scope-container .cancelBtn, body .scope-container .pagination__item a, body .scope-container .panel__bottom, body .scope-container .panel__component, body .scope-container .slider--horizontal .slider__selection {
   float: left; }
 
 .right, body .scope-container .daterangepicker.opensright .ranges, body .scope-container .daterangepicker.opensright .calendar, body .scope-container .daterangepicker.openscenter .ranges, body .scope-container .daterangepicker.openscenter .calendar, body .scope-container .applyBtn, body .scope-container .label--notification, body .scope-container .nav-bar__menu-toggle, body .scope-container .sort-arrow {
   float: right; }
 
-@media (min-width: 769px) {
+@media (min-width: 770px) {
   .right-left {
     float: right; } }
 
 .pointer, body .scope-container .button, body .scope-container button.button, body .scope-container .alert-close-x, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker .ranges li, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item a, body .scope-container .nav-bar__menu-toggle, body .scope-container .select-wrap .input__icon, body .scope-container .select-wrap select, body .scope-container table tbody tr:hover, body .scope-container .sort-arrow {
   cursor: pointer; }
 
-.relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .list-group__item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, .modal__body {
+.relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .list-group__item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, body .scope-container .sort-it, .modal__body {
   position: relative; }
 
-.absolute, body .scope-container .alert .close, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker, body .scope-container .daterangepicker.opensleft:before, body .scope-container .daterangepicker.opensleft:after, body .scope-container .daterangepicker.opensright:before, body .scope-container .daterangepicker.opensright:after, body .scope-container .daterangepicker.openscenter:before, body .scope-container .daterangepicker.openscenter:after, body .scope-container .input__icon, body .scope-container .panel__component > .close, body .scope-container .slider__handle, body .scope-container .tooltip, body .scope-container .tooltip-arrow, .modal__top .close, .modal-scrollbar-measure {
+.absolute, body .scope-container .alert .close, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker, body .scope-container .daterangepicker.opensleft:before, body .scope-container .daterangepicker.opensleft:after, body .scope-container .daterangepicker.opensright:before, body .scope-container .daterangepicker.opensright:after, body .scope-container .daterangepicker.openscenter:before, body .scope-container .daterangepicker.openscenter:after, body .scope-container .input__icon, body .scope-container .panel__component > .close, body .scope-container .slider__handle, body .scope-container .sort-arrow, body .scope-container .tooltip, body .scope-container .tooltip-arrow, .modal__top .close, .modal-scrollbar-measure {
+  position: absolute; }
+
+.fixed, body .scope-container .button.button--action, body .scope-container button.button--action {
   position: absolute; }
 
 .text-underline {
   text-decoration: underline; }
 
-@media (min-width: 1px) and (max-width: 768px) {
+@media (min-width: 1px) and (max-width: 769px) {
   .text-right-left {
     text-align: left; } }
-@media (min-width: 769px) {
+@media (min-width: 770px) {
   .text-right-left {
     text-align: right; } }
+
+@media (min-width: 1px) and (max-width: 769px) {
+  .text-center-left {
+    text-align: left; } }
+@media (min-width: 770px) {
+  .text-center-left {
+    text-align: center; } }
 
 body .scope-container body, body .scope-container h1, body .scope-container h2, body .scope-container h3, body .scope-container h4, body .scope-container h5, body .scope-container h6, body {
   line-height: 1.5; }
@@ -301,7 +311,7 @@ body .scope-container body, body .scope-container h1, body .scope-container h2, 
 body .scope-container *, *, body .scope-container .alert .close, body .scope-container .select-wrap select {
   outline: none; }
 
-.dots, body .scope-container .dropdown-menu__list-item a, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .list-group__item, body .scope-container .list-group__item a {
+.dots, body .scope-container .dropdown-menu__list-item a, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .tile__title, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .panel__subheading {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
@@ -310,21 +320,21 @@ body .scope-container .panel__sidebar {
   overflow: scroll;
   -webkit-overflow-scrolling: touch; }
 
+body .scope-container .panel__box {
+  overflow: hidden; }
+
 .list-style-type-none, body .scope-container .dropdown-menu, body .scope-container .list-group, body .scope-container .panel__sidebar__list-group, body .scope-container .inline-list, body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left, body .scope-container .pagination, body .scope-container .toc {
   list-style-type: none;
   padding: 0; }
 
-.block, body .scope-container .button-group .button, body .scope-container .button-group--collapse .button, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .daterangepicker.show-calendar .calendar, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .nav-bar__list--item a, .appendage--open body .scope-container .nav-bar__appendage {
+.block, body .scope-container .button-group .button, body .scope-container .button-group--collapse .button, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .daterangepicker.show-calendar .calendar, body .scope-container .tile, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .nav-bar__list--item a, .appendage--open body .scope-container .nav-bar__appendage, body .scope-container .appendage--open .nav-bar__appendage {
   display: block; }
 
-.inline-block, body .scope-container .button-group, body .scope-container .label, body .scope-container .inline-list__item {
+.inline-block, body .scope-container .button-group, body .scope-container .tile-container, body .scope-container .label, body .scope-container .inline-list__item {
   display: inline-block; }
 
 .inline, body .scope-container .pagination, body .scope-container .pagination__item {
   display: inline; }
-
-.hide, body .scope-container .datepicker > div, body .scope-container .code-container {
-  display: none; }
 
 .table {
   display: table; }
@@ -354,23 +364,23 @@ body .scope-container .panel__sidebar {
     display: block; } }
 .show-brkpoint--sm--only {
   display: none; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     .show-brkpoint--sm--only {
       display: block; } }
 
-@media (min-width: 1px) and (max-width: 768px) {
+@media (min-width: 1px) and (max-width: 769px) {
   .show-brkpoint--md {
     display: none; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .show-brkpoint--md {
     display: block; } }
 .show-brkpoint--md--only {
   display: none; }
-  @media (min-width: 768px) and (max-width: 1100px) {
+  @media (min-width: 769px) and (max-width: 1100px) {
     .show-brkpoint--md--only {
       display: block; } }
 
-@media (min-width: 768px) and (max-width: 1100px) {
+@media (min-width: 769px) and (max-width: 1100px) {
   .show-brkpoint--lg {
     display: none; } }
 @media (min-width: 1100px) {
@@ -382,8 +392,64 @@ body .scope-container .panel__sidebar {
     .show-brkpoint--lg--only {
       display: block; } }
 
-.width--full {
+.hide, body .scope-container .datepicker > div, body .scope-container .code-container {
+  display: none; }
+  @media (min-width: 1px) and (max-width: 769px) {
+    .hide-brkpoint--sm {
+      display: none; } }
+  @media (min-width: 769px) and (max-width: 1100px) {
+    .hide-brkpoint--md {
+      display: none; } }
+  @media (min-width: 1100px) {
+    .hide-brkpoint--lg {
+      display: none; } }
+
+.width--full, body .scope-container .panel__bottom, body .scope-container .panel__component {
   width: 100%; }
+
+.top-cap {
+  -webkit-border-top-left-radius: 4px !important;
+  -ms-border-top-left-radius: 4px !important;
+  -moz-border-top-left-radius: 4px !important;
+  -o-border-top-left-radius: 4px !important;
+  border-top-left-radius: 4px !important;
+  -webkit-border-top-right-radius: 4px !important;
+  -ms-border-top-right-radius: 4px !important;
+  -moz-border-top-right-radius: 4px !important;
+  -o-border-top-right-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+  -webkit-border-bottom-left-radius: 0 !important;
+  -ms-border-bottom-left-radius: 0 !important;
+  -moz-border-bottom-left-radius: 0 !important;
+  -o-border-bottom-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  -webkit-border-bottom-right-radius: 0 !important;
+  -ms-border-bottom-right-radius: 0 !important;
+  -moz-border-bottom-right-radius: 0 !important;
+  -o-border-bottom-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important; }
+
+.bottom-cap {
+  -webkit-border-bottom-left-radius: 4px !important;
+  -ms-border-bottom-left-radius: 4px !important;
+  -moz-border-bottom-left-radius: 4px !important;
+  -o-border-bottom-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+  -webkit-border-bottom-right-radius: 4px !important;
+  -ms-border-bottom-right-radius: 4px !important;
+  -moz-border-bottom-right-radius: 4px !important;
+  -o-border-bottom-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  -webkit-border-top-left-radius: 0 !important;
+  -ms-border-top-left-radius: 0 !important;
+  -moz-border-top-left-radius: 0 !important;
+  -o-border-top-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  -webkit-border-top-right-radius: 0 !important;
+  -ms-border-top-right-radius: 0 !important;
+  -moz-border-top-right-radius: 0 !important;
+  -o-border-top-right-radius: 0 !important;
+  border-top-right-radius: 0 !important; }
 
 body .scope-container * {
   -moz-box-sizing: border-box;
@@ -632,73 +698,73 @@ body .scope-container [class^="column--"] {
     width: 100%;
     float: left;
     min-height: 1px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--1 {
     width: 8.33333%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--2 {
     width: 16.66667%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--3 {
     width: 25%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--4 {
     width: 33.33333%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--5 {
     width: 41.66667%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--6 {
     width: 50%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--7 {
     width: 58.33333%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--8 {
     width: 66.66667%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--9 {
     width: 75%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--10 {
     width: 83.33333%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--11 {
     width: 91.66667%;
     float: left;
     min-height: 1px;
     padding: 0 16px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .column--md--12 {
     width: 100%;
     float: left;
@@ -766,138 +832,137 @@ body .scope-container [class^="column--"] {
     min-height: 1px; } }
 body .scope-container .right--1 {
   left: 8.33333%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--1 {
       left: auto; } }
 body .scope-container .left--1 {
   right: 8.33333%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--1 {
       right: auto; } }
 body .scope-container .right--2 {
   left: 16.66667%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--2 {
       left: auto; } }
 body .scope-container .left--2 {
   right: 16.66667%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--2 {
       right: auto; } }
 body .scope-container .right--3 {
   left: 25%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--3 {
       left: auto; } }
 body .scope-container .left--3 {
   right: 25%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--3 {
       right: auto; } }
 body .scope-container .right--4 {
   left: 33.33333%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--4 {
       left: auto; } }
 body .scope-container .left--4 {
   right: 33.33333%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--4 {
       right: auto; } }
 body .scope-container .right--5 {
   left: 41.66667%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--5 {
       left: auto; } }
 body .scope-container .left--5 {
   right: 41.66667%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--5 {
       right: auto; } }
 body .scope-container .right--6 {
   left: 50%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--6 {
       left: auto; } }
 body .scope-container .left--6 {
   right: 50%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--6 {
       right: auto; } }
 body .scope-container .right--7 {
   left: 58.33333%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--7 {
       left: auto; } }
 body .scope-container .left--7 {
   right: 58.33333%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--7 {
       right: auto; } }
 body .scope-container .right--8 {
   left: 66.66667%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--8 {
       left: auto; } }
 body .scope-container .left--8 {
   right: 66.66667%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--8 {
       right: auto; } }
 body .scope-container .right--9 {
   left: 75%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--9 {
       left: auto; } }
 body .scope-container .left--9 {
   right: 75%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--9 {
       right: auto; } }
 body .scope-container .right--10 {
   left: 83.33333%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--10 {
       left: auto; } }
 body .scope-container .left--10 {
   right: 83.33333%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--10 {
       right: auto; } }
 body .scope-container .right--11 {
   left: 91.66667%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--11 {
       left: auto; } }
 body .scope-container .left--11 {
   right: 91.66667%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--11 {
       right: auto; } }
 body .scope-container .right--12 {
   left: 100%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .right--12 {
       left: auto; } }
 body .scope-container .left--12 {
   right: 100%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--12 {
       right: auto; } }
-body .scope-container .content, body .scope-container .content--full {
+body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small {
   padding: 0 16px; }
   @media (min-width: 1px) and (max-width: 768px) {
-    body .scope-container .content, body .scope-container .content--full {
+    body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small {
       max-width: 100%; } }
   @media (min-width: 769px) {
-    body .scope-container .content, body .scope-container .content--full {
+    body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small {
       max-width: 1000px;
       min-height: 1px; } }
   body .scope-container .content--full {
     max-width: 100%; }
-  @media (min-width: 769px) {
-    body .scope-container .content--small {
-      max-width: 400px; } }
+  body .scope-container .content--small {
+    max-width: 324px; }
 body .scope-container .row {
   margin-left: -16px;
   margin-right: -16px; }
@@ -965,11 +1030,11 @@ body .scope-container .has-error input[type="text"], body .scope-container .has-
   -moz-transition: background-color 0.2s ease;
   -o-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px; }
+  -webkit-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -o-border-radius: 4px ;
+  border-radius: 4px ; }
   body .scope-container input[type="text"]:focus, body .scope-container input[type="password"]:focus, body .scope-container input[type="number"]:focus, body .scope-container input[type="email"]:focus, body .scope-container textarea:focus {
     background-color: #fff; }
   body .scope-container input[type="text"]:-moz-placeholder, body .scope-container input[type="password"]:-moz-placeholder, body .scope-container input[type="number"]:-moz-placeholder, body .scope-container input[type="email"]:-moz-placeholder, body .scope-container textarea:-moz-placeholder {
@@ -984,16 +1049,16 @@ body .scope-container .has-error input[type="text"], body .scope-container .has-
 body .scope-container .has-error input[type="text"], body .scope-container .has-error input[type="password"], body .scope-container .has-error input[type="number"], body .scope-container .has-error input[type="email"], body .scope-container .has-error textarea, body .scope-container .has-error .select-wrap {
   border-color: #dca6a1;
   background-color: #f8eceb;
-  -webkit-border-bottom-left-radius: 0;
-  -ms-border-bottom-left-radius: 0;
-  -moz-border-bottom-left-radius: 0;
-  -o-border-bottom-left-radius: 0;
-  border-bottom-left-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -ms-border-bottom-right-radius: 0;
-  -moz-border-bottom-right-radius: 0;
-  -o-border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  -webkit-border-bottom-left-radius: 0 ;
+  -ms-border-bottom-left-radius: 0 ;
+  -moz-border-bottom-left-radius: 0 ;
+  -o-border-bottom-left-radius: 0 ;
+  border-bottom-left-radius: 0 ;
+  -webkit-border-bottom-right-radius: 0 ;
+  -ms-border-bottom-right-radius: 0 ;
+  -moz-border-bottom-right-radius: 0 ;
+  -o-border-bottom-right-radius: 0 ;
+  border-bottom-right-radius: 0 ; }
 
 body .scope-container .input__wrap.has-icon--right .input__icon, body .scope-container .list-group__item.has-icon--right .input__icon {
   right: 0; }
@@ -1024,11 +1089,11 @@ body .scope-container {
    * Built for http://www.improvely.com
    */ }
   body .scope-container .alert {
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ;
     background-color: #fff;
     border-width: 0px;
     border-style: solid;
@@ -1135,11 +1200,11 @@ body .scope-container {
     margin: 1px 0 0 0;
     z-index: 3;
     overflow: hidden;
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px; }
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ; }
     @media (min-width: 1px) and (max-width: 768px) {
       body .scope-container .dropdown-menu {
         max-width: 100%; } }
@@ -1173,33 +1238,33 @@ body .scope-container {
     z-index: 1;
     margin: 0;
     float: left;
-    -webkit-border-radius: 0;
-    -ms-border-radius: 0;
-    -moz-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0; }
+    -webkit-border-radius: 0 ;
+    -ms-border-radius: 0 ;
+    -moz-border-radius: 0 ;
+    -o-border-radius: 0 ;
+    border-radius: 0 ; }
     body .scope-container .button-group .button:first-of-type {
-      -webkit-border-top-left-radius: 4px;
-      -ms-border-top-left-radius: 4px;
-      -moz-border-top-left-radius: 4px;
-      -o-border-top-left-radius: 4px;
-      border-top-left-radius: 4px;
-      -webkit-border-bottom-left-radius: 4px;
-      -ms-border-bottom-left-radius: 4px;
-      -moz-border-bottom-left-radius: 4px;
-      -o-border-bottom-left-radius: 4px;
-      border-bottom-left-radius: 4px; }
+      -webkit-border-top-left-radius: 4px ;
+      -ms-border-top-left-radius: 4px ;
+      -moz-border-top-left-radius: 4px ;
+      -o-border-top-left-radius: 4px ;
+      border-top-left-radius: 4px ;
+      -webkit-border-bottom-left-radius: 4px ;
+      -ms-border-bottom-left-radius: 4px ;
+      -moz-border-bottom-left-radius: 4px ;
+      -o-border-bottom-left-radius: 4px ;
+      border-bottom-left-radius: 4px ; }
     body .scope-container .button-group .button:last-of-type {
-      -webkit-border-top-right-radius: 4px;
-      -ms-border-top-right-radius: 4px;
-      -moz-border-top-right-radius: 4px;
-      -o-border-top-right-radius: 4px;
-      border-top-right-radius: 4px;
-      -webkit-border-bottom-right-radius: 4px;
-      -ms-border-bottom-right-radius: 4px;
-      -moz-border-bottom-right-radius: 4px;
-      -o-border-bottom-right-radius: 4px;
-      border-bottom-right-radius: 4px; }
+      -webkit-border-top-right-radius: 4px ;
+      -ms-border-top-right-radius: 4px ;
+      -moz-border-top-right-radius: 4px ;
+      -o-border-top-right-radius: 4px ;
+      border-top-right-radius: 4px ;
+      -webkit-border-bottom-right-radius: 4px ;
+      -ms-border-bottom-right-radius: 4px ;
+      -moz-border-bottom-right-radius: 4px ;
+      -o-border-bottom-right-radius: 4px ;
+      border-bottom-right-radius: 4px ; }
     body .scope-container .button-group .button--ghost {
       margin-left: -1px; }
     body .scope-container .button-group .button--ghost:first-of-type {
@@ -1208,11 +1273,11 @@ body .scope-container {
       z-index: 2; }
   body .scope-container .button-group--collapse .button {
     z-index: 1;
-    -webkit-border-radius: 0;
-    -ms-border-radius: 0;
-    -moz-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0; }
+    -webkit-border-radius: 0 ;
+    -ms-border-radius: 0 ;
+    -moz-border-radius: 0 ;
+    -o-border-radius: 0 ;
+    border-radius: 0 ; }
     body .scope-container .button-group--collapse .button:hover {
       z-index: 2; }
     @media (min-width: 1px) and (max-width: 768px) {
@@ -1221,53 +1286,53 @@ body .scope-container {
       body .scope-container .button-group--collapse .button--ghost:first-of-type {
         margin-top: 0px; }
       body .scope-container .button-group--collapse .button:first-of-type {
-        -webkit-border-top-left-radius: 4px;
-        -ms-border-top-left-radius: 4px;
-        -moz-border-top-left-radius: 4px;
-        -o-border-top-left-radius: 4px;
-        border-top-left-radius: 4px;
-        -webkit-border-top-right-radius: 4px;
-        -ms-border-top-right-radius: 4px;
-        -moz-border-top-right-radius: 4px;
-        -o-border-top-right-radius: 4px;
-        border-top-right-radius: 4px; }
+        -webkit-border-top-left-radius: 4px ;
+        -ms-border-top-left-radius: 4px ;
+        -moz-border-top-left-radius: 4px ;
+        -o-border-top-left-radius: 4px ;
+        border-top-left-radius: 4px ;
+        -webkit-border-top-right-radius: 4px ;
+        -ms-border-top-right-radius: 4px ;
+        -moz-border-top-right-radius: 4px ;
+        -o-border-top-right-radius: 4px ;
+        border-top-right-radius: 4px ; }
       body .scope-container .button-group--collapse .button:last-child {
-        -webkit-border-bottom-left-radius: 4px;
-        -ms-border-bottom-left-radius: 4px;
-        -moz-border-bottom-left-radius: 4px;
-        -o-border-bottom-left-radius: 4px;
-        border-bottom-left-radius: 4px;
-        -webkit-border-bottom-right-radius: 4px;
-        -ms-border-bottom-right-radius: 4px;
-        -moz-border-bottom-right-radius: 4px;
-        -o-border-bottom-right-radius: 4px;
-        border-bottom-right-radius: 4px; } }
+        -webkit-border-bottom-left-radius: 4px ;
+        -ms-border-bottom-left-radius: 4px ;
+        -moz-border-bottom-left-radius: 4px ;
+        -o-border-bottom-left-radius: 4px ;
+        border-bottom-left-radius: 4px ;
+        -webkit-border-bottom-right-radius: 4px ;
+        -ms-border-bottom-right-radius: 4px ;
+        -moz-border-bottom-right-radius: 4px ;
+        -o-border-bottom-right-radius: 4px ;
+        border-bottom-right-radius: 4px ; } }
     @media (min-width: 769px) {
       body .scope-container .button-group--collapse .button {
         margin: 0;
         float: left; }
         body .scope-container .button-group--collapse .button:first-of-type {
-          -webkit-border-top-left-radius: 4px;
-          -ms-border-top-left-radius: 4px;
-          -moz-border-top-left-radius: 4px;
-          -o-border-top-left-radius: 4px;
-          border-top-left-radius: 4px;
-          -webkit-border-bottom-left-radius: 4px;
-          -ms-border-bottom-left-radius: 4px;
-          -moz-border-bottom-left-radius: 4px;
-          -o-border-bottom-left-radius: 4px;
-          border-bottom-left-radius: 4px; }
+          -webkit-border-top-left-radius: 4px ;
+          -ms-border-top-left-radius: 4px ;
+          -moz-border-top-left-radius: 4px ;
+          -o-border-top-left-radius: 4px ;
+          border-top-left-radius: 4px ;
+          -webkit-border-bottom-left-radius: 4px ;
+          -ms-border-bottom-left-radius: 4px ;
+          -moz-border-bottom-left-radius: 4px ;
+          -o-border-bottom-left-radius: 4px ;
+          border-bottom-left-radius: 4px ; }
         body .scope-container .button-group--collapse .button:last-of-type {
-          -webkit-border-top-right-radius: 4px;
-          -ms-border-top-right-radius: 4px;
-          -moz-border-top-right-radius: 4px;
-          -o-border-top-right-radius: 4px;
-          border-top-right-radius: 4px;
-          -webkit-border-bottom-right-radius: 4px;
-          -ms-border-bottom-right-radius: 4px;
-          -moz-border-bottom-right-radius: 4px;
-          -o-border-bottom-right-radius: 4px;
-          border-bottom-right-radius: 4px; }
+          -webkit-border-top-right-radius: 4px ;
+          -ms-border-top-right-radius: 4px ;
+          -moz-border-top-right-radius: 4px ;
+          -o-border-top-right-radius: 4px ;
+          border-top-right-radius: 4px ;
+          -webkit-border-bottom-right-radius: 4px ;
+          -ms-border-bottom-right-radius: 4px ;
+          -moz-border-bottom-right-radius: 4px ;
+          -o-border-bottom-right-radius: 4px ;
+          border-bottom-right-radius: 4px ; }
         body .scope-container .button-group--collapse .button--ghost {
           margin-left: -1px; }
         body .scope-container .button-group--collapse .button--ghost:first-of-type {
@@ -1443,12 +1508,33 @@ body .scope-container {
       border-left-color: #2db6b9; }
   body .scope-container .button--full, body .scope-container button.button--full {
     width: 100%; }
+  body .scope-container .button.button--action, body .scope-container button.button--action {
+    width: 64px;
+    height: 64px;
+    font-size: 150%;
+    bottom: 16px;
+    padding: 16px;
+    right: 16px; }
+    body .scope-container .button.button--action .juicon, body .scope-container .button.button--action .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close .button.button--action .component-remove-x, body .scope-container .button.button--action .close-modal-x, body .scope-container button.button--action .juicon, body .scope-container button.button--action .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close button.button--action .component-remove-x, body .scope-container button.button--action .close-modal-x {
+      display: inline-block;
+      -webkit-transition: 0.5s cubic-bezier(0.165, 0.775, 0.145, 1.02);
+      -moz-transition: 0.5s cubic-bezier(0.165, 0.775, 0.145, 1.02);
+      -o-transition: 0.5s cubic-bezier(0.165, 0.775, 0.145, 1.02);
+      transition: 0.5s cubic-bezier(0.165, 0.775, 0.145, 1.02);
+      position: relative;
+      z-index: 1024; }
+  body .scope-container .modal-open .button.button--action .juicon-plus, body .scope-container .modal-open button.button--action .juicon-plus {
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Opera, Chrome, and Safari */ }
   body .scope-container .card {
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ;
     background-color: #fff;
     border: 1px solid #f0f1f2;
     padding: 16px;
@@ -1485,7 +1571,7 @@ body .scope-container {
     left: 0;
     margin-top: 1px;
     border: 0px solid #dadee2; }
-    @media (min-width: 1px) and (max-width: 768px) {
+    @media (min-width: 1px) and (max-width: 769px) {
       body .scope-container .datepicker.dropdown-menu {
         width: 100%;
         left: 0 !important; } }
@@ -1559,11 +1645,11 @@ body .scope-container {
     width: 16px;
     height: 16px; }
   body .scope-container .daterangepicker {
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ;
     background: #fff;
     top: 100px;
     left: 0px;
@@ -1644,11 +1730,11 @@ body .scope-container {
       body .scope-container .daterangepicker .ranges .input-mini {
         margin-bottom: 8px; }
       body .scope-container .daterangepicker .ranges ul {
-        -webkit-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px;
+        -webkit-border-radius: 4px ;
+        -ms-border-radius: 4px ;
+        -moz-border-radius: 4px ;
+        -o-border-radius: 4px ;
+        border-radius: 4px ;
         list-style: none;
         margin: 0;
         margin-bottom: 4px;
@@ -1663,29 +1749,29 @@ body .scope-container {
         body .scope-container .daterangepicker .ranges li:hover {
           background: #f5f6f7; }
         body .scope-container .daterangepicker .ranges li:first-child {
-          -webkit-border-top-left-radius: 4px;
-          -ms-border-top-left-radius: 4px;
-          -moz-border-top-left-radius: 4px;
-          -o-border-top-left-radius: 4px;
-          border-top-left-radius: 4px;
-          -webkit-border-top-right-radius: 4px;
-          -ms-border-top-right-radius: 4px;
-          -moz-border-top-right-radius: 4px;
-          -o-border-top-right-radius: 4px;
-          border-top-right-radius: 4px; }
+          -webkit-border-top-left-radius: 4px ;
+          -ms-border-top-left-radius: 4px ;
+          -moz-border-top-left-radius: 4px ;
+          -o-border-top-left-radius: 4px ;
+          border-top-left-radius: 4px ;
+          -webkit-border-top-right-radius: 4px ;
+          -ms-border-top-right-radius: 4px ;
+          -moz-border-top-right-radius: 4px ;
+          -o-border-top-right-radius: 4px ;
+          border-top-right-radius: 4px ; }
         body .scope-container .daterangepicker .ranges li:last-child {
-          -webkit-border-bottom-left-radius: 4px;
-          -ms-border-bottom-left-radius: 4px;
-          -moz-border-bottom-left-radius: 4px;
-          -o-border-bottom-left-radius: 4px;
-          border-bottom-left-radius: 4px;
-          -webkit-border-bottom-right-radius: 4px;
-          -ms-border-bottom-right-radius: 4px;
-          -moz-border-bottom-right-radius: 4px;
-          -o-border-bottom-right-radius: 4px;
-          border-bottom-right-radius: 4px;
+          -webkit-border-bottom-left-radius: 4px ;
+          -ms-border-bottom-left-radius: 4px ;
+          -moz-border-bottom-left-radius: 4px ;
+          -o-border-bottom-left-radius: 4px ;
+          border-bottom-left-radius: 4px ;
+          -webkit-border-bottom-right-radius: 4px ;
+          -ms-border-bottom-right-radius: 4px ;
+          -moz-border-bottom-right-radius: 4px ;
+          -o-border-bottom-right-radius: 4px ;
+          border-bottom-right-radius: 4px ;
           border: 0; }
-      @media (min-width: 1px) and (max-width: 768px) {
+      @media (min-width: 1px) and (max-width: 769px) {
         body .scope-container .daterangepicker .ranges {
           max-width: none; } }
     body .scope-container .daterangepicker .calendar {
@@ -1695,7 +1781,7 @@ body .scope-container {
       body .scope-container .daterangepicker .calendar th, body .scope-container .daterangepicker .calendar td {
         text-align: center;
         min-width: 32px; }
-      @media (min-width: 1px) and (max-width: 768px) {
+      @media (min-width: 1px) and (max-width: 769px) {
         body .scope-container .daterangepicker .calendar {
           float: none !important; } }
     body .scope-container .daterangepicker .calendar-date {
@@ -1771,16 +1857,16 @@ body .scope-container {
     color: #fff;
     background-color: #c06057;
     display: none;
-    -webkit-border-bottom-left-radius: 4px;
-    -ms-border-bottom-left-radius: 4px;
-    -moz-border-bottom-left-radius: 4px;
-    -o-border-bottom-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    -webkit-border-bottom-right-radius: 4px;
-    -ms-border-bottom-right-radius: 4px;
-    -moz-border-bottom-right-radius: 4px;
-    -o-border-bottom-right-radius: 4px;
-    border-bottom-right-radius: 4px; }
+    -webkit-border-bottom-left-radius: 4px ;
+    -ms-border-bottom-left-radius: 4px ;
+    -moz-border-bottom-left-radius: 4px ;
+    -o-border-bottom-left-radius: 4px ;
+    border-bottom-left-radius: 4px ;
+    -webkit-border-bottom-right-radius: 4px ;
+    -ms-border-bottom-right-radius: 4px ;
+    -moz-border-bottom-right-radius: 4px ;
+    -o-border-bottom-right-radius: 4px ;
+    border-bottom-right-radius: 4px ; }
   body .scope-container .has-error input[type="text"], body .scope-container .has-error input[type="password"], body .scope-container .has-error input[type="number"], body .scope-container .has-error input[type="email"] {
     height: 40px; }
   body .scope-container .has-error .input-error-content {
@@ -1790,62 +1876,62 @@ body .scope-container {
   body .scope-container .has-error input[type=checkbox], body .scope-container .has-error input[type=radio] {
     border-color: #dca6a1;
     background-color: #f8eceb; }
-  @media (min-width: 769px) {
+  @media (min-width: 770px) {
     body .scope-container .has-error .input__group > [class^="column--"]:first-child > * {
-      -webkit-border-bottom-left-radius: 0;
-      -ms-border-bottom-left-radius: 0;
-      -moz-border-bottom-left-radius: 0;
-      -o-border-bottom-left-radius: 0;
-      border-bottom-left-radius: 0;
-      -webkit-border-bottom-right-radius: 0;
-      -ms-border-bottom-right-radius: 0;
-      -moz-border-bottom-right-radius: 0;
-      -o-border-bottom-right-radius: 0;
-      border-bottom-right-radius: 0;
-      -webkit-border-top-right-radius: 0;
-      -ms-border-top-right-radius: 0;
-      -moz-border-top-right-radius: 0;
-      -o-border-top-right-radius: 0;
-      border-top-right-radius: 0;
-      -webkit-border-bottom-right-radius: 0;
-      -ms-border-bottom-right-radius: 0;
-      -moz-border-bottom-right-radius: 0;
-      -o-border-bottom-right-radius: 0;
-      border-bottom-right-radius: 0; }
+      -webkit-border-bottom-left-radius: 0 ;
+      -ms-border-bottom-left-radius: 0 ;
+      -moz-border-bottom-left-radius: 0 ;
+      -o-border-bottom-left-radius: 0 ;
+      border-bottom-left-radius: 0 ;
+      -webkit-border-bottom-right-radius: 0 ;
+      -ms-border-bottom-right-radius: 0 ;
+      -moz-border-bottom-right-radius: 0 ;
+      -o-border-bottom-right-radius: 0 ;
+      border-bottom-right-radius: 0 ;
+      -webkit-border-top-right-radius: 0 ;
+      -ms-border-top-right-radius: 0 ;
+      -moz-border-top-right-radius: 0 ;
+      -o-border-top-right-radius: 0 ;
+      border-top-right-radius: 0 ;
+      -webkit-border-bottom-right-radius: 0 ;
+      -ms-border-bottom-right-radius: 0 ;
+      -moz-border-bottom-right-radius: 0 ;
+      -o-border-bottom-right-radius: 0 ;
+      border-bottom-right-radius: 0 ; }
     body .scope-container .has-error .input__group > [class^="column--"]:last-child > * {
-      -webkit-border-bottom-left-radius: 0;
-      -ms-border-bottom-left-radius: 0;
-      -moz-border-bottom-left-radius: 0;
-      -o-border-bottom-left-radius: 0;
-      border-bottom-left-radius: 0;
-      -webkit-border-bottom-right-radius: 0;
-      -ms-border-bottom-right-radius: 0;
-      -moz-border-bottom-right-radius: 0;
-      -o-border-bottom-right-radius: 0;
-      border-bottom-right-radius: 0;
-      -webkit-border-top-left-radius: 0;
-      -ms-border-top-left-radius: 0;
-      -moz-border-top-left-radius: 0;
-      -o-border-top-left-radius: 0;
-      border-top-left-radius: 0;
-      -webkit-border-bottom-left-radius: 0;
-      -ms-border-bottom-left-radius: 0;
-      -moz-border-bottom-left-radius: 0;
-      -o-border-bottom-left-radius: 0;
-      border-bottom-left-radius: 0; } }
+      -webkit-border-bottom-left-radius: 0 ;
+      -ms-border-bottom-left-radius: 0 ;
+      -moz-border-bottom-left-radius: 0 ;
+      -o-border-bottom-left-radius: 0 ;
+      border-bottom-left-radius: 0 ;
+      -webkit-border-bottom-right-radius: 0 ;
+      -ms-border-bottom-right-radius: 0 ;
+      -moz-border-bottom-right-radius: 0 ;
+      -o-border-bottom-right-radius: 0 ;
+      border-bottom-right-radius: 0 ;
+      -webkit-border-top-left-radius: 0 ;
+      -ms-border-top-left-radius: 0 ;
+      -moz-border-top-left-radius: 0 ;
+      -o-border-top-left-radius: 0 ;
+      border-top-left-radius: 0 ;
+      -webkit-border-bottom-left-radius: 0 ;
+      -ms-border-bottom-left-radius: 0 ;
+      -moz-border-bottom-left-radius: 0 ;
+      -o-border-bottom-left-radius: 0 ;
+      border-bottom-left-radius: 0 ; } }
   body .scope-container .form__group {
     margin-bottom: 1rem; }
-    body .scope-container .form__group:last-child {
-      margin-bottom: 0; }
   body .scope-container form .form__group {
     margin-bottom: 1rem; }
-    body .scope-container form .form__group:last-child {
-      margin-bottom: 0; }
   body .scope-container input[type="text"], body .scope-container input[type="password"], body .scope-container input[type="number"], body .scope-container input[type="email"] {
-    height: 40px; }
+    height: 40px;
+    -webkit-appearance: none; }
+  body .scope-container input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset; }
   body .scope-container textarea {
     resize: vertical;
-    height: 96px; }
+    height: 96px;
+    -webkit-appearance: none; }
   body .scope-container input[type="file"] {
     font-size: .875rem;
     color: rgba(104, 108, 112, 0.5);
@@ -1874,11 +1960,11 @@ body .scope-container {
       box-shadow: none;
       border: 1px solid transparent; }
   body .scope-container input[type=checkbox] {
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px; }
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ; }
     body .scope-container input[type=checkbox]:checked:after {
       display: block;
       position: relative;
@@ -1915,64 +2001,64 @@ body .scope-container {
     z-index: 1;
     color: #9faab5; }
   body .scope-container .input__group > [class^="column--"] > * {
-    -webkit-border-radius: 0;
-    -ms-border-radius: 0;
-    -moz-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0;
+    -webkit-border-radius: 0 ;
+    -ms-border-radius: 0 ;
+    -moz-border-radius: 0 ;
+    -o-border-radius: 0 ;
+    border-radius: 0 ;
     width: 100%; }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .input__group > [class^="column--"]:first-child > * {
-      -webkit-border-top-left-radius: 4px;
-      -ms-border-top-left-radius: 4px;
-      -moz-border-top-left-radius: 4px;
-      -o-border-top-left-radius: 4px;
-      border-top-left-radius: 4px;
-      -webkit-border-top-right-radius: 4px;
-      -ms-border-top-right-radius: 4px;
-      -moz-border-top-right-radius: 4px;
-      -o-border-top-right-radius: 4px;
-      border-top-right-radius: 4px; }
+      -webkit-border-top-left-radius: 4px ;
+      -ms-border-top-left-radius: 4px ;
+      -moz-border-top-left-radius: 4px ;
+      -o-border-top-left-radius: 4px ;
+      border-top-left-radius: 4px ;
+      -webkit-border-top-right-radius: 4px ;
+      -ms-border-top-right-radius: 4px ;
+      -moz-border-top-right-radius: 4px ;
+      -o-border-top-right-radius: 4px ;
+      border-top-right-radius: 4px ; }
     body .scope-container .input__group > [class^="column--"]:last-child > * {
-      -webkit-border-bottom-left-radius: 4px;
-      -ms-border-bottom-left-radius: 4px;
-      -moz-border-bottom-left-radius: 4px;
-      -o-border-bottom-left-radius: 4px;
-      border-bottom-left-radius: 4px;
-      -webkit-border-bottom-right-radius: 4px;
-      -ms-border-bottom-right-radius: 4px;
-      -moz-border-bottom-right-radius: 4px;
-      -o-border-bottom-right-radius: 4px;
-      border-bottom-right-radius: 4px; } }
-  @media (min-width: 769px) {
+      -webkit-border-bottom-left-radius: 4px ;
+      -ms-border-bottom-left-radius: 4px ;
+      -moz-border-bottom-left-radius: 4px ;
+      -o-border-bottom-left-radius: 4px ;
+      border-bottom-left-radius: 4px ;
+      -webkit-border-bottom-right-radius: 4px ;
+      -ms-border-bottom-right-radius: 4px ;
+      -moz-border-bottom-right-radius: 4px ;
+      -o-border-bottom-right-radius: 4px ;
+      border-bottom-right-radius: 4px ; } }
+  @media (min-width: 770px) {
     body .scope-container .input__group > [class^="column--"] {
       padding: 0; }
       body .scope-container .input__group > [class^="column--"]:first-child {
         padding-left: 16px; }
         body .scope-container .input__group > [class^="column--"]:first-child > * {
-          -webkit-border-top-left-radius: 4px;
-          -ms-border-top-left-radius: 4px;
-          -moz-border-top-left-radius: 4px;
-          -o-border-top-left-radius: 4px;
-          border-top-left-radius: 4px;
-          -webkit-border-bottom-left-radius: 4px;
-          -ms-border-bottom-left-radius: 4px;
-          -moz-border-bottom-left-radius: 4px;
-          -o-border-bottom-left-radius: 4px;
-          border-bottom-left-radius: 4px; }
+          -webkit-border-top-left-radius: 4px ;
+          -ms-border-top-left-radius: 4px ;
+          -moz-border-top-left-radius: 4px ;
+          -o-border-top-left-radius: 4px ;
+          border-top-left-radius: 4px ;
+          -webkit-border-bottom-left-radius: 4px ;
+          -ms-border-bottom-left-radius: 4px ;
+          -moz-border-bottom-left-radius: 4px ;
+          -o-border-bottom-left-radius: 4px ;
+          border-bottom-left-radius: 4px ; }
       body .scope-container .input__group > [class^="column--"]:last-child {
         padding-right: 16px; }
         body .scope-container .input__group > [class^="column--"]:last-child > * {
-          -webkit-border-top-right-radius: 4px;
-          -ms-border-top-right-radius: 4px;
-          -moz-border-top-right-radius: 4px;
-          -o-border-top-right-radius: 4px;
-          border-top-right-radius: 4px;
-          -webkit-border-bottom-right-radius: 4px;
-          -ms-border-bottom-right-radius: 4px;
-          -moz-border-bottom-right-radius: 4px;
-          -o-border-bottom-right-radius: 4px;
-          border-bottom-right-radius: 4px; } }
+          -webkit-border-top-right-radius: 4px ;
+          -ms-border-top-right-radius: 4px ;
+          -moz-border-top-right-radius: 4px ;
+          -o-border-top-right-radius: 4px ;
+          border-top-right-radius: 4px ;
+          -webkit-border-bottom-right-radius: 4px ;
+          -ms-border-bottom-right-radius: 4px ;
+          -moz-border-bottom-right-radius: 4px ;
+          -o-border-bottom-right-radius: 4px ;
+          border-bottom-right-radius: 4px ; } }
   .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button {
     border-color: #c06057;
     border-bottom-color: #dca6a1;
@@ -1980,55 +2066,121 @@ body .scope-container {
     color: #fff; }
     .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .juicon, .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .panel__component > .close .component-remove-x, .has-error body .scope-container .panel__component > .close .input__group > [class^="column--"]:last-child > .button .component-remove-x, .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .close-modal-x {
       color: #fff; }
-    @media (min-width: 769px) {
+    @media (min-width: 770px) {
       .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button {
         border-left-color: #dca6a1; } }
-  @media (min-width: 1px) and (max-width: 768px) {
+  @media (min-width: 1px) and (max-width: 769px) {
     .has-error body .scope-container .input__group > [class^="column--"]:last-child > * {
-      -webkit-border-radius: 0;
-      -ms-border-radius: 0;
-      -moz-border-radius: 0;
-      -o-border-radius: 0;
-      border-radius: 0; } }
+      -webkit-border-radius: 0 ;
+      -ms-border-radius: 0 ;
+      -moz-border-radius: 0 ;
+      -o-border-radius: 0 ;
+      border-radius: 0 ; } }
+  body .scope-container .tile-container {
+    margin-bottom: 4px; }
+    body .scope-container .tile-container__inner {
+      -webkit-border-radius: 4px ;
+      -ms-border-radius: 4px ;
+      -moz-border-radius: 4px ;
+      -o-border-radius: 4px ;
+      border-radius: 4px ;
+      background-color: rgba(56, 64, 71, 0.8);
+      padding: 14px; }
+    body .scope-container .tile-container:nth-child(1) .tile {
+      background-color: #ff7b84; }
+    body .scope-container .tile-container:nth-child(2) .tile {
+      background-color: #cfd05c; }
+    body .scope-container .tile-container:nth-child(3) .tile {
+      background-color: #ecb46c; }
+    body .scope-container .tile-container:nth-child(4) .tile {
+      background-color: #e1d951; }
+    body .scope-container .tile-container:nth-child(5) .tile {
+      background-color: #9fdb66; }
+    body .scope-container .tile-container:nth-child(6) .tile {
+      background-color: #54c473; }
+    body .scope-container .tile-container:nth-child(7) .tile {
+      background-color: #6a89e5; }
+    body .scope-container .tile-container:nth-child(8) .tile {
+      background-color: #50ceb9; }
+    body .scope-container .tile-container:nth-child(9) .tile {
+      background-color: #6b9ee2; }
+    body .scope-container .tile-container:nth-child(10) .tile {
+      background-color: #6488e3; }
+    body .scope-container .tile-container:nth-child(11) .tile {
+      background-color: #8784ea; }
+    body .scope-container .tile-container:nth-child(12) .tile {
+      background-color: #dc71d1; }
+    body .scope-container .tile-container:nth-child(13) .tile {
+      background-color: #df6184; }
+    body .scope-container .tile-container:nth-child(14) .tile {
+      background-color: #3cc2b3; }
+    body .scope-container .tile-container:nth-child(15) .tile {
+      background-color: #f77e75; }
+    body .scope-container .tile-container:nth-child(16) .tile {
+      background-color: #e9af67; }
+    body .scope-container .tile-container:nth-child(17) .tile {
+      background-color: #acd360; }
+    body .scope-container .tile-container:nth-child(18) .tile {
+      background-color: #4dca76; }
+    body .scope-container .tile-container:nth-child(19) .tile {
+      background-color: #3abeb1; }
+    body .scope-container .tile-container:nth-child(20) .tile {
+      background-color: #48c7c8; }
+  body .scope-container .tile {
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ;
+    background-color: #384047;
+    color: #fff; }
+    body .scope-container .tile__title {
+      max-width: 64px; }
+    @media (min-width: 1px) {
+      body .scope-container .tile {
+        width: 64px;
+        height: 64px;
+        padding: 20px 0px;
+        font-size: 28px; } }
   body .scope-container .avatar-container--lg {
     width: 40px;
     height: 40px; }
     body .scope-container .avatar-container--lg img {
       width: 40px;
       height: 40px;
-      -webkit-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px; }
+      -webkit-border-radius: 4px ;
+      -ms-border-radius: 4px ;
+      -moz-border-radius: 4px ;
+      -o-border-radius: 4px ;
+      border-radius: 4px ; }
   body .scope-container .avatar-container--md {
     width: 32px;
     height: 32px; }
     body .scope-container .avatar-container--md img {
       width: 32px;
       height: 32px;
-      -webkit-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px; }
+      -webkit-border-radius: 4px ;
+      -ms-border-radius: 4px ;
+      -moz-border-radius: 4px ;
+      -o-border-radius: 4px ;
+      border-radius: 4px ; }
   body .scope-container .avatar-container--sm {
     width: 24px;
     height: 24px; }
     body .scope-container .avatar-container--sm img {
       width: 24px;
       height: 24px;
-      -webkit-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px; }
+      -webkit-border-radius: 4px ;
+      -ms-border-radius: 4px ;
+      -moz-border-radius: 4px ;
+      -o-border-radius: 4px ;
+      border-radius: 4px ; }
   body .scope-container .label {
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ;
     color: #fff;
     padding: 0 8px; }
     body .scope-container .label--primary {
@@ -2083,25 +2235,25 @@ body .scope-container {
       border-width: 1px 1px 1px 1px;
       border-style: solid;
       border-color: #dadee2;
-      -webkit-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px; }
+      -webkit-border-radius: 4px ;
+      -ms-border-radius: 4px ;
+      -moz-border-radius: 4px ;
+      -o-border-radius: 4px ;
+      border-radius: 4px ; }
       body .scope-container .list-group--bordered .list-group__item {
-        -webkit-border-radius: 0;
-        -ms-border-radius: 0;
-        -moz-border-radius: 0;
-        -o-border-radius: 0;
-        border-radius: 0;
+        -webkit-border-radius: 0 ;
+        -ms-border-radius: 0 ;
+        -moz-border-radius: 0 ;
+        -o-border-radius: 0 ;
+        border-radius: 0 ;
         background-color: #fff;
         border-bottom: 1px solid #e8eaeb; }
     body .scope-container .list-group__item {
-      -webkit-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px;
+      -webkit-border-radius: 4px ;
+      -ms-border-radius: 4px ;
+      -moz-border-radius: 4px ;
+      -o-border-radius: 4px ;
+      border-radius: 4px ;
       max-width: 100%; }
       body .scope-container .list-group__item a {
         color: #33536d;
@@ -2145,133 +2297,155 @@ body .scope-container {
     border-style: solid;
     border-color: #e8eaeb; }
     body .scope-container .nav-bar.menu--open, body .scope-container .menu--open.nav-bar--solo {
-      -webkit-border-bottom-left-radius: 4px;
-      -ms-border-bottom-left-radius: 4px;
-      -moz-border-bottom-left-radius: 4px;
-      -o-border-bottom-left-radius: 4px;
-      border-bottom-left-radius: 4px;
-      -webkit-border-bottom-right-radius: 4px;
-      -ms-border-bottom-right-radius: 4px;
-      -moz-border-bottom-right-radius: 4px;
-      -o-border-bottom-right-radius: 4px;
-      border-bottom-right-radius: 4px; }
+      -webkit-border-bottom-left-radius: 4px ;
+      -ms-border-bottom-left-radius: 4px ;
+      -moz-border-bottom-left-radius: 4px ;
+      -o-border-bottom-left-radius: 4px ;
+      border-bottom-left-radius: 4px ;
+      -webkit-border-bottom-right-radius: 4px ;
+      -ms-border-bottom-right-radius: 4px ;
+      -moz-border-bottom-right-radius: 4px ;
+      -o-border-bottom-right-radius: 4px ;
+      border-bottom-right-radius: 4px ; }
     body .scope-container .nav-bar__top {
       padding: 16px 0;
       height: 56px; }
-      @media (min-width: 769px) {
+      @media (min-width: 770px) {
         body .scope-container .nav-bar__top {
           float: left; } }
     body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left {
       margin: 0; }
-      @media (min-width: 1px) and (max-width: 768px) {
+      @media (min-width: 1px) and (max-width: 769px) {
         body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left {
           display: none;
           margin-left: -16px;
           margin-right: -16px; }
           .menu--open body .scope-container .nav-bar__list, .menu--open body .scope-container .nav-bar__list--right, .menu--open body .scope-container .nav-bar__list--left {
             display: block; } }
-      @media (min-width: 769px) {
+      @media (min-width: 770px) {
         body .scope-container .nav-bar__list--right {
           float: right; } }
-      @media (min-width: 769px) {
+      @media (min-width: 770px) {
         body .scope-container .nav-bar__list--left {
           float: left; } }
       body .scope-container .nav-bar__list--item {
         margin: 0; }
-        @media (min-width: 769px) {
+        @media (min-width: 770px) {
           body .scope-container .nav-bar__list--item {
             float: left; } }
         body .scope-container .nav-bar__list--item a {
           color: #384047;
           padding: 16px; }
-          @media (min-width: 1px) and (max-width: 768px) {
+          @media (min-width: 1px) and (max-width: 769px) {
             body .scope-container .nav-bar__list--item a {
               background-color: #f5f6f7; } }
-        @media (min-width: 1px) and (max-width: 768px) {
+        @media (min-width: 1px) and (max-width: 769px) {
           body .scope-container .nav-bar__list--item:hover a {
             background-color: #f5f6f7;
             color: #8d9aa5; } }
         body .scope-container .nav-bar__list--item.active a, body .scope-container .nav-bar__list--item:hover.active a {
           background-color: #e8eaeb;
           color: #384047; }
-        @media (min-width: 1px) and (max-width: 768px) {
+        @media (min-width: 1px) and (max-width: 769px) {
           body .scope-container .nav-bar__list--item:last-child a {
-            -webkit-border-bottom-left-radius: 4px;
-            -ms-border-bottom-left-radius: 4px;
-            -moz-border-bottom-left-radius: 4px;
-            -o-border-bottom-left-radius: 4px;
-            border-bottom-left-radius: 4px;
-            -webkit-border-bottom-right-radius: 4px;
-            -ms-border-bottom-right-radius: 4px;
-            -moz-border-bottom-right-radius: 4px;
-            -o-border-bottom-right-radius: 4px;
-            border-bottom-right-radius: 4px; } }
+            -webkit-border-bottom-left-radius: 4px ;
+            -ms-border-bottom-left-radius: 4px ;
+            -moz-border-bottom-left-radius: 4px ;
+            -o-border-bottom-left-radius: 4px ;
+            border-bottom-left-radius: 4px ;
+            -webkit-border-bottom-right-radius: 4px ;
+            -ms-border-bottom-right-radius: 4px ;
+            -moz-border-bottom-right-radius: 4px ;
+            -o-border-bottom-right-radius: 4px ;
+            border-bottom-right-radius: 4px ; } }
     body .scope-container .nav-bar__appendage {
       clear: both;
       display: none; }
       body .scope-container .nav-bar__appendage--inner {
-        -webkit-border-bottom-left-radius: 4px;
-        -ms-border-bottom-left-radius: 4px;
-        -moz-border-bottom-left-radius: 4px;
-        -o-border-bottom-left-radius: 4px;
-        border-bottom-left-radius: 4px;
-        -webkit-border-bottom-right-radius: 4px;
-        -ms-border-bottom-right-radius: 4px;
-        -moz-border-bottom-right-radius: 4px;
-        -o-border-bottom-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        -webkit-border-bottom-left-radius: 4px ;
+        -ms-border-bottom-left-radius: 4px ;
+        -moz-border-bottom-left-radius: 4px ;
+        -o-border-bottom-left-radius: 4px ;
+        border-bottom-left-radius: 4px ;
+        -webkit-border-bottom-right-radius: 4px ;
+        -ms-border-bottom-right-radius: 4px ;
+        -moz-border-bottom-right-radius: 4px ;
+        -o-border-bottom-right-radius: 4px ;
+        border-bottom-right-radius: 4px ;
         padding-top: 16px;
         background-color: #f0f1f2; }
     body .scope-container .nav-bar--solo {
-      -webkit-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px;
+      -webkit-border-radius: 4px ;
+      -ms-border-radius: 4px ;
+      -moz-border-radius: 4px ;
+      -o-border-radius: 4px ;
+      border-radius: 4px ;
       background-color: #f5f6f7;
       border-width: 0; }
     body .scope-container .nav-bar__menu-toggle {
-      -webkit-border-top-right-radius: 4px;
-      -ms-border-top-right-radius: 4px;
-      -moz-border-top-right-radius: 4px;
-      -o-border-top-right-radius: 4px;
-      border-top-right-radius: 4px;
-      -webkit-border-bottom-right-radius: 4px;
-      -ms-border-bottom-right-radius: 4px;
-      -moz-border-bottom-right-radius: 4px;
-      -o-border-bottom-right-radius: 4px;
-      border-bottom-right-radius: 4px;
+      -webkit-border-top-right-radius: 4px ;
+      -ms-border-top-right-radius: 4px ;
+      -moz-border-top-right-radius: 4px ;
+      -o-border-top-right-radius: 4px ;
+      border-top-right-radius: 4px ;
+      -webkit-border-bottom-right-radius: 4px ;
+      -ms-border-bottom-right-radius: 4px ;
+      -moz-border-bottom-right-radius: 4px ;
+      -o-border-bottom-right-radius: 4px ;
+      border-bottom-right-radius: 4px ;
       display: none;
       font-size: 32px;
       height: 56px;
       margin-right: -16px;
       padding: 8px 16px; }
       .menu--open body .scope-container .nav-bar__menu-toggle {
-        -webkit-border-bottom-left-radius: 0;
-        -ms-border-bottom-left-radius: 0;
-        -moz-border-bottom-left-radius: 0;
-        -o-border-bottom-left-radius: 0;
-        border-bottom-left-radius: 0;
-        -webkit-border-bottom-right-radius: 0;
-        -ms-border-bottom-right-radius: 0;
-        -moz-border-bottom-right-radius: 0;
-        -o-border-bottom-right-radius: 0;
-        border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0 ;
+        -ms-border-bottom-left-radius: 0 ;
+        -moz-border-bottom-left-radius: 0 ;
+        -o-border-bottom-left-radius: 0 ;
+        border-bottom-left-radius: 0 ;
+        -webkit-border-bottom-right-radius: 0 ;
+        -ms-border-bottom-right-radius: 0 ;
+        -moz-border-bottom-right-radius: 0 ;
+        -o-border-bottom-right-radius: 0 ;
+        border-bottom-right-radius: 0 ;
         background-color: #cfd0d2;
         color: #fff; }
-        @media (min-width: 1px) and (max-width: 768px) {
+        @media (min-width: 1px) and (max-width: 769px) {
           .menu--open body .scope-container .nav-bar__menu-toggle {
-            -webkit-border-radius: 0;
-            -ms-border-radius: 0;
-            -moz-border-radius: 0;
-            -o-border-radius: 0;
-            border-radius: 0; } }
-      @media (min-width: 1px) and (max-width: 768px) {
+            -webkit-border-radius: 0 ;
+            -ms-border-radius: 0 ;
+            -moz-border-radius: 0 ;
+            -o-border-radius: 0 ;
+            border-radius: 0 ; } }
+      @media (min-width: 1px) and (max-width: 769px) {
         body .scope-container .nav-bar__menu-toggle {
           display: block; } }
-    @media (min-width: 1px) and (max-width: 768px) {
-      body .scope-container .nav-bar .content, body .scope-container .nav-bar--solo .content, body .scope-container .nav-bar .content--full, body .scope-container .nav-bar--solo .content--full {
+    @media (min-width: 1px) and (max-width: 769px) {
+      body .scope-container .nav-bar .content, body .scope-container .nav-bar--solo .content, body .scope-container .nav-bar .content--full, body .scope-container .nav-bar--solo .content--full, body .scope-container .nav-bar .content--small, body .scope-container .nav-bar--solo .content--small {
         padding: 0; } }
+  body .scope-container .menu--open .nav-bar__menu-toggle {
+    -webkit-border-bottom-left-radius: 0 ;
+    -ms-border-bottom-left-radius: 0 ;
+    -moz-border-bottom-left-radius: 0 ;
+    -o-border-bottom-left-radius: 0 ;
+    border-bottom-left-radius: 0 ;
+    -webkit-border-bottom-right-radius: 0 ;
+    -ms-border-bottom-right-radius: 0 ;
+    -moz-border-bottom-right-radius: 0 ;
+    -o-border-bottom-right-radius: 0 ;
+    border-bottom-right-radius: 0 ;
+    background-color: #cfd0d2;
+    color: #fff; }
+    @media (min-width: 1px) and (max-width: 769px) {
+      body .scope-container .menu--open .nav-bar__menu-toggle {
+        -webkit-border-radius: 0 ;
+        -ms-border-radius: 0 ;
+        -moz-border-radius: 0 ;
+        -o-border-radius: 0 ;
+        border-radius: 0 ; } }
+  body .scope-container .menu--open .nav-bar__list, body .scope-container .menu--open .nav-bar__list--right, body .scope-container .menu--open .nav-bar__list--left {
+    display: block; }
   body .scope-container .pagination {
     margin: 0; }
     body .scope-container .pagination__item a {
@@ -2289,27 +2463,27 @@ body .scope-container {
       body .scope-container .pagination__item a:hover {
         background-color: #f5f6f7; }
     body .scope-container .pagination__item:first-child a {
-      -webkit-border-top-left-radius: 4px;
-      -ms-border-top-left-radius: 4px;
-      -moz-border-top-left-radius: 4px;
-      -o-border-top-left-radius: 4px;
-      border-top-left-radius: 4px;
-      -webkit-border-bottom-left-radius: 4px;
-      -ms-border-bottom-left-radius: 4px;
-      -moz-border-bottom-left-radius: 4px;
-      -o-border-bottom-left-radius: 4px;
-      border-bottom-left-radius: 4px; }
+      -webkit-border-top-left-radius: 4px ;
+      -ms-border-top-left-radius: 4px ;
+      -moz-border-top-left-radius: 4px ;
+      -o-border-top-left-radius: 4px ;
+      border-top-left-radius: 4px ;
+      -webkit-border-bottom-left-radius: 4px ;
+      -ms-border-bottom-left-radius: 4px ;
+      -moz-border-bottom-left-radius: 4px ;
+      -o-border-bottom-left-radius: 4px ;
+      border-bottom-left-radius: 4px ; }
     body .scope-container .pagination__item:last-child a {
-      -webkit-border-top-right-radius: 4px;
-      -ms-border-top-right-radius: 4px;
-      -moz-border-top-right-radius: 4px;
-      -o-border-top-right-radius: 4px;
-      border-top-right-radius: 4px;
-      -webkit-border-bottom-right-radius: 4px;
-      -ms-border-bottom-right-radius: 4px;
-      -moz-border-bottom-right-radius: 4px;
-      -o-border-bottom-right-radius: 4px;
-      border-bottom-right-radius: 4px; }
+      -webkit-border-top-right-radius: 4px ;
+      -ms-border-top-right-radius: 4px ;
+      -moz-border-top-right-radius: 4px ;
+      -o-border-top-right-radius: 4px ;
+      border-top-right-radius: 4px ;
+      -webkit-border-bottom-right-radius: 4px ;
+      -ms-border-bottom-right-radius: 4px ;
+      -moz-border-bottom-right-radius: 4px ;
+      -o-border-bottom-right-radius: 4px ;
+      border-bottom-right-radius: 4px ; }
     body .scope-container .pagination__item.active a {
       background-color: #2a94d6;
       border-top-color: #2a94d6;
@@ -2321,11 +2495,11 @@ body .scope-container {
       cursor: not-allowed; }
   body .scope-container .panel {
     border: 1px solid #dadee2;
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px; }
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ; }
     body .scope-container .panel__top, body .scope-container .panel__bottom, body .scope-container .panel__section, body .scope-container .panel__component {
       padding: 16px; }
     body .scope-container .panel__top {
@@ -2334,7 +2508,7 @@ body .scope-container {
         margin-top: 4px; }
       body .scope-container .panel__top .form__group {
         margin-bottom: 0; }
-      @media (min-width: 769px) {
+      @media (min-width: 770px) {
         body .scope-container .panel__top {
           height: 73px; } }
     body .scope-container .panel__bottom {
@@ -2345,7 +2519,7 @@ body .scope-container {
       margin: 8px 0px; }
       body .scope-container .panel__heading.has-subheading {
         margin: 0; }
-      @media (min-width: 769px) {
+      @media (min-width: 770px) {
         body .scope-container .panel__heading {
           white-space: nowrap;
           overflow: hidden;
@@ -2355,11 +2529,6 @@ body .scope-container {
       line-height: 1rem;
       margin: 0;
       color: #8d9aa5; }
-      @media (min-width: 769px) {
-        body .scope-container .panel__subheading {
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis; } }
     body .scope-container .panel__component {
       border-width: 1px 0 0 0;
       border-style: solid;
@@ -2370,7 +2539,7 @@ body .scope-container {
         border-top: 0; }
       body .scope-container .panel__component .form__group {
         margin-bottom: 0; }
-        @media (min-width: 1px) and (max-width: 768px) {
+        @media (min-width: 1px) and (max-width: 769px) {
           body .scope-container .panel__component .form__group {
             margin-bottom: 16px; } }
       body .scope-container .panel__component > .close {
@@ -2387,49 +2556,75 @@ body .scope-container {
           color: #c06057; }
     body .scope-container .panel__box {
       background-color: #fbfbfc;
-      -webkit-border-bottom-left-radius: 4px;
-      -ms-border-bottom-left-radius: 4px;
-      -moz-border-bottom-left-radius: 4px;
-      -o-border-bottom-left-radius: 4px;
-      border-bottom-left-radius: 4px;
-      -webkit-border-bottom-right-radius: 4px;
-      -ms-border-bottom-right-radius: 4px;
-      -moz-border-bottom-right-radius: 4px;
-      -o-border-bottom-right-radius: 4px;
-      border-bottom-right-radius: 4px; }
+      -webkit-border-bottom-left-radius: 4px ;
+      -ms-border-bottom-left-radius: 4px ;
+      -moz-border-bottom-left-radius: 4px ;
+      -o-border-bottom-left-radius: 4px ;
+      border-bottom-left-radius: 4px ;
+      -webkit-border-bottom-right-radius: 4px ;
+      -ms-border-bottom-right-radius: 4px ;
+      -moz-border-bottom-right-radius: 4px ;
+      -o-border-bottom-right-radius: 4px ;
+      border-bottom-right-radius: 4px ; }
     body .scope-container .panel__sidebar {
       width: 300px;
-      height: 100%; }
+      height: 100%;
+      border-bottom: 1px solid #e8eaeb; }
       body .scope-container .panel__sidebar__list-group .list-group__item {
-        -webkit-border-radius: 0;
-        -ms-border-radius: 0;
-        -moz-border-radius: 0;
-        -o-border-radius: 0;
-        border-radius: 0; }
-      @media (min-width: 1px) and (max-width: 768px) {
+        -webkit-border-radius: 0 ;
+        -ms-border-radius: 0 ;
+        -moz-border-radius: 0 ;
+        -o-border-radius: 0 ;
+        border-radius: 0 ; }
+      @media (min-width: 1px) and (max-width: 769px) {
         body .scope-container .panel__sidebar {
           width: 100%;
           padding: 0; } }
-      @media (min-width: 769px) {
+      @media (min-width: 770px) {
         body .scope-container .panel__sidebar {
           float: left;
           border-right: 1px solid #e8eaeb;
           min-height: 1px;
-          padding: 0; } }
-    @media (min-width: 769px) {
+          padding: 0;
+          margin-bottom: -1px; } }
+    @media (min-width: 770px) {
       body .scope-container .panel.has-sidebar .panel__section, body .scope-container .panel.has-sidebar .panel__content {
         margin-left: 299px; } }
     body .scope-container .panel__content {
-      background: #fff;
-      min-height: 320px; }
-      @media (min-width: 769px) {
+      background: #fff; }
+      body .scope-container .panel__content > table tr:last-of-type td:first-child {
+        -webkit-border-bottom-left-radius: 4px;
+        -ms-border-bottom-left-radius: 4px;
+        -moz-border-bottom-left-radius: 4px;
+        -o-border-bottom-left-radius: 4px;
+        border-bottom-left-radius: 4px; }
+      body .scope-container .panel__content > table tr:last-of-type td:last-child {
+        -webkit-border-bottom-right-radius: 4px;
+        -ms-border-bottom-right-radius: 4px;
+        -moz-border-bottom-right-radius: 4px;
+        -o-border-bottom-right-radius: 4px;
+        border-bottom-right-radius: 4px; }
+      @media (min-width: 1px) and (max-width: 769px) {
+        body .scope-container .panel__content {
+          -webkit-border-bottom-left-radius: 4px ;
+          -ms-border-bottom-left-radius: 4px ;
+          -moz-border-bottom-left-radius: 4px ;
+          -o-border-bottom-left-radius: 4px ;
+          border-bottom-left-radius: 4px ;
+          -webkit-border-bottom-right-radius: 4px ;
+          -ms-border-bottom-right-radius: 4px ;
+          -moz-border-bottom-right-radius: 4px ;
+          -o-border-bottom-right-radius: 4px ;
+          border-bottom-right-radius: 4px ; } }
+      @media (min-width: 770px) {
         body .scope-container .panel__content {
           -webkit-border-bottom-right-radius: 4px;
           -ms-border-bottom-right-radius: 4px;
           -moz-border-bottom-right-radius: 4px;
           -o-border-bottom-right-radius: 4px;
           border-bottom-right-radius: 4px;
-          border-left: 1px solid #e8eaeb; } }
+          border-left: 1px solid #e8eaeb;
+          min-height: 320px; } }
 @-webkit-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0; }
@@ -2441,21 +2636,21 @@ body .scope-container {
   to {
     background-position: 0 0; } }
   body .scope-container .progress {
-    -webkit-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -o-border-radius: 100px;
-    border-radius: 100px;
+    -webkit-border-radius: 100px ;
+    -ms-border-radius: 100px ;
+    -moz-border-radius: 100px ;
+    -o-border-radius: 100px ;
+    border-radius: 100px ;
     overflow: hidden;
     height: 16px;
     background-color: #e8eaeb;
     padding: 4px; }
     body .scope-container .progress__bar {
-      -webkit-border-radius: 100px;
-      -ms-border-radius: 100px;
-      -moz-border-radius: 100px;
-      -o-border-radius: 100px;
-      border-radius: 100px;
+      -webkit-border-radius: 100px ;
+      -ms-border-radius: 100px ;
+      -moz-border-radius: 100px ;
+      -o-border-radius: 100px ;
+      border-radius: 100px ;
       -webkit-transition: width 0.2s ease;
       -moz-transition: width 0.2s ease;
       -o-transition: width 0.2s ease;
@@ -2486,11 +2681,11 @@ body .scope-container {
       body .scope-container .progress__bar--info {
         background-color: #47cfd2; }
   body .scope-container .select-wrap {
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ;
     position: relative;
     border-width: 1px;
     border-style: solid;
@@ -2558,11 +2753,11 @@ body .scope-container {
       border-width: 1px 1px 1px 1px;
       border-style: solid;
       border-color: #dadee2;
-      -webkit-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -o-border-radius: 50%;
-      border-radius: 50%;
+      -webkit-border-radius: 50% ;
+      -ms-border-radius: 50% ;
+      -moz-border-radius: 50% ;
+      -o-border-radius: 50% ;
+      border-radius: 50% ;
       width: 20px;
       height: 20px;
       background: #fff; }
@@ -2604,6 +2799,25 @@ body .scope-container {
     width: 100%;
     max-width: 100%;
     margin-bottom: 0; }
+    @media (min-width: 1px) {
+      body .scope-container table.show-brkpoint--sm {
+        display: table; } }
+    body .scope-container table.show-brkpoint--sm--only {
+      display: none; }
+      @media (min-width: 1px) and (max-width: 769px) {
+        body .scope-container table.show-brkpoint--sm--only {
+          display: table; } }
+    @media (min-width: 1px) and (max-width: 769px) {
+      body .scope-container table.show-brkpoint--md {
+        display: none; } }
+    @media (min-width: 769px) {
+      body .scope-container table.show-brkpoint--md {
+        display: table; } }
+    body .scope-container table.show-brkpoint--md--only {
+      display: none; }
+      @media (min-width: 769px) and (max-width: 1100px) {
+        body .scope-container table.show-brkpoint--md--only {
+          display: table; } }
     body .scope-container table > thead > tr.tr__selected > th,
     body .scope-container table > thead > tr.tr__selected > td,
     body .scope-container table > tbody > tr.tr__selected > th,
@@ -2652,7 +2866,27 @@ body .scope-container {
       vertical-align: middle; }
     body .scope-container table tbody tr:hover {
       background-color: #f5f6f7; }
+    @media (min-width: 1px) {
+      body .scope-container table td.show-brkpoint--sm, body .scope-container table th.show-brkpoint--sm {
+        display: table-cell; } }
+    body .scope-container table td.show-brkpoint--sm--only, body .scope-container table th.show-brkpoint--sm--only {
+      display: none; }
+      @media (min-width: 1px) and (max-width: 769px) {
+        body .scope-container table td.show-brkpoint--sm--only, body .scope-container table th.show-brkpoint--sm--only {
+          display: table-cell; } }
+    @media (min-width: 1px) and (max-width: 769px) {
+      body .scope-container table td.show-brkpoint--md, body .scope-container table th.show-brkpoint--md {
+        display: none; } }
+    @media (min-width: 769px) {
+      body .scope-container table td.show-brkpoint--md, body .scope-container table th.show-brkpoint--md {
+        display: table-cell; } }
+    body .scope-container table td.show-brkpoint--md--only, body .scope-container table th.show-brkpoint--md--only {
+      display: none; }
+      @media (min-width: 769px) and (max-width: 1100px) {
+        body .scope-container table td.show-brkpoint--md--only, body .scope-container table th.show-brkpoint--md--only {
+          display: table-cell; } }
   body .scope-container .sort-arrow {
+    right: 4px;
     color: #9faab5;
     padding: 4px;
     transition-timing-function: ease-in-out;
@@ -2684,7 +2918,7 @@ body .scope-container {
     body .scope-container .tooltip.bottom {
       margin-top: 3px;
       padding: 4px 0; }
-    body .scope-container .tooltip.left, body .scope-container .daterangepicker.opensleft .tooltip.ranges, body .scope-container .daterangepicker.opensleft .tooltip.calendar, body .scope-container .daterangepicker .ranges .ranges_inputs > div.tooltip, body .scope-container .tooltip.daterangepicker_start_input, body .scope-container .tooltip.daterangepicker_end_input, body .scope-container .tooltip.cancelBtn, body .scope-container .pagination__item a.tooltip, body .scope-container .slider--horizontal .tooltip.slider__selection {
+    body .scope-container .tooltip.left, body .scope-container .daterangepicker.opensleft .tooltip.ranges, body .scope-container .daterangepicker.opensleft .tooltip.calendar, body .scope-container .daterangepicker .ranges .ranges_inputs > div.tooltip, body .scope-container .tooltip.daterangepicker_start_input, body .scope-container .tooltip.daterangepicker_end_input, body .scope-container .tooltip.cancelBtn, body .scope-container .pagination__item a.tooltip, body .scope-container .tooltip.panel__bottom, body .scope-container .tooltip.panel__component, body .scope-container .slider--horizontal .tooltip.slider__selection {
       margin-left: -3px;
       padding: 0 4px; }
     body .scope-container .tooltip-inner {
@@ -2722,7 +2956,7 @@ body .scope-container {
     margin-top: -4px;
     border-width: 4px 4px 4px 0;
     border-right-color: #384047; }
-  body .scope-container .tooltip.left .tooltip-arrow, body .scope-container .daterangepicker.opensleft .tooltip.ranges .tooltip-arrow, body .scope-container .daterangepicker.opensleft .tooltip.calendar .tooltip-arrow, body .scope-container .daterangepicker .ranges .ranges_inputs > div.tooltip .tooltip-arrow, body .scope-container .tooltip.daterangepicker_start_input .tooltip-arrow, body .scope-container .tooltip.daterangepicker_end_input .tooltip-arrow, body .scope-container .tooltip.cancelBtn .tooltip-arrow, body .scope-container .pagination__item a.tooltip .tooltip-arrow, body .scope-container .slider--horizontal .tooltip.slider__selection .tooltip-arrow {
+  body .scope-container .tooltip.left .tooltip-arrow, body .scope-container .daterangepicker.opensleft .tooltip.ranges .tooltip-arrow, body .scope-container .daterangepicker.opensleft .tooltip.calendar .tooltip-arrow, body .scope-container .daterangepicker .ranges .ranges_inputs > div.tooltip .tooltip-arrow, body .scope-container .tooltip.daterangepicker_start_input .tooltip-arrow, body .scope-container .tooltip.daterangepicker_end_input .tooltip-arrow, body .scope-container .tooltip.cancelBtn .tooltip-arrow, body .scope-container .pagination__item a.tooltip .tooltip-arrow, body .scope-container .tooltip.panel__bottom .tooltip-arrow, body .scope-container .tooltip.panel__component .tooltip-arrow, body .scope-container .slider--horizontal .tooltip.slider__selection .tooltip-arrow {
     top: 50%;
     right: 0;
     margin-top: -4px;
@@ -2780,7 +3014,7 @@ body .scope-container {
   position: relative;
   width: auto;
   margin: 10px; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .modal__shell {
       width: 30rem;
       margin: 2rem auto; } }
@@ -2799,7 +3033,7 @@ body .scope-container {
   bottom: 0;
   left: 0;
   z-index: 1020;
-  background-color: rgba(56, 64, 71, 0.5);
+  background-color: rgba(56, 64, 71, 0.8);
   -webkit-transition: background-color 0.2s ease;
   -moz-transition: background-color 0.2s ease;
   -o-transition: background-color 0.2s ease;
@@ -2807,7 +3041,7 @@ body .scope-container {
   .modal__backdrop.fade {
     background-color: #384047; }
   .modal__backdrop.in {
-    background-color: rgba(56, 64, 71, 0.5); }
+    background-color: rgba(56, 64, 71, 0.8); }
 
 .modal__top {
   padding: 32px 32px;
@@ -2855,6 +3089,22 @@ button.close {
   cursor: pointer;
   background: 0 0;
   border: 0; }
+
+.mo-modal .modal__shell {
+  width: 100%;
+  margin: 0; }
+.mo-modal .modal__top {
+  background: rgba(56, 64, 71, 0.8);
+  margin-bottom: 32px; }
+.mo-modal .modal__content {
+  background: transparent;
+  -webkit-border-radius: 0 ;
+  -ms-border-radius: 0 ;
+  -moz-border-radius: 0 ;
+  -o-border-radius: 0 ;
+  border-radius: 0 ; }
+.mo-modal .modal__heading {
+  color: #fff; }
 
 @media (min-width: 1px) {
   body .scope-container .mar--sm--n {
@@ -2917,7 +3167,7 @@ button.close {
     margin-bottom: 24px; }
   body .scope-container .mar--sm--lxl {
     margin-bottom: 32px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .mar--md--n {
     margin: 0; }
   body .scope-container .mar--md--xs {
@@ -3100,7 +3350,7 @@ button.close {
     padding-bottom: 24px; }
   body .scope-container .pad--sm--lxl {
     padding-bottom: 32px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   body .scope-container .pad--md--n {
     padding: 0; }
   body .scope-container .pad--md--xs {
@@ -3223,6 +3473,15 @@ button.close {
   body .scope-container .pad--lg--lxl {
     padding-bottom: 32px; } }
 
+body.modal-open .button.button--action .juicon-plus, body.modal-open button.button--action .juicon-plus {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Opera, Chrome, and Safari */
+  position: relative;
+  z-index: 1024; }
+
 body .scope-container #docs__grid .column--sm--1, body .scope-container #docs__grid .column--md--1, body .scope-container #docs__grid .column--lg--1 {
   background: rgba(232, 234, 235, 0.5);
   border: 1px solid rgba(207, 208, 210, 0.5); }
@@ -3331,11 +3590,11 @@ body .scope-container #docs__juicons .icon-section .juicon, body .scope-containe
   font-size: 2rem;
   color: #8d9aa5;
   margin-top: 2rem;
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px; }
+  -webkit-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -o-border-radius: 4px ;
+  border-radius: 4px ; }
   @media (min-width: 1px) and (max-width: 768px) {
     body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x {
       padding: 1rem;
@@ -3349,11 +3608,11 @@ body .scope-container .page-headline {
   margin-top: 4rem;
   margin-bottom: 0rem; }
 body .scope-container .code-container {
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -o-border-radius: 4px ;
+  border-radius: 4px ;
   border: 1px solid #f5f6f7;
   font-size: 12px;
   padding: 16px;

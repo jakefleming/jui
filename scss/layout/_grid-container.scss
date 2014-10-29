@@ -18,9 +18,8 @@
     max-width: 100%;
   }
   &--small {
-    @media (min-width: 769px) {
-      max-width: $content-max-width/2.5+px;
-    }
+    @extend .content;
+    max-width: 324px;
   }
 }
 

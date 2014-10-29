@@ -45,10 +45,8 @@ body {
 // Layout
 // ==========================================================================
 
-body .scope-container {
-
+body .scope-container {// scoping
   @import "layout/index";
-
 }
 
 // ==========================================================================
@@ -56,18 +54,20 @@ body .scope-container {
 // ==========================================================================
 
 @import "modules/extends";
-body .scope-container {
+body .scope-container {// scoping
   @import
   "modules/alerts",
   "modules/button-dropdowns",
   "modules/button-groups",
   "modules/button-split",
   "modules/buttons",
+  "modules/button-action",
   "modules/cards",
   "modules/date-picker",
   "modules/daterangepicker",
   "modules/errors",
   "modules/forms",
+  "modules/icons",
   "modules/img",
   "modules/labels",
   "modules/lists",
@@ -87,9 +87,8 @@ body .scope-container {
 // Shame
 // ==========================================================================
 
-body .scope-container {
-
-@import "shame/shame";
-
+body .scope-container {// scoping
+  @import "shame/shame";
 }
+@import "shame/scope";
 

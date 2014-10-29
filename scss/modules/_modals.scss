@@ -67,13 +67,13 @@
   bottom: 0;
   left: 0;
   z-index: $z-index-modal-background;
-  background-color: transparentize($black, .5);
+  background-color: transparentize($black, .2);
   @include single-transition(background-color);
   &.fade {
     background-color: transparentize($black, 0);
   }
   &.in {
-    background-color: transparentize($black, .5);
+    background-color: transparentize($black, .2);
   }
 }
 
@@ -151,4 +151,34 @@ button.close {
   cursor: pointer;
   background: 0 0;
   border: 0;
+}
+
+// Alt sizes
+
+.mo-modal {
+  .modal {
+    &__shell {
+      width: 100%;
+      margin: 0;
+    }
+    &__top {
+      background: transparentize($black, .2);
+      margin-bottom: $base-h-padding*2+px;
+//      padding: $base-v-padding+px $base-h-padding+px;
+//      .close {
+//        top: $base-v-padding+px;
+//        right: $base-h-padding+px;
+//        .close-modal-x {
+//          color: $white;
+//        }
+//      }
+    }
+    &__content {
+      background: transparent;
+      @include erase-radius();
+    }
+    &__heading {
+      color: $white;
+    }
+  }
 }

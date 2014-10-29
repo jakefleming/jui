@@ -1,4 +1,5 @@
 .panel {
+  @extend %clearfix;
   border: 1px solid $component-border-color;
   @include radius();
   &__top, &__bottom, &__section, &__component {
@@ -20,6 +21,9 @@
     }
   }
   &__bottom {
+    @extend %clearfix;
+    @extend .left;
+    @extend .width--full;
     border-top: 1px solid $component-border-color-alt;
   }
   &__heading {
@@ -40,13 +44,17 @@
     line-height: 1rem;
     margin: 0;
     color: $grey;
-    @media (min-width: $brkpoint-md+1) {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+    @extend .dots;
+//    @media (min-width: $brkpoint-md+1) {
+//      white-space: nowrap;
+//      overflow: hidden;
+//      text-overflow: ellipsis;
+//    }
   }
   &__component {
+    @extend %clearfix;
+    @extend .left;
+    @extend .width--full;
     @include border($w-bottom: 0, $w-left: 0, $w-right: 0);
     @extend .relative;
     &--removable {
@@ -85,6 +93,7 @@
   &__box {
     @extend %clearfix;
     @extend .relative;
+    @extend %overflow-hidden;
     background-color: lighten($grey-xx-light, 2%);
 
     @include radius-bottom();
@@ -95,6 +104,7 @@
     @extend %overflow-scroll-mobile;
     width: $sidebar-width;
     height: 100%;
+    border-bottom: 1px solid $component-border-color-alt;
     &__list-group {
       @extend .list-group;
       .list-group__item {
@@ -110,6 +120,7 @@
       border-right: 1px solid $component-border-color-alt;
       min-height: 1px;
       padding: 0;
+      margin-bottom: -1px;
     }
   }
   &.has-sidebar {
@@ -122,11 +133,25 @@
   &__content {
     @extend %clearfix;
     background: $white;
-    min-height: $key-number*20+px;
+    > table {
+      tr:last-of-type {
+        td:first-child {
+          @include vendor-prefix(border-bottom-left-radius, $br-default);
+        }
+        td:last-child {
+          @include vendor-prefix(border-bottom-right-radius, $br-default);
+        }
+      }
+    }
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      @include radius-bottom;
+    }
     @media (min-width: $brkpoint-md+1) {
       @include vendor-prefix(border-bottom-right-radius, $br-default);
       border-left: 1px solid $component-border-color-alt;
+      min-height: $key-number*20+px;
     }
+
   }
 }
 

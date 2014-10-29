@@ -1,0 +1,30 @@
+.button, button {
+  &.button--action {
+    @extend .fixed;
+    @include square($key-number*4);
+    font-size: 150%;
+    bottom: $base-h-padding+px;
+    padding: $base-h-padding+px;
+    right: $base-h-padding+px;
+    .juicon {
+      display: inline-block;
+      -webkit-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+      -moz-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+      -o-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+      transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+      position: relative;
+      z-index: 1024;
+    }
+  }
+}
+
+.modal-open {
+  .button, button {
+    &.button--action {
+      .juicon-plus {
+        @include rotate(45);
+
+      }
+    }
+  }
+}

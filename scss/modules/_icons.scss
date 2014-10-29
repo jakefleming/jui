@@ -1,0 +1,34 @@
+.tile-container {
+  @extend %center-align;
+  @extend .inline-block;
+  margin-bottom: $base-v-padding/2+px;
+  &__inner {
+    @include radius();
+    background-color: transparentize($black, .2);
+    padding: ($base-h-padding - 2)+px;
+  }
+  @for $i from 0 to 20 {
+    &:nth-child(#{$i + 1}) {
+      .tile {
+        background-color: nth($all-colors, $i + 1);
+      }
+    }
+  }
+}
+
+.tile {
+  @extend %center-align;
+  @extend .block;
+  @include radius();
+  background-color: $black;
+  color: $white;
+  &__title {
+    @extend .dots;
+    max-width: $key-number*4+px;
+  }
+  @media (min-width: $brkpoint-sm) {
+    @include square($key-number*4);
+    @include spacing(padding, $key-number*1.25, 0);
+    font-size: $base-font-size*1.75+px;
+  }
+}

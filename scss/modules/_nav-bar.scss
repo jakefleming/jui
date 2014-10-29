@@ -95,6 +95,7 @@
       @extend .block;
     }
   }
+
   // Meant for use other than (stuck to) the top of the page
   &--solo {
     @extend .nav-bar;
@@ -133,5 +134,28 @@
     @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
       padding: 0;
     }
+  }
+}
+
+.appendage--open {
+  .nav-bar__appendage {
+    @extend .block;
+  }
+}
+
+.menu--open {
+  .nav-bar__menu-toggle {
+    @include erase-radius-bottom();
+    background-color: $grey-light;
+    color: $white;
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      @include erase-radius();
+    }
+  }
+}
+
+.menu--open {
+  .nav-bar__list {
+    display: block;
   }
 }

@@ -13,16 +13,21 @@
         <div class="panel has-sidebar mar--sm--bxl">
             <div class="panel__top">
                 <div class="row">
-                    <div class="column--sm--6">
-                        <h2 class="panel__heading">Surveys</h2>
+                    <div class="column--sm--3">
+                        <button class="button button--secondary"><span class="juicon juicon-backward"></span></button>
                     </div>
-                    <div class="column--sm--6">
-                        <button class="button button--primary right">Create Survey <span class="juicon juicon-plus"></span></button>
+                    <div class="column--sm--6 text-center">
+                        <div class="panel__heading">
+                            Surveys
+                        </div>
+                    </div>
+                    <div class="column--sm--3">
+                        <button class="button button--primary right"><span class="hide-brkpoint--sm">Survey</span> <span class="juicon juicon-plus"></span></button>
                     </div>
                 </div>
             </div>
             <div class="panel__box">
-                <div class="panel__sidebar">
+                <div class="panel__sidebar hide-brkpoint--sm">
                     <div class="list-heading">
                         <h4 class="list-heading__title">Categories</h4>
                     </div>
@@ -39,22 +44,19 @@
 
                 </div>
                 <div class="panel__content">
+                    <div class="panel__top">
+
+                        <div class="input__wrap has-icon--right">
+                            <div class="input__icon juicon juicon-search"></div>
+                            <input type="text" placeholder="Search..."/>
+                        </div>
+                    </div>
                     <table class="vertical-align-middle">
                         <thead>
                         <tr>
-                            <td colspan="4" class="pad--sm--tm pad--sm--bm">
-                                <div class="input__wrap has-icon--right">
-                                    <div class="input__icon juicon juicon-search"></div>
-                                    <input type="text" placeholder="Search..."/>
-                                </div>
-                            </td>
-                        </tr>
-                        </thead>
-                        <thead>
-                        <tr>
-                            <th>Survey Name</th>
+                            <th>Survey</th>
                             <th width="150">Created</th>
-                            <th width="150"><div class="sort-arrow juicon juicon-upward right"></div>Published</th>
+                            <th width="150" class="sort-it show-brkpoint--md"><div class="sort-arrow juicon juicon-upward right"></div>Published</th>
                             <th width="112"></th>
                         </tr>
                         </thead>
@@ -62,9 +64,12 @@
                         <tr>
                             <td>Ebola Survey</td>
                             <td>Oct 27, 2014</td>
-                            <td>Oct 28, 2014</td>
+                            <td class="show-brkpoint--md">Oct 28, 2014</td>
                             <td>
-                                <ul class="inline-list">
+                                <span class="right show-brkpoint--sm--only">
+                                    <button class="button button--secondary" data-toggle="modal" data-target="#surveyOptions"><span class="juicon juicon-dots"></span></button>
+                                </span>
+                                <ul class="inline-list show-brkpoint--md">
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-pencil"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-chart-bar"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-x"></span></a></li>
@@ -74,9 +79,12 @@
                         <tr>
                             <td>COPD Survey</td>
                             <td>Oct 27, 2014</td>
-                            <td>Oct 28, 2014</td>
+                            <td class="show-brkpoint--md">Oct 28, 2014</td>
                             <td>
-                                <ul class="inline-list">
+                                <span class="right show-brkpoint--sm--only">
+                                    <button class="button button--secondary" data-toggle="modal" data-target="#surveyOptions"><span class="juicon juicon-dots"></span></button>
+                                </span>
+                                <ul class="inline-list show-brkpoint--md">
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-pencil"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-chart-bar"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-x"></span></a></li>
@@ -97,53 +105,68 @@
         <div class="panel has-sidebar mar--sm--bxl">
             <div class="panel__top">
                 <div class="row">
-                    <div class="column--md--6">
-                        <h3 class="panel__subheading"><a href="#"><span class="juicon juicon-backward"></span> Surveys</a></h3>
-                        <h2 class="panel__heading has-subheading">Ebola Survey</h2>
+                    <div class="column--sm--3">
+                        <button class="button button--secondary"><span class="juicon juicon-backward"></span></button>
                     </div>
-                    <div class="column--md--6">
-                        <button class="button button--primary right">Question <span class="juicon juicon-plus"></span></button>
-                        <div class="button-group right mar--md--rs">
-                            <div class="button button--primary button--ghost">Save</div>
-                            <div class="button button--primary button--ghost button--split" data-toggle="dropdown"><span class="juicon juicon-gear"></span></div>
-                            <ul class="dropdown-menu dropdown-menu--right">
-                                <li class="list-group__item has-icon--right">
-                                    <div class="input__icon juicon juicon-upload"></div>
-                                    <a href="#">Publish</a>
-                                </li>
-                                <li class="list-group__item has-icon--right">
-                                    <div class="input__icon juicon juicon-share"></div>
-                                    <a href="#">Share</a>
-                                </li>
-                                <li class="list-group__item has-icon--right">
-                                    <div class="input__icon juicon juicon-x"></div>
-                                    <a href="#">Delete</a>
-                                </li>
-                            </ul>
+                    <div class="column--sm--6 text-center">
+                        <div class="panel__heading">
+                            Survey Edit
                         </div>
+                    </div>
+                    <div class="column--sm--3">
+                        <div class="show-brkpoint--sm--only right">
+                            <button class="button button--primary"><span class="juicon juicon-check"></span></button>
+                        </div>
+
+                        <div class="show-brkpoint--md right">
+                            <div class="button-group">
+                                <div class="button button--primary">Done</div>
+                                <div class="button button--primary button--split" data-toggle="dropdown"><span class="juicon juicon-gear"></span></div>
+                                <ul class="dropdown-menu dropdown-menu--right">
+                                    <li class="list-group__item has-icon--right">
+                                        <div class="input__icon juicon juicon-upload"></div>
+                                        <a href="#">Publish</a>
+                                    </li>
+                                    <li class="list-group__item has-icon--right">
+                                        <div class="input__icon juicon juicon-share"></div>
+                                        <a href="#">Share</a>
+                                    </li>
+                                    <li class="list-group__item has-icon--right">
+                                        <div class="input__icon juicon juicon-x"></div>
+                                        <a href="#">Delete</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="panel__box">
-                <div class="panel__sidebar">
-
+                <div class="panel__sidebar hide-brkpoint--sm">
                     <div class="list-heading">
                         <h4 class="list-heading__title">Information</h4>
                     </div>
                     <div class="content--full mar--sm--tm mar--sm--bm">
-                        <div class="form__group">
-                            <label class="block">Created:</label>
-                            <span>Oct 21, 2014</span>
-                        </div>
-                        <div class="form__group">
-                            <label class="block">Published:</label>
-                            <i>Not published</i>
+                        <div class="row">
+                            <div class="column--sm--6">
+                                <div class="form__group">
+                                    <label class="block">Created:</label>
+                                    <span>Oct 21, 2014</span>
+                                </div>
+                            </div>
+                            <div class="column--sm--6">
+                                <div class="form__group">
+                                    <label class="block">Published:</label>
+                                    <i>Not published</i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="list-heading">
                         <h4 class="list-heading__title">Notes <span class="label label--secondary label--round">2</span></h4>
                     </div>
-                    <div class="content--full mar--sm--tm">
+                    <div class="content--full mar--sm--tm mar--sm--bm">
                         <div class="card">
                             <div class="left avatar-container--md">
                                 <img src="http://d13yacurqjgara.cloudfront.net/users/11867/avatars/normal/500.jpg?1381772636" alt=""/>
@@ -175,25 +198,42 @@
                             </div>
                             <p class="card__text"><span class="juicon juicon-star text-faded"></span> Created this survey.</p>
                         </div>
+                        <div class="form__group mar--sm--bn">
+                            <label for="noteInput" class="sr-only">Note Input</label>
+                            <textarea name="noteInput" placeholder="Leave a note" id="noteInput" class="top-cap"></textarea>
+                            <small class="input-error-content">Your typing is puny. Pump it up.</small>
+                        </div>
+                        <button class="button button--primary button--ghost width--full bottom-cap">Note <span class="juicon juicon-plus"></span></button>
                     </div>
                 </div>
                 <div class="panel__content">
+                    <div class="panel__top">
+                        <div class="form__group">
+                            <label for="surveyName" class="sr-only">Survey Name</label>
+                            <input type="text" id="surveyName" placeholder="Survey Name" value="Ebola Survey"/>
+                            <small class="input-error-content">You need a name for your survey.</small>
+                        </div>
+                    </div>
+
                     <table class="vertical-align-middle">
                         <thead>
                         <tr>
-                            <th>#</th>
+                            <th class="hide-brkpoint--sm">#</th>
                             <th>Question</th>
-                            <th width="150"><div class="sort-arrow juicon juicon-upward right"></div>Type</th>
+                            <th width="150" class="sort-it hide-brkpoint--sm"><div class="sort-arrow juicon juicon-upward right"></div>Type</th>
                             <th width="112"></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>1</td>
+                            <td class="hide-brkpoint--sm">1</td>
                             <td>How do you feel about that thing the person did to you the other day?</td>
-                            <td>Multiple Choice</td>
+                            <td class="hide-brkpoint--sm">Multiple Choice</td>
                             <td>
-                                <ul class="inline-list">
+                                <span class="right show-brkpoint--sm--only">
+                                    <button class="button button--secondary" data-toggle="modal" data-target="#questionOptions"><span class="juicon juicon-dots"></span></button>
+                                </span>
+                                <ul class="inline-list show-brkpoint--md">
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-pencil"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-chart-bar"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-x"></span></a></li>
@@ -201,11 +241,14 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>2</td>
+                            <td class="hide-brkpoint--sm">2</td>
                             <td>Where does it hurt the most when someone calls you a jerk?</td>
-                            <td>Multiple Choice</td>
+                            <td class="hide-brkpoint--sm">Multiple Choice</td>
                             <td>
-                                <ul class="inline-list">
+                                <span class="right show-brkpoint--sm--only">
+                                    <button class="button button--secondary" data-toggle="modal" data-target="#questionOptions"><span class="juicon juicon-dots"></span></button>
+                                </span>
+                                <ul class="inline-list show-brkpoint--md">
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-pencil"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-chart-bar"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-x"></span></a></li>
@@ -213,11 +256,14 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>3</td>
+                            <td class="hide-brkpoint--sm">3</td>
                             <td>What did you think of the new thing we made you use to measure your thing?</td>
-                            <td>Essay</td>
+                            <td class="hide-brkpoint--sm">Essay</td>
                             <td>
-                                <ul class="inline-list">
+                                <span class="right show-brkpoint--sm--only">
+                                    <button class="button button--secondary" data-toggle="modal" data-target="#questionOptions"><span class="juicon juicon-dots"></span></button>
+                                </span>
+                                <ul class="inline-list show-brkpoint--md">
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-pencil"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-chart-bar"></span></a></li>
                                     <li class="inline-list__item"><a href="#" class="inline-block"><span class="juicon juicon-x"></span></a></li>
@@ -226,6 +272,102 @@
                         </tr>
                         </tbody>
                     </table>
+                    <div class="panel__bottom">
+                        <button class="button button--primary button--ghost">Question <span class="juicon juicon-plus"></span></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for Survey Options -->
+            <div class="modal fade mo-modal" id="surveyOptions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal__shell">
+                    <div class="modal__content">
+                        <div class="modal__top">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span class="close-modal-x"></span><span class="sr-only">Close</span>
+                            </button>
+                            <h2 class="modal__heading" id="myModalLabel">Some sort of modal</h2>
+                        </div>
+                        <div class="content--full text-center">
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for Question Options -->
+            <div class="modal fade mo-modal" id="questionOptions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal__shell">
+                    <div class="modal__content">
+                        <div class="modal__top">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span class="close-modal-x"></span><span class="sr-only">Close</span>
+                            </button>
+                            <h2 class="modal__heading" id="myModalLabel">Some sort of modal</h2>
+                        </div>
+                        <div class="content--small text-center">
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tile-container">
+                                <div class="tile-container__inner">
+                                    <a href="#" class="tile">
+                                        <div class="juicon juicon-pencil"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -239,28 +381,38 @@
         <div class="panel has-sidebar mar--sm--bxl">
             <div class="panel__top">
                 <div class="row">
-                    <div class="column--md--6">
-                        <h3 class="panel__subheading"><a href="#"><span class="juicon juicon-backward"></span> Questions</a></h3>
-                        <h2 class="panel__heading has-subheading">Question 1</h2>
+                    <div class="column--sm--3">
+                        <button class="button button--secondary"><span class="juicon juicon-backward"></span></button>
                     </div>
-                    <div class="column--md--6">
-                        <div class="button-group right-left">
-                            <div class="button button--primary">Save question</div>
-                            <div class="button button--primary button--split" data-toggle="dropdown"><span class="juicon juicon-gear"></span></div>
-                            <ul class="dropdown-menu dropdown-menu--right">
-                                <li class="list-group__item has-icon--right">
-                                    <div class="input__icon juicon juicon-forward"></div>
-                                    <a href="#">Save & close</a>
-                                </li>
-                                <li class="list-group__item has-icon--right">
-                                    <div class="input__icon juicon juicon-plus"></div>
-                                    <a href="#">Save & create another</a>
-                                </li>
-                                <li class="list-group__item has-icon--right">
-                                    <div class="input__icon juicon juicon-x"></div>
-                                    <a href="#">Delete</a>
-                                </li>
-                            </ul>
+                    <div class="column--sm--6 text-center">
+                        <div class="panel__heading">
+                            Question
+                        </div>
+                    </div>
+                    <div class="column--sm--3">
+                        <div class="show-brkpoint--sm--only right">
+                            <button class="button button--primary"><span class="juicon juicon-check"></span></button>
+                        </div>
+
+                        <div class="show-brkpoint--md right">
+                            <div class="button-group">
+                                <div class="button button--primary">Done</div>
+                                <div class="button button--primary button--split" data-toggle="dropdown"><span class="juicon juicon-gear"></span></div>
+                                <ul class="dropdown-menu dropdown-menu--right">
+                                    <li class="list-group__item has-icon--right">
+                                        <div class="input__icon juicon juicon-forward"></div>
+                                        <a href="#">Save & close</a>
+                                    </li>
+                                    <li class="list-group__item has-icon--right">
+                                        <div class="input__icon juicon juicon-plus"></div>
+                                        <a href="#">Save & create another</a>
+                                    </li>
+                                    <li class="list-group__item has-icon--right">
+                                        <div class="input__icon juicon juicon-x"></div>
+                                        <a href="#">Delete</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -313,9 +465,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel__content">
+                <div class="panel__content hide-brkpoint--sm">
                     <div class="content--full pad--sm--tm">
-                        <h2 class="mar--sm--tn">How do you feel about that thing the person did to you the other day?</h1>
+                        <h2 class="mar--sm--tn">How do you feel about that thing the person did to you the other day?</h2>
                         <form>
                             <div class="form__group">
                                 <input type="radio" name="q1" value="notGood" id="notGood"/><label for="notGood"> Not good</label>

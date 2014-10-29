@@ -100,47 +100,62 @@ $el-h: null) {
 
 // radius
 
-@mixin radius($radius: $br-default) {
-  @include vendor-prefix($name: border-radius, $argument: $radius);
+@mixin radius($radius: $br-default, $important: null) {
+  @include vendor-prefix($name: border-radius, $argument: $radius  #{$important});
 }
 
-@mixin erase-radius-right($radius: 0) {
-  @include vendor-prefix($name: border-top-right-radius, $argument: $radius);
-  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius);
+@mixin erase-radius-right($radius: 0, $important: null) {
+  @include vendor-prefix($name: border-top-right-radius, $argument: $radius  #{$important});
+  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius  #{$important});
 }
 
-@mixin erase-radius-left($radius: 0) {
-  @include vendor-prefix($name: border-top-left-radius, $argument: $radius);
-  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius);
+@mixin erase-radius-left($radius: 0, $important: null) {
+  @include vendor-prefix($name: border-top-left-radius, $argument: $radius  #{$important});
+  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius  #{$important});
 }
 
-@mixin erase-radius($radius: 0) {
-  @include vendor-prefix($name: border-radius, $argument: $radius);
+@mixin erase-radius($radius: 0, $important: null) {
+  @include vendor-prefix($name: border-radius, $argument: $radius  #{$important});
 }
 
-@mixin erase-radius-bottom($radius: 0) {
-  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius);
-  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius);
+@mixin erase-radius-bottom($radius: 0, $important: null) {
+  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius  #{$important});
+  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius  #{$important});
 }
 
-@mixin radius-left($radius: $br-default) {
-  @include vendor-prefix($name: border-top-left-radius, $argument: $radius);
-  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius);
+@mixin erase-radius-top($radius: 0, $important: null) {
+  @include vendor-prefix($name: border-top-left-radius, $argument: $radius  #{$important});
+  @include vendor-prefix($name: border-top-right-radius, $argument: $radius  #{$important});
 }
 
-@mixin radius-right($radius: $br-default) {
-  @include vendor-prefix($name: border-top-right-radius, $argument: $radius);
-  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius);
+@mixin radius-left($radius: $br-default, $important: null) {
+  @include vendor-prefix($name: border-top-left-radius, $argument: $radius  #{$important});
+  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius  #{$important});
 }
 
-@mixin radius-top($radius: $br-default) {
-  @include vendor-prefix($name: border-top-left-radius, $argument: $radius);
-  @include vendor-prefix($name: border-top-right-radius, $argument: $radius);
+@mixin radius-right($radius: $br-default, $important: null) {
+  @include vendor-prefix($name: border-top-right-radius, $argument: $radius  #{$important});
+  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius  #{$important});
 }
 
-@mixin radius-bottom($radius: $br-default) {
-  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius);
-  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius);
+@mixin radius-top($radius: $br-default, $important: null) {
+  @include vendor-prefix($name: border-top-left-radius, $argument: $radius  #{$important});
+  @include vendor-prefix($name: border-top-right-radius, $argument: $radius  #{$important});
+}
+
+@mixin radius-bottom($radius: $br-default, $important: null) {
+  @include vendor-prefix($name: border-bottom-left-radius, $argument: $radius #{$important});
+  @include vendor-prefix($name: border-bottom-right-radius, $argument: $radius #{$important});
+}
+
+.top-cap {
+  @include radius-top($important:!important);
+  @include erase-radius-bottom($important:!important);
+}
+
+.bottom-cap {
+  @include radius-bottom($important:!important);
+  @include erase-radius-top($important:!important);
 }
 
 
@@ -291,6 +306,34 @@ $el-h: null) {
   &--lg-- {
     @media (min-width: $brkpoint-lg) {
       @include surgical-space($attr: $attr);
+    }
+  }
+}
+
+@mixin show-brkpoints($attr) {
+  &.show-brkpoint--sm {
+    @media (min-width: $brkpoint-sm) {
+      display: #{$attr};
+    }
+    &--only {
+      display: none;
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        display: #{$attr};
+      }
+    }
+  }
+  &.show-brkpoint--md {
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      display: none;
+    }
+    @media (min-width: $brkpoint-md) {
+      display: #{$attr};
+    }
+    &--only {
+      display: none;
+      @media (min-width: $brkpoint-md) and (max-width: $brkpoint-lg) {
+        display: #{$attr};
+      }
     }
   }
 }

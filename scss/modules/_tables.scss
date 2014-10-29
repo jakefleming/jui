@@ -1,5 +1,5 @@
 table {
-
+  @include show-brkpoints(table);
   width: 100%;
   max-width: 100%;
   margin-bottom: 0;
@@ -73,11 +73,18 @@ table {
       }
     }
   }
+  td, th {
+    @include show-brkpoints(table-cell);
+  }
 }
-
+.sort-it {
+  @extend .relative;
+}
 .sort-arrow {
   @extend .right;
   @extend .pointer;
+  @extend .absolute;
+  right: $base-v-padding/2+px;
   color: $input-icon-color;
   padding: $base-v-padding/2+px;
   transition-timing-function: ease-in-out;

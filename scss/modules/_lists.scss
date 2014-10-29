@@ -73,6 +73,7 @@
 
 .inline-list {
   @extend .list-style-type-none;
+  @extend %center-align;
   margin: 0;
   &__item {
     @extend .inline-block;
