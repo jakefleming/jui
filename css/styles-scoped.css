@@ -1065,6 +1065,10 @@ body .scope-container .button > .juicon:before, body .scope-container .panel__co
   position: relative;
   top: 2px; }
 
+.scroll-it-x {
+  overflow-x: auto;
+  display: block; }
+
 body .scope-container {
   /*!
    * Datepicker for Bootstrap
@@ -1511,19 +1515,7 @@ body .scope-container {
     padding: 16px;
     right: 16px; }
     body .scope-container .button.button--action .juicon, body .scope-container .button.button--action .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close .button.button--action .component-remove-x, body .scope-container .button.button--action .close-modal-x, body .scope-container button.button--action .juicon, body .scope-container button.button--action .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close button.button--action .component-remove-x, body .scope-container button.button--action .close-modal-x {
-      display: inline-block;
-      -webkit-transition: 0.5s cubic-bezier(0.165, 0.775, 0.145, 1.02);
-      -moz-transition: 0.5s cubic-bezier(0.165, 0.775, 0.145, 1.02);
-      -o-transition: 0.5s cubic-bezier(0.165, 0.775, 0.145, 1.02);
-      transition: 0.5s cubic-bezier(0.165, 0.775, 0.145, 1.02);
-      position: relative;
-      z-index: 1024; }
-  body .scope-container .modal-open .button.button--action .juicon-plus, body .scope-container .modal-open button.button--action .juicon-plus {
-    transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    /* Opera, Chrome, and Safari */ }
+      display: inline-block; }
   body .scope-container .card {
     -webkit-border-radius: 4px ;
     -ms-border-radius: 4px ;
@@ -2083,8 +2075,7 @@ body .scope-container {
       -moz-border-radius: 4px ;
       -o-border-radius: 4px ;
       border-radius: 4px ;
-      background-color: rgba(56, 64, 71, 0.8);
-      padding: 14px; }
+      padding: 14px 8px; }
     body .scope-container .tile-container:nth-child(1) .tile {
       background-color: #ff7b84; }
     body .scope-container .tile-container:nth-child(2) .tile {
@@ -2143,6 +2134,19 @@ body .scope-container {
     color: #fff;
     font-size: 75%;
     max-width: 64px; }
+  body .scope-container .tile__content {
+    -webkit-border-bottom-left-radius: 4px ;
+    -ms-border-bottom-left-radius: 4px ;
+    -moz-border-bottom-left-radius: 4px ;
+    -o-border-bottom-left-radius: 4px ;
+    border-bottom-left-radius: 4px ;
+    -webkit-border-bottom-right-radius: 4px ;
+    -ms-border-bottom-right-radius: 4px ;
+    -moz-border-bottom-right-radius: 4px ;
+    -o-border-bottom-right-radius: 4px ;
+    border-bottom-right-radius: 4px ;
+    background-color: rgba(56, 64, 71, 0.8);
+    padding: 16px; }
   body .scope-container .avatar-container--lg {
     width: 40px;
     height: 40px; }
@@ -2862,8 +2866,7 @@ body .scope-container {
   body .scope-container table {
     width: 100%;
     max-width: 100%;
-    margin-bottom: 0;
-    overflow: scroll; }
+    margin-bottom: 0; }
     @media (min-width: 1px) {
       body .scope-container table.show-brkpoint--sm {
         display: table; } }
@@ -3155,19 +3158,8 @@ button.close {
   background: 0 0;
   border: 0; }
 
-.mo-modal .modal__shell {
-  width: 100%;
-  margin: 0; }
-.mo-modal .modal__top {
-  background: rgba(56, 64, 71, 0.8);
-  margin-bottom: 32px; }
 .mo-modal .modal__content {
-  background: transparent;
-  -webkit-border-radius: 0 ;
-  -ms-border-radius: 0 ;
-  -moz-border-radius: 0 ;
-  -o-border-radius: 0 ;
-  border-radius: 0 ; }
+  background: rgba(56, 64, 71, 0.8); }
 .mo-modal .modal__heading {
   color: #fff; }
 
@@ -3537,14 +3529,5 @@ button.close {
     padding-bottom: 24px; }
   body .scope-container .pad--lg--lxl {
     padding-bottom: 32px; } }
-
-body.modal-open .button.button--action .juicon-plus, body.modal-open button.button--action .juicon-plus {
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Opera, Chrome, and Safari */
-  position: relative;
-  z-index: 1024; }
 
 /*# sourceMappingURL=styles-scoped.css.map */

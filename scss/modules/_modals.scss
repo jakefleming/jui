@@ -157,25 +157,8 @@ button.close {
 
 .mo-modal {
   .modal {
-    &__shell {
-      width: 100%;
-      margin: 0;
-    }
-    &__top {
-      background: transparentize($black, .2);
-      margin-bottom: $base-h-padding*2+px;
-//      padding: $base-v-padding+px $base-h-padding+px;
-//      .close {
-//        top: $base-v-padding+px;
-//        right: $base-h-padding+px;
-//        .close-modal-x {
-//          color: $white;
-//        }
-//      }
-    }
     &__content {
-      background: transparent;
-      @include erase-radius();
+      background: transparentize($black, .2);
     }
     &__heading {
       color: $white;

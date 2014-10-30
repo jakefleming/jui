@@ -2,8 +2,9 @@
 <html>
     <head>
     <title>JUI Kit</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/docs.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/docs.css"/>
     </head>
     <body style="padding-bottom: 100px;">
         <div class="scope-container">
@@ -563,6 +564,7 @@
                                     </div>
 
                                 </div>
+                                <div class="scroll-it-x">
                                     <table>
                                         <thead>
                                         <tr>
@@ -605,6 +607,7 @@
                                         </tr>
                                         </tbody>
                                     </table>
+                                </div>
                                 <div class="panel__bottom">
                                     <div class="button button--success button--chunky right">Submit</div>
                                 </div>
@@ -937,6 +940,10 @@
 
             $(document).ready(function() {
                 $('.datepicker').datepicker()
+                    .on('changeDate', function(ev){
+                        $('.datepicker').datepicker('hide');
+                    });
+
                 $('button[name="daterange"]').daterangepicker(
                     {
                         ranges: {
