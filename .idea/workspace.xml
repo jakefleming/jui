@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ef72ac-7dca-49c3-8b73-f4f7b0075623" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_button-action.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_button-action.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_extends.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_extends.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_icons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_icons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_modals.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_modals.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/16ca1ee636c864c0d73f84931120c51cb558904f/_scope.scssc" afterPath="$PROJECT_DIR$/.sass-cache/16ca1ee636c864c0d73f84931120c51cb558904f/_scope.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_tables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_tables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_button-action.scss" afterPath="$PROJECT_DIR$/scss/modules/_button-action.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_extends.scss" afterPath="$PROJECT_DIR$/scss/modules/_extends.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_icons.scss" afterPath="$PROJECT_DIR$/scss/modules/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_modals.scss" afterPath="$PROJECT_DIR$/scss/modules/_modals.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/shame/_scope.scss" afterPath="$PROJECT_DIR$/scss/shame/_scope.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_tables.scss" afterPath="$PROJECT_DIR$/scss/modules/_tables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datepicker/js/datepicker.js" afterPath="$PROJECT_DIR$/lib/datepicker/js/datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_lists.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_lists.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_lists.scss" afterPath="$PROJECT_DIR$/scss/modules/_lists.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/docs.css.map" afterPath="$PROJECT_DIR$/css/docs.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/docs.css" afterPath="$PROJECT_DIR$/css/docs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -22,9 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles-scoped.css" afterPath="$PROJECT_DIR$/css/styles-scoped.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css.map" afterPath="$PROJECT_DIR$/css/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template__panel-table.html" afterPath="$PROJECT_DIR$/template__panel-table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template__plus-button.html" afterPath="$PROJECT_DIR$/template__plus-button.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template__survey.html" afterPath="$PROJECT_DIR$/template__survey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,88 +35,94 @@
     <favorites_list name="jui" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.432282">
+    <splitter split-orientation="horizontal" split-proportion="0.44676298">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file leaf-file-name="_icons.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_icons.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="12312" max-vertical-offset="14475">
-                  <caret line="832" column="201" selection-start-line="832" selection-start-column="201" selection-end-line="832" selection-end-column="201" />
+                <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="705">
+                  <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="jui.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/jui.js">
+          <file leaf-file-name="_date-picker.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_date-picker.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="21603" max-vertical-offset="22290">
+                <state vertical-scroll-proportion="-10.708333" vertical-offset="1393" max-vertical-offset="2100">
+                  <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_button-action.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_button-action.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_modals.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_modals.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-20.083334" vertical-offset="1888" max-vertical-offset="2595">
+                  <caret line="158" column="10" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_scope.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/shame/_scope.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="datepicker.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lib/datepicker/js/datepicker.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7380952" vertical-offset="6271" max-vertical-offset="7185">
-                  <caret line="447" column="82" selection-start-line="447" selection-start-column="82" selection-end-line="447" selection-end-column="82" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="template__add-conditions.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/template__add-conditions.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1729" max-vertical-offset="2340">
-                  <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="template__panel-table.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/template__panel-table.html">
+          <file leaf-file-name="_tables.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_tables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1069" max-vertical-offset="1680">
-                  <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+                <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="1500">
+                  <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="template__setup-tabs.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/template__setup-tabs.html">
+          <file leaf-file-name="_extends.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_extends.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="900">
-                  <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+                <state vertical-scroll-proportion="-14.458333" vertical-offset="1228" max-vertical-offset="2010">
+                  <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="template__signin.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/template__signin.html">
+          <file leaf-file-name="_lists.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_lists.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="780">
-                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.6152758" vertical-offset="360" max-vertical-offset="1680">
+                  <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="templates.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates.html">
+          <file leaf-file-name="_pagination.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_pagination.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="1155">
-                  <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+                <state vertical-scroll-proportion="-5.0833335" vertical-offset="538" max-vertical-offset="1320">
+                  <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -138,45 +131,9 @@
           <file leaf-file-name="_daterangepicker.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/modules/_daterangepicker.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="4605">
-                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding>
-                    <marker date="1414688183000" expanded="true" signature="289:6012" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="3818:4162" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="3923:3983" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="3946:3977" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="3995:4063" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4122:4158" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4180:4303" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4216:4299" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4227:4293" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4321:4402" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4411:4448" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4458:5320" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4759:5249" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4775:4819" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="4851:4973" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5009:5243" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5261:5316" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5326:5497" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5344:5404" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5427:5493" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5503:5569" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5517:5565" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5579:5643" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5596:5639" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5653:6010" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5687:5797" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5816:5865" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5883:5908" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="5956:6006" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="6071:6138" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="6205:6229" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="6255:6335" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="6387:6390" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="6402:6423" placeholder="{...}" />
-                    <marker date="1414688183000" expanded="true" signature="6435:6455" placeholder="{...}" />
-                  </folding>
+                <state vertical-scroll-proportion="-5.14" vertical-offset="2248" max-vertical-offset="4605">
+                  <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -185,56 +142,101 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="_alerts.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/modules/_alerts.scss">
+          <file leaf-file-name="template__survey.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template__survey.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1545">
-                  <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+                <state vertical-scroll-proportion="-6.04" vertical-offset="4738" max-vertical-offset="7440">
+                  <caret line="336" column="25" selection-start-line="336" selection-start-column="25" selection-end-line="336" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/base/_base.scss">
+          <file leaf-file-name="template__plus-button.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template__plus-button.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-                  <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-                  <folding>
-                    <marker date="1414514146000" expanded="true" signature="427:480" placeholder="{...}" />
-                    <marker date="1414514146000" expanded="true" signature="505:601" placeholder="{...}" />
-                    <marker date="1414514146000" expanded="true" signature="610:659" placeholder="{...}" />
-                    <marker date="1414514146000" expanded="true" signature="664:796" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_labels.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/modules/_labels.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1035">
-                  <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+                <state vertical-scroll-proportion="-4.62" vertical-offset="189" max-vertical-offset="1275">
+                  <caret line="28" column="59" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_date-picker.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/scss/modules/_date-picker.scss">
+          <file leaf-file-name="_grid-columns.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/layout/_grid-columns.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="2.7540984" vertical-offset="135" max-vertical-offset="2100">
-                  <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+                <state vertical-scroll-proportion="-19.375" vertical-offset="15" max-vertical-offset="885">
+                  <caret line="32" column="38" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/styles.scss">
+          <file leaf-file-name="_grid-container.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/layout/_grid-container.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="570">
-                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="600">
+                  <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template__panel-table.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template__panel-table.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.64" vertical-offset="778" max-vertical-offset="1680">
+                  <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template__nav-bar.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template__nav-bar.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.9" vertical-offset="0" max-vertical-offset="1290">
+                  <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template__add-conditions.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template__add-conditions.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.66" vertical-offset="697" max-vertical-offset="2340">
+                  <caret line="72" column="34" selection-start-line="59" selection-start-column="28" selection-end-line="72" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.47136563" vertical-offset="10614" max-vertical-offset="15015">
+                  <caret line="729" column="29" selection-start-line="729" selection-start-column="29" selection-end-line="729" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="docs.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/docs.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="templates.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="1155">
+                  <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -255,27 +257,66 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/scss/utilities/_index.scss" />
+        <option value="$PROJECT_DIR$/scss/utilities/_fonts.scss" />
+        <option value="$PROJECT_DIR$/scss/layout/_index.scss" />
+        <option value="$PROJECT_DIR$/scss/base/_index.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/scss/modules/_list-group.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_button-groups.scss" />
+        <option value="$PROJECT_DIR$/js/jui.js" />
+        <option value="$PROJECT_DIR$/template__survey-add.html" />
+        <option value="$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_img.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_cards.scss" />
+        <option value="$PROJECT_DIR$/template__add-conditions.html" />
+        <option value="$PROJECT_DIR$/template__setup-tabs.html" />
+        <option value="$PROJECT_DIR$/scss/layout/_grid-columns.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_buttons.scss" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/scss/shame/_shame.scss" />
+        <option value="$PROJECT_DIR$/scss/base/_normalize.scss" />
         <option value="$PROJECT_DIR$/scss/base/_base.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_labels.scss" />
-        <option value="$PROJECT_DIR$/template__add-conditions.html" />
-        <option value="$PROJECT_DIR$/template__panel-table.html" />
-        <option value="$PROJECT_DIR$/template__setup-tabs.html" />
-        <option value="$PROJECT_DIR$/template__signin.html" />
-        <option value="$PROJECT_DIR$/templates.html" />
+        <option value="$PROJECT_DIR$/scss/modules/_panels.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_nav-bar.scss" />
+        <option value="$PROJECT_DIR$/scss/utilities/_mixins.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_forms.scss" />
         <option value="$PROJECT_DIR$/scss/styles.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/lib/daterangepicker/daterangepicker.js" />
+        <option value="$PROJECT_DIR$/scss/utilities/_config.scss" />
+        <option value="$PROJECT_DIR$/scss/layout/_grid-container.scss" />
+        <option value="$PROJECT_DIR$/template__nav-bar.html" />
+        <option value="$PROJECT_DIR$/templates.html" />
+        <option value="$PROJECT_DIR$/scss/modules/_index.scss" />
+        <option value="$PROJECT_DIR$/scss/utilities/_helpers.scss" />
+        <option value="$PROJECT_DIR$/scss/styles-scoped.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_x.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_pagination.scss" />
+        <option value="$PROJECT_DIR$/scss/docs.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_date-picker.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_daterangepicker.scss" />
+        <option value="$PROJECT_DIR$/lib/daterangepicker/js/daterangepicker.js" />
         <option value="$PROJECT_DIR$/lib/datepicker/js/datepicker.js" />
+        <option value="$PROJECT_DIR$/scss/modules/_button-action.scss" />
+        <option value="$PROJECT_DIR$/scss/shame/_scope.scss" />
+        <option value="$PROJECT_DIR$/template__plus-button.html" />
+        <option value="$PROJECT_DIR$/template__survey.html" />
+        <option value="$PROJECT_DIR$/scss/modules/_modals.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_icons.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_tables.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_extends.scss" />
+        <option value="$PROJECT_DIR$/template__panel-table.html" />
+        <option value="$PROJECT_DIR$/scss/modules/_lists.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="23" />
+    <option name="x" value="50" />
+    <option name="y" value="57" />
     <option name="width" value="1869" />
-    <option name="height" value="1057" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -303,7 +344,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -332,7 +372,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,60 +386,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daterangepicker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datepicker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="preferences.sourceCode.SCSS" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesSCSS" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/utilities" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -440,16 +450,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1869" height="1057" extended-state="0" />
-    <editor active="false" />
+    <frame x="50" y="57" width="1869" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29422382" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13483146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13483146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -463,6 +473,27 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29422382" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13483146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -485,28 +516,82 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scss/modules/_button-groups.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="11532" max-vertical-offset="12525">
-          <caret line="780" column="66" selection-start-line="780" selection-start-column="66" selection-end-line="780" selection-end-column="66" />
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_img.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="420">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="60" max-vertical-offset="3345">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template__signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64041096" vertical-offset="196" max-vertical-offset="780">
+          <caret line="38" column="94" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template__setup-tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35971224" vertical-offset="295" max-vertical-offset="900">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_cards.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9102564" vertical-offset="337" max-vertical-offset="870">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="660">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="16" column="1" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_labels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.708333" vertical-offset="118" max-vertical-offset="1035">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21603" max-vertical-offset="22215">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/datepicker/js/datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6488" max-vertical-offset="7185">
-          <caret line="447" column="82" selection-start-line="447" selection-start-column="82" selection-end-line="447" selection-end-column="82" />
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="21682" max-vertical-offset="22290">
+          <caret line="1467" column="7" selection-start-line="1467" selection-start-column="7" selection-end-line="1467" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -515,294 +600,366 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template__add-conditions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1729" max-vertical-offset="2340">
-          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+        <state vertical-scroll-proportion="-7.66" vertical-offset="697" max-vertical-offset="2340">
+          <caret line="72" column="34" selection-start-line="59" selection-start-column="28" selection-end-line="72" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template__panel-table.html">
+    <entry file="file://$PROJECT_DIR$/scss/base/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1440">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="90" max-vertical-offset="5715">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8" vertical-offset="30" max-vertical-offset="2460">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles-scoped.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.384615" vertical-offset="4582" max-vertical-offset="49995">
+          <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding>
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414707740000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/shame/_shame.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_nav-bar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8" vertical-offset="135" max-vertical-offset="2490">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/utilities/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.75" vertical-offset="4455" max-vertical-offset="5160">
+          <caret line="327" column="5" selection-start-line="327" selection-start-column="5" selection-end-line="327" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6923075" vertical-offset="53886" max-vertical-offset="54150">
+          <caret line="3604" column="0" selection-start-line="3604" selection-start-column="0" selection-end-line="3604" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="180" max-vertical-offset="2970">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/utilities/_config.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="2535" max-vertical-offset="3795">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_grid-columns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375" vertical-offset="15" max-vertical-offset="885">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_grid-container.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template__nav-bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9" vertical-offset="0" max-vertical-offset="1290">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/utilities/_helpers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.22" vertical-offset="959" max-vertical-offset="4275">
           <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template__setup-tabs.html">
+    <entry file="file://$PROJECT_DIR$/scss/modules/_x.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="900">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template__signin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="780">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="945">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_daterangepicker.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="4560">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1414688183000" expanded="true" signature="289:6012" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="3818:4162" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="3923:3983" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="3946:3977" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="3995:4063" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4122:4158" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4180:4303" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4216:4299" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4227:4293" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4321:4402" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4411:4448" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4458:5320" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4759:5249" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4775:4819" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4851:4973" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5009:5243" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5261:5316" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5326:5497" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5344:5404" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5427:5493" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5503:5569" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5517:5565" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5579:5643" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5596:5639" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5653:6010" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5687:5797" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5816:5865" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5883:5908" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5956:6006" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6071:6138" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6205:6229" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6255:6335" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6387:6390" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6402:6423" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6435:6455" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_alerts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1560">
-          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="690">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <marker date="1414514146000" expanded="true" signature="427:480" placeholder="{...}" />
-            <marker date="1414514146000" expanded="true" signature="505:601" placeholder="{...}" />
-            <marker date="1414514146000" expanded="true" signature="610:659" placeholder="{...}" />
-            <marker date="1414514146000" expanded="true" signature="664:796" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_labels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="885">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_date-picker.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2760">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/styles.scss">
+    <entry file="file://$PROJECT_DIR$/scss/modules/_progress-bars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1470">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template__add-conditions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1729" max-vertical-offset="2340">
-          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template__panel-table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1069" max-vertical-offset="1680">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template__setup-tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="900">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template__signin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="780">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-          <folding>
-            <marker date="1414514146000" expanded="true" signature="427:480" placeholder="{...}" />
-            <marker date="1414514146000" expanded="true" signature="505:601" placeholder="{...}" />
-            <marker date="1414514146000" expanded="true" signature="610:659" placeholder="{...}" />
-            <marker date="1414514146000" expanded="true" signature="664:796" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="1155">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/datepicker/css/datepicker.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54330707" vertical-offset="0" max-vertical-offset="2805">
-          <caret line="23" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="181" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_labels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="870">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22215">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="570">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scss/modules/_special-close.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="12312" max-vertical-offset="14475">
-          <caret line="832" column="201" selection-start-line="832" selection-start-column="201" selection-end-line="832" selection-end-column="201" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_alerts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1545">
-          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+        <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="1545">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.183674" vertical-offset="0" max-vertical-offset="570">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/styles-scoped.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.387755" vertical-offset="820" max-vertical-offset="1500">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Appiphony-Website/css/styles_new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.748972" vertical-offset="15231" max-vertical-offset="15960">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/docs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8979592" vertical-offset="878" max-vertical-offset="1560">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0833335" vertical-offset="538" max-vertical-offset="1320">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_daterangepicker.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="4560">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1414688183000" expanded="true" signature="289:6012" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="3818:4162" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="3923:3983" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="3946:3977" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="3995:4063" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4122:4158" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4180:4303" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4216:4299" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4227:4293" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4321:4402" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4411:4448" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4458:5320" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4759:5249" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4775:4819" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="4851:4973" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5009:5243" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5261:5316" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5326:5497" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5344:5404" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5427:5493" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5503:5569" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5517:5565" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5579:5643" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5596:5639" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5653:6010" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5687:5797" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5816:5865" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5883:5908" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="5956:6006" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6071:6138" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6205:6229" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6255:6335" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6387:6390" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6402:6423" placeholder="{...}" />
-            <marker date="1414688183000" expanded="true" signature="6435:6455" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="-5.14" vertical-offset="2248" max-vertical-offset="4605">
+          <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_date-picker.scss">
+    <entry file="file://$PROJECT_DIR$/lib/daterangepicker/js/daterangepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7540984" vertical-offset="135" max-vertical-offset="2100">
-          <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="18165">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/docs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/datepicker/js/datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7380952" vertical-offset="6271" max-vertical-offset="7185">
-          <caret line="447" column="82" selection-start-line="447" selection-start-column="82" selection-end-line="447" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.71631205" vertical-offset="335" max-vertical-offset="7185">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/shame/_scope.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_button-action.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template__plus-button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.62" vertical-offset="189" max-vertical-offset="1275">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_modals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.083334" vertical-offset="1888" max-vertical-offset="2595">
+          <caret line="158" column="10" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="705">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template__survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.04" vertical-offset="4738" max-vertical-offset="7440">
+          <caret line="336" column="25" selection-start-line="336" selection-start-column="25" selection-end-line="336" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="1500">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_date-picker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.708333" vertical-offset="1393" max-vertical-offset="2100">
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template__panel-table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.64" vertical-offset="778" max-vertical-offset="1680">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_extends.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.458333" vertical-offset="1228" max-vertical-offset="2010">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47136563" vertical-offset="10614" max-vertical-offset="15015">
+          <caret line="729" column="29" selection-start-line="729" selection-start-column="29" selection-end-line="729" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_lists.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6152758" vertical-offset="360" max-vertical-offset="1680">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1060,10 +1060,10 @@ body .scope-container .has-error input[type="text"], body .scope-container .has-
   -o-border-bottom-right-radius: 0 ;
   border-bottom-right-radius: 0 ; }
 
-body .scope-container .input__wrap.has-icon--right .input__icon, body .scope-container .list-group__item.has-icon--right .input__icon {
+body .scope-container .input__wrap.has-icon--right .input__icon, body .scope-container .list-group__item.has-icon--right .input__icon, body .scope-container .list-group__item.has-icon--right--special .input__icon {
   right: 0; }
 
-body .scope-container .input__wrap.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left .input__icon {
+body .scope-container .input__wrap.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left--special .input__icon {
   left: 0; }
 
 body .scope-container .button > .juicon:before, body .scope-container .panel__component > .close .button > .component-remove-x:before, body .scope-container .button > .close-modal-x:before, body .scope-container .label > .juicon:before, body .scope-container .panel__component > .close .label > .component-remove-x:before, body .scope-container .label > .close-modal-x:before, body .scope-container .inline-list__item a > .juicon:before, body .scope-container .inline-list__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .inline-list__item a > .component-remove-x:before, body .scope-container .inline-list__item a > .close-modal-x:before, body .scope-container .nav-bar__list--item a > .juicon:before, body .scope-container .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, body .scope-container .nav-bar__list--item a > .close-modal-x:before, body .scope-container .pagination__item a > .juicon:before, body .scope-container .pagination__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .pagination__item a > .component-remove-x:before, body .scope-container .pagination__item a > .close-modal-x:before {
@@ -2264,8 +2264,16 @@ body .scope-container {
       -moz-border-radius: 4px ;
       -o-border-radius: 4px ;
       border-radius: 4px ;
+      -webkit-transition: background-color 0.2s ease;
+      -moz-transition: background-color 0.2s ease;
+      -o-transition: background-color 0.2s ease;
+      transition: background-color 0.2s ease;
       max-width: 100%; }
       body .scope-container .list-group__item a {
+        -webkit-transition: color 0.2s ease;
+        -moz-transition: color 0.2s ease;
+        -o-transition: color 0.2s ease;
+        transition: color 0.2s ease;
         color: #33536d;
         padding: 8px 16px; }
       body .scope-container .list-group__item:last-child {
@@ -2279,12 +2287,25 @@ body .scope-container {
           color: #fff; }
       body .scope-container .list-group__item.has-icon--right {
         padding-right: 32px; }
-        body .scope-container .list-group__item.has-icon--right .input__icon {
-          padding: 20 1rem; }
+        body .scope-container .list-group__item.has-icon--right--special {
+          padding-right: 40px; }
       body .scope-container .list-group__item.has-icon--left {
         padding-left: 32px; }
-        body .scope-container .list-group__item.has-icon--left .input__icon {
-          padding: 20 1rem; }
+        body .scope-container .list-group__item.has-icon--left--special {
+          padding-left: 40px; }
+      body .scope-container .list-group__item.has-icon--left--special, body .scope-container .list-group__item.has-icon--right--special {
+        margin-bottom: 8px; }
+        body .scope-container .list-group__item.has-icon--left--special .input__icon, body .scope-container .list-group__item.has-icon--right--special .input__icon {
+          -webkit-border-radius: 4px ;
+          -ms-border-radius: 4px ;
+          -moz-border-radius: 4px ;
+          -o-border-radius: 4px ;
+          border-radius: 4px ;
+          padding: 12px;
+          background-color: #f5f6f7; }
+        body .scope-container .list-group__item.has-icon--left--special.active .input__icon, body .scope-container .list-group__item.has-icon--right--special.active .input__icon {
+          background-color: transparent;
+          color: #fff; }
   body .scope-container .list-heading__title {
     background-color: #f0f1f2;
     color: #8d9aa5;

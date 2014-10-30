@@ -17,10 +17,12 @@
     @extend .relative;
     @include radius();
     @extend .block;
+    @include single-transition(background-color);
     max-width: 100%;
     a {
       @extend .block;
       @extend .dots;
+      @include single-transition(color);
       color: $component-color;
       padding: $base-v-padding+px $base-h-padding+px;
     }
@@ -40,19 +42,39 @@
     &.has-icon--right {
       @extend %has-icon--right;
       padding-right: $key-number*2+px;
-      .input__icon {
-        padding: $key-number*1.25 1rem;
+      &--special {
+        @extend %has-icon--right;
+        padding-right: $key-number*2.5+px;
       }
     }
     &.has-icon--left {
       @extend %has-icon--left;
       padding-left: $key-number*2+px;
+      &--special {
+        @extend %has-icon--left;
+        padding-left: $key-number*2.5+px;
+
+      }
+    }
+    &.has-icon--left--special, &.has-icon--right--special {
+      margin-bottom: $base-v-padding+px;
       .input__icon {
-        padding: $key-number*1.25 1rem;
+        @include radius;
+        padding: $base-h-padding*.75+px;
+        background-color: $component-bg-color-active;
+      }
+
+      &.active {
+        .input__icon {
+          background-color: transparent;
+          color: $white;
+        }
       }
     }
   }
 }
+
+
 
 .list-heading {
   &__title {

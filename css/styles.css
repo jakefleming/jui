@@ -1145,10 +1145,10 @@ label {
   -o-border-bottom-right-radius: 0 ;
   border-bottom-right-radius: 0 ; }
 
-.input__wrap.has-icon--right .input__icon, .list-group__item.has-icon--right .input__icon {
+.input__wrap.has-icon--right .input__icon, .list-group__item.has-icon--right .input__icon, .list-group__item.has-icon--right--special .input__icon {
   right: 0; }
 
-.input__wrap.has-icon--left .input__icon, .list-group__item.has-icon--left .input__icon {
+.input__wrap.has-icon--left .input__icon, .list-group__item.has-icon--left .input__icon, .list-group__item.has-icon--left--special .input__icon {
   left: 0; }
 
 .button > .juicon:before, .button > .close-modal-x:before, .panel__component > .close .button > .component-remove-x:before, .label > .juicon:before, .label > .close-modal-x:before, .panel__component > .close .label > .component-remove-x:before, .inline-list__item a > .juicon:before, .inline-list__item a > .close-modal-x:before, .inline-list__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .inline-list__item a > .component-remove-x:before, .nav-bar__list--item a > .juicon:before, .nav-bar__list--item a > .close-modal-x:before, .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, .pagination__item a > .juicon:before, .pagination__item a > .close-modal-x:before, .pagination__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .pagination__item a > .component-remove-x:before {
@@ -2388,8 +2388,16 @@ input[type=radio] {
     -moz-border-radius: 4px ;
     -o-border-radius: 4px ;
     border-radius: 4px ;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
     max-width: 100%; }
     .list-group__item a {
+      -webkit-transition: color 0.2s ease;
+      -moz-transition: color 0.2s ease;
+      -o-transition: color 0.2s ease;
+      transition: color 0.2s ease;
       color: #33536d;
       padding: 8px 16px; }
     .list-group__item:last-child {
@@ -2403,12 +2411,25 @@ input[type=radio] {
         color: #fff; }
     .list-group__item.has-icon--right {
       padding-right: 32px; }
-      .list-group__item.has-icon--right .input__icon {
-        padding: 20 1rem; }
+      .list-group__item.has-icon--right--special {
+        padding-right: 40px; }
     .list-group__item.has-icon--left {
       padding-left: 32px; }
-      .list-group__item.has-icon--left .input__icon {
-        padding: 20 1rem; }
+      .list-group__item.has-icon--left--special {
+        padding-left: 40px; }
+    .list-group__item.has-icon--left--special, .list-group__item.has-icon--right--special {
+      margin-bottom: 8px; }
+      .list-group__item.has-icon--left--special .input__icon, .list-group__item.has-icon--right--special .input__icon {
+        -webkit-border-radius: 4px ;
+        -ms-border-radius: 4px ;
+        -moz-border-radius: 4px ;
+        -o-border-radius: 4px ;
+        border-radius: 4px ;
+        padding: 12px;
+        background-color: #f5f6f7; }
+      .list-group__item.has-icon--left--special.active .input__icon, .list-group__item.has-icon--right--special.active .input__icon {
+        background-color: transparent;
+        color: #fff; }
 
 .list-heading__title {
   background-color: #f0f1f2;
