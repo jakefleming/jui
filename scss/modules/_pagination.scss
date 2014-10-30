@@ -9,7 +9,7 @@
       @extend .left;
       @extend .relative;
       @extend %center-align;
-      @include spacing(padding);
+      @include spacing(padding, ($base-v-padding - 1));
       @include border;
       @include single-transition(background-color);
       margin-left: -1px;
@@ -47,5 +47,37 @@
         cursor: not-allowed;
       }
     }
+  }
+}
+
+.pagination--alt {
+  @extend .pagination;
+  display: inline-block;
+  .pagination__item {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: -($base-v-padding/4+px);
+    ~ .pagination__item {
+      margin-left: -($base-v-padding/4+px);
+    }
+  }
+  .select-wrap {
+    @include erase-radius();
+    @extend .inline-block;
+    min-width: 40px;
+    margin-left: -1px;
+    border-right: 0;
+  }
+  > span {
+    @include show-brkpoints(inline-block);
+    margin-left: -($base-v-padding/4+px);
+    .pagination__item {
+      a {
+        @include erase-radius();
+      }
+    }
+  }
+  .pagination__select {
+    @include show-brkpoints(inline-block);
   }
 }

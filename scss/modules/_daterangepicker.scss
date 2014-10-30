@@ -164,6 +164,9 @@
     }
   }
   .calendar {
+    &.left, &.right {
+      float: left;
+    }
     display: none;
     //max-width: 270px;
     &.single {

@@ -229,7 +229,7 @@
 .juicon-downward:before {
   content: "\e040"; }
 
-.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__section:after, body .scope-container .panel__component:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
+.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__section:after, body .scope-container .panel__component:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
   content: "";
   display: table;
   clear: both; }
@@ -318,17 +318,17 @@ body .scope-container .panel__sidebar {
 body .scope-container .panel__box {
   overflow: hidden; }
 
-.list-style-type-none, body .scope-container .dropdown-menu, body .scope-container .list-group, body .scope-container .panel__sidebar__list-group, body .scope-container .inline-list, body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left, body .scope-container .pagination {
+.list-style-type-none, body .scope-container .dropdown-menu, body .scope-container .list-group, body .scope-container .panel__sidebar__list-group, body .scope-container .inline-list, body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left, body .scope-container .pagination, body .scope-container .pagination--alt {
   list-style-type: none;
   padding: 0; }
 
 .block, body .scope-container .button-group .button, body .scope-container .button-group--collapse .button, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .daterangepicker.show-calendar .calendar, body .scope-container .tile, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .nav-bar__list--item a, .appendage--open body .scope-container .nav-bar__appendage, body .scope-container .appendage--open .nav-bar__appendage {
   display: block; }
 
-.inline-block, body .scope-container .button-group, body .scope-container .tile-container, body .scope-container .label, body .scope-container .inline-list__item {
+.inline-block, body .scope-container .button-group, body .scope-container .tile-container, body .scope-container .label, body .scope-container .inline-list__item, body .scope-container .pagination--alt .select-wrap {
   display: inline-block; }
 
-.inline, body .scope-container .pagination, body .scope-container .pagination__item {
+.inline, body .scope-container .pagination, body .scope-container .pagination--alt, body .scope-container .pagination__item {
   display: inline; }
 
 .table {
@@ -1578,7 +1578,9 @@ body .scope-container {
       text-align: center;
       width: 20px;
       height: 20px;
-      font-size: 0.875em; }
+      font-size: 0.875em;
+      padding-left: 0;
+      padding-right: 0; }
     body .scope-container .datepicker td {
       background-color: #fff;
       color: #384047;
@@ -1771,6 +1773,8 @@ body .scope-container {
           max-width: none; } }
     body .scope-container .daterangepicker .calendar {
       display: none; }
+      body .scope-container .daterangepicker .calendar.left, body .scope-container .daterangepicker.opensleft .calendar, body .scope-container .daterangepicker .ranges .ranges_inputs > div.calendar, body .scope-container .daterangepicker .calendar.daterangepicker_start_input, body .scope-container .daterangepicker .calendar.daterangepicker_end_input, body .scope-container .daterangepicker .calendar.cancelBtn, body .scope-container .daterangepicker .pagination__item a.calendar, body .scope-container .pagination__item .daterangepicker a.calendar, body .scope-container .daterangepicker .calendar.panel__bottom, body .scope-container .daterangepicker .calendar.panel__component, body .scope-container .daterangepicker .slider--horizontal .calendar.slider__selection, body .scope-container .slider--horizontal .daterangepicker .calendar.slider__selection, body .scope-container .daterangepicker .calendar.right, body .scope-container .daterangepicker.opensright .calendar, body .scope-container .daterangepicker.openscenter .calendar, body .scope-container .daterangepicker .calendar.applyBtn, body .scope-container .daterangepicker .calendar.label--notification, body .scope-container .daterangepicker .calendar.nav-bar__menu-toggle, body .scope-container .daterangepicker .calendar.sort-arrow {
+        float: left; }
       body .scope-container .daterangepicker .calendar.single .calendar-date {
         border: none; }
       body .scope-container .daterangepicker .calendar th, body .scope-container .daterangepicker .calendar td {
@@ -2443,10 +2447,10 @@ body .scope-container {
         border-radius: 0 ; } }
   body .scope-container .menu--open .nav-bar__list, body .scope-container .menu--open .nav-bar__list--right, body .scope-container .menu--open .nav-bar__list--left {
     display: block; }
-  body .scope-container .pagination {
+  body .scope-container .pagination, body .scope-container .pagination--alt {
     margin: 0; }
     body .scope-container .pagination__item a {
-      padding: 8px 16px;
+      padding: 7px 16px;
       border-width: 1px 1px 1px 1px;
       border-style: solid;
       border-color: #dadee2;
@@ -2490,6 +2494,69 @@ body .scope-container {
       opacity: .4;
       background-color: #fff;
       cursor: not-allowed; }
+  body .scope-container .pagination--alt {
+    display: inline-block; }
+    body .scope-container .pagination--alt .pagination__item {
+      display: inline-block;
+      vertical-align: bottom;
+      margin-right: -2px; }
+      body .scope-container .pagination--alt .pagination__item ~ .pagination__item {
+        margin-left: -2px; }
+    body .scope-container .pagination--alt .select-wrap {
+      -webkit-border-radius: 0 ;
+      -ms-border-radius: 0 ;
+      -moz-border-radius: 0 ;
+      -o-border-radius: 0 ;
+      border-radius: 0 ;
+      min-width: 40px;
+      margin-left: -1px;
+      border-right: 0; }
+    body .scope-container .pagination--alt > span {
+      margin-left: -2px; }
+      @media (min-width: 1px) {
+        body .scope-container .pagination--alt > span.show-brkpoint--sm {
+          display: inline-block; } }
+      body .scope-container .pagination--alt > span.show-brkpoint--sm--only {
+        display: none; }
+        @media (min-width: 1px) and (max-width: 769px) {
+          body .scope-container .pagination--alt > span.show-brkpoint--sm--only {
+            display: inline-block; } }
+      @media (min-width: 1px) and (max-width: 769px) {
+        body .scope-container .pagination--alt > span.show-brkpoint--md {
+          display: none; } }
+      @media (min-width: 769px) {
+        body .scope-container .pagination--alt > span.show-brkpoint--md {
+          display: inline-block; } }
+      body .scope-container .pagination--alt > span.show-brkpoint--md--only {
+        display: none; }
+        @media (min-width: 769px) and (max-width: 1100px) {
+          body .scope-container .pagination--alt > span.show-brkpoint--md--only {
+            display: inline-block; } }
+      body .scope-container .pagination--alt > span .pagination__item a {
+        -webkit-border-radius: 0 ;
+        -ms-border-radius: 0 ;
+        -moz-border-radius: 0 ;
+        -o-border-radius: 0 ;
+        border-radius: 0 ; }
+    @media (min-width: 1px) {
+      body .scope-container .pagination--alt .pagination__select.show-brkpoint--sm {
+        display: inline-block; } }
+    body .scope-container .pagination--alt .pagination__select.show-brkpoint--sm--only {
+      display: none; }
+      @media (min-width: 1px) and (max-width: 769px) {
+        body .scope-container .pagination--alt .pagination__select.show-brkpoint--sm--only {
+          display: inline-block; } }
+    @media (min-width: 1px) and (max-width: 769px) {
+      body .scope-container .pagination--alt .pagination__select.show-brkpoint--md {
+        display: none; } }
+    @media (min-width: 769px) {
+      body .scope-container .pagination--alt .pagination__select.show-brkpoint--md {
+        display: inline-block; } }
+    body .scope-container .pagination--alt .pagination__select.show-brkpoint--md--only {
+      display: none; }
+      @media (min-width: 769px) and (max-width: 1100px) {
+        body .scope-container .pagination--alt .pagination__select.show-brkpoint--md--only {
+          display: inline-block; } }
   body .scope-container .panel {
     border: 1px solid #dadee2;
     -webkit-border-radius: 4px ;
@@ -2795,7 +2862,8 @@ body .scope-container {
   body .scope-container table {
     width: 100%;
     max-width: 100%;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    overflow: scroll; }
     @media (min-width: 1px) {
       body .scope-container table.show-brkpoint--sm {
         display: table; } }

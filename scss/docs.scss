@@ -68,7 +68,6 @@ section {
 }
 
 .code-container {
-  @extend .hide;
   @include radius();
   border: 1px solid $grey-xx-light;
   font-size: 12px;
