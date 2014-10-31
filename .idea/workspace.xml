@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ef72ac-7dca-49c3-8b73-f4f7b0075623" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-01.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-02.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-03.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-04.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-05.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-06.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-07.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-08.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-09.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-10.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-12.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-13.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-14.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-16.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-17.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-19.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-21.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-22.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-23.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-25.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-26.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-27.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-28.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-29.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-30.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-31.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-32.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-33.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-34.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-35.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-36.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-37.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-38.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-39.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-40.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-41.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-42.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-43.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-44.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-45.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-46.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-47.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-48.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-49.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-50.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-51.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-52.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-53.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-54.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-55.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-56.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-57.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-58.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-59.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-60.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-61.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-62.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-63.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/svg/myui-icons-64.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/5a3916b5b69b31a5931dc9bdf6a808b91b752616/_juicons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/5a3916b5b69b31a5931dc9bdf6a808b91b752616/_juicons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/juicons.eot" afterPath="$PROJECT_DIR$/css/fonts/juicons.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/juicons.ttf" afterPath="$PROJECT_DIR$/css/fonts/juicons.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/juicons.woff" afterPath="$PROJECT_DIR$/css/fonts/juicons.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss" afterPath="$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/docs.css.map" afterPath="$PROJECT_DIR$/css/docs.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/docs.css" afterPath="$PROJECT_DIR$/css/docs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/juicons.svg" afterPath="$PROJECT_DIR$/css/fonts/juicons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles-scoped.css.map" afterPath="$PROJECT_DIR$/css/styles-scoped.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles-scoped.css" afterPath="$PROJECT_DIR$/css/styles-scoped.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css.map" afterPath="$PROJECT_DIR$/css/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_alerts.scss" afterPath="$PROJECT_DIR$/scss/modules/_alerts.scss" />
     </list>
     <ignored path="jui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,11 +127,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="_alerts.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_alerts.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/modules/_alerts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0" vertical-offset="1185" max-vertical-offset="1545">
-                  <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.3600713" vertical-offset="83" max-vertical-offset="1545">
+                  <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -224,11 +147,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_juicons.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_juicons.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6132879" vertical-offset="0" max-vertical-offset="3780">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state vertical-scroll-proportion="-8.82" vertical-offset="3219" max-vertical-offset="3780">
+                  <caret line="244" column="9" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -325,6 +248,7 @@
         <option value="$PROJECT_DIR$/css/docs.css" />
         <option value="$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/modules/_alerts.scss" />
       </list>
     </option>
   </component>
@@ -842,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_alerts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1545">
-          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_daterangepicker.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="4560">
@@ -872,14 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-70.0" vertical-offset="135" max-vertical-offset="2100">
           <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="30" max-vertical-offset="765">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -958,18 +866,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6132879" vertical-offset="0" max-vertical-offset="3780">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42156863" vertical-offset="12025" max-vertical-offset="15870">
           <caret line="816" column="75" selection-start-line="816" selection-start-column="75" selection-end-line="816" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.82" vertical-offset="3219" max-vertical-offset="3780">
+          <caret line="244" column="9" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="30" max-vertical-offset="765">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_alerts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3600713" vertical-offset="83" max-vertical-offset="1545">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>

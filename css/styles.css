@@ -256,7 +256,7 @@
 .juicon-upward:before {
   content: "\e648"; }
 
-.juicon-x:before, .close-modal-x:before, .panel__component > .close .component-remove-x:before {
+.juicon-x:before, .alert-close-x:after, .close-modal-x:before, .panel__component > .close .component-remove-x:before {
   content: "\e649"; }
 
 .clearfix:after, .content:after, .content--full:after, .content--small:after, .row:after, .button-group:after, .button-group--collapse:after, .card:after, .range_inputs:after, .range_inputs_container:after, .range_buttons_container:after, .list-group__item:after, .modal__footer:after, .nav-bar:after, .nav-bar--solo:after, .nav-bar__top:after, .nav-bar__appendage:after, .pagination:after, .pagination--alt:after, .panel:after, .panel__top:after, .panel__bottom:after, .panel__section:after, .panel__component:after, .panel__box:after, .panel__content:after {
@@ -1210,7 +1210,6 @@ label {
     opacity: .4; }
     .alert-close-x:after {
       font-family: 'juicons';
-      content: '\e00c';
       vertical-align: middle;
       line-height: 1; }
   .alert .close {

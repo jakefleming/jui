@@ -256,7 +256,7 @@
 .juicon-upward:before {
   content: "\e648"; }
 
-.juicon-x:before, body .scope-container .panel__component > .close .component-remove-x:before, .close-modal-x:before {
+.juicon-x:before, body .scope-container .alert-close-x:after, body .scope-container .panel__component > .close .component-remove-x:before, .close-modal-x:before {
   content: "\e649"; }
 
 .clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__section:after, body .scope-container .panel__component:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
@@ -1143,7 +1143,6 @@ body .scope-container {
       opacity: .4; }
       body .scope-container .alert-close-x:after {
         font-family: 'juicons';
-        content: '\e00c';
         vertical-align: middle;
         line-height: 1; }
     body .scope-container .alert .close {

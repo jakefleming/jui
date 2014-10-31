@@ -17,7 +17,7 @@
     opacity: .4;
     &:after {
       font-family: 'juicons';
-      content: '\e00c';
+      @extend .juicon-x:before;
       vertical-align: middle;
       line-height: 1;
     }
