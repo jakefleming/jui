@@ -2,7 +2,7 @@
 .caret {
   &:after {
     font-family: 'juicons';
-    content: '\e001';
+    @extend .juicon-down:before;
     vertical-align: middle;
     line-height: 1;
   }

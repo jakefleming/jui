@@ -94,7 +94,7 @@
 .juicon-dots:before {
   content: "\e612"; }
 
-.juicon-down:before {
+.juicon-down:before, .caret:after {
   content: "\e613"; }
 
 .juicon-download:before {
@@ -1572,7 +1572,6 @@ label {
 
 .caret:after {
   font-family: 'juicons';
-  content: '\e001';
   vertical-align: middle;
   line-height: 1; }
 
