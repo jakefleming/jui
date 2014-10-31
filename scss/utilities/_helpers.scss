@@ -275,5 +275,20 @@
   width: 100%;
 }
 
+// bg
+
+.bg-2 {
+  background-color: $grey-xx-light;
+}
+
+// text color
+
+.text-primary {
+  color: $color-primary;
+}
+
+.fill-primary {
+  fill: $color-primary;
+}
 
 

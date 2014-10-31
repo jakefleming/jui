@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template : Admin Bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-2">
+    <div class="scope-container">
+        <nav class="nav-bar">
+            <div class="content">
+
+                <div class="nav-bar__menu-toggle">
+                    <span class="juicon juicon-menu"></span>
+                </div>
+                <div class="nav-bar__top">
+                    <svg class="fill-primary" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                        <style type="text/css">
+                        <![CDATA[
+                        .st0{}
+                        ]]>
+                        </style>
+                        <polygon id="XMLID_1_" class="st0" points="14,5 10,11 8,8 2,17 22,17 "/>
+                    </svg>
+
+                </div>
+                <ul class="nav-bar__list--left">
+                    <li class="nav-bar__list--item">
+                        <a class="button button--dropdown" data-toggle="dropdown">Xactly Corporation <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-menu__list-item"><a href="#">Something</a></li>
+                            <li class="dropdown-menu__list-item"><a href="#">Something else</a></li>
+                            <li class="dropdown-menu__list-item"><a href="#">Some other thing</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <ul class="nav-bar__list--right">
+                    <li class="nav-bar__list--item">
+                        <a href="index.html">Link 1</a>
+                    </li>
+                    <li class="nav-bar__list--item">
+                        <a href="#">Link 2</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <div class="content">
+            <div class="row">
+                <div class="column--md--6 right--3">
+                    <div class="panel">
+                        <div class="panel__top">
+                            <h2 class="panel__heading">
+                                Sign in
+                            </h2>
+                        </div>
+                        <div class="panel__section">
+                            <form>
+                                <div class="form__group">
+                                    <label for="email" class="sr-only">Email address</label>
+                                    <div class="input__wrap has-icon--right">
+                                        <div class="input__icon juicon juicon-envelope"></div>
+                                        <input id="email" type="email" placeholder="Email address"/>
+                                    </div>
+                                    <small class="input-error-content">This thing is wrong.</small>
+                                </div>
+                                <div class="form__group">
+                                    <label for="password" class="sr-only">Password</label>
+                                    <div class="input__wrap has-icon--right">
+                                        <div class="input__icon juicon juicon-lock"></div>
+                                        <input id="password" type="password" placeholder="Password"/>
+                                    </div>
+                                    <small class="input-error-content">This thing is wrong.</small>
+                                </div>
+                                <div class="form__group">
+                                    <input type="checkbox" name="remember" value="yes" id="remember"/><label for="remember"> Remember me</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="panel__bottom">
+                            <button type="button" class="button button--primary right">Sign in</button>
+                            <button type="button" class="button button--primary button--ghost">Create account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/jui.js"></script>
+</body>
+</html>

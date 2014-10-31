@@ -298,7 +298,7 @@
 .pointer, .button, button.button, .alert-close-x, .alert .close-timeout .close-progress, .daterangepicker .ranges li, .list-group__item, .nav-bar__list--item a, .nav-bar__menu-toggle, table tbody tr:hover, .sort-arrow, .select-wrap .input__icon, .select-wrap select {
   cursor: pointer; }
 
-.relative, .alert, .button-group, .button-group .button, .button-group--collapse, .button-group--collapse .button, .input__wrap, .list-group__item, .modal__body, .pagination__item a, .panel__component, .panel__box, .panel__sidebar, .sort-it {
+.relative, .alert, .button-group, .button-group .button, .button-group--collapse, .button-group--collapse .button, .input__wrap, .list-group__item, .modal__body, .nav-bar__list--item, .pagination__item a, .panel__component, .panel__box, .panel__sidebar, .sort-it {
   position: relative; }
 
 .absolute, .alert .close, .alert .close-timeout .close-progress, .daterangepicker, .daterangepicker.opensleft:before, .daterangepicker.opensleft:after, .daterangepicker.opensright:before, .daterangepicker.opensright:after, .daterangepicker.openscenter:before, .daterangepicker.openscenter:after, .input__icon, .modal__top .close, .modal-scrollbar-measure, .panel__component > .close, .sort-arrow, .slider__handle, .tooltip, .tooltip-arrow {
@@ -431,6 +431,15 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .width--full, .panel__bottom, .panel__component {
   width: 100%; }
+
+.bg-2 {
+  background-color: #f5f6f7; }
+
+.text-primary {
+  color: #2a94d6; }
+
+.fill-primary {
+  fill: #2a94d6; }
 
 .top-cap {
   -webkit-border-top-left-radius: 4px !important;
@@ -2590,6 +2599,7 @@ button.close {
   color: #fff; }
 
 .nav-bar, .nav-bar--solo {
+  background: #fff;
   padding: 0 16px;
   margin-bottom: 16px;
   min-height: 56px;
@@ -2607,6 +2617,29 @@ button.close {
     -moz-border-bottom-right-radius: 4px ;
     -o-border-bottom-right-radius: 4px ;
     border-bottom-right-radius: 4px ; }
+  .nav-bar .dropdown-menu, .nav-bar--solo .dropdown-menu {
+    -webkit-border-top-left-radius: 0 ;
+    -ms-border-top-left-radius: 0 ;
+    -moz-border-top-left-radius: 0 ;
+    -o-border-top-left-radius: 0 ;
+    border-top-left-radius: 0 ;
+    -webkit-border-top-right-radius: 0 ;
+    -ms-border-top-right-radius: 0 ;
+    -moz-border-top-right-radius: 0 ;
+    -o-border-top-right-radius: 0 ;
+    border-top-right-radius: 0 ;
+    margin: 0; }
+    @media (min-width: 1px) and (max-width: 769px) {
+      .nav-bar .dropdown-menu, .nav-bar--solo .dropdown-menu {
+        width: 100%;
+        position: relative;
+        border-left: 0;
+        border-right: 0;
+        -webkit-border-radius: 0 ;
+        -ms-border-radius: 0 ;
+        -moz-border-radius: 0 ;
+        -o-border-radius: 0 ;
+        border-radius: 0 ; } }
   .nav-bar__top {
     padding: 16px 0;
     height: 56px; }
@@ -2639,6 +2672,15 @@ button.close {
         @media (min-width: 1px) and (max-width: 769px) {
           .nav-bar__list--item a {
             background-color: #f5f6f7; } }
+        .nav-bar__list--item a.button {
+          -webkit-border-radius: 0 ;
+          -ms-border-radius: 0 ;
+          -moz-border-radius: 0 ;
+          -o-border-radius: 0 ;
+          border-radius: 0 ;
+          background: transparent;
+          border: 0;
+          color: inherit; }
       @media (min-width: 1px) and (max-width: 769px) {
         .nav-bar__list--item:hover a {
           background-color: #f5f6f7;
@@ -2708,9 +2750,7 @@ button.close {
       -ms-border-bottom-right-radius: 0 ;
       -moz-border-bottom-right-radius: 0 ;
       -o-border-bottom-right-radius: 0 ;
-      border-bottom-right-radius: 0 ;
-      background-color: #cfd0d2;
-      color: #fff; }
+      border-bottom-right-radius: 0 ; }
       @media (min-width: 1px) and (max-width: 769px) {
         .menu--open .nav-bar__menu-toggle {
           -webkit-border-radius: 0 ;
@@ -2735,9 +2775,7 @@ button.close {
   -ms-border-bottom-right-radius: 0 ;
   -moz-border-bottom-right-radius: 0 ;
   -o-border-bottom-right-radius: 0 ;
-  border-bottom-right-radius: 0 ;
-  background-color: #cfd0d2;
-  color: #fff; }
+  border-bottom-right-radius: 0 ; }
   @media (min-width: 1px) and (max-width: 769px) {
     .menu--open .nav-bar__menu-toggle {
       -webkit-border-radius: 0 ;
@@ -2862,12 +2900,13 @@ button.close {
         display: inline-block; } }
 
 .panel {
-  border: 1px solid #dadee2;
   -webkit-border-radius: 4px ;
   -ms-border-radius: 4px ;
   -moz-border-radius: 4px ;
   -o-border-radius: 4px ;
-  border-radius: 4px ; }
+  border-radius: 4px ;
+  background: #fff;
+  border: 1px solid #dadee2; }
   .panel__top, .panel__bottom, .panel__section, .panel__component {
     padding: 16px; }
   .panel__top {

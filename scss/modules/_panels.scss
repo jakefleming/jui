@@ -1,7 +1,9 @@
 .panel {
   @extend %clearfix;
-  border: 1px solid $component-border-color;
   @include radius();
+
+  background: $white;
+  border: 1px solid $component-border-color;
   &__top, &__bottom, &__section, &__component {
     @extend %clearfix;
     padding: ($base-h-padding + px);
