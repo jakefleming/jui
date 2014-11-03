@@ -291,4 +291,19 @@
   fill: $color-primary;
 }
 
+//rotate
+
+@-webkit-keyframes spin-it {
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.spin-it {
+  -webkit-animation: spin-it 1s linear infinite;
+}
+
 

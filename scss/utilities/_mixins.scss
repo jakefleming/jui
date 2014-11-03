@@ -297,10 +297,20 @@ $el-h: null) {
     @media (min-width: $brkpoint-sm) {
       @include surgical-space($attr: $attr);
     }
+    &only-- {
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        @include surgical-space($attr: $attr);
+      }
+    }
   }
   &--md-- {
     @media (min-width: $brkpoint-md) {
       @include surgical-space($attr: $attr);
+    }
+    &only-- {
+      @media (min-width: $brkpoint-md) and (max-width: $brkpoint-lg) {
+        @include surgical-space($attr: $attr);
+      }
     }
   }
   &--lg-- {

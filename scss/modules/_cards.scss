@@ -11,7 +11,7 @@
   &__heading {
     @extend .block;
     @extend .dots;
-    font-size: $base-font-size+px;
+    line-height: 1;
     margin: 0;
   }
   &__subheading {

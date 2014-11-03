@@ -1,0 +1,14 @@
+.page {
+  &__heading {
+    @extend .dots;
+    font-size: em(24px, 16px);
+    line-height: 1;
+    margin: $base-v-padding+px 0;
+    &.has-subheading {
+      margin: 0;
+    }
+  }
+  &__subheading {
+    @extend .panel__subheading;
+  }
+}

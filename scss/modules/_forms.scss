@@ -131,6 +131,12 @@ input[type=radio] {
   font-size: 1rem;
   z-index: 1;
   color: $input-icon-color;
+  &.juicon {
+    &:before {
+      @extend .relative;
+      left: .5px;
+    }
+  }
 }
 
 .input__group {

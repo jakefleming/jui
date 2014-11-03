@@ -298,7 +298,7 @@
 .pointer, body .scope-container .button, body .scope-container button.button, body .scope-container .alert-close-x, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker .ranges li, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item a, body .scope-container .nav-bar__menu-toggle, body .scope-container .select-wrap .input__icon, body .scope-container .select-wrap select, body .scope-container table tbody tr:hover, body .scope-container .sort-arrow {
   cursor: pointer; }
 
-.relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, body .scope-container .sort-it, .modal__body {
+.relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .input__icon.juicon:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .input__icon.close-modal-x:before, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, body .scope-container .sort-it, .modal__body {
   position: relative; }
 
 .absolute, body .scope-container .alert .close, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker, body .scope-container .daterangepicker.opensleft:before, body .scope-container .daterangepicker.opensleft:after, body .scope-container .daterangepicker.opensright:before, body .scope-container .daterangepicker.opensright:after, body .scope-container .daterangepicker.openscenter:before, body .scope-container .daterangepicker.openscenter:after, body .scope-container .input__icon, body .scope-container .panel__component > .close, body .scope-container .slider__handle, body .scope-container .sort-arrow, body .scope-container .tooltip, body .scope-container .tooltip-arrow, .modal__top .close, .modal-scrollbar-measure {
@@ -336,7 +336,7 @@ body .scope-container body, body .scope-container h1, body .scope-container h2, 
 body .scope-container *, *, body .scope-container .alert .close, body .scope-container .select-wrap select {
   outline: none; }
 
-.dots, body .scope-container .dropdown-menu__list-item a, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .tile__title, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .panel__subheading {
+.dots, body .scope-container .dropdown-menu__list-item a, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .tile__title, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .page__heading, body .scope-container .panel__subheading, body .scope-container .page__subheading {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
@@ -440,6 +440,14 @@ body .scope-container .panel__box {
 
 .fill-primary {
   fill: #2a94d6; }
+
+@-webkit-keyframes spin-it {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+.spin-it {
+  -webkit-animation: spin-it 1s linear infinite; }
 
 .top-cap {
   -webkit-border-top-left-radius: 4px !important;
@@ -1564,7 +1572,7 @@ body .scope-container {
     padding: 16px;
     margin-bottom: 16px; }
   body .scope-container .card__heading {
-    font-size: 16px;
+    line-height: 1;
     margin: 0; }
   body .scope-container .card__subheading {
     color: #8d9aa5;
@@ -2028,6 +2036,8 @@ body .scope-container {
     font-size: 1rem;
     z-index: 1;
     color: #9faab5; }
+    body .scope-container .input__icon.juicon:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .input__icon.close-modal-x:before {
+      left: .5px; }
   body .scope-container .input__group > [class^="column--"] > * {
     -webkit-border-radius: 0 ;
     -ms-border-radius: 0 ;
@@ -2538,6 +2548,12 @@ body .scope-container {
         border-radius: 0 ; } }
   body .scope-container .menu--open .nav-bar__list, body .scope-container .menu--open .nav-bar__list--right, body .scope-container .menu--open .nav-bar__list--left {
     display: block; }
+  body .scope-container .page__heading {
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 8px 0; }
+    body .scope-container .page__heading.has-subheading {
+      margin: 0; }
   body .scope-container .pagination, body .scope-container .pagination--alt {
     margin: 0; }
     body .scope-container .pagination__item a {
@@ -2680,7 +2696,7 @@ body .scope-container {
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis; } }
-    body .scope-container .panel__subheading {
+    body .scope-container .panel__subheading, body .scope-container .page__subheading {
       font-size: 1rem;
       line-height: 1rem;
       margin: 0;
@@ -3312,6 +3328,67 @@ button.close {
     margin-bottom: 24px; }
   body .scope-container .mar--sm--lxl {
     margin-bottom: 32px; } }
+@media (min-width: 1px) and (max-width: 769px) {
+  body .scope-container .mar--sm--only--n {
+    margin: 0; }
+  body .scope-container .mar--sm--only--xs {
+    margin: 4px; }
+  body .scope-container .mar--sm--only--s {
+    margin: 8px; }
+  body .scope-container .mar--sm--only--m {
+    margin: 16px; }
+  body .scope-container .mar--sm--only--l {
+    margin: 24px; }
+  body .scope-container .mar--sm--only--xl {
+    margin: 32px; }
+  body .scope-container .mar--sm--only--tn {
+    margin-top: 0; }
+  body .scope-container .mar--sm--only--txs {
+    margin-top: 4px; }
+  body .scope-container .mar--sm--only--ts {
+    margin-top: 8px; }
+  body .scope-container .mar--sm--only--tm {
+    margin-top: 16px; }
+  body .scope-container .mar--sm--only--tl {
+    margin-top: 24px; }
+  body .scope-container .mar--sm--only--txl {
+    margin-top: 32px; }
+  body .scope-container .mar--sm--only--rn {
+    margin-right: 0; }
+  body .scope-container .mar--sm--only--rxs {
+    margin-right: 4px; }
+  body .scope-container .mar--sm--only--rs {
+    margin-right: 8px; }
+  body .scope-container .mar--sm--only--rm {
+    margin-right: 16px; }
+  body .scope-container .mar--sm--only--rl {
+    margin-right: 24px; }
+  body .scope-container .mar--sm--only--rxl {
+    margin-right: 32px; }
+  body .scope-container .mar--sm--only--bn {
+    margin-bottom: 0; }
+  body .scope-container .mar--sm--only--bxs {
+    margin-bottom: 4px; }
+  body .scope-container .mar--sm--only--bs {
+    margin-bottom: 8px; }
+  body .scope-container .mar--sm--only--bm {
+    margin-bottom: 16px; }
+  body .scope-container .mar--sm--only--bl {
+    margin-bottom: 24px; }
+  body .scope-container .mar--sm--only--bxl {
+    margin-bottom: 32px; }
+  body .scope-container .mar--sm--only--ln {
+    margin-bottom: 0; }
+  body .scope-container .mar--sm--only--lxs {
+    margin-bottom: 4px; }
+  body .scope-container .mar--sm--only--ls {
+    margin-bottom: 8px; }
+  body .scope-container .mar--sm--only--lm {
+    margin-bottom: 16px; }
+  body .scope-container .mar--sm--only--ll {
+    margin-bottom: 24px; }
+  body .scope-container .mar--sm--only--lxl {
+    margin-bottom: 32px; } }
 @media (min-width: 769px) {
   body .scope-container .mar--md--n {
     margin: 0; }
@@ -3372,6 +3449,67 @@ button.close {
   body .scope-container .mar--md--ll {
     margin-bottom: 24px; }
   body .scope-container .mar--md--lxl {
+    margin-bottom: 32px; } }
+@media (min-width: 769px) and (max-width: 1100px) {
+  body .scope-container .mar--md--only--n {
+    margin: 0; }
+  body .scope-container .mar--md--only--xs {
+    margin: 4px; }
+  body .scope-container .mar--md--only--s {
+    margin: 8px; }
+  body .scope-container .mar--md--only--m {
+    margin: 16px; }
+  body .scope-container .mar--md--only--l {
+    margin: 24px; }
+  body .scope-container .mar--md--only--xl {
+    margin: 32px; }
+  body .scope-container .mar--md--only--tn {
+    margin-top: 0; }
+  body .scope-container .mar--md--only--txs {
+    margin-top: 4px; }
+  body .scope-container .mar--md--only--ts {
+    margin-top: 8px; }
+  body .scope-container .mar--md--only--tm {
+    margin-top: 16px; }
+  body .scope-container .mar--md--only--tl {
+    margin-top: 24px; }
+  body .scope-container .mar--md--only--txl {
+    margin-top: 32px; }
+  body .scope-container .mar--md--only--rn {
+    margin-right: 0; }
+  body .scope-container .mar--md--only--rxs {
+    margin-right: 4px; }
+  body .scope-container .mar--md--only--rs {
+    margin-right: 8px; }
+  body .scope-container .mar--md--only--rm {
+    margin-right: 16px; }
+  body .scope-container .mar--md--only--rl {
+    margin-right: 24px; }
+  body .scope-container .mar--md--only--rxl {
+    margin-right: 32px; }
+  body .scope-container .mar--md--only--bn {
+    margin-bottom: 0; }
+  body .scope-container .mar--md--only--bxs {
+    margin-bottom: 4px; }
+  body .scope-container .mar--md--only--bs {
+    margin-bottom: 8px; }
+  body .scope-container .mar--md--only--bm {
+    margin-bottom: 16px; }
+  body .scope-container .mar--md--only--bl {
+    margin-bottom: 24px; }
+  body .scope-container .mar--md--only--bxl {
+    margin-bottom: 32px; }
+  body .scope-container .mar--md--only--ln {
+    margin-bottom: 0; }
+  body .scope-container .mar--md--only--lxs {
+    margin-bottom: 4px; }
+  body .scope-container .mar--md--only--ls {
+    margin-bottom: 8px; }
+  body .scope-container .mar--md--only--lm {
+    margin-bottom: 16px; }
+  body .scope-container .mar--md--only--ll {
+    margin-bottom: 24px; }
+  body .scope-container .mar--md--only--lxl {
     margin-bottom: 32px; } }
 @media (min-width: 1100px) {
   body .scope-container .mar--lg--n {
@@ -3495,6 +3633,67 @@ button.close {
     padding-bottom: 24px; }
   body .scope-container .pad--sm--lxl {
     padding-bottom: 32px; } }
+@media (min-width: 1px) and (max-width: 769px) {
+  body .scope-container .pad--sm--only--n {
+    padding: 0; }
+  body .scope-container .pad--sm--only--xs {
+    padding: 4px; }
+  body .scope-container .pad--sm--only--s {
+    padding: 8px; }
+  body .scope-container .pad--sm--only--m {
+    padding: 16px; }
+  body .scope-container .pad--sm--only--l {
+    padding: 24px; }
+  body .scope-container .pad--sm--only--xl {
+    padding: 32px; }
+  body .scope-container .pad--sm--only--tn {
+    padding-top: 0; }
+  body .scope-container .pad--sm--only--txs {
+    padding-top: 4px; }
+  body .scope-container .pad--sm--only--ts {
+    padding-top: 8px; }
+  body .scope-container .pad--sm--only--tm {
+    padding-top: 16px; }
+  body .scope-container .pad--sm--only--tl {
+    padding-top: 24px; }
+  body .scope-container .pad--sm--only--txl {
+    padding-top: 32px; }
+  body .scope-container .pad--sm--only--rn {
+    padding-right: 0; }
+  body .scope-container .pad--sm--only--rxs {
+    padding-right: 4px; }
+  body .scope-container .pad--sm--only--rs {
+    padding-right: 8px; }
+  body .scope-container .pad--sm--only--rm {
+    padding-right: 16px; }
+  body .scope-container .pad--sm--only--rl {
+    padding-right: 24px; }
+  body .scope-container .pad--sm--only--rxl {
+    padding-right: 32px; }
+  body .scope-container .pad--sm--only--bn {
+    padding-bottom: 0; }
+  body .scope-container .pad--sm--only--bxs {
+    padding-bottom: 4px; }
+  body .scope-container .pad--sm--only--bs {
+    padding-bottom: 8px; }
+  body .scope-container .pad--sm--only--bm {
+    padding-bottom: 16px; }
+  body .scope-container .pad--sm--only--bl {
+    padding-bottom: 24px; }
+  body .scope-container .pad--sm--only--bxl {
+    padding-bottom: 32px; }
+  body .scope-container .pad--sm--only--ln {
+    padding-bottom: 0; }
+  body .scope-container .pad--sm--only--lxs {
+    padding-bottom: 4px; }
+  body .scope-container .pad--sm--only--ls {
+    padding-bottom: 8px; }
+  body .scope-container .pad--sm--only--lm {
+    padding-bottom: 16px; }
+  body .scope-container .pad--sm--only--ll {
+    padding-bottom: 24px; }
+  body .scope-container .pad--sm--only--lxl {
+    padding-bottom: 32px; } }
 @media (min-width: 769px) {
   body .scope-container .pad--md--n {
     padding: 0; }
@@ -3555,6 +3754,67 @@ button.close {
   body .scope-container .pad--md--ll {
     padding-bottom: 24px; }
   body .scope-container .pad--md--lxl {
+    padding-bottom: 32px; } }
+@media (min-width: 769px) and (max-width: 1100px) {
+  body .scope-container .pad--md--only--n {
+    padding: 0; }
+  body .scope-container .pad--md--only--xs {
+    padding: 4px; }
+  body .scope-container .pad--md--only--s {
+    padding: 8px; }
+  body .scope-container .pad--md--only--m {
+    padding: 16px; }
+  body .scope-container .pad--md--only--l {
+    padding: 24px; }
+  body .scope-container .pad--md--only--xl {
+    padding: 32px; }
+  body .scope-container .pad--md--only--tn {
+    padding-top: 0; }
+  body .scope-container .pad--md--only--txs {
+    padding-top: 4px; }
+  body .scope-container .pad--md--only--ts {
+    padding-top: 8px; }
+  body .scope-container .pad--md--only--tm {
+    padding-top: 16px; }
+  body .scope-container .pad--md--only--tl {
+    padding-top: 24px; }
+  body .scope-container .pad--md--only--txl {
+    padding-top: 32px; }
+  body .scope-container .pad--md--only--rn {
+    padding-right: 0; }
+  body .scope-container .pad--md--only--rxs {
+    padding-right: 4px; }
+  body .scope-container .pad--md--only--rs {
+    padding-right: 8px; }
+  body .scope-container .pad--md--only--rm {
+    padding-right: 16px; }
+  body .scope-container .pad--md--only--rl {
+    padding-right: 24px; }
+  body .scope-container .pad--md--only--rxl {
+    padding-right: 32px; }
+  body .scope-container .pad--md--only--bn {
+    padding-bottom: 0; }
+  body .scope-container .pad--md--only--bxs {
+    padding-bottom: 4px; }
+  body .scope-container .pad--md--only--bs {
+    padding-bottom: 8px; }
+  body .scope-container .pad--md--only--bm {
+    padding-bottom: 16px; }
+  body .scope-container .pad--md--only--bl {
+    padding-bottom: 24px; }
+  body .scope-container .pad--md--only--bxl {
+    padding-bottom: 32px; }
+  body .scope-container .pad--md--only--ln {
+    padding-bottom: 0; }
+  body .scope-container .pad--md--only--lxs {
+    padding-bottom: 4px; }
+  body .scope-container .pad--md--only--ls {
+    padding-bottom: 8px; }
+  body .scope-container .pad--md--only--lm {
+    padding-bottom: 16px; }
+  body .scope-container .pad--md--only--ll {
+    padding-bottom: 24px; }
+  body .scope-container .pad--md--only--lxl {
     padding-bottom: 32px; } }
 @media (min-width: 1100px) {
   body .scope-container .pad--lg--n {
