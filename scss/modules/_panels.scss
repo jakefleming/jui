@@ -1,12 +1,15 @@
 .panel {
   @extend %clearfix;
   @include radius();
-
   background: $white;
   border: 1px solid $component-border-color;
-  &__top, &__bottom, &__section, &__component {
+  &__top, &__bottom, &__component, &__body {
     @extend %clearfix;
     padding: ($base-h-padding + px);
+  }
+  &__section {
+    padding: ($base-v-padding+px) ($base-h-padding + px);
+    border-bottom: 1px solid $component-border-color-alt;
   }
   &__top {
     border-bottom: 1px solid $component-border-color-alt;
@@ -47,11 +50,6 @@
     margin: 0;
     color: $grey;
     @extend .dots;
-//    @media (min-width: $brkpoint-md+1) {
-//      white-space: nowrap;
-//      overflow: hidden;
-//      text-overflow: ellipsis;
-//    }
   }
   &__component {
     @extend %clearfix;

@@ -261,13 +261,15 @@ $el-h: null) {
   &m      {#{$attr}:$key-number+px}
   &l      {#{$attr}:$key-number*1.5+px}
   &xl     {#{$attr}:$key-number*2+px}
+  &xxl    {#{$attr}:$key-number*5+px}
 
   &tn      {#{$attr}-top: 0}
   &txs     {#{$attr}-top:$key-number*.25+px}
   &ts      {#{$attr}-top:$key-number*.5+px}
   &tm      {#{$attr}-top:$key-number+px}
   &tl      {#{$attr}-top:$key-number*1.5+px}
-  &txl     {#{$attr}-top:$key-number*2+px}
+  &txl     {#{$attr}:$key-number*2+px}
+  &txxl    {#{$attr}:$key-number*5+px}
 
   &rn      {#{$attr}-right: 0}
   &rxs     {#{$attr}-right:$key-number*.25+px}
@@ -275,6 +277,7 @@ $el-h: null) {
   &rm      {#{$attr}-right:$key-number+px}
   &rl      {#{$attr}-right:$key-number*1.5+px}
   &rxl     {#{$attr}-right:$key-number*2+px}
+  &rxxl    {#{$attr}-right:$key-number*5+px}
 
   &bn      {#{$attr}-bottom: 0}
   &bxs     {#{$attr}-bottom:$key-number*.25+px}
@@ -282,13 +285,15 @@ $el-h: null) {
   &bm      {#{$attr}-bottom:$key-number+px}
   &bl      {#{$attr}-bottom:$key-number*1.5+px}
   &bxl     {#{$attr}-bottom:$key-number*2+px}
+  &bxxl    {#{$attr}-bottom:$key-number*5+px}
 
-  &ln      {#{$attr}-bottom: 0}
-  &lxs     {#{$attr}-bottom:$key-number*.25+px}
-  &ls      {#{$attr}-bottom:$key-number*.5+px}
-  &lm      {#{$attr}-bottom:$key-number+px}
-  &ll      {#{$attr}-bottom:$key-number*1.5+px}
-  &lxl     {#{$attr}-bottom:$key-number*2+px}
+  &ln      {#{$attr}-left: 0}
+  &lxs     {#{$attr}-left:$key-number*.25+px}
+  &ls      {#{$attr}-left:$key-number*.5+px}
+  &lm      {#{$attr}-left:$key-number+px}
+  &ll      {#{$attr}-left:$key-number*1.5+px}
+  &lxl     {#{$attr}-left:$key-number*2+px}
+  &lxxl    {#{$attr}-left:$key-number*5+px}
 }
 
 

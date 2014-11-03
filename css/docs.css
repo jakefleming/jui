@@ -24,7 +24,7 @@
   src: url("fonts/juicons.eot?#iefix-m8mnji") format("embedded-opentype"), url("fonts/juicons.woff?-m8mnji") format("woff"), url("fonts/juicons.ttf?-m8mnji") format("truetype"), url("fonts/juicons.svg?-m8mnji#juicons") format("svg");
   font-weight: normal;
   font-style: normal; }
-.juicon, body .scope-container .panel__component > .close .component-remove-x, .close-modal-x {
+.juicon, body .scope-container .panel__component > .close .component-remove-x, .select2-container .select2-choice .select2-arrow b, .close-modal-x {
   font-family: 'juicons';
   speak: none;
   font-style: normal;
@@ -94,7 +94,7 @@
 .juicon-dots:before {
   content: "\e612"; }
 
-.juicon-down:before, body .scope-container .caret:after {
+.juicon-down:before, body .scope-container .caret:after, .select2-container .select2-choice .select2-arrow b:before {
   content: "\e613"; }
 
 .juicon-download:before {
@@ -259,7 +259,7 @@
 .juicon-x:before, body .scope-container .alert-close-x:after, body .scope-container .panel__component > .close .component-remove-x:before, .close-modal-x:before {
   content: "\e649"; }
 
-.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__section:after, body .scope-container .panel__component:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
+.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__component:after, body .scope-container .panel__body:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
   content: "";
   display: table;
   clear: both; }
@@ -274,7 +274,7 @@
   position: absolute;
   width: 1px; }
 
-.text-center, body .scope-container .button.width--full, body .scope-container .button.panel__bottom, body .scope-container .button.panel__component, body .scope-container button.button.width--full, body .scope-container button.button.panel__bottom, body .scope-container button.button.panel__component, body .scope-container .tile-container, body .scope-container .tile, body .scope-container .label--notification, body .scope-container .inline-list, body .scope-container .pagination__item a, body .scope-container #docs__grid .column--sm--1:before, body .scope-container #docs__grid .column--md--1:before, body .scope-container #docs__grid .column--lg--1:before, body .scope-container #docs__grid .column--sm--2:before, body .scope-container #docs__grid .column--md--2:before, body .scope-container #docs__grid .column--lg--2:before, body .scope-container #docs__grid .column--sm--3:before, body .scope-container #docs__grid .column--md--3:before, body .scope-container #docs__grid .column--lg--3:before, body .scope-container #docs__grid .column--sm--4:before, body .scope-container #docs__grid .column--md--4:before, body .scope-container #docs__grid .column--lg--4:before, body .scope-container #docs__grid .column--sm--5:before, body .scope-container #docs__grid .column--md--5:before, body .scope-container #docs__grid .column--lg--5:before, body .scope-container #docs__grid .column--sm--6:before, body .scope-container #docs__grid .column--md--6:before, body .scope-container #docs__grid .column--lg--6:before, body .scope-container #docs__grid .column--sm--7:before, body .scope-container #docs__grid .column--md--7:before, body .scope-container #docs__grid .column--lg--7:before, body .scope-container #docs__grid .column--sm--8:before, body .scope-container #docs__grid .column--md--8:before, body .scope-container #docs__grid .column--lg--8:before, body .scope-container #docs__grid .column--sm--9:before, body .scope-container #docs__grid .column--md--9:before, body .scope-container #docs__grid .column--lg--9:before, body .scope-container #docs__grid .column--sm--10:before, body .scope-container #docs__grid .column--md--10:before, body .scope-container #docs__grid .column--lg--10:before, body .scope-container #docs__grid .column--sm--11:before, body .scope-container #docs__grid .column--md--11:before, body .scope-container #docs__grid .column--lg--11:before, body .scope-container #docs__grid .column--sm--12:before, body .scope-container #docs__grid .column--md--12:before, body .scope-container #docs__grid .column--lg--12:before, body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x, body .scope-container .page-headline, body .scope-container .toc {
+.text-center, body .scope-container .button.width--full, body .scope-container .button.panel__bottom, body .scope-container .button.panel__component, body .scope-container button.button.width--full, body .scope-container button.button.panel__bottom, body .scope-container button.button.panel__component, body .scope-container .tile-container, body .scope-container .tile, body .scope-container .label--notification, body .scope-container .inline-list, body .scope-container .pagination__item a, body .scope-container #docs__grid .column--sm--1:before, body .scope-container #docs__grid .column--md--1:before, body .scope-container #docs__grid .column--lg--1:before, body .scope-container #docs__grid .column--sm--2:before, body .scope-container #docs__grid .column--md--2:before, body .scope-container #docs__grid .column--lg--2:before, body .scope-container #docs__grid .column--sm--3:before, body .scope-container #docs__grid .column--md--3:before, body .scope-container #docs__grid .column--lg--3:before, body .scope-container #docs__grid .column--sm--4:before, body .scope-container #docs__grid .column--md--4:before, body .scope-container #docs__grid .column--lg--4:before, body .scope-container #docs__grid .column--sm--5:before, body .scope-container #docs__grid .column--md--5:before, body .scope-container #docs__grid .column--lg--5:before, body .scope-container #docs__grid .column--sm--6:before, body .scope-container #docs__grid .column--md--6:before, body .scope-container #docs__grid .column--lg--6:before, body .scope-container #docs__grid .column--sm--7:before, body .scope-container #docs__grid .column--md--7:before, body .scope-container #docs__grid .column--lg--7:before, body .scope-container #docs__grid .column--sm--8:before, body .scope-container #docs__grid .column--md--8:before, body .scope-container #docs__grid .column--lg--8:before, body .scope-container #docs__grid .column--sm--9:before, body .scope-container #docs__grid .column--md--9:before, body .scope-container #docs__grid .column--lg--9:before, body .scope-container #docs__grid .column--sm--10:before, body .scope-container #docs__grid .column--md--10:before, body .scope-container #docs__grid .column--lg--10:before, body .scope-container #docs__grid .column--sm--11:before, body .scope-container #docs__grid .column--md--11:before, body .scope-container #docs__grid .column--lg--11:before, body .scope-container #docs__grid .column--sm--12:before, body .scope-container #docs__grid .column--md--12:before, body .scope-container #docs__grid .column--lg--12:before, body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow body .scope-container #docs__juicons .icon-section b, body .scope-container #docs__juicons .icon-section .close-modal-x, body .scope-container .page-headline, body .scope-container .toc {
   text-align: center; }
 
 .vertical-align-top, body .scope-container .button-group {
@@ -300,13 +300,13 @@ body .scope-container #docs__grid .column--sm--1:before, body .scope-container #
   .right-left {
     float: right; } }
 
-.pointer, body .scope-container .button, body .scope-container button.button, body .scope-container .alert-close-x, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker .ranges li, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item a, body .scope-container .nav-bar__menu-toggle, body .scope-container .select-wrap .input__icon, body .scope-container .select-wrap select, body .scope-container table tbody tr:hover, body .scope-container .sort-arrow {
+.pointer, body .scope-container .button, body .scope-container button.button, body .scope-container .alert-close-x, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker .ranges li, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item a, body .scope-container .nav-bar__menu-toggle, body .scope-container .select-wrap .input__icon, body .scope-container .select2-container .input__icon, body .scope-container .select-wrap select, body .scope-container .select2-container select, body .scope-container table tbody tr:hover, body .scope-container .sort-arrow, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
   cursor: pointer; }
 
-.relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .input__icon.juicon:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .input__icon.close-modal-x:before, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, body .scope-container .sort-it, .modal__body {
+.relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .input__icon.juicon:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b.input__icon:before, .select2-container .select2-choice .select2-arrow body .scope-container b.input__icon:before, body .scope-container .input__icon.close-modal-x:before, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, body .scope-container .sort-it, .modal__body {
   position: relative; }
 
-.absolute, body .scope-container .alert .close, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker, body .scope-container .daterangepicker.opensleft:before, body .scope-container .daterangepicker.opensleft:after, body .scope-container .daterangepicker.opensright:before, body .scope-container .daterangepicker.opensright:after, body .scope-container .daterangepicker.openscenter:before, body .scope-container .daterangepicker.openscenter:after, body .scope-container .input__icon, body .scope-container .panel__component > .close, body .scope-container .slider__handle, body .scope-container .sort-arrow, body .scope-container .tooltip, body .scope-container .tooltip-arrow, .modal__top .close, .modal-scrollbar-measure {
+.absolute, body .scope-container .alert .close, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker, body .scope-container .daterangepicker.opensleft:before, body .scope-container .daterangepicker.opensleft:after, body .scope-container .daterangepicker.opensright:before, body .scope-container .daterangepicker.opensright:after, body .scope-container .daterangepicker.openscenter:before, body .scope-container .daterangepicker.openscenter:after, body .scope-container .input__icon, body .scope-container .panel__component > .close, body .scope-container .slider__handle, body .scope-container .sort-arrow, body .scope-container .tooltip, body .scope-container .tooltip-arrow, .select2-container .select2-choice .select2-arrow b, .modal__top .close, .modal-scrollbar-measure {
   position: absolute; }
 
 .fixed, body .scope-container .button.button--action, body .scope-container button.button--action {
@@ -338,7 +338,7 @@ body .scope-container body, body .scope-container h1, body .scope-container h2, 
 .fsl {
   font-size: 32px; }
 
-body .scope-container *, *, body .scope-container .alert .close, body .scope-container .select-wrap select {
+body .scope-container *, *, body .scope-container .alert .close, body .scope-container .select-wrap select, body .scope-container .select2-container select, .select2-container .select2-choice {
   outline: none; }
 
 .dots, body .scope-container .dropdown-menu__list-item a, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .tile__title, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .page__heading, body .scope-container .panel__subheading, body .scope-container .page__subheading {
@@ -357,10 +357,10 @@ body .scope-container .panel__box {
   list-style-type: none;
   padding: 0; }
 
-.block, body .scope-container .button-group .button, body .scope-container .button-group--collapse .button, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .daterangepicker.show-calendar .calendar, body .scope-container .tile, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .nav-bar__list--item a, .appendage--open body .scope-container .nav-bar__appendage, body .scope-container .appendage--open .nav-bar__appendage {
+.block, body .scope-container .button-group .button, body .scope-container .button-group--collapse .button, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .daterangepicker.show-calendar .calendar, body .scope-container .tile, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .nav-bar__list--item a, .appendage--open body .scope-container .nav-bar__appendage, body .scope-container .appendage--open .nav-bar__appendage, .select2-container .select2-choice {
   display: block; }
 
-.inline-block, body .scope-container .button-group, body .scope-container .tile-container, body .scope-container .label, body .scope-container .inline-list__item, body .scope-container .pagination--alt .select-wrap {
+.inline-block, body .scope-container .button-group, body .scope-container .tile-container, body .scope-container .label, body .scope-container .inline-list__item, body .scope-container .pagination--alt .select-wrap, body .scope-container .pagination--alt .select2-container {
   display: inline-block; }
 
 .inline, body .scope-container .pagination, body .scope-container .pagination--alt, body .scope-container .pagination__item {
@@ -1063,7 +1063,7 @@ body .scope-container .button--secondary, body .scope-container button.button--s
     line-height: 1.5;
     border-radius: 4px; }
 
-body .scope-container .has-error input[type="text"], body .scope-container .has-error input[type="password"], body .scope-container .has-error input[type="number"], body .scope-container .has-error input[type="email"], body .scope-container input[type="text"], body .scope-container input[type="password"], body .scope-container input[type="number"], body .scope-container input[type="email"], body .scope-container textarea {
+body .scope-container .has-error input[type="text"], body .scope-container .has-error input[type="password"], body .scope-container .has-error input[type="number"], body .scope-container .has-error input[type="email"], body .scope-container input[type="text"], body .scope-container input[type="password"], body .scope-container input[type="number"], body .scope-container input[type="email"], body .scope-container textarea, .select2-search input {
   display: block;
   width: 100%;
   padding: 8px 16px;
@@ -1082,18 +1082,18 @@ body .scope-container .has-error input[type="text"], body .scope-container .has-
   -moz-border-radius: 4px ;
   -o-border-radius: 4px ;
   border-radius: 4px ; }
-  body .scope-container input[type="text"]:focus, body .scope-container input[type="password"]:focus, body .scope-container input[type="number"]:focus, body .scope-container input[type="email"]:focus, body .scope-container textarea:focus {
+  body .scope-container input[type="text"]:focus, body .scope-container input[type="password"]:focus, body .scope-container input[type="number"]:focus, body .scope-container input[type="email"]:focus, body .scope-container textarea:focus, .select2-search input:focus {
     background-color: #fff; }
-  body .scope-container input[type="text"]:-moz-placeholder, body .scope-container input[type="password"]:-moz-placeholder, body .scope-container input[type="number"]:-moz-placeholder, body .scope-container input[type="email"]:-moz-placeholder, body .scope-container textarea:-moz-placeholder {
+  body .scope-container input[type="text"]:-moz-placeholder, body .scope-container input[type="password"]:-moz-placeholder, body .scope-container input[type="number"]:-moz-placeholder, body .scope-container input[type="email"]:-moz-placeholder, body .scope-container textarea:-moz-placeholder, .select2-search input:-moz-placeholder {
     color: #686c70; }
-  body .scope-container .has-error input[type="text"]::-moz-placeholder, body .scope-container .has-error input[type="password"]::-moz-placeholder, body .scope-container .has-error input[type="number"]::-moz-placeholder, body .scope-container .has-error input[type="email"]::-moz-placeholder, body .scope-container input[type="text"]::-moz-placeholder, body .scope-container input[type="password"]::-moz-placeholder, body .scope-container input[type="number"]::-moz-placeholder, body .scope-container input[type="email"]::-moz-placeholder, body .scope-container textarea::-moz-placeholder {
+  body .scope-container .has-error input[type="text"]::-moz-placeholder, body .scope-container .has-error input[type="password"]::-moz-placeholder, body .scope-container .has-error input[type="number"]::-moz-placeholder, body .scope-container .has-error input[type="email"]::-moz-placeholder, body .scope-container input[type="text"]::-moz-placeholder, body .scope-container input[type="password"]::-moz-placeholder, body .scope-container input[type="number"]::-moz-placeholder, body .scope-container input[type="email"]::-moz-placeholder, body .scope-container textarea::-moz-placeholder, .select2-search input::-moz-placeholder {
     color: #686c70; }
-  body .scope-container input[type="text"]:-ms-input-placeholder, body .scope-container input[type="password"]:-ms-input-placeholder, body .scope-container input[type="number"]:-ms-input-placeholder, body .scope-container input[type="email"]:-ms-input-placeholder, body .scope-container textarea:-ms-input-placeholder {
+  body .scope-container input[type="text"]:-ms-input-placeholder, body .scope-container input[type="password"]:-ms-input-placeholder, body .scope-container input[type="number"]:-ms-input-placeholder, body .scope-container input[type="email"]:-ms-input-placeholder, body .scope-container textarea:-ms-input-placeholder, .select2-search input:-ms-input-placeholder {
     color: #686c70; }
-  body .scope-container .has-error input[type="text"]::-webkit-input-placeholder, body .scope-container .has-error input[type="password"]::-webkit-input-placeholder, body .scope-container .has-error input[type="number"]::-webkit-input-placeholder, body .scope-container .has-error input[type="email"]::-webkit-input-placeholder, body .scope-container input[type="text"]::-webkit-input-placeholder, body .scope-container input[type="password"]::-webkit-input-placeholder, body .scope-container input[type="number"]::-webkit-input-placeholder, body .scope-container input[type="email"]::-webkit-input-placeholder, body .scope-container textarea::-webkit-input-placeholder {
+  body .scope-container .has-error input[type="text"]::-webkit-input-placeholder, body .scope-container .has-error input[type="password"]::-webkit-input-placeholder, body .scope-container .has-error input[type="number"]::-webkit-input-placeholder, body .scope-container .has-error input[type="email"]::-webkit-input-placeholder, body .scope-container input[type="text"]::-webkit-input-placeholder, body .scope-container input[type="password"]::-webkit-input-placeholder, body .scope-container input[type="number"]::-webkit-input-placeholder, body .scope-container input[type="email"]::-webkit-input-placeholder, body .scope-container textarea::-webkit-input-placeholder, .select2-search input::-webkit-input-placeholder {
     color: #686c70; }
 
-body .scope-container .has-error input[type="text"], body .scope-container .has-error input[type="password"], body .scope-container .has-error input[type="number"], body .scope-container .has-error input[type="email"], body .scope-container .has-error textarea, body .scope-container .has-error .select-wrap {
+body .scope-container .has-error input[type="text"], body .scope-container .has-error input[type="password"], body .scope-container .has-error input[type="number"], body .scope-container .has-error input[type="email"], body .scope-container .has-error textarea, body .scope-container .has-error .select-wrap, body .scope-container .has-error .select2-container {
   border-color: #dca6a1;
   background-color: #f8eceb;
   -webkit-border-bottom-left-radius: 0 ;
@@ -1113,7 +1113,7 @@ body .scope-container .input__wrap.has-icon--right .input__icon, body .scope-con
 body .scope-container .input__wrap.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left--special .input__icon {
   left: 0; }
 
-body .scope-container .button > .juicon:before, body .scope-container .panel__component > .close .button > .component-remove-x:before, body .scope-container .button > .close-modal-x:before, body .scope-container .label > .juicon:before, body .scope-container .panel__component > .close .label > .component-remove-x:before, body .scope-container .label > .close-modal-x:before, body .scope-container .inline-list__item a > .juicon:before, body .scope-container .inline-list__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .inline-list__item a > .component-remove-x:before, body .scope-container .inline-list__item a > .close-modal-x:before, body .scope-container .nav-bar__list--item a > .juicon:before, body .scope-container .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, body .scope-container .nav-bar__list--item a > .close-modal-x:before, body .scope-container .pagination__item a > .juicon:before, body .scope-container .pagination__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .pagination__item a > .component-remove-x:before, body .scope-container .pagination__item a > .close-modal-x:before {
+body .scope-container .button > .juicon:before, body .scope-container .panel__component > .close .button > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .button > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .button > b:before, body .scope-container .button > .close-modal-x:before, body .scope-container .label > .juicon:before, body .scope-container .panel__component > .close .label > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .label > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .label > b:before, body .scope-container .label > .close-modal-x:before, body .scope-container .inline-list__item a > .juicon:before, body .scope-container .inline-list__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .inline-list__item a > .component-remove-x:before, body .scope-container .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .inline-list__item a > b:before, body .scope-container .inline-list__item a > .close-modal-x:before, body .scope-container .nav-bar__list--item a > .juicon:before, body .scope-container .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, body .scope-container .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .nav-bar__list--item a > b:before, body .scope-container .nav-bar__list--item a > .close-modal-x:before, body .scope-container .pagination__item a > .juicon:before, body .scope-container .pagination__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .pagination__item a > .component-remove-x:before, body .scope-container .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .pagination__item a > b:before, body .scope-container .pagination__item a > .close-modal-x:before {
   position: relative;
   top: 2px; }
 
@@ -1418,7 +1418,7 @@ body .scope-container {
     font-size: 12.8px;
     line-height: 1.5;
     border-radius: 4px; }
-  body .scope-container .button--secondary .juicon, body .scope-container .button--secondary .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close .button--secondary .component-remove-x, body .scope-container .button--secondary .close-modal-x, body .scope-container .button--secondary .caret, body .scope-container button.button--secondary .juicon, body .scope-container button.button--secondary .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close button.button--secondary .component-remove-x, body .scope-container button.button--secondary .close-modal-x, body .scope-container button.button--secondary .caret {
+  body .scope-container .button--secondary .juicon, body .scope-container .button--secondary .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close .button--secondary .component-remove-x, body .scope-container .button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow body .scope-container .button--secondary b, body .scope-container .button--secondary .close-modal-x, body .scope-container .button--secondary .caret, body .scope-container button.button--secondary .juicon, body .scope-container button.button--secondary .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close button.button--secondary .component-remove-x, body .scope-container button.button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow body .scope-container button.button--secondary b, body .scope-container button.button--secondary .close-modal-x, body .scope-container button.button--secondary .caret {
     color: #9faab5; }
   body .scope-container .button--primary.button--ghost, body .scope-container button.button--primary.button--ghost {
     color: #2a94d6;
@@ -1564,7 +1564,7 @@ body .scope-container {
     bottom: 16px;
     padding: 16px;
     right: 16px; }
-    body .scope-container .button.button--action .juicon, body .scope-container .button.button--action .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close .button.button--action .component-remove-x, body .scope-container .button.button--action .close-modal-x, body .scope-container button.button--action .juicon, body .scope-container button.button--action .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close button.button--action .component-remove-x, body .scope-container button.button--action .close-modal-x {
+    body .scope-container .button.button--action .juicon, body .scope-container .button.button--action .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close .button.button--action .component-remove-x, body .scope-container .button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow body .scope-container .button.button--action b, body .scope-container .button.button--action .close-modal-x, body .scope-container button.button--action .juicon, body .scope-container button.button--action .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close button.button--action .component-remove-x, body .scope-container button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow body .scope-container button.button--action b, body .scope-container button.button--action .close-modal-x {
       display: inline-block; }
   body .scope-container .card {
     -webkit-border-radius: 4px ;
@@ -2041,7 +2041,7 @@ body .scope-container {
     font-size: 1rem;
     z-index: 1;
     color: #9faab5; }
-    body .scope-container .input__icon.juicon:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .input__icon.close-modal-x:before {
+    body .scope-container .input__icon.juicon:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b.input__icon:before, .select2-container .select2-choice .select2-arrow body .scope-container b.input__icon:before, body .scope-container .input__icon.close-modal-x:before {
       left: .5px; }
   body .scope-container .input__group > [class^="column--"] > * {
     -webkit-border-radius: 0 ;
@@ -2107,7 +2107,7 @@ body .scope-container {
     border-bottom-color: #dca6a1;
     background-color: #c06057;
     color: #fff; }
-    .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .juicon, .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .panel__component > .close .component-remove-x, .has-error body .scope-container .panel__component > .close .input__group > [class^="column--"]:last-child > .button .component-remove-x, .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .close-modal-x {
+    .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .juicon, .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .panel__component > .close .component-remove-x, .has-error body .scope-container .panel__component > .close .input__group > [class^="column--"]:last-child > .button .component-remove-x, .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button b, .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button .close-modal-x {
       color: #fff; }
     @media (min-width: 770px) {
       .has-error body .scope-container .input__group > [class^="column--"]:last-child > .button {
@@ -2271,12 +2271,12 @@ body .scope-container {
   body .scope-container .list-group__item .label {
     line-height: .675;
     padding: .675em; }
-  body .scope-container .label > .juicon, body .scope-container .panel__component > .close .label > .component-remove-x, body .scope-container .label > .close-modal-x {
+  body .scope-container .label > .juicon, body .scope-container .panel__component > .close .label > .component-remove-x, body .scope-container .select2-container .select2-choice .select2-arrow .label > b, .select2-container .select2-choice .select2-arrow body .scope-container .label > b, body .scope-container .label > .close-modal-x {
     margin-left: -4px;
     margin-right: -4px; }
-    body .scope-container .label > .juicon + span, body .scope-container .panel__component > .close .label > .component-remove-x + span, body .scope-container .label > .close-modal-x + span {
+    body .scope-container .label > .juicon + span, body .scope-container .panel__component > .close .label > .component-remove-x + span, body .scope-container .select2-container .select2-choice .select2-arrow .label > b + span, .select2-container .select2-choice .select2-arrow body .scope-container .label > b + span, body .scope-container .label > .close-modal-x + span {
       margin-left: 8px; }
-  body .scope-container .label > span + .juicon, body .scope-container .panel__component > .close .label > span + .component-remove-x, body .scope-container .label > span + .close-modal-x {
+  body .scope-container .label > span + .juicon, body .scope-container .panel__component > .close .label > span + .component-remove-x, body .scope-container .select2-container .select2-choice .select2-arrow .label > span + b, .select2-container .select2-choice .select2-arrow body .scope-container .label > span + b, body .scope-container .label > span + .close-modal-x {
     margin-left: 8px; }
   body .scope-container .list-group__item > .label {
     margin: 8px; }
@@ -2614,7 +2614,7 @@ body .scope-container {
       margin-right: -2px; }
       body .scope-container .pagination--alt .pagination__item ~ .pagination__item {
         margin-left: -2px; }
-    body .scope-container .pagination--alt .select-wrap {
+    body .scope-container .pagination--alt .select-wrap, body .scope-container .pagination--alt .select2-container {
       -webkit-border-radius: 0 ;
       -ms-border-radius: 0 ;
       -moz-border-radius: 0 ;
@@ -2677,8 +2677,11 @@ body .scope-container {
     border-radius: 4px ;
     background: #fff;
     border: 1px solid #dadee2; }
-    body .scope-container .panel__top, body .scope-container .panel__bottom, body .scope-container .panel__section, body .scope-container .panel__component {
+    body .scope-container .panel__top, body .scope-container .panel__bottom, body .scope-container .panel__component, body .scope-container .panel__body {
       padding: 16px; }
+    body .scope-container .panel__section {
+      padding: 8px 16px;
+      border-bottom: 1px solid #e8eaeb; }
     body .scope-container .panel__top {
       border-bottom: 1px solid #e8eaeb; }
       body .scope-container .panel__top .button--small {
@@ -2857,7 +2860,7 @@ body .scope-container {
         background-color: #e6b739; }
       body .scope-container .progress__bar--info {
         background-color: #47cfd2; }
-  body .scope-container .select-wrap {
+  body .scope-container .select-wrap, body .scope-container .select2-container {
     -webkit-border-radius: 4px ;
     -ms-border-radius: 4px ;
     -moz-border-radius: 4px ;
@@ -2868,14 +2871,14 @@ body .scope-container {
     border-style: solid;
     border-color: #dadee2;
     background-color: #fff; }
-    body .scope-container .select-wrap:hover {
+    body .scope-container .select-wrap:hover, body .scope-container .select2-container:hover {
       background-color: #f5f6f7; }
-    body .scope-container .select-wrap .input__icon {
+    body .scope-container .select-wrap .input__icon, body .scope-container .select2-container .input__icon {
       right: 0px;
       top: 0px;
       padding: 11px 15px;
       z-index: 0; }
-    body .scope-container .select-wrap select {
+    body .scope-container .select-wrap select, body .scope-container .select2-container select {
       -webkit-appearance: none;
       -ms-appearance: none;
       -moz-appearance: none;
@@ -2897,9 +2900,9 @@ body .scope-container {
       position: relative;
       border: 0;
       -moz-appearance: progresschunk; }
-      body .scope-container .select-wrap select::-ms-expand {
+      body .scope-container .select-wrap select::-ms-expand, body .scope-container .select2-container select::-ms-expand {
         display: none; }
-      body .scope-container .select-wrap select::-moz-focus-inner {
+      body .scope-container .select-wrap select::-moz-focus-inner, body .scope-container .select2-container select::-moz-focus-inner {
         border: 0; }
   body .scope-container .slider {
     display: inline-block;
@@ -2995,12 +2998,12 @@ body .scope-container {
       @media (min-width: 769px) and (max-width: 1100px) {
         body .scope-container table.show-brkpoint--md--only {
           display: table; } }
-    body .scope-container table > thead > tr.tr__selected > th,
-    body .scope-container table > thead > tr.tr__selected > td,
-    body .scope-container table > tbody > tr.tr__selected > th,
-    body .scope-container table > tbody > tr.tr__selected > td,
-    body .scope-container table > tfoot > tr.tr__selected > th,
-    body .scope-container table > tfoot > tr.tr__selected > td {
+    body .scope-container table > thead > tr.tr--selected > th,
+    body .scope-container table > thead > tr.tr--selected > td,
+    body .scope-container table > tbody > tr.tr--selected > th,
+    body .scope-container table > tbody > tr.tr--selected > td,
+    body .scope-container table > tfoot > tr.tr--selected > th,
+    body .scope-container table > tfoot > tr.tr--selected > td {
       background-color: #2a94d6;
       color: #fff; }
     body .scope-container table > thead > tr > th,
@@ -3158,6 +3161,498 @@ body .scope-container {
   body .scope-container .has-tooltip {
     cursor: help; }
 
+/*
+Version: 3.5.2 Timestamp: Sat Nov  1 14:43:36 EDT 2014
+*/
+.select2-container,
+.select2-drop,
+.select2-search,
+.select2-search input {
+  /*
+    Force border-box so that % widths fit the parent
+    container without overlap because of margin/padding.
+    More Info : http://www.quirksmode.org/css/box.html
+  */
+  -webkit-box-sizing: border-box;
+  /* webkit */
+  -moz-box-sizing: border-box;
+  /* firefox */
+  box-sizing: border-box;
+  /* css3 */ }
+
+.select2-container .select2-choice {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-image: none;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 3rem;
+  margin: 0px;
+  width: 100%;
+  height: 38.88px;
+  background: transparent;
+  font-family: "ProximaNovaSoft", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300 !important;
+  font-size: 1rem;
+  color: #686c70;
+  font-weight: lighter;
+  z-index: 1;
+  position: relative;
+  border: 0;
+  -moz-appearance: progresschunk; }
+  .select2-container .select2-choice::-ms-expand {
+    display: none; }
+  .select2-container .select2-choice::-moz-focus-inner {
+    border: 0; }
+
+html[dir="rtl"] .select2-container .select2-choice {
+  padding: 0 8px 0 0; }
+
+.select2-container.select2-drop-above .select2-choice {
+  border-bottom-color: #cfd0d2;
+  border-radius: 0 0 4px 4px; }
+
+.select2-container.select2-allowclear .select2-choice .select2-chosen {
+  margin-right: 42px; }
+
+.select2-container .select2-choice > .select2-chosen {
+  margin-right: 26px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: none;
+  width: auto; }
+
+html[dir="rtl"] .select2-container .select2-choice > .select2-chosen {
+  margin-left: 26px;
+  margin-right: 0; }
+
+.select2-container .select2-choice abbr {
+  display: none;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 24px;
+  top: 8px;
+  font-size: 1px;
+  text-decoration: none;
+  border: 0;
+  background: url("select2.png") right top no-repeat;
+  cursor: pointer;
+  outline: 0; }
+
+.select2-container.select2-allowclear .select2-choice abbr {
+  display: inline-block; }
+
+.select2-container .select2-choice abbr:hover {
+  background-position: right -11px;
+  cursor: pointer; }
+
+.select2-drop-mask {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  z-index: 9998;
+  /* styles required for IE to work */
+  background-color: #fff;
+  filter: alpha(opacity=0); }
+
+.select2-drop {
+  width: 100%;
+  margin-top: -1px;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  background: #fff;
+  color: #384047;
+  border: 1px solid #cfd0d2;
+  border-top: 0;
+  border-radius: 0 0 4px 4px; }
+
+.select2-drop.select2-drop-above {
+  margin-top: 1px;
+  border-top: 1px solid #cfd0d2;
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0; }
+
+.select2-drop-active {
+  border-top: none; }
+
+.select2-drop-auto-width {
+  border-top: 1px solid #cfd0d2;
+  width: auto; }
+
+.select2-drop-auto-width .select2-search {
+  padding-top: 4px; }
+
+html[dir="rtl"] .select2-container .select2-choice .select2-arrow {
+  left: 0;
+  right: auto;
+  border-left: none;
+  border-right: 1px solid #cfd0d2;
+  border-radius: 4px 0 0 4px; }
+
+.select2-container .select2-choice .select2-arrow b {
+  right: 0px;
+  top: 0px;
+  padding: 11px 15px;
+  z-index: 0;
+  color: #9faab5; }
+
+html[dir="rtl"] .select2-container .select2-choice .select2-arrow b {
+  background-position: 2px 1px; }
+
+.select2-search {
+  display: inline-block;
+  width: 100%;
+  min-height: 26px;
+  margin: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+  z-index: 10000;
+  white-space: nowrap; }
+
+.select2-search input {
+  height: 40px;
+  -webkit-appearance: none; }
+
+html[dir="rtl"] .select2-search input {
+  padding: 4px 5px 4px 20px; }
+
+.select2-drop.select2-drop-above .select2-search input {
+  margin-top: 4px; }
+
+.select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+  outline: none; }
+
+.select2-dropdown-open .select2-choice {
+  border-bottom-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.select2-dropdown-open .select2-choice .select2-arrow {
+  background: transparent;
+  border-left: none;
+  filter: none; }
+
+html[dir="rtl"] .select2-dropdown-open .select2-choice .select2-arrow {
+  border-right: none; }
+
+.select2-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* results */
+.select2-results {
+  max-height: 200px;
+  padding: 0 0 0 4px;
+  margin: 4px 4px 4px 0;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-tap-highlight-color: transparent; }
+
+html[dir="rtl"] .select2-results {
+  padding: 0 4px 0 0;
+  margin: 4px 0 4px 4px; }
+
+.select2-results ul.select2-result-sub {
+  margin: 0;
+  padding-left: 0; }
+
+.select2-results li {
+  list-style: none;
+  display: list-item;
+  background-image: none; }
+
+.select2-results li.select2-result-with-children > .select2-result-label {
+  font-weight: bold; }
+
+.select2-results .select2-result-label {
+  padding: 3px 7px 4px;
+  margin: 0;
+  cursor: pointer;
+  min-height: 1em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.select2-results-dept-1 .select2-result-label {
+  padding-left: 20px; }
+
+.select2-results-dept-2 .select2-result-label {
+  padding-left: 40px; }
+
+.select2-results-dept-3 .select2-result-label {
+  padding-left: 60px; }
+
+.select2-results-dept-4 .select2-result-label {
+  padding-left: 80px; }
+
+.select2-results-dept-5 .select2-result-label {
+  padding-left: 100px; }
+
+.select2-results-dept-6 .select2-result-label {
+  padding-left: 110px; }
+
+.select2-results-dept-7 .select2-result-label {
+  padding-left: 120px; }
+
+.select2-results .select2-highlighted {
+  background: #f5f6f7;
+  color: #fff; }
+
+.select2-results li em {
+  background: #fdf9ee;
+  font-style: normal; }
+
+.select2-results .select2-highlighted em {
+  background: transparent; }
+
+.select2-results .select2-highlighted ul {
+  background: #fff;
+  color: #384047; }
+
+.select2-results .select2-no-results,
+.select2-results .select2-searching,
+.select2-results .select2-ajax-error,
+.select2-results .select2-selection-limit {
+  background: #f5f6f7;
+  display: list-item;
+  padding-left: 5px; }
+
+/*
+disabled look for disabled choices in the results dropdown
+*/
+.select2-results .select2-disabled.select2-highlighted {
+  color: #666;
+  background: #f5f6f7;
+  display: list-item;
+  cursor: default; }
+
+.select2-results .select2-disabled {
+  background: #f5f6f7;
+  display: list-item;
+  cursor: default; }
+
+.select2-results .select2-selected {
+  display: none; }
+
+.select2-more-results.select2-active {
+  background: #f5f6f7 url("select2-spinner.gif") no-repeat 100%; }
+
+.select2-results .select2-ajax-error {
+  background: rgba(255, 50, 50, 0.2); }
+
+.select2-more-results {
+  background: #f5f6f7;
+  display: list-item; }
+
+/* disabled styles */
+.select2-container.select2-container-disabled .select2-choice {
+  background-color: #f5f6f7;
+  background-image: none;
+  border: 1px solid #dadee2;
+  cursor: default; }
+
+.select2-container.select2-container-disabled .select2-choice abbr {
+  display: none; }
+
+/* multiselect */
+.select2-container-multi .select2-choices {
+  height: auto !important;
+  height: 1%;
+  margin: 0;
+  padding: 0 5px 0 0;
+  position: relative;
+  border: 1px solid #cfd0d2;
+  cursor: text;
+  overflow: hidden;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #e8eaeb), color-stop(15%, #fff));
+  background-image: -webkit-linear-gradient(top, #e8eaeb 1%, #fff 15%);
+  background-image: -moz-linear-gradient(top, #e8eaeb 1%, #fff 15%);
+  background-image: linear-gradient(to bottom, #e8eaeb 1%, #fff 15%); }
+
+html[dir="rtl"] .select2-container-multi .select2-choices {
+  padding: 0 0 0 5px; }
+
+.select2-locked {
+  padding: 3px 5px 3px 5px !important; }
+
+.select2-container-multi .select2-choices {
+  min-height: 26px; }
+
+.select2-container-multi.select2-container-active .select2-choices {
+  border: 1px solid #5897fb;
+  outline: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+
+.select2-container-multi .select2-choices li {
+  float: left;
+  list-style: none; }
+
+html[dir="rtl"] .select2-container-multi .select2-choices li {
+  float: right; }
+
+.select2-container-multi .select2-choices .select2-search-field {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap; }
+
+.select2-container-multi .select2-choices .select2-search-field input {
+  padding: 5px;
+  margin: 1px 0;
+  font-family: sans-serif;
+  font-size: 100%;
+  color: #666;
+  outline: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent !important; }
+
+.select2-container-multi .select2-choices .select2-search-field input.select2-active {
+  background: #fff url("select2-spinner.gif") no-repeat 100% !important; }
+
+.select2-default {
+  color: #999 !important; }
+
+.select2-container-multi .select2-choices .select2-search-choice {
+  padding: 3px 5px 3px 18px;
+  margin: 3px 0 3px 5px;
+  position: relative;
+  line-height: 13px;
+  color: #333;
+  cursor: default;
+  border: 1px solid #cfd0d2;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  background-clip: padding-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #e8eaeb;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$grey-x-lighteee', endColorstr='$grey-xx-light', GradientType=0);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #f5f6f7), color-stop(50%, #f0f1f2), color-stop(52%, #e8e8e8), color-stop(100%, #e8eaeb));
+  background-image: -webkit-linear-gradient(top, #f5f6f7 20%, #f0f1f2 50%, #e8e8e8 52%, #e8eaeb 100%);
+  background-image: -moz-linear-gradient(top, #f5f6f7 20%, #f0f1f2 50%, #e8e8e8 52%, #e8eaeb 100%);
+  background-image: linear-gradient(to bottom, #f5f6f7 20%, #f0f1f2 50%, #e8e8e8 52%, #e8eaeb 100%); }
+
+html[dir="rtl"] .select2-container-multi .select2-choices .select2-search-choice {
+  margin: 3px 5px 3px 0;
+  padding: 3px 18px 3px 5px; }
+
+.select2-container-multi .select2-choices .select2-search-choice .select2-chosen {
+  cursor: default; }
+
+.select2-container-multi .select2-choices .select2-search-choice-focus {
+  background: #dadee2; }
+
+.select2-search-choice-close {
+  display: block;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  font-size: 1px;
+  outline: none;
+  background: url("select2.png") right top no-repeat; }
+
+html[dir="rtl"] .select2-search-choice-close {
+  right: auto;
+  left: 3px; }
+
+.select2-container-multi .select2-search-choice-close {
+  left: 3px; }
+
+html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
+  left: auto;
+  right: 2px; }
+
+.select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close:hover {
+  background-position: right -11px; }
+
+.select2-container-multi .select2-choices .select2-search-choice-focus .select2-search-choice-close {
+  background-position: right -11px; }
+
+/* disabled styles */
+.select2-container-multi.select2-container-disabled .select2-choices {
+  background-color: #f5f6f7;
+  background-image: none;
+  border: 1px solid #dadee2;
+  cursor: default; }
+
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice {
+  padding: 3px 5px 3px 5px;
+  border: 1px solid #dadee2;
+  background-image: none;
+  background-color: #f5f6f7; }
+
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice .select2-search-choice-close {
+  display: none;
+  background: none; }
+
+/* end multiselect */
+.select2-result-selectable .select2-match,
+.select2-result-unselectable .select2-match {
+  text-decoration: underline; }
+
+.select2-offscreen, .select2-offscreen:focus {
+  clip: rect(0 0 0 0) !important;
+  width: 1px !important;
+  height: 1px !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  outline: 0 !important;
+  left: 0px !important;
+  top: 0px !important; }
+
+.select2-display-none {
+  display: none; }
+
+.select2-measure-scrollbar {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+  width: 100px;
+  height: 100px;
+  overflow: scroll; }
+
+/* Retina-ize icons */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  .select2-search input {
+    background-position: 100% -21px !important; } }
 .modal-open {
   overflow: hidden; }
 
@@ -3285,6 +3780,8 @@ button.close {
     margin: 24px; }
   body .scope-container .mar--sm--xl {
     margin: 32px; }
+  body .scope-container .mar--sm--xxl {
+    margin: 80px; }
   body .scope-container .mar--sm--tn {
     margin-top: 0; }
   body .scope-container .mar--sm--txs {
@@ -3296,7 +3793,9 @@ button.close {
   body .scope-container .mar--sm--tl {
     margin-top: 24px; }
   body .scope-container .mar--sm--txl {
-    margin-top: 32px; }
+    margin: 32px; }
+  body .scope-container .mar--sm--txxl {
+    margin: 80px; }
   body .scope-container .mar--sm--rn {
     margin-right: 0; }
   body .scope-container .mar--sm--rxs {
@@ -3309,6 +3808,8 @@ button.close {
     margin-right: 24px; }
   body .scope-container .mar--sm--rxl {
     margin-right: 32px; }
+  body .scope-container .mar--sm--rxxl {
+    margin-right: 80px; }
   body .scope-container .mar--sm--bn {
     margin-bottom: 0; }
   body .scope-container .mar--sm--bxs {
@@ -3321,18 +3822,22 @@ button.close {
     margin-bottom: 24px; }
   body .scope-container .mar--sm--bxl {
     margin-bottom: 32px; }
+  body .scope-container .mar--sm--bxxl {
+    margin-bottom: 80px; }
   body .scope-container .mar--sm--ln {
-    margin-bottom: 0; }
+    margin-left: 0; }
   body .scope-container .mar--sm--lxs {
-    margin-bottom: 4px; }
+    margin-left: 4px; }
   body .scope-container .mar--sm--ls {
-    margin-bottom: 8px; }
+    margin-left: 8px; }
   body .scope-container .mar--sm--lm {
-    margin-bottom: 16px; }
+    margin-left: 16px; }
   body .scope-container .mar--sm--ll {
-    margin-bottom: 24px; }
+    margin-left: 24px; }
   body .scope-container .mar--sm--lxl {
-    margin-bottom: 32px; } }
+    margin-left: 32px; }
+  body .scope-container .mar--sm--lxxl {
+    margin-left: 80px; } }
 @media (min-width: 1px) and (max-width: 769px) {
   body .scope-container .mar--sm--only--n {
     margin: 0; }
@@ -3346,6 +3851,8 @@ button.close {
     margin: 24px; }
   body .scope-container .mar--sm--only--xl {
     margin: 32px; }
+  body .scope-container .mar--sm--only--xxl {
+    margin: 80px; }
   body .scope-container .mar--sm--only--tn {
     margin-top: 0; }
   body .scope-container .mar--sm--only--txs {
@@ -3357,7 +3864,9 @@ button.close {
   body .scope-container .mar--sm--only--tl {
     margin-top: 24px; }
   body .scope-container .mar--sm--only--txl {
-    margin-top: 32px; }
+    margin: 32px; }
+  body .scope-container .mar--sm--only--txxl {
+    margin: 80px; }
   body .scope-container .mar--sm--only--rn {
     margin-right: 0; }
   body .scope-container .mar--sm--only--rxs {
@@ -3370,6 +3879,8 @@ button.close {
     margin-right: 24px; }
   body .scope-container .mar--sm--only--rxl {
     margin-right: 32px; }
+  body .scope-container .mar--sm--only--rxxl {
+    margin-right: 80px; }
   body .scope-container .mar--sm--only--bn {
     margin-bottom: 0; }
   body .scope-container .mar--sm--only--bxs {
@@ -3382,18 +3893,22 @@ button.close {
     margin-bottom: 24px; }
   body .scope-container .mar--sm--only--bxl {
     margin-bottom: 32px; }
+  body .scope-container .mar--sm--only--bxxl {
+    margin-bottom: 80px; }
   body .scope-container .mar--sm--only--ln {
-    margin-bottom: 0; }
+    margin-left: 0; }
   body .scope-container .mar--sm--only--lxs {
-    margin-bottom: 4px; }
+    margin-left: 4px; }
   body .scope-container .mar--sm--only--ls {
-    margin-bottom: 8px; }
+    margin-left: 8px; }
   body .scope-container .mar--sm--only--lm {
-    margin-bottom: 16px; }
+    margin-left: 16px; }
   body .scope-container .mar--sm--only--ll {
-    margin-bottom: 24px; }
+    margin-left: 24px; }
   body .scope-container .mar--sm--only--lxl {
-    margin-bottom: 32px; } }
+    margin-left: 32px; }
+  body .scope-container .mar--sm--only--lxxl {
+    margin-left: 80px; } }
 @media (min-width: 769px) {
   body .scope-container .mar--md--n {
     margin: 0; }
@@ -3407,6 +3922,8 @@ button.close {
     margin: 24px; }
   body .scope-container .mar--md--xl {
     margin: 32px; }
+  body .scope-container .mar--md--xxl {
+    margin: 80px; }
   body .scope-container .mar--md--tn {
     margin-top: 0; }
   body .scope-container .mar--md--txs {
@@ -3418,7 +3935,9 @@ button.close {
   body .scope-container .mar--md--tl {
     margin-top: 24px; }
   body .scope-container .mar--md--txl {
-    margin-top: 32px; }
+    margin: 32px; }
+  body .scope-container .mar--md--txxl {
+    margin: 80px; }
   body .scope-container .mar--md--rn {
     margin-right: 0; }
   body .scope-container .mar--md--rxs {
@@ -3431,6 +3950,8 @@ button.close {
     margin-right: 24px; }
   body .scope-container .mar--md--rxl {
     margin-right: 32px; }
+  body .scope-container .mar--md--rxxl {
+    margin-right: 80px; }
   body .scope-container .mar--md--bn {
     margin-bottom: 0; }
   body .scope-container .mar--md--bxs {
@@ -3443,18 +3964,22 @@ button.close {
     margin-bottom: 24px; }
   body .scope-container .mar--md--bxl {
     margin-bottom: 32px; }
+  body .scope-container .mar--md--bxxl {
+    margin-bottom: 80px; }
   body .scope-container .mar--md--ln {
-    margin-bottom: 0; }
+    margin-left: 0; }
   body .scope-container .mar--md--lxs {
-    margin-bottom: 4px; }
+    margin-left: 4px; }
   body .scope-container .mar--md--ls {
-    margin-bottom: 8px; }
+    margin-left: 8px; }
   body .scope-container .mar--md--lm {
-    margin-bottom: 16px; }
+    margin-left: 16px; }
   body .scope-container .mar--md--ll {
-    margin-bottom: 24px; }
+    margin-left: 24px; }
   body .scope-container .mar--md--lxl {
-    margin-bottom: 32px; } }
+    margin-left: 32px; }
+  body .scope-container .mar--md--lxxl {
+    margin-left: 80px; } }
 @media (min-width: 769px) and (max-width: 1100px) {
   body .scope-container .mar--md--only--n {
     margin: 0; }
@@ -3468,6 +3993,8 @@ button.close {
     margin: 24px; }
   body .scope-container .mar--md--only--xl {
     margin: 32px; }
+  body .scope-container .mar--md--only--xxl {
+    margin: 80px; }
   body .scope-container .mar--md--only--tn {
     margin-top: 0; }
   body .scope-container .mar--md--only--txs {
@@ -3479,7 +4006,9 @@ button.close {
   body .scope-container .mar--md--only--tl {
     margin-top: 24px; }
   body .scope-container .mar--md--only--txl {
-    margin-top: 32px; }
+    margin: 32px; }
+  body .scope-container .mar--md--only--txxl {
+    margin: 80px; }
   body .scope-container .mar--md--only--rn {
     margin-right: 0; }
   body .scope-container .mar--md--only--rxs {
@@ -3492,6 +4021,8 @@ button.close {
     margin-right: 24px; }
   body .scope-container .mar--md--only--rxl {
     margin-right: 32px; }
+  body .scope-container .mar--md--only--rxxl {
+    margin-right: 80px; }
   body .scope-container .mar--md--only--bn {
     margin-bottom: 0; }
   body .scope-container .mar--md--only--bxs {
@@ -3504,18 +4035,22 @@ button.close {
     margin-bottom: 24px; }
   body .scope-container .mar--md--only--bxl {
     margin-bottom: 32px; }
+  body .scope-container .mar--md--only--bxxl {
+    margin-bottom: 80px; }
   body .scope-container .mar--md--only--ln {
-    margin-bottom: 0; }
+    margin-left: 0; }
   body .scope-container .mar--md--only--lxs {
-    margin-bottom: 4px; }
+    margin-left: 4px; }
   body .scope-container .mar--md--only--ls {
-    margin-bottom: 8px; }
+    margin-left: 8px; }
   body .scope-container .mar--md--only--lm {
-    margin-bottom: 16px; }
+    margin-left: 16px; }
   body .scope-container .mar--md--only--ll {
-    margin-bottom: 24px; }
+    margin-left: 24px; }
   body .scope-container .mar--md--only--lxl {
-    margin-bottom: 32px; } }
+    margin-left: 32px; }
+  body .scope-container .mar--md--only--lxxl {
+    margin-left: 80px; } }
 @media (min-width: 1100px) {
   body .scope-container .mar--lg--n {
     margin: 0; }
@@ -3529,6 +4064,8 @@ button.close {
     margin: 24px; }
   body .scope-container .mar--lg--xl {
     margin: 32px; }
+  body .scope-container .mar--lg--xxl {
+    margin: 80px; }
   body .scope-container .mar--lg--tn {
     margin-top: 0; }
   body .scope-container .mar--lg--txs {
@@ -3540,7 +4077,9 @@ button.close {
   body .scope-container .mar--lg--tl {
     margin-top: 24px; }
   body .scope-container .mar--lg--txl {
-    margin-top: 32px; }
+    margin: 32px; }
+  body .scope-container .mar--lg--txxl {
+    margin: 80px; }
   body .scope-container .mar--lg--rn {
     margin-right: 0; }
   body .scope-container .mar--lg--rxs {
@@ -3553,6 +4092,8 @@ button.close {
     margin-right: 24px; }
   body .scope-container .mar--lg--rxl {
     margin-right: 32px; }
+  body .scope-container .mar--lg--rxxl {
+    margin-right: 80px; }
   body .scope-container .mar--lg--bn {
     margin-bottom: 0; }
   body .scope-container .mar--lg--bxs {
@@ -3565,18 +4106,22 @@ button.close {
     margin-bottom: 24px; }
   body .scope-container .mar--lg--bxl {
     margin-bottom: 32px; }
+  body .scope-container .mar--lg--bxxl {
+    margin-bottom: 80px; }
   body .scope-container .mar--lg--ln {
-    margin-bottom: 0; }
+    margin-left: 0; }
   body .scope-container .mar--lg--lxs {
-    margin-bottom: 4px; }
+    margin-left: 4px; }
   body .scope-container .mar--lg--ls {
-    margin-bottom: 8px; }
+    margin-left: 8px; }
   body .scope-container .mar--lg--lm {
-    margin-bottom: 16px; }
+    margin-left: 16px; }
   body .scope-container .mar--lg--ll {
-    margin-bottom: 24px; }
+    margin-left: 24px; }
   body .scope-container .mar--lg--lxl {
-    margin-bottom: 32px; } }
+    margin-left: 32px; }
+  body .scope-container .mar--lg--lxxl {
+    margin-left: 80px; } }
 @media (min-width: 1px) {
   body .scope-container .pad--sm--n {
     padding: 0; }
@@ -3590,6 +4135,8 @@ button.close {
     padding: 24px; }
   body .scope-container .pad--sm--xl {
     padding: 32px; }
+  body .scope-container .pad--sm--xxl {
+    padding: 80px; }
   body .scope-container .pad--sm--tn {
     padding-top: 0; }
   body .scope-container .pad--sm--txs {
@@ -3601,7 +4148,9 @@ button.close {
   body .scope-container .pad--sm--tl {
     padding-top: 24px; }
   body .scope-container .pad--sm--txl {
-    padding-top: 32px; }
+    padding: 32px; }
+  body .scope-container .pad--sm--txxl {
+    padding: 80px; }
   body .scope-container .pad--sm--rn {
     padding-right: 0; }
   body .scope-container .pad--sm--rxs {
@@ -3614,6 +4163,8 @@ button.close {
     padding-right: 24px; }
   body .scope-container .pad--sm--rxl {
     padding-right: 32px; }
+  body .scope-container .pad--sm--rxxl {
+    padding-right: 80px; }
   body .scope-container .pad--sm--bn {
     padding-bottom: 0; }
   body .scope-container .pad--sm--bxs {
@@ -3626,18 +4177,22 @@ button.close {
     padding-bottom: 24px; }
   body .scope-container .pad--sm--bxl {
     padding-bottom: 32px; }
+  body .scope-container .pad--sm--bxxl {
+    padding-bottom: 80px; }
   body .scope-container .pad--sm--ln {
-    padding-bottom: 0; }
+    padding-left: 0; }
   body .scope-container .pad--sm--lxs {
-    padding-bottom: 4px; }
+    padding-left: 4px; }
   body .scope-container .pad--sm--ls {
-    padding-bottom: 8px; }
+    padding-left: 8px; }
   body .scope-container .pad--sm--lm {
-    padding-bottom: 16px; }
+    padding-left: 16px; }
   body .scope-container .pad--sm--ll {
-    padding-bottom: 24px; }
+    padding-left: 24px; }
   body .scope-container .pad--sm--lxl {
-    padding-bottom: 32px; } }
+    padding-left: 32px; }
+  body .scope-container .pad--sm--lxxl {
+    padding-left: 80px; } }
 @media (min-width: 1px) and (max-width: 769px) {
   body .scope-container .pad--sm--only--n {
     padding: 0; }
@@ -3651,6 +4206,8 @@ button.close {
     padding: 24px; }
   body .scope-container .pad--sm--only--xl {
     padding: 32px; }
+  body .scope-container .pad--sm--only--xxl {
+    padding: 80px; }
   body .scope-container .pad--sm--only--tn {
     padding-top: 0; }
   body .scope-container .pad--sm--only--txs {
@@ -3662,7 +4219,9 @@ button.close {
   body .scope-container .pad--sm--only--tl {
     padding-top: 24px; }
   body .scope-container .pad--sm--only--txl {
-    padding-top: 32px; }
+    padding: 32px; }
+  body .scope-container .pad--sm--only--txxl {
+    padding: 80px; }
   body .scope-container .pad--sm--only--rn {
     padding-right: 0; }
   body .scope-container .pad--sm--only--rxs {
@@ -3675,6 +4234,8 @@ button.close {
     padding-right: 24px; }
   body .scope-container .pad--sm--only--rxl {
     padding-right: 32px; }
+  body .scope-container .pad--sm--only--rxxl {
+    padding-right: 80px; }
   body .scope-container .pad--sm--only--bn {
     padding-bottom: 0; }
   body .scope-container .pad--sm--only--bxs {
@@ -3687,18 +4248,22 @@ button.close {
     padding-bottom: 24px; }
   body .scope-container .pad--sm--only--bxl {
     padding-bottom: 32px; }
+  body .scope-container .pad--sm--only--bxxl {
+    padding-bottom: 80px; }
   body .scope-container .pad--sm--only--ln {
-    padding-bottom: 0; }
+    padding-left: 0; }
   body .scope-container .pad--sm--only--lxs {
-    padding-bottom: 4px; }
+    padding-left: 4px; }
   body .scope-container .pad--sm--only--ls {
-    padding-bottom: 8px; }
+    padding-left: 8px; }
   body .scope-container .pad--sm--only--lm {
-    padding-bottom: 16px; }
+    padding-left: 16px; }
   body .scope-container .pad--sm--only--ll {
-    padding-bottom: 24px; }
+    padding-left: 24px; }
   body .scope-container .pad--sm--only--lxl {
-    padding-bottom: 32px; } }
+    padding-left: 32px; }
+  body .scope-container .pad--sm--only--lxxl {
+    padding-left: 80px; } }
 @media (min-width: 769px) {
   body .scope-container .pad--md--n {
     padding: 0; }
@@ -3712,6 +4277,8 @@ button.close {
     padding: 24px; }
   body .scope-container .pad--md--xl {
     padding: 32px; }
+  body .scope-container .pad--md--xxl {
+    padding: 80px; }
   body .scope-container .pad--md--tn {
     padding-top: 0; }
   body .scope-container .pad--md--txs {
@@ -3723,7 +4290,9 @@ button.close {
   body .scope-container .pad--md--tl {
     padding-top: 24px; }
   body .scope-container .pad--md--txl {
-    padding-top: 32px; }
+    padding: 32px; }
+  body .scope-container .pad--md--txxl {
+    padding: 80px; }
   body .scope-container .pad--md--rn {
     padding-right: 0; }
   body .scope-container .pad--md--rxs {
@@ -3736,6 +4305,8 @@ button.close {
     padding-right: 24px; }
   body .scope-container .pad--md--rxl {
     padding-right: 32px; }
+  body .scope-container .pad--md--rxxl {
+    padding-right: 80px; }
   body .scope-container .pad--md--bn {
     padding-bottom: 0; }
   body .scope-container .pad--md--bxs {
@@ -3748,18 +4319,22 @@ button.close {
     padding-bottom: 24px; }
   body .scope-container .pad--md--bxl {
     padding-bottom: 32px; }
+  body .scope-container .pad--md--bxxl {
+    padding-bottom: 80px; }
   body .scope-container .pad--md--ln {
-    padding-bottom: 0; }
+    padding-left: 0; }
   body .scope-container .pad--md--lxs {
-    padding-bottom: 4px; }
+    padding-left: 4px; }
   body .scope-container .pad--md--ls {
-    padding-bottom: 8px; }
+    padding-left: 8px; }
   body .scope-container .pad--md--lm {
-    padding-bottom: 16px; }
+    padding-left: 16px; }
   body .scope-container .pad--md--ll {
-    padding-bottom: 24px; }
+    padding-left: 24px; }
   body .scope-container .pad--md--lxl {
-    padding-bottom: 32px; } }
+    padding-left: 32px; }
+  body .scope-container .pad--md--lxxl {
+    padding-left: 80px; } }
 @media (min-width: 769px) and (max-width: 1100px) {
   body .scope-container .pad--md--only--n {
     padding: 0; }
@@ -3773,6 +4348,8 @@ button.close {
     padding: 24px; }
   body .scope-container .pad--md--only--xl {
     padding: 32px; }
+  body .scope-container .pad--md--only--xxl {
+    padding: 80px; }
   body .scope-container .pad--md--only--tn {
     padding-top: 0; }
   body .scope-container .pad--md--only--txs {
@@ -3784,7 +4361,9 @@ button.close {
   body .scope-container .pad--md--only--tl {
     padding-top: 24px; }
   body .scope-container .pad--md--only--txl {
-    padding-top: 32px; }
+    padding: 32px; }
+  body .scope-container .pad--md--only--txxl {
+    padding: 80px; }
   body .scope-container .pad--md--only--rn {
     padding-right: 0; }
   body .scope-container .pad--md--only--rxs {
@@ -3797,6 +4376,8 @@ button.close {
     padding-right: 24px; }
   body .scope-container .pad--md--only--rxl {
     padding-right: 32px; }
+  body .scope-container .pad--md--only--rxxl {
+    padding-right: 80px; }
   body .scope-container .pad--md--only--bn {
     padding-bottom: 0; }
   body .scope-container .pad--md--only--bxs {
@@ -3809,18 +4390,22 @@ button.close {
     padding-bottom: 24px; }
   body .scope-container .pad--md--only--bxl {
     padding-bottom: 32px; }
+  body .scope-container .pad--md--only--bxxl {
+    padding-bottom: 80px; }
   body .scope-container .pad--md--only--ln {
-    padding-bottom: 0; }
+    padding-left: 0; }
   body .scope-container .pad--md--only--lxs {
-    padding-bottom: 4px; }
+    padding-left: 4px; }
   body .scope-container .pad--md--only--ls {
-    padding-bottom: 8px; }
+    padding-left: 8px; }
   body .scope-container .pad--md--only--lm {
-    padding-bottom: 16px; }
+    padding-left: 16px; }
   body .scope-container .pad--md--only--ll {
-    padding-bottom: 24px; }
+    padding-left: 24px; }
   body .scope-container .pad--md--only--lxl {
-    padding-bottom: 32px; } }
+    padding-left: 32px; }
+  body .scope-container .pad--md--only--lxxl {
+    padding-left: 80px; } }
 @media (min-width: 1100px) {
   body .scope-container .pad--lg--n {
     padding: 0; }
@@ -3834,6 +4419,8 @@ button.close {
     padding: 24px; }
   body .scope-container .pad--lg--xl {
     padding: 32px; }
+  body .scope-container .pad--lg--xxl {
+    padding: 80px; }
   body .scope-container .pad--lg--tn {
     padding-top: 0; }
   body .scope-container .pad--lg--txs {
@@ -3845,7 +4432,9 @@ button.close {
   body .scope-container .pad--lg--tl {
     padding-top: 24px; }
   body .scope-container .pad--lg--txl {
-    padding-top: 32px; }
+    padding: 32px; }
+  body .scope-container .pad--lg--txxl {
+    padding: 80px; }
   body .scope-container .pad--lg--rn {
     padding-right: 0; }
   body .scope-container .pad--lg--rxs {
@@ -3858,6 +4447,8 @@ button.close {
     padding-right: 24px; }
   body .scope-container .pad--lg--rxl {
     padding-right: 32px; }
+  body .scope-container .pad--lg--rxxl {
+    padding-right: 80px; }
   body .scope-container .pad--lg--bn {
     padding-bottom: 0; }
   body .scope-container .pad--lg--bxs {
@@ -3870,18 +4461,22 @@ button.close {
     padding-bottom: 24px; }
   body .scope-container .pad--lg--bxl {
     padding-bottom: 32px; }
+  body .scope-container .pad--lg--bxxl {
+    padding-bottom: 80px; }
   body .scope-container .pad--lg--ln {
-    padding-bottom: 0; }
+    padding-left: 0; }
   body .scope-container .pad--lg--lxs {
-    padding-bottom: 4px; }
+    padding-left: 4px; }
   body .scope-container .pad--lg--ls {
-    padding-bottom: 8px; }
+    padding-left: 8px; }
   body .scope-container .pad--lg--lm {
-    padding-bottom: 16px; }
+    padding-left: 16px; }
   body .scope-container .pad--lg--ll {
-    padding-bottom: 24px; }
+    padding-left: 24px; }
   body .scope-container .pad--lg--lxl {
-    padding-bottom: 32px; } }
+    padding-left: 32px; }
+  body .scope-container .pad--lg--lxxl {
+    padding-left: 80px; } }
 
 body .scope-container #docs__grid .column--sm--1, body .scope-container #docs__grid .column--md--1, body .scope-container #docs__grid .column--lg--1 {
   background: rgba(232, 234, 235, 0.5);
@@ -3985,7 +4580,7 @@ body .scope-container #docs__button-groups [class^="button-group"], body .scope-
   margin-bottom: 16px; }
 body .scope-container .alert {
   margin-bottom: 1rem; }
-body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x {
+body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow body .scope-container #docs__juicons .icon-section b, body .scope-container #docs__juicons .icon-section .close-modal-x {
   background: #e8eaeb;
   padding: 3rem 1rem;
   font-size: 2rem;
@@ -3997,7 +4592,7 @@ body .scope-container #docs__juicons .icon-section .juicon, body .scope-containe
   -o-border-radius: 4px ;
   border-radius: 4px ; }
   @media (min-width: 1px) and (max-width: 768px) {
-    body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .close-modal-x {
+    body .scope-container #docs__juicons .icon-section .juicon, body .scope-container #docs__juicons .icon-section .panel__component > .close .component-remove-x, body .scope-container .panel__component > .close #docs__juicons .icon-section .component-remove-x, body .scope-container #docs__juicons .icon-section .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow body .scope-container #docs__juicons .icon-section b, body .scope-container #docs__juicons .icon-section .close-modal-x {
       padding: 1rem;
       font-size: 1rem; } }
 @media (min-width: 1px) and (max-width: 768px) {

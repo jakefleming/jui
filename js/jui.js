@@ -1477,4 +1477,19 @@ $(document).ready(function () {
     $(".sort-arrow").click(function(e){
         $(e.target).toggleClass("sort-arrow--flipped");
     });
+
+    // Equalizing Panels
+
+    $('.equalize').each(function(){
+
+        var highestBox = 0;
+        $('.equalize-this', this).each(function(){
+
+            if($(this).height() > highestBox)
+                highestBox = $(this).height();
+        });
+
+        $('.equalize-this',this).height(highestBox);
+    });
+
 });

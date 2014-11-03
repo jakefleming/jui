@@ -579,6 +579,12 @@
                     </form>
 
                 </section>
+                <section id="docs__select2">
+                    <h2>Select2</h2>
+                    <select id="select2">
+                        <option>1</option>
+                    </select>
+                </section>
                 <section id="docs__panels">
                     <h2>Panels</h2>
                     <div class="row">
@@ -595,7 +601,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="panel__section">
+                                <div class="content">
                                     <p>This is a paragraph inside a panel.</p>
                                 </div>
                                 <div class="panel__bottom">
@@ -634,7 +640,7 @@
                                             <td>M</td>
                                             <td>Chicago, IL</td>
                                         </tr>
-                                        <tr class="tr__selected">
+                                        <tr class="tr--selected">
                                             <td>Jake Fleming</td>
                                             <td>27</td>
                                             <td>M</td>
@@ -687,7 +693,7 @@
                             <td>M</td>
                             <td>Chicago, IL</td>
                         </tr>
-                        <tr class="tr__selected">
+                        <tr class="tr--selected">
                             <td>Jake Fleming</td>
                             <td>27</td>
                             <td>M</td>
@@ -1025,6 +1031,7 @@
         <script type="text/javascript" src="js/jui.js"></script>
         <script type="text/javascript" src="js/docs.js"></script>
 
+        <script type="text/javascript" src="lib/select2/js/select2.js"></script>
         <script type="text/javascript" src="lib/moment/moment.js"></script>
         <script type="text/javascript" src="lib/daterangepicker/js/daterangepicker.js"></script>
         <script type="text/javascript" src="lib/datepicker/js/datepicker.js"></script>
@@ -1047,6 +1054,8 @@
                         }
                     }
                 );
+
+                $("#select2").select2();
             });
         </script>
     </body>

@@ -8,7 +8,7 @@ table {
   > tbody,
   > tfoot {
     > tr {
-      &.tr__selected {
+      &.tr--selected {
         > th,
         > td {
           background-color: $color-primary;
