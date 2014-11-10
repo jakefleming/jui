@@ -63,16 +63,20 @@
 
 // Inputs
 
-%control {
+%control-base {
   display: block;
   width: 100%;
-  padding: $base-v-padding + px $base-h-padding + px;
   font-size: $base-font-size+px;
   color: $body-font-color;
+}
+
+%control {
+  @extend %control-base;
+  border: 1px solid $input-border-color;
   background-color: $input-bg-color;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
-  border: 1px solid $input-border-color;
   outline: none;
+  padding: $base-v-padding + px $base-h-padding + px;
   @include single-transition(background-color);
   @include radius();
   &:focus {
@@ -111,7 +115,7 @@
 }
 
 @mixin has-icon-padding($position: right) {
-    padding-#{$position}: 3rem;
+  padding-#{$position}: 3rem;
 }
 
 %icon-before-fix {

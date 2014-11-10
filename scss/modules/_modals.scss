@@ -165,3 +165,20 @@ button.close {
     }
   }
 }
+
+.max-modal {
+  @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+    .modal {
+      overflow-y: hidden;
+      &__content {
+        height: 100%;
+        overflow: scroll;
+        border-radius: 0;
+      }
+      &__shell {
+        height: 100%;
+        margin: 0;
+      }
+    }
+  }
+}

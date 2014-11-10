@@ -1,0 +1,243 @@
+/* D3 */
+.circle {
+  stroke-width: 2px;
+  stroke: black;
+  stroke-opacity: 0.2;
+}
+
+tr .bar {
+  fill: #ced9e0;
+  cursor: pointer;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s
+}
+
+tr:hover .bar {
+  fill: $primary-color;
+}
+
+.bar:hover {
+  opacity: 0.75;
+}
+
+text {
+  fill: #496579;
+  font-family: "ProximaNovaSoft","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+}
+
+.bar-text {
+  font-size: 12px;
+}
+
+.y-label {
+  cursor: pointer;
+}
+
+.axis text {
+  font-size: 12px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #BCCBD3;
+  shape-rendering: crispEdges;
+}
+
+
+.line {
+  stroke: steelblue;
+  stroke-width: 1;
+}
+
+.spark {
+  stroke: steelblue;
+  stroke-width: 1;
+}
+
+.area {
+  stroke-width:0;
+  fill: lightblue;
+}
+
+.area0 {
+  stroke-width: 0;
+  fill: rgba(0,0,0,.7);
+}
+
+.area1 {
+  stroke-width: 0;
+  fill: rgba(180, 197, 227,.7);
+
+}
+
+.area2 {
+  stroke-width: 0;
+  fill: rgba(201,227,180, .7);
+}
+
+.chart-tooltip {
+  font-family: $body-font-family;
+  position: absolute;
+  min-width: 100px;
+  max-width: 320px;
+  height: auto;
+  padding: 16px;
+  background-color: $body-font-color;
+  @include radius-all;
+  pointer-events: none;
+}
+
+.chart-tooltip p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+  font-family: $body-font-family;
+  font-weight: 300;
+  strong {
+    font-weight: 700;
+  }
+}
+
+.chart-tooltip.hidden {
+  display: none;
+}
+
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;}
+
+$chart-series-colors: ($blue, $green, $purple, $turquoise, $pink, $gold, $salmon, $red, $blue3, $green3, $purple3, $orange, $pink2, $yellow, $brown, $blue2, $green5, $purple2, $orange3, $red2);
+
+@for $i from 0 to length($chart-series-colors) {
+  .custom-panel:hover  {
+    .color-group {
+      &:nth-child(#{$i + 1}) {
+        .area, .chart-hover-circle {
+          fill: nth($chart-series-colors, $i + 1);
+        }
+        .line {
+          stroke: nth($chart-series-colors, $i + 1);
+        }
+      }
+    }
+    .legend-items {
+      g {
+        &:nth-child(#{$i + 1}) {
+          circle {
+            fill: nth($chart-series-colors, $i + 1);
+          }
+        }
+      }
+      .legend-item {
+        &:nth-child(#{$i + 1}) {
+          .legend-color {
+            background-color: nth($chart-series-colors, $i + 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+.legend-color {
+  @extend %custom-label;
+  min-width: .75rem;
+  min-height: .75rem;
+}
+
+.custom-panel {
+  .legend-item {
+    display: inline-block;
+    width: 4rem;
+    .legend-color {
+      background: #ced9e0;
+    }
+    &.disabled {
+      color: #ced9e0!important;
+      .legend-color {
+        background: #ced9e0!important;
+      }
+    }
+  }
+  .color-group {
+    .area {
+      fill: #ced9e0;
+      fill-opacity: .17;
+      stroke-width: 0;
+    }
+    .line {
+      stroke: #ced9e0;
+      stroke-width: 2;
+    }
+    .chart-hover-circle {
+      fill: #ced9e0;
+    }
+  }
+
+  .legend-items {
+    g {
+      circle {
+        fill: #ced9e0;
+        stroke-width: 0;
+      }
+      &.item-disabled {
+        circle {
+          fill: #ced9e0!important;
+          stroke-width: 0;
+        }
+        text {
+          fill: #ced9e0;
+        }
+      }
+    }
+  }
+}
+
+.custom-panel {
+  tr {
+    .color-group {
+      .area {
+        fill: #ced9e0!important;
+        fill-opacity: .17;
+        stroke-width: 0;
+      }
+      .line {
+        stroke: #ced9e0!important;
+        stroke-width: 2;
+      }
+    }
+    &:hover {
+      .color-group {
+        .area {
+          @include transitionAll;
+          fill: $blue!important;
+        }
+        .line {
+          @include transitionAll;
+          stroke: $blue!important;
+        }
+      }
+    }
+  }
+}
+
+.legend {
+  rect {
+    fill: white;
+    stroke: #ced9e0;
+    opacity: 0.8;
+  }
+}
+
+.dashed-line {
+  stroke-dasharray: 10, 5;
+  stroke: rgba(0,0,0,.3);
+  stroke-width: 2;
+}
+
+

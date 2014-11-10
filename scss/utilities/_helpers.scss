@@ -57,15 +57,15 @@
 
 // Float elements
 
-.left {
+.float--left {
   float: left;
 }
 
-.right {
+.float--right {
   float: right;
 }
 
-.right-left {
+.float--right-left {
   @media (min-width: $brkpoint-md+1) {
     float: right;
   }
@@ -103,6 +103,10 @@
 
 .text-underline {
   @extend %underline;
+}
+
+.text-left {
+  text-align: left
 }
 
 .text-right-left {
@@ -208,6 +212,10 @@
   }
 }
 
+.sr-invisible {
+  visibility: hidden;
+}
+
 .show-brkpoint--sm {
   @media (min-width: $brkpoint-sm) {
     display: block;
@@ -277,8 +285,12 @@
 
 // bg
 
+.bg-1 {
+  background-color: $white!important;
+}
+
 .bg-2 {
-  background-color: $grey-xx-light;
+  background-color: $bg-2!important;
 }
 
 // text color
@@ -289,6 +301,10 @@
 
 .fill-primary {
   fill: $color-primary;
+}
+
+.text-error {
+  color: $color-error;
 }
 
 //rotate
@@ -305,5 +321,7 @@
 .spin-it {
   -webkit-animation: spin-it 1s linear infinite;
 }
+
+
 
 

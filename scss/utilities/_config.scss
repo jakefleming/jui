@@ -73,7 +73,7 @@ $component-icon-color           : #9faab5;
 
 $input-bg-color           : $grey-x-light;
 $input-bg-color-active    : $white;
-$input-border-color       : $grey-light;
+$input-border-color       : $component-border-color;
 $input-placeholder-color  : $grey-dark;
 $input-icon-color         : #9faab5;
 
@@ -86,6 +86,10 @@ $ui-colors: (
   warning     : $my-gold,
   info        : $my-turquoise,
 );
+
+// Bg Colors
+
+$bg-2: #f0f1f2;
 
 $jui-color-1: #ff7b84;
 $jui-color-2: #cfd05c;
@@ -206,6 +210,13 @@ $key-number   : 16;
 
 $base-font-size : $key-number; // 16
 $base-line      : $key-number * 1.5; // 24
+
+$h1-font-size: 200%;
+$h2-font-size: 150%;
+$h3-font-size: 125%;
+$h4-font-size: 100%;
+$h5-font-size: 87.5%;
+$h6-font-size: 75%;
 
 // Border radius
 

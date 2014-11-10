@@ -80,7 +80,7 @@ table {
   @extend .relative;
 }
 .sort-arrow {
-  @extend .right;
+  @extend .float--right;
   @extend .pointer;
   @extend .absolute;
   right: $base-v-padding/2+px;

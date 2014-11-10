@@ -14,7 +14,7 @@
       @extend %input-error;
     }
   }
-  textarea, .select-wrap {
+  textarea, .select__wrap {
     @extend %input-error;
   }
   .input-error-content {

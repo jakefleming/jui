@@ -6,7 +6,7 @@
   &__item {
     @extend .inline;
     a {
-      @extend .left;
+      @extend .float--left;
       @extend .relative;
       @extend %center-align;
       @include spacing(padding, ($base-v-padding - 1));
@@ -61,7 +61,7 @@
       margin-left: -($base-v-padding/4+px);
     }
   }
-  .select-wrap {
+  .select__wrap {
     @include erase-radius();
     @extend .inline-block;
     min-width: 40px;

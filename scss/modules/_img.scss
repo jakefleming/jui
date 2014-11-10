@@ -1,4 +1,4 @@
-.avatar-container {
+@mixin img-container($unit:$key-number) {
   &--lg {
     @include square();
     img {
@@ -7,17 +7,21 @@
     }
   }
   &--md {
-    @include square($key-number*2);
+    @include square($unit*2);
     img {
-      @include square($key-number*2);
+      @include square($unit*2);
       @include radius();
     }
   }
   &--sm {
-    @include square($key-number*1.5);
+    @include square($unit*1.5);
     img {
-      @include square($key-number*1.5);
+      @include square($unit*1.5);
       @include radius();
     }
   }
+}
+
+.avatar-container {
+  @include img-container();
 }

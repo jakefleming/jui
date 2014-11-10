@@ -24,7 +24,7 @@
   src: url("fonts/juicons.eot?#iefix-m8mnji") format("embedded-opentype"), url("fonts/juicons.woff?-m8mnji") format("woff"), url("fonts/juicons.ttf?-m8mnji") format("truetype"), url("fonts/juicons.svg?-m8mnji#juicons") format("svg");
   font-weight: normal;
   font-style: normal; }
-.juicon, .close-modal-x, .panel__component > .close .component-remove-x, .select2-container .select2-choice .select2-arrow b {
+.juicon, .required-field:after, .close-modal-x, .panel__component > .close .component-remove-x, .select2-container .select2-choice .select2-arrow b, .select2-search-choice-close {
   font-family: 'juicons';
   speak: none;
   font-style: normal;
@@ -40,224 +40,227 @@
 .juicon-alert:before {
   content: "\e600"; }
 
-.juicon-backward:before {
+.juicon-asterisk:before {
   content: "\e601"; }
 
-.juicon-bookmark:before {
+.juicon-backward:before {
   content: "\e602"; }
 
-.juicon-browser:before {
+.juicon-bookmark:before {
   content: "\e603"; }
 
-.juicon-calendar:before {
+.juicon-browser:before {
   content: "\e604"; }
 
-.juicon-camera:before {
+.juicon-calendar:before {
   content: "\e605"; }
 
-.juicon-chart-bar:before {
+.juicon-camera:before {
   content: "\e606"; }
 
-.juicon-chart-pie:before {
+.juicon-chart-bar:before {
   content: "\e607"; }
 
-.juicon-chat:before {
+.juicon-chart-pie:before {
   content: "\e608"; }
 
-.juicon-check-circle:before {
+.juicon-chat:before {
   content: "\e609"; }
 
-.juicon-check:before {
+.juicon-check-circle:before {
   content: "\e60a"; }
 
-.juicon-chevron-left:before {
+.juicon-check:before {
   content: "\e60b"; }
 
-.juicon-chevron-right:before {
+.juicon-chevron-left:before {
   content: "\e60c"; }
 
-.juicon-clock:before {
+.juicon-chevron-right:before {
   content: "\e60d"; }
 
-.juicon-dashboard:before {
+.juicon-clock:before {
   content: "\e60e"; }
 
-.juicon-document:before {
+.juicon-dashboard:before {
   content: "\e60f"; }
 
-.juicon-documents-group:before {
+.juicon-document:before {
   content: "\e610"; }
 
-.juicon-documents:before {
+.juicon-documents-group:before {
   content: "\e611"; }
 
-.juicon-dots:before {
+.juicon-documents:before {
   content: "\e612"; }
 
-.juicon-down:before, .caret:after, .select2-container .select2-choice .select2-arrow b:before {
+.juicon-dots:before {
   content: "\e613"; }
 
-.juicon-download:before {
+.juicon-down:before, .caret:after, .select2-container .select2-choice .select2-arrow b:before {
   content: "\e614"; }
 
-.juicon-downward:before {
+.juicon-download:before {
   content: "\e615"; }
 
-.juicon-envelope:before {
+.juicon-downward:before {
   content: "\e616"; }
 
-.juicon-exclamation-circle:before {
+.juicon-envelope:before {
   content: "\e617"; }
 
-.juicon-exclamation:before {
+.juicon-exclamation-circle:before {
   content: "\e618"; }
 
-.juicon-expand:before {
+.juicon-exclamation:before {
   content: "\e619"; }
 
-.juicon-eye:before {
+.juicon-expand:before {
   content: "\e61a"; }
 
-.juicon-flag:before {
+.juicon-eye:before {
   content: "\e61b"; }
 
-.juicon-flip:before {
+.juicon-flag:before {
   content: "\e61c"; }
 
-.juicon-forward:before {
+.juicon-flip:before {
   content: "\e61d"; }
 
-.juicon-funnel:before {
+.juicon-forward:before {
   content: "\e61e"; }
 
-.juicon-gear:before {
+.juicon-funnel:before {
   content: "\e61f"; }
 
-.juicon-grid:before {
+.juicon-gear:before {
   content: "\e620"; }
 
-.juicon-group:before {
+.juicon-grid:before {
   content: "\e621"; }
 
-.juicon-heart:before {
+.juicon-group:before {
   content: "\e622"; }
 
-.juicon-image:before {
+.juicon-heart:before {
   content: "\e623"; }
 
-.juicon-info-circle:before {
+.juicon-image:before {
   content: "\e624"; }
 
-.juicon-left:before {
+.juicon-info-circle:before {
   content: "\e625"; }
 
-.juicon-like:before {
+.juicon-left:before {
   content: "\e626"; }
 
-.juicon-link:before {
+.juicon-like:before {
   content: "\e627"; }
 
-.juicon-list:before {
+.juicon-link:before {
   content: "\e628"; }
 
-.juicon-loading:before {
+.juicon-list:before {
   content: "\e629"; }
 
-.juicon-location:before {
+.juicon-loading:before {
   content: "\e62a"; }
 
-.juicon-lock:before {
+.juicon-location:before {
   content: "\e62b"; }
 
-.juicon-menu:before {
+.juicon-lock:before {
   content: "\e62c"; }
 
-.juicon-minus-circle:before {
+.juicon-menu:before {
   content: "\e62d"; }
 
-.juicon-minus:before {
+.juicon-minus-circle:before {
   content: "\e62e"; }
 
-.juicon-move-vertical:before {
+.juicon-minus:before {
   content: "\e62f"; }
 
-.juicon-new-window:before {
+.juicon-move-vertical:before {
   content: "\e630"; }
 
-.juicon-object:before {
+.juicon-new-window:before {
   content: "\e631"; }
 
-.juicon-paperclip:before {
+.juicon-object:before {
   content: "\e632"; }
 
-.juicon-pencil:before {
+.juicon-paperclip:before {
   content: "\e633"; }
 
-.juicon-people:before {
+.juicon-pencil:before {
   content: "\e634"; }
 
-.juicon-person-add:before {
+.juicon-people:before {
   content: "\e635"; }
 
-.juicon-person:before {
+.juicon-person-add:before {
   content: "\e636"; }
 
-.juicon-phone-smart:before {
+.juicon-person:before {
   content: "\e637"; }
 
-.juicon-phone:before {
+.juicon-phone-smart:before {
   content: "\e638"; }
 
-.juicon-plus-circle:before {
+.juicon-phone:before {
   content: "\e639"; }
 
-.juicon-plus:before {
+.juicon-plus-circle:before {
   content: "\e63a"; }
 
-.juicon-question-circle:before {
+.juicon-plus:before {
   content: "\e63b"; }
 
-.juicon-question:before {
+.juicon-question-circle:before {
   content: "\e63c"; }
 
-.juicon-refresh:before {
+.juicon-question:before {
   content: "\e63d"; }
 
-.juicon-reply:before {
+.juicon-refresh:before {
   content: "\e63e"; }
 
-.juicon-right:before {
+.juicon-reply:before {
   content: "\e63f"; }
 
-.juicon-search:before {
+.juicon-right:before {
   content: "\e640"; }
 
-.juicon-share:before {
+.juicon-search:before {
   content: "\e641"; }
 
-.juicon-signout:before {
+.juicon-share:before {
   content: "\e642"; }
 
-.juicon-sort:before {
+.juicon-signout:before {
   content: "\e643"; }
 
-.juicon-star:before {
+.juicon-sort:before {
   content: "\e644"; }
 
-.juicon-trash:before {
+.juicon-star:before {
   content: "\e645"; }
 
-.juicon-up:before {
+.juicon-trash:before {
   content: "\e646"; }
 
-.juicon-upload:before {
+.juicon-up:before {
   content: "\e647"; }
 
-.juicon-upward:before {
+.juicon-upload:before {
   content: "\e648"; }
 
-.juicon-x:before, .alert-close-x:after, .close-modal-x:before, .panel__component > .close .component-remove-x:before {
+.juicon-upward:before {
   content: "\e649"; }
+
+.juicon-x:before, .alert-close-x:after, .close-modal-x:before, .panel__component > .close .component-remove-x:before, .select2-search-choice-close:before {
+  content: "\e64a"; }
 
 .clearfix:after, .content:after, .content--full:after, .content--small:after, .row:after, .button-group:after, .button-group--collapse:after, .card:after, .range_inputs:after, .range_inputs_container:after, .range_buttons_container:after, .list-group__item:after, .modal__footer:after, .nav-bar:after, .nav-bar--solo:after, .nav-bar__top:after, .nav-bar__appendage:after, .pagination:after, .pagination--alt:after, .panel:after, .panel__top:after, .panel__bottom:after, .panel__component:after, .panel__body:after, .panel__box:after, .panel__content:after {
   content: "";
@@ -285,20 +288,20 @@
   margin-left: auto;
   margin-right: auto; }
 
-.left, .daterangepicker.opensleft .ranges, .daterangepicker.opensleft .calendar, .daterangepicker .ranges .ranges_inputs > div, .daterangepicker_start_input, .daterangepicker_end_input, .cancelBtn, .pagination__item a, .panel__bottom, .panel__component, .slider--horizontal .slider__selection {
+.float--left, .daterangepicker.opensleft .ranges, .daterangepicker.opensleft .calendar, .daterangepicker .ranges .ranges_inputs > div, .daterangepicker_start_input, .daterangepicker_end_input, .cancelBtn, .pagination__item a, .panel__bottom, .panel__component, .slider--horizontal .slider__selection {
   float: left; }
 
-.right, .daterangepicker.opensright .ranges, .daterangepicker.opensright .calendar, .daterangepicker.openscenter .ranges, .daterangepicker.openscenter .calendar, .applyBtn, .label--notification, .nav-bar__menu-toggle, .sort-arrow {
+.float--right, .daterangepicker.opensright .ranges, .daterangepicker.opensright .calendar, .daterangepicker.openscenter .ranges, .daterangepicker.openscenter .calendar, .applyBtn, .label--notification, .nav-bar__menu-toggle, .sort-arrow {
   float: right; }
 
 @media (min-width: 770px) {
-  .right-left {
+  .float--right-left {
     float: right; } }
 
-.pointer, .button, button.button, .alert-close-x, .alert .close-timeout .close-progress, .daterangepicker .ranges li, .list-group__item, .nav-bar__list--item a, .nav-bar__menu-toggle, table tbody tr:hover, .sort-arrow, .select-wrap .input__icon, .select2-container .input__icon, .select-wrap select, .select2-container select, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
+.pointer, .button, button.button, .alert-close-x, .alert .close-timeout .close-progress, .daterangepicker .ranges li, .list-group__item, .nav-bar__list--item a, .nav-bar__menu-toggle, table tbody tr:hover, .sort-arrow, .select__wrap .input__icon, .select2-container .input__icon, .select__wrap select, .select2-container select, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
   cursor: pointer; }
 
-.relative, .alert, .button-group, .button-group .button, .button-group--collapse, .button-group--collapse .button, .input__wrap, .input__icon.juicon:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .list-group__item, .modal__body, .nav-bar__list--item, .pagination__item a, .panel__component, .panel__box, .panel__sidebar, .sort-it {
+.relative, .alert, .button-group, .button-group .button, .button-group--collapse, .button-group--collapse .button, .input__wrap, .input__icon.juicon:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .input__icon.select2-search-choice-close:before, .list-group__item, .modal__body, .nav-bar__list--item, .pagination__item a, .panel__component, .panel__box, .panel__sidebar, .sort-it {
   position: relative; }
 
 .absolute, .alert .close, .alert .close-timeout .close-progress, .daterangepicker, .daterangepicker.opensleft:before, .daterangepicker.opensleft:after, .daterangepicker.opensright:before, .daterangepicker.opensright:after, .daterangepicker.openscenter:before, .daterangepicker.openscenter:after, .input__icon, .modal__top .close, .modal-scrollbar-measure, .panel__component > .close, .sort-arrow, .select2-container .select2-choice .select2-arrow b, .slider__handle, .tooltip, .tooltip-arrow {
@@ -309,6 +312,9 @@
 
 .text-underline {
   text-decoration: underline; }
+
+.text-left, .button.text-left, button.button.text-left, .dropdown-menu {
+  text-align: left; }
 
 @media (min-width: 1px) and (max-width: 769px) {
   .text-right-left {
@@ -333,7 +339,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .fsl {
   font-size: 32px; }
 
-*, .alert .close, .select-wrap select, .select2-container select, .select2-container .select2-choice {
+*, .alert .close, .select__wrap select, .select2-container select, .select2-container .select2-choice {
   outline: none; }
 
 .dots, .dropdown-menu__list-item a, .card__heading, .card__subheading, .tile__title, .list-group__item, .list-group__item a, .page__heading, .panel__subheading, .page__subheading {
@@ -352,10 +358,10 @@ body, h1, h2, h3, h4, h5, h6 {
   list-style-type: none;
   padding: 0; }
 
-.block, .button-group .button, .button-group--collapse .button, .card__heading, .card__subheading, .daterangepicker.show-calendar .calendar, .tile, .list-group__item, .list-group__item a, .nav-bar__list--item a, .appendage--open .nav-bar__appendage, .select2-container .select2-choice {
+.block, h1, h2, h3, h4, h5, h6, .button-group .button, .button-group--collapse .button, .card__heading, .card__subheading, .daterangepicker.show-calendar .calendar, .tile, .list-group__item, .list-group__item a, .nav-bar__list--item a, .appendage--open .nav-bar__appendage, .select2-container .select2-choice {
   display: block; }
 
-.inline-block, .button-group, .tile-container, .label, .inline-list__item, .pagination--alt .select-wrap, .pagination--alt .select2-container {
+.inline-block, .button-group, .tile-container, .label, .inline-list__item, .pagination--alt .select__wrap, .pagination--alt .select2-container {
   display: inline-block; }
 
 .inline, .pagination, .pagination--alt, .pagination__item {
@@ -383,6 +389,9 @@ body, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     overflow: visible;
     clip: auto; }
+
+.sr-invisible {
+  visibility: hidden; }
 
 @media (min-width: 1px) {
   .show-brkpoint--sm {
@@ -432,14 +441,20 @@ body, h1, h2, h3, h4, h5, h6 {
 .width--full, .panel__bottom, .panel__component {
   width: 100%; }
 
+.bg-1 {
+  background-color: #fff !important; }
+
 .bg-2 {
-  background-color: #f5f6f7; }
+  background-color: #f0f1f2 !important; }
 
 .text-primary {
   color: #2a94d6; }
 
 .fill-primary {
   fill: #2a94d6; }
+
+.text-error, .required-field:after {
+  color: #c06057; }
 
 @-webkit-keyframes spin-it {
   from {
@@ -688,9 +703,27 @@ a {
   color: #2a94d6; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "ProximaNovaSoft", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #384047;
-  font-weight: 300;
-  display: block; }
+  font-weight: 300; }
+
+h1 {
+  font-size: 200%; }
+
+h2 {
+  font-size: 150%; }
+
+h3 {
+  font-size: 125%; }
+
+h4 {
+  font-size: 100%; }
+
+h5 {
+  font-size: 87.5%; }
+
+h6 {
+  font-size: 75%; }
 
 strong {
   font-weight: 500 !important; }
@@ -699,12 +732,41 @@ hr {
   margin-top: 1em;
   margin-bottom: 1em;
   border: 0;
-  border-top: 1px solid #e8eaeb; }
+  border-top: 1px solid #dadee2; }
 
 label {
   font-size: 1em;
   color: #8d9aa5; }
 
+@page {
+  margin-top: .5in;
+  margin-left: 1in;
+  margin-bottom: 1in;
+  margin-right: 1in; }
+@media print {
+  * {
+    font-size: 12px; }
+
+  small {
+    font-size: .75em; }
+
+  h1 {
+    font-size: 24px; }
+
+  h2 {
+    font-size: 21px; }
+
+  h3 {
+    font-size: 15px; }
+
+  h4 {
+    font-size: 12px; }
+
+  h5 {
+    font-size: 10.5px; }
+
+  h6 {
+    font-size: 9px; } }
 [class^="column--"] {
   padding: 0 16px;
   position: relative; }
@@ -1148,16 +1210,18 @@ label {
     line-height: 1.5;
     border-radius: 4px; }
 
-.has-error input[type="text"], .has-error input[type="password"], .has-error input[type="number"], .has-error input[type="email"], input[type="text"], input[type="password"], input[type="number"], input[type="email"], textarea, .select2-search input {
+.has-error input[type="text"], .has-error input[type="password"], .has-error input[type="number"], .has-error input[type="email"], input[type="text"], input[type="password"], input[type="number"], input[type="email"], input[type="tel"], textarea, .select2-search input, .input-size {
   display: block;
   width: 100%;
-  padding: 8px 16px;
   font-size: 16px;
-  color: #686c70;
+  color: #686c70; }
+
+.has-error input[type="text"], .has-error input[type="password"], .has-error input[type="number"], .has-error input[type="email"], input[type="text"], input[type="password"], input[type="number"], input[type="email"], input[type="tel"], textarea, .select2-search input {
+  border: 1px solid #dadee2;
   background-color: #e8eaeb;
   background-image: none;
-  border: 1px solid #cfd0d2;
   outline: none;
+  padding: 8px 16px;
   -webkit-transition: background-color 0.2s ease;
   -moz-transition: background-color 0.2s ease;
   -o-transition: background-color 0.2s ease;
@@ -1167,18 +1231,18 @@ label {
   -moz-border-radius: 4px ;
   -o-border-radius: 4px ;
   border-radius: 4px ; }
-  input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="email"]:focus, textarea:focus, .select2-search input:focus {
+  input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus, .select2-search input:focus {
     background-color: #fff; }
-  input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="number"]:-moz-placeholder, input[type="email"]:-moz-placeholder, textarea:-moz-placeholder, .select2-search input:-moz-placeholder {
+  input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="number"]:-moz-placeholder, input[type="email"]:-moz-placeholder, input[type="tel"]:-moz-placeholder, textarea:-moz-placeholder, .select2-search input:-moz-placeholder {
     color: #686c70; }
-  .has-error input[type="text"]::-moz-placeholder, .has-error input[type="password"]::-moz-placeholder, .has-error input[type="number"]::-moz-placeholder, .has-error input[type="email"]::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="number"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder, .select2-search input::-moz-placeholder {
+  .has-error input[type="text"]::-moz-placeholder, .has-error input[type="password"]::-moz-placeholder, .has-error input[type="number"]::-moz-placeholder, .has-error input[type="email"]::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="number"]::-moz-placeholder, input[type="email"]::-moz-placeholder, input[type="tel"]::-moz-placeholder, textarea::-moz-placeholder, .select2-search input::-moz-placeholder {
     color: #686c70; }
-  input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder, .select2-search input:-ms-input-placeholder {
+  input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, textarea:-ms-input-placeholder, .select2-search input:-ms-input-placeholder {
     color: #686c70; }
-  .has-error input[type="text"]::-webkit-input-placeholder, .has-error input[type="password"]::-webkit-input-placeholder, .has-error input[type="number"]::-webkit-input-placeholder, .has-error input[type="email"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, .select2-search input::-webkit-input-placeholder {
+  .has-error input[type="text"]::-webkit-input-placeholder, .has-error input[type="password"]::-webkit-input-placeholder, .has-error input[type="number"]::-webkit-input-placeholder, .has-error input[type="email"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, .select2-search input::-webkit-input-placeholder {
     color: #686c70; }
 
-.has-error input[type="text"], .has-error input[type="password"], .has-error input[type="number"], .has-error input[type="email"], .has-error textarea, .has-error .select-wrap, .has-error .select2-container {
+.has-error input[type="text"], .has-error input[type="password"], .has-error input[type="number"], .has-error input[type="email"], .has-error textarea, .has-error .select__wrap, .has-error .select2-container {
   border-color: #dca6a1;
   background-color: #f8eceb;
   -webkit-border-bottom-left-radius: 0 ;
@@ -1198,7 +1262,7 @@ label {
 .input__wrap.has-icon--left .input__icon, .list-group__item.has-icon--left .input__icon, .list-group__item.has-icon--left--special .input__icon {
   left: 0; }
 
-.button > .juicon:before, .button > .close-modal-x:before, .panel__component > .close .button > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .button > b:before, .label > .juicon:before, .label > .close-modal-x:before, .panel__component > .close .label > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .label > b:before, .inline-list__item a > .juicon:before, .inline-list__item a > .close-modal-x:before, .inline-list__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .inline-list__item a > .component-remove-x:before, .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .inline-list__item a > b:before, .nav-bar__list--item a > .juicon:before, .nav-bar__list--item a > .close-modal-x:before, .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .nav-bar__list--item a > b:before, .pagination__item a > .juicon:before, .pagination__item a > .close-modal-x:before, .pagination__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .pagination__item a > .component-remove-x:before, .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .pagination__item a > b:before {
+.button > .juicon:before, .button > .close-modal-x:before, .panel__component > .close .button > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .button > b:before, .button > .select2-search-choice-close:before, .label > .juicon:before, .label > .close-modal-x:before, .panel__component > .close .label > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .label > b:before, .label > .select2-search-choice-close:before, .inline-list__item a > .juicon:before, .inline-list__item a > .close-modal-x:before, .inline-list__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .inline-list__item a > .component-remove-x:before, .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .inline-list__item a > b:before, .inline-list__item a > .select2-search-choice-close:before, .nav-bar__list--item a > .juicon:before, .nav-bar__list--item a > .close-modal-x:before, .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .nav-bar__list--item a > b:before, .nav-bar__list--item a > .select2-search-choice-close:before, .pagination__item a > .juicon:before, .pagination__item a > .close-modal-x:before, .pagination__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .pagination__item a > .component-remove-x:before, .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .pagination__item a > b:before, .pagination__item a > .select2-search-choice-close:before {
   position: relative;
   top: 2px; }
 
@@ -1227,8 +1291,7 @@ label {
     opacity: .4; }
     .alert-close-x:after {
       font-family: 'juicons';
-      vertical-align: middle;
-      line-height: 1; }
+      vertical-align: middle; }
   .alert .close {
     right: 18px;
     top: 0;
@@ -1332,7 +1395,7 @@ label {
   font-size: 12.8px;
   line-height: 1.5;
   border-radius: 4px; }
-.button--secondary .juicon, .button--secondary .close-modal-x, .button--secondary .panel__component > .close .component-remove-x, .panel__component > .close .button--secondary .component-remove-x, .button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .button--secondary b, .button--secondary .caret, button.button--secondary .juicon, button.button--secondary .close-modal-x, button.button--secondary .panel__component > .close .component-remove-x, .panel__component > .close button.button--secondary .component-remove-x, button.button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow button.button--secondary b, button.button--secondary .caret {
+.button--secondary .juicon, .button--secondary .required-field:after, .button--secondary .close-modal-x, .button--secondary .panel__component > .close .component-remove-x, .panel__component > .close .button--secondary .component-remove-x, .button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .button--secondary b, .button--secondary .select2-search-choice-close, .button--secondary .caret, button.button--secondary .juicon, button.button--secondary .required-field:after, button.button--secondary .close-modal-x, button.button--secondary .panel__component > .close .component-remove-x, .panel__component > .close button.button--secondary .component-remove-x, button.button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow button.button--secondary b, button.button--secondary .select2-search-choice-close, button.button--secondary .caret {
   color: #9faab5; }
 .button--primary.button--ghost, button.button--primary.button--ghost {
   color: #2a94d6;
@@ -1471,6 +1534,10 @@ label {
     border-left-color: #2db6b9; }
 .button--full, button.button--full {
   width: 100%; }
+.button.disabled, button.button.disabled {
+  background-color: #f0f1f2;
+  border-color: #e8eaeb;
+  color: #dadee2; }
 
 .button.button--action, button.button--action {
   width: 64px;
@@ -1479,7 +1546,7 @@ label {
   bottom: 16px;
   padding: 16px;
   right: 16px; }
-  .button.button--action .juicon, .button.button--action .close-modal-x, .button.button--action .panel__component > .close .component-remove-x, .panel__component > .close .button.button--action .component-remove-x, .button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .button.button--action b, button.button--action .juicon, button.button--action .close-modal-x, button.button--action .panel__component > .close .component-remove-x, .panel__component > .close button.button--action .component-remove-x, button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow button.button--action b {
+  .button.button--action .juicon, .button.button--action .required-field:after, .button.button--action .close-modal-x, .button.button--action .panel__component > .close .component-remove-x, .panel__component > .close .button.button--action .component-remove-x, .button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .button.button--action b, .button.button--action .select2-search-choice-close, button.button--action .juicon, button.button--action .required-field:after, button.button--action .close-modal-x, button.button--action .panel__component > .close .component-remove-x, .panel__component > .close button.button--action .component-remove-x, button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow button.button--action b, button.button--action .select2-search-choice-close {
     display: inline-block; }
 
 .button-group .button {
@@ -1824,7 +1891,7 @@ label {
         max-width: none; } }
   .daterangepicker .calendar {
     display: none; }
-    .daterangepicker .calendar.left, .daterangepicker.opensleft .calendar, .daterangepicker .ranges .ranges_inputs > div.calendar, .daterangepicker .calendar.daterangepicker_start_input, .daterangepicker .calendar.daterangepicker_end_input, .daterangepicker .calendar.cancelBtn, .daterangepicker .pagination__item a.calendar, .pagination__item .daterangepicker a.calendar, .daterangepicker .calendar.panel__bottom, .daterangepicker .calendar.panel__component, .daterangepicker .slider--horizontal .calendar.slider__selection, .slider--horizontal .daterangepicker .calendar.slider__selection, .daterangepicker .calendar.right, .daterangepicker.opensright .calendar, .daterangepicker.openscenter .calendar, .daterangepicker .calendar.applyBtn, .daterangepicker .calendar.label--notification, .daterangepicker .calendar.nav-bar__menu-toggle, .daterangepicker .calendar.sort-arrow {
+    .daterangepicker .calendar.left, .daterangepicker .calendar.right {
       float: left; }
     .daterangepicker .calendar.single .calendar-date {
       border: none; }
@@ -2070,7 +2137,7 @@ label {
 form .form__group {
   margin-bottom: 1rem; }
 
-input[type="text"], input[type="password"], input[type="number"], input[type="email"] {
+input[type="text"], input[type="password"], input[type="number"], input[type="email"], input[type="tel"] {
   height: 40px;
   -webkit-appearance: none; }
 input:-webkit-autofill {
@@ -2154,7 +2221,7 @@ input[type=radio] {
   font-size: 1rem;
   z-index: 1;
   color: #9faab5; }
-  .input__icon.juicon:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before {
+  .input__icon.juicon:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .input__icon.select2-search-choice-close:before {
     left: .5px; }
 
 .input__group > [class^="column--"] > * {
@@ -2221,7 +2288,7 @@ input[type=radio] {
   border-bottom-color: #dca6a1;
   background-color: #c06057;
   color: #fff; }
-  .has-error .input__group > [class^="column--"]:last-child > .button .juicon, .has-error .input__group > [class^="column--"]:last-child > .button .close-modal-x, .has-error .input__group > [class^="column--"]:last-child > .button .panel__component > .close .component-remove-x, .panel__component > .close .has-error .input__group > [class^="column--"]:last-child > .button .component-remove-x, .has-error .input__group > [class^="column--"]:last-child > .button .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .has-error .input__group > [class^="column--"]:last-child > .button b {
+  .has-error .input__group > [class^="column--"]:last-child > .button .juicon, .has-error .input__group > [class^="column--"]:last-child > .button .required-field:after, .has-error .input__group > [class^="column--"]:last-child > .button .close-modal-x, .has-error .input__group > [class^="column--"]:last-child > .button .panel__component > .close .component-remove-x, .panel__component > .close .has-error .input__group > [class^="column--"]:last-child > .button .component-remove-x, .has-error .input__group > [class^="column--"]:last-child > .button .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .has-error .input__group > [class^="column--"]:last-child > .button b, .has-error .input__group > [class^="column--"]:last-child > .button .select2-search-choice-close {
     color: #fff; }
   @media (min-width: 770px) {
     .has-error .input__group > [class^="column--"]:last-child > .button {
@@ -2233,6 +2300,13 @@ input[type=radio] {
     -moz-border-radius: 0 ;
     -o-border-radius: 0 ;
     border-radius: 0 ; } }
+
+.input-size {
+  padding: 8px 0; }
+
+.required-field:after {
+  content: " \e601";
+  font-size: 75%; }
 
 .tile-container {
   margin-bottom: 4px; }
@@ -2393,12 +2467,12 @@ input[type=radio] {
   line-height: .675;
   padding: .675em; }
 
-.label > .juicon, .label > .close-modal-x, .panel__component > .close .label > .component-remove-x, .select2-container .select2-choice .select2-arrow .label > b {
+.label > .juicon, .label > .required-field:after, .label > .close-modal-x, .panel__component > .close .label > .component-remove-x, .select2-container .select2-choice .select2-arrow .label > b, .label > .select2-search-choice-close {
   margin-left: -4px;
   margin-right: -4px; }
-  .label > .juicon + span, .label > .close-modal-x + span, .panel__component > .close .label > .component-remove-x + span, .select2-container .select2-choice .select2-arrow .label > b + span {
+  .label > .juicon + span, .label > .required-field:after + span, .label > .close-modal-x + span, .panel__component > .close .label > .component-remove-x + span, .select2-container .select2-choice .select2-arrow .label > b + span, .label > .select2-search-choice-close + span {
     margin-left: 8px; }
-.label > span + .juicon, .label > span + .close-modal-x, .panel__component > .close .label > span + .component-remove-x, .select2-container .select2-choice .select2-arrow .label > span + b {
+.label > span + .juicon, .label > span + .required-field:after, .label > span + .close-modal-x, .panel__component > .close .label > span + .component-remove-x, .select2-container .select2-choice .select2-arrow .label > span + b, .label > span + .select2-search-choice-close {
   margin-left: 8px; }
 
 .list-group__item > .label {
@@ -2415,7 +2489,7 @@ input[type=radio] {
   .list-group--bordered {
     border-width: 1px 1px 1px 1px;
     border-style: solid;
-    border-color: #dadee2;
+    border-color: #e8eaeb;
     -webkit-border-radius: 4px ;
     -ms-border-radius: 4px ;
     -moz-border-radius: 4px ;
@@ -2607,6 +2681,17 @@ button.close {
   background: rgba(56, 64, 71, 0.8); }
 .mo-modal .modal__heading {
   color: #fff; }
+
+@media (min-width: 1px) and (max-width: 769px) {
+  .max-modal .modal {
+    overflow-y: hidden; }
+    .max-modal .modal__content {
+      height: 100%;
+      overflow: scroll;
+      border-radius: 0; }
+    .max-modal .modal__shell {
+      height: 100%;
+      margin: 0; } }
 
 .nav-bar, .nav-bar--solo {
   background: #fff;
@@ -2810,7 +2895,7 @@ button.close {
     padding: 7px 16px;
     border-width: 1px 1px 1px 1px;
     border-style: solid;
-    border-color: #dadee2;
+    border-color: #e8eaeb;
     -webkit-transition: background-color 0.2s ease;
     -moz-transition: background-color 0.2s ease;
     -o-transition: background-color 0.2s ease;
@@ -2860,7 +2945,7 @@ button.close {
     margin-right: -2px; }
     .pagination--alt .pagination__item ~ .pagination__item {
       margin-left: -2px; }
-  .pagination--alt .select-wrap, .pagination--alt .select2-container {
+  .pagination--alt .select__wrap, .pagination--alt .select2-container {
     -webkit-border-radius: 0 ;
     -ms-border-radius: 0 ;
     -moz-border-radius: 0 ;
@@ -2959,7 +3044,7 @@ button.close {
   .panel__component {
     border-width: 1px 0 0 0;
     border-style: solid;
-    border-color: #dadee2; }
+    border-color: #e8eaeb; }
     .panel__component--removable {
       padding-right: 4rem; }
     .panel__component:first-child, .panel__component:first-of-type, .panel__component:nth-of-type(1) {
@@ -3052,6 +3137,8 @@ button.close {
         border-bottom-right-radius: 4px;
         border-left: 1px solid #e8eaeb;
         min-height: 320px; } }
+  .panel .panel__top + * {
+    border-top: 0; }
 
 table {
   width: 100%;
@@ -3214,7 +3301,7 @@ table {
     .progress__bar--info {
       background-color: #47cfd2; }
 
-.select-wrap, .select2-container {
+.select__wrap, .select2-container {
   -webkit-border-radius: 4px ;
   -ms-border-radius: 4px ;
   -moz-border-radius: 4px ;
@@ -3225,14 +3312,14 @@ table {
   border-style: solid;
   border-color: #dadee2;
   background-color: #fff; }
-  .select-wrap:hover, .select2-container:hover {
+  .select__wrap:hover, .select2-container:hover {
     background-color: #f5f6f7; }
-  .select-wrap .input__icon, .select2-container .input__icon {
+  .select__wrap .input__icon, .select2-container .input__icon {
     right: 0px;
     top: 0px;
     padding: 11px 15px;
     z-index: 0; }
-  .select-wrap select, .select2-container select {
+  .select__wrap select, .select2-container select {
     -webkit-appearance: none;
     -ms-appearance: none;
     -moz-appearance: none;
@@ -3254,14 +3341,17 @@ table {
     position: relative;
     border: 0;
     -moz-appearance: progresschunk; }
-    .select-wrap select::-ms-expand, .select2-container select::-ms-expand {
+    .select__wrap select::-ms-expand, .select2-container select::-ms-expand {
       display: none; }
-    .select-wrap select::-moz-focus-inner, .select2-container select::-moz-focus-inner {
+    .select__wrap select::-moz-focus-inner, .select2-container select::-moz-focus-inner {
       border: 0; }
 
 /*
 Version: 3.5.2 Timestamp: Sat Nov  1 14:43:36 EDT 2014
 */
+.select2-container {
+  font-family: "ProximaNovaSoft", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 .select2-container,
 .select2-drop,
 .select2-search,
@@ -3276,7 +3366,9 @@ Version: 3.5.2 Timestamp: Sat Nov  1 14:43:36 EDT 2014
   -moz-box-sizing: border-box;
   /* firefox */
   box-sizing: border-box;
-  /* css3 */ }
+  /* css3 */
+  font-family: "ProximaNovaSoft", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px; }
 
 .select2-container .select2-choice {
   -webkit-appearance: none;
@@ -3369,24 +3461,26 @@ html[dir="rtl"] .select2-container .select2-choice > .select2-chosen {
 
 .select2-drop {
   width: 100%;
-  margin-top: -1px;
+  margin-top: 4px;
   position: absolute;
   z-index: 9999;
   top: 100%;
   background: #fff;
   color: #384047;
-  border: 1px solid #cfd0d2;
-  border-top: 0;
-  border-radius: 0 0 4px 4px; }
+  border: 1px solid #dadee2;
+  -webkit-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -o-border-radius: 4px ;
+  border-radius: 4px ; }
 
 .select2-drop.select2-drop-above {
-  margin-top: 1px;
-  border-top: 1px solid #cfd0d2;
-  border-bottom: 0;
-  border-radius: 4px 4px 0 0; }
-
-.select2-drop-active {
-  border-top: none; }
+  margin-top: -4px;
+  -webkit-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -o-border-radius: 4px ;
+  border-radius: 4px ; }
 
 .select2-drop-auto-width {
   border-top: 1px solid #cfd0d2;
@@ -3419,9 +3513,13 @@ html[dir="rtl"] .select2-container .select2-choice .select2-arrow b {
   margin: 0;
   padding-left: 4px;
   padding-right: 4px;
+  padding-top: 4px;
   position: relative;
   z-index: 10000;
   white-space: nowrap; }
+
+.select2-drop-above .select2-search {
+  padding-top: 0; }
 
 .select2-search input {
   height: 40px;
@@ -3481,13 +3579,20 @@ html[dir="rtl"] .select2-results {
 .select2-results li {
   list-style: none;
   display: list-item;
-  background-image: none; }
+  background-image: none;
+  font-weight: 300;
+  margin: 0; }
 
 .select2-results li.select2-result-with-children > .select2-result-label {
   font-weight: bold; }
 
 .select2-results .select2-result-label {
-  padding: 3px 7px 4px;
+  -webkit-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -o-border-radius: 4px ;
+  border-radius: 4px ;
+  padding: 8px 12px;
   margin: 0;
   cursor: pointer;
   min-height: 1em;
@@ -3520,7 +3625,11 @@ html[dir="rtl"] .select2-results {
 
 .select2-results .select2-highlighted {
   background: #f5f6f7;
-  color: #fff; }
+  -webkit-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -o-border-radius: 4px ;
+  border-radius: 4px ; }
 
 .select2-results li em {
   background: #fdf9ee;
@@ -3583,16 +3692,10 @@ disabled look for disabled choices in the results dropdown
   height: auto !important;
   height: 1%;
   margin: 0;
-  padding: 0 5px 0 0;
+  padding: 0 16px;
   position: relative;
-  border: 1px solid #cfd0d2;
   cursor: text;
-  overflow: hidden;
-  background-color: #fff;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #e8eaeb), color-stop(15%, #fff));
-  background-image: -webkit-linear-gradient(top, #e8eaeb 1%, #fff 15%);
-  background-image: -moz-linear-gradient(top, #e8eaeb 1%, #fff 15%);
-  background-image: linear-gradient(to bottom, #e8eaeb 1%, #fff 15%); }
+  overflow: hidden; }
 
 html[dir="rtl"] .select2-container-multi .select2-choices {
   padding: 0 0 0 5px; }
@@ -3604,10 +3707,7 @@ html[dir="rtl"] .select2-container-multi .select2-choices {
   min-height: 26px; }
 
 .select2-container-multi.select2-container-active .select2-choices {
-  border: 1px solid #5897fb;
-  outline: none;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+  outline: none; }
 
 .select2-container-multi .select2-choices li {
   float: left;
@@ -3624,6 +3724,7 @@ html[dir="rtl"] .select2-container-multi .select2-choices li {
 .select2-container-multi .select2-choices .select2-search-field input {
   padding: 5px;
   margin: 1px 0;
+  height: 36.00036px;
   font-family: sans-serif;
   font-size: 100%;
   color: #666;
@@ -3640,10 +3741,12 @@ html[dir="rtl"] .select2-container-multi .select2-choices li {
   color: #999 !important; }
 
 .select2-container-multi .select2-choices .select2-search-choice {
-  padding: 3px 5px 3px 18px;
+  padding: 3px 16px 3px 32px;
   margin: 3px 0 3px 5px;
   position: relative;
-  line-height: 13px;
+  background-color: #fff;
+  border-color: #e8eaeb;
+  line-height: 1.5;
   color: #333;
   cursor: default;
   border: 1px solid #cfd0d2;
@@ -3655,13 +3758,7 @@ html[dir="rtl"] .select2-container-multi .select2-choices li {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-  background-color: #e8eaeb;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$grey-x-lighteee', endColorstr='$grey-xx-light', GradientType=0);
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #f5f6f7), color-stop(50%, #f0f1f2), color-stop(52%, #e8e8e8), color-stop(100%, #e8eaeb));
-  background-image: -webkit-linear-gradient(top, #f5f6f7 20%, #f0f1f2 50%, #e8e8e8 52%, #e8eaeb 100%);
-  background-image: -moz-linear-gradient(top, #f5f6f7 20%, #f0f1f2 50%, #e8e8e8 52%, #e8eaeb 100%);
-  background-image: linear-gradient(to bottom, #f5f6f7 20%, #f0f1f2 50%, #e8e8e8 52%, #e8eaeb 100%); }
+  user-select: none; }
 
 html[dir="rtl"] .select2-container-multi .select2-choices .select2-search-choice {
   margin: 3px 5px 3px 0;
@@ -3675,21 +3772,21 @@ html[dir="rtl"] .select2-container-multi .select2-choices .select2-search-choice
 
 .select2-search-choice-close {
   display: block;
-  width: 12px;
-  height: 13px;
+  width: 16px;
+  height: 16px;
   position: absolute;
-  right: 3px;
+  right: 4px;
   top: 4px;
-  font-size: 1px;
-  outline: none;
-  background: url("select2.png") right top no-repeat; }
+  outline: none; }
 
 html[dir="rtl"] .select2-search-choice-close {
   right: auto;
   left: 3px; }
 
 .select2-container-multi .select2-search-choice-close {
-  left: 3px; }
+  left: 7px;
+  top: 7px;
+  color: #9faab5; }
 
 html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   left: auto;
@@ -3751,6 +3848,22 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .select2-search input {
     background-position: 100% -21px !important; } }
+.select2-container-multi .select2-choices .select2-search-choice {
+  margin-left: -12px;
+  margin-right: 16px; }
+
+.select2-container-multi .select2-choices .select2-search-field input {
+  font-family: "ProximaNovaSoft", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0; }
+  .select2-container-multi .select2-choices .select2-search-field input:-moz-placeholder {
+    color: #686c70; }
+  .select2-container-multi .select2-choices .select2-search-field input::-moz-placeholder {
+    color: #686c70; }
+  .select2-container-multi .select2-choices .select2-search-field input:-ms-input-placeholder {
+    color: #686c70; }
+  .select2-container-multi .select2-choices .select2-search-field input::-webkit-input-placeholder {
+    color: #686c70; }
+
 .slider {
   display: inline-block;
   vertical-align: middle;
@@ -3779,7 +3892,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .slider__handle {
     border-width: 1px 1px 1px 1px;
     border-style: solid;
-    border-color: #dadee2;
+    border-color: #e8eaeb;
     -webkit-border-radius: 50% ;
     -ms-border-radius: 50% ;
     -moz-border-radius: 50% ;
@@ -3837,13 +3950,13 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .tooltip.top {
     margin-top: -3px;
     padding: 4px 0; }
-  .tooltip.right, .daterangepicker.opensright .tooltip.ranges, .daterangepicker.opensright .tooltip.calendar, .daterangepicker.openscenter .tooltip.ranges, .daterangepicker.openscenter .tooltip.calendar, .tooltip.applyBtn, .tooltip.label--notification, .tooltip.nav-bar__menu-toggle, .tooltip.sort-arrow {
+  .tooltip.right {
     margin-left: 3px;
     padding: 0 4px; }
   .tooltip.bottom {
     margin-top: 3px;
     padding: 4px 0; }
-  .tooltip.left, .daterangepicker.opensleft .tooltip.ranges, .daterangepicker.opensleft .tooltip.calendar, .daterangepicker .ranges .ranges_inputs > div.tooltip, .tooltip.daterangepicker_start_input, .tooltip.daterangepicker_end_input, .tooltip.cancelBtn, .pagination__item a.tooltip, .tooltip.panel__bottom, .tooltip.panel__component, .slider--horizontal .tooltip.slider__selection {
+  .tooltip.left {
     margin-left: -3px;
     padding: 0 4px; }
   .tooltip-inner {
@@ -3878,14 +3991,14 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   border-width: 4px 4px 0;
   border-top-color: #384047; }
 
-.tooltip.right .tooltip-arrow, .daterangepicker.opensright .tooltip.ranges .tooltip-arrow, .daterangepicker.opensright .tooltip.calendar .tooltip-arrow, .daterangepicker.openscenter .tooltip.ranges .tooltip-arrow, .daterangepicker.openscenter .tooltip.calendar .tooltip-arrow, .tooltip.applyBtn .tooltip-arrow, .tooltip.label--notification .tooltip-arrow, .tooltip.nav-bar__menu-toggle .tooltip-arrow, .tooltip.sort-arrow .tooltip-arrow {
+.tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -4px;
   border-width: 4px 4px 4px 0;
   border-right-color: #384047; }
 
-.tooltip.left .tooltip-arrow, .daterangepicker.opensleft .tooltip.ranges .tooltip-arrow, .daterangepicker.opensleft .tooltip.calendar .tooltip-arrow, .daterangepicker .ranges .ranges_inputs > div.tooltip .tooltip-arrow, .tooltip.daterangepicker_start_input .tooltip-arrow, .tooltip.daterangepicker_end_input .tooltip-arrow, .tooltip.cancelBtn .tooltip-arrow, .pagination__item a.tooltip .tooltip-arrow, .tooltip.panel__bottom .tooltip-arrow, .tooltip.panel__component .tooltip-arrow, .slider--horizontal .tooltip.slider__selection .tooltip-arrow {
+.tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -4px;
@@ -3938,9 +4051,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .mar--sm--tl {
     margin-top: 24px; }
   .mar--sm--txl {
-    margin: 32px; }
+    margin-top: 32px; }
   .mar--sm--txxl {
-    margin: 80px; }
+    margin-top: 80px; }
   .mar--sm--rn {
     margin-right: 0; }
   .mar--sm--rxs {
@@ -4009,9 +4122,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .mar--sm--only--tl {
     margin-top: 24px; }
   .mar--sm--only--txl {
-    margin: 32px; }
+    margin-top: 32px; }
   .mar--sm--only--txxl {
-    margin: 80px; }
+    margin-top: 80px; }
   .mar--sm--only--rn {
     margin-right: 0; }
   .mar--sm--only--rxs {
@@ -4080,9 +4193,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .mar--md--tl {
     margin-top: 24px; }
   .mar--md--txl {
-    margin: 32px; }
+    margin-top: 32px; }
   .mar--md--txxl {
-    margin: 80px; }
+    margin-top: 80px; }
   .mar--md--rn {
     margin-right: 0; }
   .mar--md--rxs {
@@ -4151,9 +4264,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .mar--md--only--tl {
     margin-top: 24px; }
   .mar--md--only--txl {
-    margin: 32px; }
+    margin-top: 32px; }
   .mar--md--only--txxl {
-    margin: 80px; }
+    margin-top: 80px; }
   .mar--md--only--rn {
     margin-right: 0; }
   .mar--md--only--rxs {
@@ -4222,9 +4335,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .mar--lg--tl {
     margin-top: 24px; }
   .mar--lg--txl {
-    margin: 32px; }
+    margin-top: 32px; }
   .mar--lg--txxl {
-    margin: 80px; }
+    margin-top: 80px; }
   .mar--lg--rn {
     margin-right: 0; }
   .mar--lg--rxs {
@@ -4294,9 +4407,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .pad--sm--tl {
     padding-top: 24px; }
   .pad--sm--txl {
-    padding: 32px; }
+    padding-top: 32px; }
   .pad--sm--txxl {
-    padding: 80px; }
+    padding-top: 80px; }
   .pad--sm--rn {
     padding-right: 0; }
   .pad--sm--rxs {
@@ -4365,9 +4478,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .pad--sm--only--tl {
     padding-top: 24px; }
   .pad--sm--only--txl {
-    padding: 32px; }
+    padding-top: 32px; }
   .pad--sm--only--txxl {
-    padding: 80px; }
+    padding-top: 80px; }
   .pad--sm--only--rn {
     padding-right: 0; }
   .pad--sm--only--rxs {
@@ -4436,9 +4549,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .pad--md--tl {
     padding-top: 24px; }
   .pad--md--txl {
-    padding: 32px; }
+    padding-top: 32px; }
   .pad--md--txxl {
-    padding: 80px; }
+    padding-top: 80px; }
   .pad--md--rn {
     padding-right: 0; }
   .pad--md--rxs {
@@ -4507,9 +4620,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .pad--md--only--tl {
     padding-top: 24px; }
   .pad--md--only--txl {
-    padding: 32px; }
+    padding-top: 32px; }
   .pad--md--only--txxl {
-    padding: 80px; }
+    padding-top: 80px; }
   .pad--md--only--rn {
     padding-right: 0; }
   .pad--md--only--rxs {
@@ -4578,9 +4691,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .pad--lg--tl {
     padding-top: 24px; }
   .pad--lg--txl {
-    padding: 32px; }
+    padding-top: 32px; }
   .pad--lg--txxl {
-    padding: 80px; }
+    padding-top: 80px; }
   .pad--lg--rn {
     padding-right: 0; }
   .pad--lg--rxs {
@@ -4623,5 +4736,25 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     padding-left: 32px; }
   .pad--lg--lxxl {
     padding-left: 80px; } }
+
+@media (min-width: 1px) {
+  span.show-brkpoint--sm {
+    display: inline-block; } }
+span.show-brkpoint--sm--only {
+  display: none; }
+  @media (min-width: 1px) and (max-width: 769px) {
+    span.show-brkpoint--sm--only {
+      display: inline-block; } }
+@media (min-width: 1px) and (max-width: 769px) {
+  span.show-brkpoint--md {
+    display: none; } }
+@media (min-width: 769px) {
+  span.show-brkpoint--md {
+    display: inline-block; } }
+span.show-brkpoint--md--only {
+  display: none; }
+  @media (min-width: 769px) and (max-width: 1100px) {
+    span.show-brkpoint--md--only {
+      display: inline-block; } }
 
 /*# sourceMappingURL=styles.css.map */

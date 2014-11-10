@@ -36,4 +36,12 @@
   &.width--full {
     @extend %center-align;
   }
+  &.disabled {
+    background-color: $component-border-color-light;
+    border-color: $component-border-color-alt;
+    color: $component-border-color;
+  }
+  &.text-left {
+    @extend .text-left;
+  }
 }

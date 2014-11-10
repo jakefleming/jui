@@ -27,7 +27,7 @@
   }
   &__bottom {
     @extend %clearfix;
-    @extend .left;
+    @extend .float--left;
     @extend .width--full;
     border-top: 1px solid $component-border-color-alt;
   }
@@ -53,7 +53,7 @@
   }
   &__component {
     @extend %clearfix;
-    @extend .left;
+    @extend .float--left;
     @extend .width--full;
     @include border($w-bottom: 0, $w-left: 0, $w-right: 0);
     @extend .relative;
@@ -152,6 +152,9 @@
       min-height: $key-number*20+px;
     }
 
+  }
+  .panel__top + * {
+    border-top: 0;
   }
 }
 

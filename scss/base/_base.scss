@@ -23,9 +23,34 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   @extend %line-height;
+  @extend .block;
+  font-family: $font-family-primary;
   color: $black;
   font-weight: $font-weight-light;
-  display:block;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+h5 {
+  font-size: $h5-font-size;
+}
+
+h6 {
+  font-size: $h6-font-size;
 }
 
 strong {
@@ -36,10 +61,45 @@ hr {
   margin-top: em(16px, 16px);
   margin-bottom: em(16px, 16px);
   border: 0;
-  border-top: 1px solid $component-border-color-alt;
+  border-top: 1px solid $component-border-color;
 }
 
 label {
   font-size: em(16px, 16px);
   color: $grey;
+}
+
+@page {
+  margin-top: .5in;
+  margin-left: 1in;
+  margin-bottom: 1in;
+  margin-right: 1in;
+}
+
+@media print {
+  $print-base-fs: 12px;
+  * {
+    font-size: $print-base-fs;
+  }
+  small {
+    font-size: .75em;
+  }
+  h1 {
+    font-size: $print-base-fs*2;
+  }
+  h2 {
+    font-size: $print-base-fs*1.75;
+  }
+  h3 {
+    font-size: $print-base-fs*1.25;
+  }
+  h4 {
+    font-size: $print-base-fs;
+  }
+  h5 {
+    font-size: $print-base-fs*.875;
+  }
+  h6 {
+    font-size: $print-base-fs*.75;
+  }
 }

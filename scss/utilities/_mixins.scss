@@ -231,7 +231,7 @@ $el-h: null) {
 
 // border
 
-@mixin border($w-top: 1px, $w-right: 1px, $w-bottom: 1px, $w-left: 1px, $width: $w-top $w-right $w-bottom $w-left, $style: solid, $color: $component-border-color) {
+@mixin border($w-top: 1px, $w-right: 1px, $w-bottom: 1px, $w-left: 1px, $width: $w-top $w-right $w-bottom $w-left, $style: solid, $color: $component-border-color-alt) {
   border-width: $width;
   border-style: $style;
   border-color: $color;
@@ -268,8 +268,8 @@ $el-h: null) {
   &ts      {#{$attr}-top:$key-number*.5+px}
   &tm      {#{$attr}-top:$key-number+px}
   &tl      {#{$attr}-top:$key-number*1.5+px}
-  &txl     {#{$attr}:$key-number*2+px}
-  &txxl    {#{$attr}:$key-number*5+px}
+  &txl     {#{$attr}-top:$key-number*2+px}
+  &txxl    {#{$attr}-top:$key-number*5+px}
 
   &rn      {#{$attr}-right: 0}
   &rxs     {#{$attr}-right:$key-number*.25+px}

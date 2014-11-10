@@ -42,13 +42,13 @@
       content: '';
     }
     .ranges, .calendar {
-      @extend .left;
+      @extend .float--left;
       padding: $base-v-padding+px;
     }
   }
   &.opensright, &.openscenter {
     .ranges, .calendar {
-      @extend .right;
+      @extend .float--right;
       padding: $base-v-padding+px;
     }
   }
@@ -124,7 +124,7 @@
     max-width: 288px;
     text-align: left;
     .ranges_inputs > div {
-      @extend .left;
+      @extend .float--left;
       &:nth-child(2) {
         padding-left: $base-h-padding+px;
       }
@@ -277,7 +277,7 @@
 }
 
 .daterangepicker_start_input, .daterangepicker_end_input {
-  @extend .left;
+  @extend .float--left;
   padding: 0 $base-v-padding+px;
   width: 50%;
 }
@@ -295,8 +295,8 @@
 }
 
 .applyBtn {
-  @extend .right;
+  @extend .float--right;
 }
 .cancelBtn {
-  @extend .left;
+  @extend .float--left;
 }

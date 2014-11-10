@@ -501,7 +501,7 @@
 
                 </section>
                 <section id="docs__forms">
-                    <div class="button button--secondary right state-toggle"><span class="state-toggle-text">Show</span><span class="state-toggle-text hide">Hide</span> error states</div>
+                    <div class="button button--secondary float--right state-toggle"><span class="state-toggle-text">Show</span><span class="state-toggle-text hide">Hide</span> error states</div>
                     <h2>Forms</h2>
                     <div class="alert alert--error hide">
                         <button type="button" class="close show-brkpoint--sm--only" data-dismiss="alert"><span class="alert-close-x"></span><span class="sr-only">Close</span></button>
@@ -544,7 +544,7 @@
 
                         <div class="form__group">
                             <label for="selectThing">Select a thing</label>
-                            <div class="select-wrap">
+                            <div class="select__wrap">
                                 <div class="input__icon juicon juicon-down"></div>
                                 <select class="test123" id="selectThing">
                                     <option>Option 1</option>
@@ -581,8 +581,12 @@
                 </section>
                 <section id="docs__select2">
                     <h2>Select2</h2>
-                    <select id="select2">
+                    <select id="select2" class="mar--sm--bm">
                         <option>1</option>
+                    </select>
+                    <select multiple id="select2multi">
+                        <option>1</option>
+                        <option>2</option>
                     </select>
                 </section>
                 <section id="docs__panels">
@@ -597,7 +601,7 @@
                                             <h3 class="panel__subheading">Panel Subheading</h3>
                                         </div>
                                         <div class="column--md--4">
-                                            <div class="button button--secondary button--ghost right">Submit</div>
+                                            <div class="button button--secondary button--ghost float--right">Submit</div>
                                         </div>
                                     </div>
                                 </div>
@@ -605,7 +609,7 @@
                                     <p>This is a paragraph inside a panel.</p>
                                 </div>
                                 <div class="panel__bottom">
-                                    <div class="button button--success button--chunky right">Submit</div>
+                                    <div class="button button--success button--chunky float--right">Submit</div>
                                 </div>
                             </div>
                         </div>
@@ -668,7 +672,7 @@
                                     </table>
                                 </div>
                                 <div class="panel__bottom">
-                                    <div class="button button--success button--chunky right">Submit</div>
+                                    <div class="button button--success button--chunky float--right">Submit</div>
                                 </div>
                             </div>
                         </div>
@@ -848,7 +852,7 @@
                             <li class="pagination__item"><a href="#">5</a></li>
                         </span>
                         <li class="pagination__item pagination__select show-brkpoint--sm--only">
-                            <div class="select-wrap inline-block">
+                            <div class="select__wrap inline-block">
                                 <div class="input__icon juicon juicon-down"></div>
                                 <select class="inline-block">
                                     <option>1</option>
@@ -1056,6 +1060,7 @@
                 );
 
                 $("#select2").select2();
+                $("#select2multi").select2();
             });
         </script>
     </body>

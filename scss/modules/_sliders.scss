@@ -41,7 +41,7 @@
       padding: $base-v-padding/2+px;
     }
     .slider__selection {
-      @extend .left;
+      @extend .float--left;
       height: $base-v-padding+px;
       top: $base-v-padding/2+px;
       bottom: 0;

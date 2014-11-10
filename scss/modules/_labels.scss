@@ -18,7 +18,7 @@
     @include vendor-prefix(box-shadow, inset 0 0 0 1px $component-border-color);
   }
   &--notification {
-    @extend .right;
+    @extend .float--right;
     @extend %center-align;
     min-width: 2em;
     font-size: .75em;

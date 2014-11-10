@@ -7,3 +7,9 @@
 .pad{
   @include add-surgical-space(padding);
 }
+
+// show/hide elements
+
+span {
+  @include show-brkpoints(inline-block);
+}

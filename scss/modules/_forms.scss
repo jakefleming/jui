@@ -20,7 +20,7 @@ form {
 }
 
 input {
-  &[type="text"], &[type="password"], &[type="number"], &[type="email"]{
+  &[type="text"], &[type="password"], &[type="number"], &[type="email"], &[type="tel"]{
     @extend %control;
     height: $base-h-control; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
     -webkit-appearance: none;
@@ -195,5 +195,19 @@ input[type=radio] {
         }
       }
     }
+  }
+}
+
+.input-size {
+  @extend %control-base;
+  padding: $base-v-padding + px 0;
+}
+
+.required-field {
+  &:after {
+    @extend .juicon;
+    @extend .text-error;
+    content: " \e601";
+    font-size: 75%;
   }
 }

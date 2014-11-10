@@ -10,6 +10,7 @@
 
 .dropdown-menu {
   @extend .list-style-type-none;
+  @extend .text-left;
   display: none;
   position: absolute;
   top: 100%;

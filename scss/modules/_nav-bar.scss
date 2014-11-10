@@ -130,7 +130,7 @@
   }
   &__menu-toggle {
     @extend .pointer;
-    @extend .right;
+    @extend .float--right;
     @include radius-right();
     display: none;
     font-size: $key-number*2+px;
