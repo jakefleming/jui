@@ -1,0 +1,66 @@
+.button {
+  &.load-this {
+    opacity: .6;
+    > .juicon {
+      display: none;
+    }
+    &:after {
+      @extend .juicon;
+      @extend .spin-it;
+      @extend .relative;
+      left: .5px;
+      margin-left: 4px;
+      top: 1px;
+      content: " \e62a";
+      display: inline-block;
+      height: 16px;
+      width: 16px;
+    }
+  }
+}
+
+.form__group {
+  &.load-this {
+    @extend .relative;
+    .input__wrap.has-icon--right, .select__wrap {
+      > .juicon {
+        display: none;
+      }
+    }
+    @extend .juicon-loading;
+    &:before {
+      @extend .juicon;
+      @extend .spin-it;
+      @extend .absolute;
+      right: .5px;
+      bottom: 0;
+      padding: ($base-h-padding * .75 + px ) ($base-h-padding+px);
+      font-size: 1rem;
+      z-index: 1;
+      color: $input-icon-color;
+    }
+    input {
+      padding-right: ($base-h-padding*3+px);
+    }
+  }
+}
+
+.select2-container {
+  &.load-this {
+    .select2-choice .select2-arrow b {
+      @extend .juicon-loading;
+      @extend .spin-it;
+      right: .5px;
+    }
+  }
+}
+
+.load-block {
+  @extend %center-align;
+  @extend .juicon;
+  @extend .juicon-loading;
+  @extend .spin-it;
+  color: $input-icon-color;
+  font-size: 300%;
+  padding: ($base-h-padding * 3 + px );
+}

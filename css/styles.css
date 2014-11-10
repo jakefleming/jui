@@ -24,7 +24,7 @@
   src: url("fonts/juicons.eot?#iefix-m8mnji") format("embedded-opentype"), url("fonts/juicons.woff?-m8mnji") format("woff"), url("fonts/juicons.ttf?-m8mnji") format("truetype"), url("fonts/juicons.svg?-m8mnji#juicons") format("svg");
   font-weight: normal;
   font-style: normal; }
-.juicon, .required-field:after, .close-modal-x, .panel__component > .close .component-remove-x, .select2-container .select2-choice .select2-arrow b, .select2-search-choice-close {
+.juicon, .required-field:after, .button.load-this:after, .form__group.load-this:before, .load-block, .close-modal-x, .panel__component > .close .component-remove-x, .select2-container .select2-choice .select2-arrow b, .select2-search-choice-close {
   font-family: 'juicons';
   speak: none;
   font-style: normal;
@@ -163,7 +163,7 @@
 .juicon-list:before {
   content: "\e629"; }
 
-.juicon-loading:before {
+.juicon-loading:before, .form__group.load-this:before, .select2-container.load-this .select2-choice .select2-arrow b:before, .load-block:before {
   content: "\e62a"; }
 
 .juicon-location:before {
@@ -277,7 +277,7 @@
   position: absolute;
   width: 1px; }
 
-.text-center, .button.width--full, .button.panel__bottom, .button.panel__component, button.button.width--full, button.button.panel__bottom, button.button.panel__component, .tile-container, .tile, .label--notification, .inline-list, .pagination__item a {
+.text-center, .button.width--full, .button.panel__bottom, .button.panel__component, button.button.width--full, button.button.panel__bottom, button.button.panel__component, .tile-container, .tile, .label--notification, .load-block, .inline-list, .pagination__item a {
   text-align: center; }
 
 .vertical-align-top, .button-group {
@@ -301,10 +301,10 @@
 .pointer, .button, button.button, .alert-close-x, .alert .close-timeout .close-progress, .daterangepicker .ranges li, .list-group__item, .nav-bar__list--item a, .nav-bar__menu-toggle, table tbody tr:hover, .sort-arrow, .select__wrap .input__icon, .select2-container .input__icon, .select__wrap select, .select2-container select, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
   cursor: pointer; }
 
-.relative, .alert, .button-group, .button-group .button, .button-group--collapse, .button-group--collapse .button, .input__wrap, .input__icon.juicon:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .input__icon.select2-search-choice-close:before, .list-group__item, .modal__body, .nav-bar__list--item, .pagination__item a, .panel__component, .panel__box, .panel__sidebar, .sort-it {
+.relative, .alert, .button-group, .button-group .button, .button-group--collapse, .button-group--collapse .button, .input__wrap, .input__icon.juicon:before, .input__icon.form__group.load-this:before, .input__icon.load-block:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .input__icon.select2-search-choice-close:before, .button.load-this:after, .form__group.load-this, .list-group__item, .modal__body, .nav-bar__list--item, .pagination__item a, .panel__component, .panel__box, .panel__sidebar, .sort-it {
   position: relative; }
 
-.absolute, .alert .close, .alert .close-timeout .close-progress, .daterangepicker, .daterangepicker.opensleft:before, .daterangepicker.opensleft:after, .daterangepicker.opensright:before, .daterangepicker.opensright:after, .daterangepicker.openscenter:before, .daterangepicker.openscenter:after, .input__icon, .modal__top .close, .modal-scrollbar-measure, .panel__component > .close, .sort-arrow, .select2-container .select2-choice .select2-arrow b, .slider__handle, .tooltip, .tooltip-arrow {
+.absolute, .alert .close, .alert .close-timeout .close-progress, .daterangepicker, .daterangepicker.opensleft:before, .daterangepicker.opensleft:after, .daterangepicker.opensright:before, .daterangepicker.opensright:after, .daterangepicker.openscenter:before, .daterangepicker.openscenter:after, .input__icon, .form__group.load-this:before, .modal__top .close, .modal-scrollbar-measure, .panel__component > .close, .sort-arrow, .select2-container .select2-choice .select2-arrow b, .slider__handle, .tooltip, .tooltip-arrow {
   position: absolute; }
 
 .fixed, .button.button--action, button.button--action {
@@ -461,7 +461,7 @@ body, h1, h2, h3, h4, h5, h6 {
     -webkit-transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(360deg); } }
-.spin-it {
+.spin-it, .button.load-this:after, .form__group.load-this:before, .select2-container.load-this .select2-choice .select2-arrow b, .load-block {
   -webkit-animation: spin-it 1s linear infinite; }
 
 .top-cap {
@@ -1262,7 +1262,7 @@ label {
 .input__wrap.has-icon--left .input__icon, .list-group__item.has-icon--left .input__icon, .list-group__item.has-icon--left--special .input__icon {
   left: 0; }
 
-.button > .juicon:before, .button > .close-modal-x:before, .panel__component > .close .button > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .button > b:before, .button > .select2-search-choice-close:before, .label > .juicon:before, .label > .close-modal-x:before, .panel__component > .close .label > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .label > b:before, .label > .select2-search-choice-close:before, .inline-list__item a > .juicon:before, .inline-list__item a > .close-modal-x:before, .inline-list__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .inline-list__item a > .component-remove-x:before, .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .inline-list__item a > b:before, .inline-list__item a > .select2-search-choice-close:before, .nav-bar__list--item a > .juicon:before, .nav-bar__list--item a > .close-modal-x:before, .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .nav-bar__list--item a > b:before, .nav-bar__list--item a > .select2-search-choice-close:before, .pagination__item a > .juicon:before, .pagination__item a > .close-modal-x:before, .pagination__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .pagination__item a > .component-remove-x:before, .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .pagination__item a > b:before, .pagination__item a > .select2-search-choice-close:before {
+.button > .juicon:before, .button > .form__group.load-this:before, .button > .load-block:before, .button > .close-modal-x:before, .panel__component > .close .button > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .button > b:before, .button > .select2-search-choice-close:before, .label > .juicon:before, .label > .form__group.load-this:before, .label > .load-block:before, .label > .close-modal-x:before, .panel__component > .close .label > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .label > b:before, .label > .select2-search-choice-close:before, .inline-list__item a > .juicon:before, .inline-list__item a > .form__group.load-this:before, .inline-list__item a > .load-block:before, .inline-list__item a > .close-modal-x:before, .inline-list__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .inline-list__item a > .component-remove-x:before, .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .inline-list__item a > b:before, .inline-list__item a > .select2-search-choice-close:before, .nav-bar__list--item a > .juicon:before, .nav-bar__list--item a > .form__group.load-this:before, .nav-bar__list--item a > .load-block:before, .nav-bar__list--item a > .close-modal-x:before, .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .nav-bar__list--item a > b:before, .nav-bar__list--item a > .select2-search-choice-close:before, .pagination__item a > .juicon:before, .pagination__item a > .form__group.load-this:before, .pagination__item a > .load-block:before, .pagination__item a > .close-modal-x:before, .pagination__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .pagination__item a > .component-remove-x:before, .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .pagination__item a > b:before, .pagination__item a > .select2-search-choice-close:before {
   position: relative;
   top: 2px; }
 
@@ -1395,7 +1395,7 @@ label {
   font-size: 12.8px;
   line-height: 1.5;
   border-radius: 4px; }
-.button--secondary .juicon, .button--secondary .required-field:after, .button--secondary .close-modal-x, .button--secondary .panel__component > .close .component-remove-x, .panel__component > .close .button--secondary .component-remove-x, .button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .button--secondary b, .button--secondary .select2-search-choice-close, .button--secondary .caret, button.button--secondary .juicon, button.button--secondary .required-field:after, button.button--secondary .close-modal-x, button.button--secondary .panel__component > .close .component-remove-x, .panel__component > .close button.button--secondary .component-remove-x, button.button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow button.button--secondary b, button.button--secondary .select2-search-choice-close, button.button--secondary .caret {
+.button--secondary .juicon, .button--secondary .required-field:after, .button--secondary .button.load-this:after, .button--secondary .form__group.load-this:before, .button--secondary .load-block, .button--secondary .close-modal-x, .button--secondary .panel__component > .close .component-remove-x, .panel__component > .close .button--secondary .component-remove-x, .button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .button--secondary b, .button--secondary .select2-search-choice-close, .button--secondary .caret, button.button--secondary .juicon, button.button--secondary .required-field:after, button.button--secondary .button.load-this:after, button.button--secondary .form__group.load-this:before, button.button--secondary .load-block, button.button--secondary .close-modal-x, button.button--secondary .panel__component > .close .component-remove-x, .panel__component > .close button.button--secondary .component-remove-x, button.button--secondary .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow button.button--secondary b, button.button--secondary .select2-search-choice-close, button.button--secondary .caret {
   color: #9faab5; }
 .button--primary.button--ghost, button.button--primary.button--ghost {
   color: #2a94d6;
@@ -1546,7 +1546,7 @@ label {
   bottom: 16px;
   padding: 16px;
   right: 16px; }
-  .button.button--action .juicon, .button.button--action .required-field:after, .button.button--action .close-modal-x, .button.button--action .panel__component > .close .component-remove-x, .panel__component > .close .button.button--action .component-remove-x, .button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .button.button--action b, .button.button--action .select2-search-choice-close, button.button--action .juicon, button.button--action .required-field:after, button.button--action .close-modal-x, button.button--action .panel__component > .close .component-remove-x, .panel__component > .close button.button--action .component-remove-x, button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow button.button--action b, button.button--action .select2-search-choice-close {
+  .button.button--action .juicon, .button.button--action .required-field:after, .button.button--action .button.load-this:after, .button.button--action .form__group.load-this:before, .button.button--action .load-block, .button.button--action .close-modal-x, .button.button--action .panel__component > .close .component-remove-x, .panel__component > .close .button.button--action .component-remove-x, .button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .button.button--action b, .button.button--action .select2-search-choice-close, button.button--action .juicon, button.button--action .required-field:after, button.button--action .button.load-this:after, button.button--action .form__group.load-this:before, button.button--action .load-block, button.button--action .close-modal-x, button.button--action .panel__component > .close .component-remove-x, .panel__component > .close button.button--action .component-remove-x, button.button--action .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow button.button--action b, button.button--action .select2-search-choice-close {
     display: inline-block; }
 
 .button-group .button {
@@ -2221,7 +2221,7 @@ input[type=radio] {
   font-size: 1rem;
   z-index: 1;
   color: #9faab5; }
-  .input__icon.juicon:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .input__icon.select2-search-choice-close:before {
+  .input__icon.juicon:before, .input__icon.form__group.load-this:before, .input__icon.load-block:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .input__icon.select2-search-choice-close:before {
     left: .5px; }
 
 .input__group > [class^="column--"] > * {
@@ -2288,7 +2288,7 @@ input[type=radio] {
   border-bottom-color: #dca6a1;
   background-color: #c06057;
   color: #fff; }
-  .has-error .input__group > [class^="column--"]:last-child > .button .juicon, .has-error .input__group > [class^="column--"]:last-child > .button .required-field:after, .has-error .input__group > [class^="column--"]:last-child > .button .close-modal-x, .has-error .input__group > [class^="column--"]:last-child > .button .panel__component > .close .component-remove-x, .panel__component > .close .has-error .input__group > [class^="column--"]:last-child > .button .component-remove-x, .has-error .input__group > [class^="column--"]:last-child > .button .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .has-error .input__group > [class^="column--"]:last-child > .button b, .has-error .input__group > [class^="column--"]:last-child > .button .select2-search-choice-close {
+  .has-error .input__group > [class^="column--"]:last-child > .button .juicon, .has-error .input__group > [class^="column--"]:last-child > .button .required-field:after, .has-error .input__group > [class^="column--"]:last-child > .button .button.load-this:after, .has-error .input__group > [class^="column--"]:last-child > .button .form__group.load-this:before, .has-error .input__group > [class^="column--"]:last-child > .button .load-block, .has-error .input__group > [class^="column--"]:last-child > .button .close-modal-x, .has-error .input__group > [class^="column--"]:last-child > .button .panel__component > .close .component-remove-x, .panel__component > .close .has-error .input__group > [class^="column--"]:last-child > .button .component-remove-x, .has-error .input__group > [class^="column--"]:last-child > .button .select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice .select2-arrow .has-error .input__group > [class^="column--"]:last-child > .button b, .has-error .input__group > [class^="column--"]:last-child > .button .select2-search-choice-close {
     color: #fff; }
   @media (min-width: 770px) {
     .has-error .input__group > [class^="column--"]:last-child > .button {
@@ -2467,12 +2467,12 @@ input[type=radio] {
   line-height: .675;
   padding: .675em; }
 
-.label > .juicon, .label > .required-field:after, .label > .close-modal-x, .panel__component > .close .label > .component-remove-x, .select2-container .select2-choice .select2-arrow .label > b, .label > .select2-search-choice-close {
+.label > .juicon, .label > .required-field:after, .label > .button.load-this:after, .label > .form__group.load-this:before, .label > .load-block, .label > .close-modal-x, .panel__component > .close .label > .component-remove-x, .select2-container .select2-choice .select2-arrow .label > b, .label > .select2-search-choice-close {
   margin-left: -4px;
   margin-right: -4px; }
-  .label > .juicon + span, .label > .required-field:after + span, .label > .close-modal-x + span, .panel__component > .close .label > .component-remove-x + span, .select2-container .select2-choice .select2-arrow .label > b + span, .label > .select2-search-choice-close + span {
+  .label > .juicon + span, .label > .required-field:after + span, .label > .button.load-this:after + span, .label > .form__group.load-this:before + span, .label > .load-block + span, .label > .close-modal-x + span, .panel__component > .close .label > .component-remove-x + span, .select2-container .select2-choice .select2-arrow .label > b + span, .label > .select2-search-choice-close + span {
     margin-left: 8px; }
-.label > span + .juicon, .label > span + .required-field:after, .label > span + .close-modal-x, .panel__component > .close .label > span + .component-remove-x, .select2-container .select2-choice .select2-arrow .label > span + b, .label > span + .select2-search-choice-close {
+.label > span + .juicon, .label > span + .required-field:after, .label > span + .button.load-this:after, .label > span + .form__group.load-this:before, .label > span + .load-block, .label > span + .close-modal-x, .panel__component > .close .label > span + .component-remove-x, .select2-container .select2-choice .select2-arrow .label > span + b, .label > span + .select2-search-choice-close {
   margin-left: 8px; }
 
 .list-group__item > .label {
@@ -2483,6 +2483,39 @@ input[type=radio] {
   -moz-box-shadow: none;
   -o-box-shadow: none;
   box-shadow: none; }
+
+.button.load-this {
+  opacity: .6; }
+  .button.load-this > .juicon, .button.load-this > .required-field:after, .button.load-this > .button.load-this:after, .button.load-this > .form__group.load-this:before, .button.load-this > .load-block, .button.load-this > .close-modal-x, .panel__component > .close .button.load-this > .component-remove-x, .select2-container .select2-choice .select2-arrow .button.load-this > b, .button.load-this > .select2-search-choice-close {
+    display: none; }
+  .button.load-this:after {
+    left: .5px;
+    margin-left: 4px;
+    top: 1px;
+    content: " \e62a";
+    display: inline-block;
+    height: 16px;
+    width: 16px; }
+
+.form__group.load-this .input__wrap.has-icon--right > .juicon, .form__group.load-this .input__wrap.has-icon--right > .required-field:after, .form__group.load-this .input__wrap.has-icon--right > .button.load-this:after, .form__group.load-this .input__wrap.has-icon--right > .form__group.load-this:before, .form__group.load-this .input__wrap.has-icon--right > .load-block, .form__group.load-this .input__wrap.has-icon--right > .close-modal-x, .form__group.load-this .panel__component > .close .input__wrap.has-icon--right > .component-remove-x, .panel__component > .close .form__group.load-this .input__wrap.has-icon--right > .component-remove-x, .form__group.load-this .select2-container .select2-choice .select2-arrow .input__wrap.has-icon--right > b, .select2-container .select2-choice .select2-arrow .form__group.load-this .input__wrap.has-icon--right > b, .form__group.load-this .input__wrap.has-icon--right > .select2-search-choice-close, .form__group.load-this .select__wrap > .juicon, .form__group.load-this .select2-container > .juicon, .form__group.load-this .select__wrap > .required-field:after, .form__group.load-this .select2-container > .required-field:after, .form__group.load-this .select__wrap > .button.load-this:after, .form__group.load-this .select2-container > .button.load-this:after, .form__group.load-this .select__wrap > .form__group.load-this:before, .form__group.load-this .select2-container > .form__group.load-this:before, .form__group.load-this .select__wrap > .load-block, .form__group.load-this .select2-container > .load-block, .form__group.load-this .select__wrap > .close-modal-x, .form__group.load-this .select2-container > .close-modal-x, .form__group.load-this .panel__component > .close .select__wrap > .component-remove-x, .panel__component > .close .form__group.load-this .select__wrap > .component-remove-x, .form__group.load-this .panel__component > .close .select2-container > .component-remove-x, .panel__component > .close .form__group.load-this .select2-container > .component-remove-x, .form__group.load-this .select2-container .select2-choice .select2-arrow .select__wrap > b, .select2-container .select2-choice .select2-arrow .form__group.load-this .select__wrap > b, .form__group.load-this .select2-container .select2-choice .select2-arrow .select2-container > b, .select2-container .select2-choice .select2-arrow .form__group.load-this .select2-container > b, .form__group.load-this .select__wrap > .select2-search-choice-close, .form__group.load-this .select2-container > .select2-search-choice-close {
+  display: none; }
+.form__group.load-this:before {
+  right: .5px;
+  bottom: 0;
+  padding: 12px 16px;
+  font-size: 1rem;
+  z-index: 1;
+  color: #9faab5; }
+.form__group.load-this input {
+  padding-right: 48px; }
+
+.select2-container.load-this .select2-choice .select2-arrow b {
+  right: .5px; }
+
+.load-block {
+  color: #9faab5;
+  font-size: 300%;
+  padding: 48px; }
 
 .list-group, .panel__sidebar__list-group {
   overflow: hidden; }
