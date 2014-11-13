@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template : Tasks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="scope-container">
+    <div class="content">
+        <h4><a href="templates.html"><span class="juicon juicon-backward"></span> Back to templates</a></h4>
+        <h1>Tasks</h1>
+        <div class="panel">
+            <div class="panel__top">
+                <div class="row input__group">
+                    <div class="column--md--10">
+                        <label for="addItemInput" class="sr-only">Add Item</label>
+                        <input type="text" id="addItemInput" placeholder="Add an item" class=""/>
+                    </div>
+                    <div class="column--md--2">
+                        <button id="addItemButton" type="button" class="button button--primary">
+                            Add <span class="juicon juicon-plus"></span>
+                        </button>
+                    </div>
+                </div>
+                <small class="input-error-content">You need stuff in this thing</small>
+            </div>
+            <section id="sectionTodo">
+                <div class="list-heading">
+                    <h4 class="list-heading__title">TODO</h4>
+                </div>
+                <div id="incompletedItems" class="panel__box">
+                    <div class="panel__component has-hidden-items pointer">
+                        <div class="float--left mar--sm--rs mar--sm--bn relative">
+                            <label class="sr-only">Complete</label>
+                            <input type="checkbox" class="completeItem"/>
+                        </div>
+                        <div class="float--right mar--sm--ls relative hidden-item">
+                            <span class="editItem juicon juicon-pencil inline-block component__icon text-faded pad--sm--ls pad--sm--rs"></span>
+                            <span class="deleteItem juicon juicon-trash inline-block component__icon text-faded pad--sm--ls pad--sm--rs"></span>
+                        </div>
+                        <div class="itemDescription dots">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac nibh nec quam volutpat vulputate non a nisl sit amet, consectetur adipiscing elit.
+                        </div>
+                    </div>
+
+                    <div class="panel__component has-hidden-items pointer edit-this">
+                        <div class="default-item">
+                            <div class="float--left mar--sm--rs mar--sm--bn relative">
+                                <label class="sr-only">Complete</label>
+                                <input type="checkbox" class="completeItem"/>
+                            </div>
+                            <div class="float--right mar--sm--ls relative hidden-item">
+                                <span class="editItem juicon juicon-pencil inline-block component__icon text-faded pad--sm--ls pad--sm--rs"></span>
+                                <span class="deleteItem juicon juicon-trash inline-block component__icon text-faded pad--sm--ls pad--sm--rs"></span>
+                            </div>
+                            <div class="itemDescription dots">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac nibh nec quam volutpat vulputate non a nisl sit amet, consectetur adipiscing elit.
+                            </div>
+                        </div>
+                        <div class="edit-item hide">
+                            <div class="row input__group">
+                                <div class="column--md--10">
+                                    <label for="addItem" class="sr-only">Save Item</label>
+                                    <input type="text" id="saveItem" placeholder="Item Description" class=""/>
+                                </div>
+                                <div class="column--md--2">
+                                    <button type="button" class="button button--primary button--ghost">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="sectionCompleted">
+                <div class="list-heading">
+                    <h4 class="list-heading__title">Completed</h4>
+                </div>
+                <div id="completedItems" class="panel__box">
+                    <div class="panel__component has-hidden-items pointer">
+                        <div class="float--left mar--sm--rs mar--sm--bn relative">
+                            <label class="sr-only">Complete</label>
+                            <input type="checkbox" class="incompleteItem" checked/>
+                        </div>
+                        <div class="float--right mar--sm--ls relative hidden-item">
+                            <span class="editItem juicon juicon-pencil inline-block component__icon text-faded pad--sm--ls pad--sm--rs"></span>
+                            <span class="deleteItem juicon juicon-trash inline-block component__icon text-faded pad--sm--ls pad--sm--rs"></span>
+                        </div>
+                        <div class="itemDescription dots text-strike text-faded">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac nibh nec quam volutpat vulputate non a nisl sit amet, consectetur adipiscing elit.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/jui.js"></script>
+
+<script>
+
+    var itemInput = document.getElementById("addItemInput"); //#addItemInput
+    var addItemButton = document.getElementById("addItemButton"); //#addItemButton
+    var incompleteItems = document.getElementById("incompleteItems"); //#incomplete
+    var completeItems = document.getElementById("completeItems"); //#complete
+
+    //Add a new item
+    var addItem = function() {
+        console.log("Add item...");
+        //When #addItemButton is pressed
+        //Create new (panel__component has-hidden-items pointer) with text from #addItemInput
+            //Div float--left mar--sm--rs mar--sm--bn relative
+
+    }
+
+    //Edit existing item
+    var editItem = function() {
+        console.log("Edit item...");
+        //When editItem is pressed
+            // if the class of the parent is .edit-this
+                // switch from .edit-this
+                // label text become the input's value
+            // else
+                //swith to .edit-this
+                //input value becomes the label's text
+
+            //Toggle .edit-this on the parent
+
+    }
+
+    //Delete existing item
+    var deleteItem = function() {
+        console.log("Delete item...");
+        //When deleteItem is pressed
+            //remove parent from panel
+
+    }
+
+    //Mark item as complete
+    var completeItem = function() {
+        console.log("Complete item...");
+        //when completeItem is pressed
+            //append completed item to #completed
+
+    }
+
+    //Mark item as incomplete
+    var incompleteItem = function() {
+        console.log("Incomplete item...");
+        //when incompleteItem is pressed
+        //append incomplete item to #incompleted
+
+    }
+
+
+
+    //Set the click handler to the addItem function
+    addItemButton.onclick = addItem;
+
+
+
+</script>
+</body>
+</html>

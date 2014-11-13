@@ -40,3 +40,22 @@
   background-color: transparentize($black, .2);
   padding: $base-h-padding+px;
 }
+
+.component__icon {
+  @extend .pointer;
+  //color: $input-icon-color;
+  &:hover {
+    color: $color-primary;
+  }
+  &--primary {
+    @extend .component__icon;
+    color: $color-primary;
+
+  }
+}
+
+span, strong, b, a {
+  &.juicon, >.juicon {
+    @extend %icon-before-fix;
+  }
+}

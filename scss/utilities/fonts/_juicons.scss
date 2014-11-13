@@ -23,6 +23,9 @@
   vertical-align: text-top;
 }
 
+.juicon-ban:before {
+  content: "\e64b";
+}
 .juicon-alert:before {
   content: "\e600";
 }

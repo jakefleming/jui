@@ -109,6 +109,10 @@
   text-align: left
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-right-left {
   @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
     text-align: left;
@@ -304,7 +308,13 @@
 }
 
 .text-error {
-  color: $color-error;
+  color: $color-error!important;
+}
+
+// text decoration
+
+.text-strike {
+  text-decoration: line-through;
 }
 
 //rotate
@@ -320,6 +330,19 @@
 
 .spin-it {
   -webkit-animation: spin-it 1s linear infinite;
+}
+
+// hidden items
+
+.has-hidden-items {
+  .hidden-item {
+    display: none;
+  }
+  &:hover {
+    .hidden-item {
+      display: block;
+    }
+  }
 }
 
 

@@ -37,6 +37,9 @@
   -moz-osx-font-smoothing: grayscale;
   vertical-align: text-top; }
 
+.juicon-ban:before {
+  content: "\e64b"; }
+
 .juicon-alert:before {
   content: "\e600"; }
 
@@ -262,7 +265,7 @@
 .juicon-x:before, body .scope-container .alert-close-x:after, body .scope-container .panel__component > .close .component-remove-x:before, .select2-search-choice-close:before, .close-modal-x:before {
   content: "\e64a"; }
 
-.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__component:after, body .scope-container .panel__body:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
+.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .content--readable:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__component:after, body .scope-container .panel__body:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
   content: "";
   display: table;
   clear: both; }
@@ -288,7 +291,7 @@ body .scope-container #docs__grid .column--sm--1:before, body .scope-container #
   content: '';
   position: absolute; }
 
-.centered, body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small {
+.centered, body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small, body .scope-container .content--readable {
   float: none;
   margin-left: auto;
   margin-right: auto; }
@@ -303,7 +306,7 @@ body .scope-container #docs__grid .column--sm--1:before, body .scope-container #
   .float--right-left {
     float: right; } }
 
-.pointer, body .scope-container .button, body .scope-container button.button, body .scope-container .alert-close-x, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker .ranges li, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item a, body .scope-container .nav-bar__menu-toggle, body .scope-container .select__wrap .input__icon, body .scope-container .select2-container .input__icon, body .scope-container .select__wrap select, body .scope-container .select2-container select, body .scope-container table tbody tr:hover, body .scope-container .sort-arrow, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
+.pointer, body .scope-container .building-block.is-empty:hover, body .scope-container .button, body .scope-container button.button, body .scope-container .alert-close-x, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker .ranges li, body .scope-container .component__icon, body .scope-container .component__icon--primary, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item a, body .scope-container .nav-bar__menu-toggle, body .scope-container .select__wrap .input__icon, body .scope-container .select2-container .input__icon, body .scope-container .select__wrap select, body .scope-container .select2-container select, body .scope-container table tbody tr:hover, body .scope-container .sort-arrow, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
   cursor: pointer; }
 
 .relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .input__icon.juicon:before, body .scope-container .input__icon.form__group.load-this:before, body .scope-container .input__icon.load-block:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b.input__icon:before, .select2-container .select2-choice .select2-arrow body .scope-container b.input__icon:before, body .scope-container .input__icon.select2-search-choice-close:before, body .scope-container .input__icon.close-modal-x:before, body .scope-container .button.load-this:after, body .scope-container .form__group.load-this, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, body .scope-container .sort-it, .modal__body {
@@ -318,8 +321,11 @@ body .scope-container #docs__grid .column--sm--1:before, body .scope-container #
 .text-underline {
   text-decoration: underline; }
 
-.text-left, body .scope-container .dropdown-menu, body .scope-container .button.text-left, body .scope-container button.button.text-left {
+.text-left, body .scope-container .dropdown-menu, body .scope-container .dropdown-menu--top-right, body .scope-container .button.text-left, body .scope-container button.button.text-left {
   text-align: left; }
+
+.text-right {
+  text-align: right; }
 
 @media (min-width: 1px) and (max-width: 769px) {
   .text-right-left {
@@ -359,7 +365,7 @@ body .scope-container .panel__sidebar {
 body .scope-container .panel__box {
   overflow: hidden; }
 
-.list-style-type-none, body .scope-container .dropdown-menu, body .scope-container .list-group, body .scope-container .panel__sidebar__list-group, body .scope-container .inline-list, body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left, body .scope-container .pagination, body .scope-container .pagination--alt, body .scope-container .toc {
+.list-style-type-none, body .scope-container .dropdown-menu, body .scope-container .dropdown-menu--top-right, body .scope-container .list-group, body .scope-container .panel__sidebar__list-group, body .scope-container .inline-list, body .scope-container .nav-bar__list, body .scope-container .nav-bar__list--right, body .scope-container .nav-bar__list--left, body .scope-container .pagination, body .scope-container .pagination--alt, body .scope-container .toc {
   list-style-type: none;
   padding: 0; }
 
@@ -459,7 +465,10 @@ body .scope-container .panel__box {
   fill: #2a94d6; }
 
 .text-error, body .scope-container .required-field:after {
-  color: #c06057; }
+  color: #c06057 !important; }
+
+.text-strike {
+  text-decoration: line-through; }
 
 @-webkit-keyframes spin-it {
   from {
@@ -468,6 +477,11 @@ body .scope-container .panel__box {
     -webkit-transform: rotate(360deg); } }
 .spin-it, body .scope-container .button.load-this:after, body .scope-container .form__group.load-this:before, body .scope-container .select2-container.load-this .select2-choice .select2-arrow b, body .scope-container .load-block {
   -webkit-animation: spin-it 1s linear infinite; }
+
+.has-hidden-items .hidden-item {
+  display: none; }
+.has-hidden-items:hover .hidden-item {
+  display: block; }
 
 .top-cap {
   -webkit-border-top-left-radius: 4px !important;
@@ -734,714 +748,714 @@ body {
 
 @media (min-width: 1px) {
   body .scope-container .mar--sm--n {
-    margin: 0; }
+    margin: 0 !important; }
   body .scope-container .mar--sm--xs {
-    margin: 4px; }
+    margin: 4px !important; }
   body .scope-container .mar--sm--s {
-    margin: 8px; }
+    margin: 8px !important; }
   body .scope-container .mar--sm--m {
-    margin: 16px; }
+    margin: 16px !important; }
   body .scope-container .mar--sm--l {
-    margin: 24px; }
+    margin: 24px !important; }
   body .scope-container .mar--sm--xl {
-    margin: 32px; }
+    margin: 32px !important; }
   body .scope-container .mar--sm--xxl {
-    margin: 80px; }
+    margin: 80px !important; }
   body .scope-container .mar--sm--tn {
-    margin-top: 0; }
+    margin-top: 0 !important; }
   body .scope-container .mar--sm--txs {
-    margin-top: 4px; }
+    margin-top: 4px !important; }
   body .scope-container .mar--sm--ts {
-    margin-top: 8px; }
+    margin-top: 8px !important; }
   body .scope-container .mar--sm--tm {
-    margin-top: 16px; }
+    margin-top: 16px !important; }
   body .scope-container .mar--sm--tl {
-    margin-top: 24px; }
+    margin-top: 24px !important; }
   body .scope-container .mar--sm--txl {
-    margin-top: 32px; }
+    margin-top: 32px !important; }
   body .scope-container .mar--sm--txxl {
-    margin-top: 80px; }
+    margin-top: 80px !important; }
   body .scope-container .mar--sm--rn {
-    margin-right: 0; }
+    margin-right: 0 !important; }
   body .scope-container .mar--sm--rxs {
-    margin-right: 4px; }
+    margin-right: 4px !important; }
   body .scope-container .mar--sm--rs {
-    margin-right: 8px; }
+    margin-right: 8px !important; }
   body .scope-container .mar--sm--rm {
-    margin-right: 16px; }
+    margin-right: 16px !important; }
   body .scope-container .mar--sm--rl {
-    margin-right: 24px; }
+    margin-right: 24px !important; }
   body .scope-container .mar--sm--rxl {
-    margin-right: 32px; }
+    margin-right: 32px !important; }
   body .scope-container .mar--sm--rxxl {
-    margin-right: 80px; }
+    margin-right: 80px !important; }
   body .scope-container .mar--sm--bn {
-    margin-bottom: 0; }
+    margin-bottom: 0 !important; }
   body .scope-container .mar--sm--bxs {
-    margin-bottom: 4px; }
+    margin-bottom: 4px !important; }
   body .scope-container .mar--sm--bs {
-    margin-bottom: 8px; }
+    margin-bottom: 8px !important; }
   body .scope-container .mar--sm--bm {
-    margin-bottom: 16px; }
+    margin-bottom: 16px !important; }
   body .scope-container .mar--sm--bl {
-    margin-bottom: 24px; }
+    margin-bottom: 24px !important; }
   body .scope-container .mar--sm--bxl {
-    margin-bottom: 32px; }
+    margin-bottom: 32px !important; }
   body .scope-container .mar--sm--bxxl {
-    margin-bottom: 80px; }
+    margin-bottom: 80px !important; }
   body .scope-container .mar--sm--ln {
-    margin-left: 0; }
+    margin-left: 0 !important; }
   body .scope-container .mar--sm--lxs {
-    margin-left: 4px; }
+    margin-left: 4px !important; }
   body .scope-container .mar--sm--ls {
-    margin-left: 8px; }
+    margin-left: 8px !important; }
   body .scope-container .mar--sm--lm {
-    margin-left: 16px; }
+    margin-left: 16px !important; }
   body .scope-container .mar--sm--ll {
-    margin-left: 24px; }
+    margin-left: 24px !important; }
   body .scope-container .mar--sm--lxl {
-    margin-left: 32px; }
+    margin-left: 32px !important; }
   body .scope-container .mar--sm--lxxl {
-    margin-left: 80px; } }
+    margin-left: 80px !important; } }
 @media (min-width: 1px) and (max-width: 769px) {
   body .scope-container .mar--sm--only--n {
-    margin: 0; }
+    margin: 0 !important; }
   body .scope-container .mar--sm--only--xs {
-    margin: 4px; }
+    margin: 4px !important; }
   body .scope-container .mar--sm--only--s {
-    margin: 8px; }
+    margin: 8px !important; }
   body .scope-container .mar--sm--only--m {
-    margin: 16px; }
+    margin: 16px !important; }
   body .scope-container .mar--sm--only--l {
-    margin: 24px; }
+    margin: 24px !important; }
   body .scope-container .mar--sm--only--xl {
-    margin: 32px; }
+    margin: 32px !important; }
   body .scope-container .mar--sm--only--xxl {
-    margin: 80px; }
+    margin: 80px !important; }
   body .scope-container .mar--sm--only--tn {
-    margin-top: 0; }
+    margin-top: 0 !important; }
   body .scope-container .mar--sm--only--txs {
-    margin-top: 4px; }
+    margin-top: 4px !important; }
   body .scope-container .mar--sm--only--ts {
-    margin-top: 8px; }
+    margin-top: 8px !important; }
   body .scope-container .mar--sm--only--tm {
-    margin-top: 16px; }
+    margin-top: 16px !important; }
   body .scope-container .mar--sm--only--tl {
-    margin-top: 24px; }
+    margin-top: 24px !important; }
   body .scope-container .mar--sm--only--txl {
-    margin-top: 32px; }
+    margin-top: 32px !important; }
   body .scope-container .mar--sm--only--txxl {
-    margin-top: 80px; }
+    margin-top: 80px !important; }
   body .scope-container .mar--sm--only--rn {
-    margin-right: 0; }
+    margin-right: 0 !important; }
   body .scope-container .mar--sm--only--rxs {
-    margin-right: 4px; }
+    margin-right: 4px !important; }
   body .scope-container .mar--sm--only--rs {
-    margin-right: 8px; }
+    margin-right: 8px !important; }
   body .scope-container .mar--sm--only--rm {
-    margin-right: 16px; }
+    margin-right: 16px !important; }
   body .scope-container .mar--sm--only--rl {
-    margin-right: 24px; }
+    margin-right: 24px !important; }
   body .scope-container .mar--sm--only--rxl {
-    margin-right: 32px; }
+    margin-right: 32px !important; }
   body .scope-container .mar--sm--only--rxxl {
-    margin-right: 80px; }
+    margin-right: 80px !important; }
   body .scope-container .mar--sm--only--bn {
-    margin-bottom: 0; }
+    margin-bottom: 0 !important; }
   body .scope-container .mar--sm--only--bxs {
-    margin-bottom: 4px; }
+    margin-bottom: 4px !important; }
   body .scope-container .mar--sm--only--bs {
-    margin-bottom: 8px; }
+    margin-bottom: 8px !important; }
   body .scope-container .mar--sm--only--bm {
-    margin-bottom: 16px; }
+    margin-bottom: 16px !important; }
   body .scope-container .mar--sm--only--bl {
-    margin-bottom: 24px; }
+    margin-bottom: 24px !important; }
   body .scope-container .mar--sm--only--bxl {
-    margin-bottom: 32px; }
+    margin-bottom: 32px !important; }
   body .scope-container .mar--sm--only--bxxl {
-    margin-bottom: 80px; }
+    margin-bottom: 80px !important; }
   body .scope-container .mar--sm--only--ln {
-    margin-left: 0; }
+    margin-left: 0 !important; }
   body .scope-container .mar--sm--only--lxs {
-    margin-left: 4px; }
+    margin-left: 4px !important; }
   body .scope-container .mar--sm--only--ls {
-    margin-left: 8px; }
+    margin-left: 8px !important; }
   body .scope-container .mar--sm--only--lm {
-    margin-left: 16px; }
+    margin-left: 16px !important; }
   body .scope-container .mar--sm--only--ll {
-    margin-left: 24px; }
+    margin-left: 24px !important; }
   body .scope-container .mar--sm--only--lxl {
-    margin-left: 32px; }
+    margin-left: 32px !important; }
   body .scope-container .mar--sm--only--lxxl {
-    margin-left: 80px; } }
+    margin-left: 80px !important; } }
 @media (min-width: 769px) {
   body .scope-container .mar--md--n {
-    margin: 0; }
+    margin: 0 !important; }
   body .scope-container .mar--md--xs {
-    margin: 4px; }
+    margin: 4px !important; }
   body .scope-container .mar--md--s {
-    margin: 8px; }
+    margin: 8px !important; }
   body .scope-container .mar--md--m {
-    margin: 16px; }
+    margin: 16px !important; }
   body .scope-container .mar--md--l {
-    margin: 24px; }
+    margin: 24px !important; }
   body .scope-container .mar--md--xl {
-    margin: 32px; }
+    margin: 32px !important; }
   body .scope-container .mar--md--xxl {
-    margin: 80px; }
+    margin: 80px !important; }
   body .scope-container .mar--md--tn {
-    margin-top: 0; }
+    margin-top: 0 !important; }
   body .scope-container .mar--md--txs {
-    margin-top: 4px; }
+    margin-top: 4px !important; }
   body .scope-container .mar--md--ts {
-    margin-top: 8px; }
+    margin-top: 8px !important; }
   body .scope-container .mar--md--tm {
-    margin-top: 16px; }
+    margin-top: 16px !important; }
   body .scope-container .mar--md--tl {
-    margin-top: 24px; }
+    margin-top: 24px !important; }
   body .scope-container .mar--md--txl {
-    margin-top: 32px; }
+    margin-top: 32px !important; }
   body .scope-container .mar--md--txxl {
-    margin-top: 80px; }
+    margin-top: 80px !important; }
   body .scope-container .mar--md--rn {
-    margin-right: 0; }
+    margin-right: 0 !important; }
   body .scope-container .mar--md--rxs {
-    margin-right: 4px; }
+    margin-right: 4px !important; }
   body .scope-container .mar--md--rs {
-    margin-right: 8px; }
+    margin-right: 8px !important; }
   body .scope-container .mar--md--rm {
-    margin-right: 16px; }
+    margin-right: 16px !important; }
   body .scope-container .mar--md--rl {
-    margin-right: 24px; }
+    margin-right: 24px !important; }
   body .scope-container .mar--md--rxl {
-    margin-right: 32px; }
+    margin-right: 32px !important; }
   body .scope-container .mar--md--rxxl {
-    margin-right: 80px; }
+    margin-right: 80px !important; }
   body .scope-container .mar--md--bn {
-    margin-bottom: 0; }
+    margin-bottom: 0 !important; }
   body .scope-container .mar--md--bxs {
-    margin-bottom: 4px; }
+    margin-bottom: 4px !important; }
   body .scope-container .mar--md--bs {
-    margin-bottom: 8px; }
+    margin-bottom: 8px !important; }
   body .scope-container .mar--md--bm {
-    margin-bottom: 16px; }
+    margin-bottom: 16px !important; }
   body .scope-container .mar--md--bl {
-    margin-bottom: 24px; }
+    margin-bottom: 24px !important; }
   body .scope-container .mar--md--bxl {
-    margin-bottom: 32px; }
+    margin-bottom: 32px !important; }
   body .scope-container .mar--md--bxxl {
-    margin-bottom: 80px; }
+    margin-bottom: 80px !important; }
   body .scope-container .mar--md--ln {
-    margin-left: 0; }
+    margin-left: 0 !important; }
   body .scope-container .mar--md--lxs {
-    margin-left: 4px; }
+    margin-left: 4px !important; }
   body .scope-container .mar--md--ls {
-    margin-left: 8px; }
+    margin-left: 8px !important; }
   body .scope-container .mar--md--lm {
-    margin-left: 16px; }
+    margin-left: 16px !important; }
   body .scope-container .mar--md--ll {
-    margin-left: 24px; }
+    margin-left: 24px !important; }
   body .scope-container .mar--md--lxl {
-    margin-left: 32px; }
+    margin-left: 32px !important; }
   body .scope-container .mar--md--lxxl {
-    margin-left: 80px; } }
+    margin-left: 80px !important; } }
 @media (min-width: 769px) and (max-width: 1100px) {
   body .scope-container .mar--md--only--n {
-    margin: 0; }
+    margin: 0 !important; }
   body .scope-container .mar--md--only--xs {
-    margin: 4px; }
+    margin: 4px !important; }
   body .scope-container .mar--md--only--s {
-    margin: 8px; }
+    margin: 8px !important; }
   body .scope-container .mar--md--only--m {
-    margin: 16px; }
+    margin: 16px !important; }
   body .scope-container .mar--md--only--l {
-    margin: 24px; }
+    margin: 24px !important; }
   body .scope-container .mar--md--only--xl {
-    margin: 32px; }
+    margin: 32px !important; }
   body .scope-container .mar--md--only--xxl {
-    margin: 80px; }
+    margin: 80px !important; }
   body .scope-container .mar--md--only--tn {
-    margin-top: 0; }
+    margin-top: 0 !important; }
   body .scope-container .mar--md--only--txs {
-    margin-top: 4px; }
+    margin-top: 4px !important; }
   body .scope-container .mar--md--only--ts {
-    margin-top: 8px; }
+    margin-top: 8px !important; }
   body .scope-container .mar--md--only--tm {
-    margin-top: 16px; }
+    margin-top: 16px !important; }
   body .scope-container .mar--md--only--tl {
-    margin-top: 24px; }
+    margin-top: 24px !important; }
   body .scope-container .mar--md--only--txl {
-    margin-top: 32px; }
+    margin-top: 32px !important; }
   body .scope-container .mar--md--only--txxl {
-    margin-top: 80px; }
+    margin-top: 80px !important; }
   body .scope-container .mar--md--only--rn {
-    margin-right: 0; }
+    margin-right: 0 !important; }
   body .scope-container .mar--md--only--rxs {
-    margin-right: 4px; }
+    margin-right: 4px !important; }
   body .scope-container .mar--md--only--rs {
-    margin-right: 8px; }
+    margin-right: 8px !important; }
   body .scope-container .mar--md--only--rm {
-    margin-right: 16px; }
+    margin-right: 16px !important; }
   body .scope-container .mar--md--only--rl {
-    margin-right: 24px; }
+    margin-right: 24px !important; }
   body .scope-container .mar--md--only--rxl {
-    margin-right: 32px; }
+    margin-right: 32px !important; }
   body .scope-container .mar--md--only--rxxl {
-    margin-right: 80px; }
+    margin-right: 80px !important; }
   body .scope-container .mar--md--only--bn {
-    margin-bottom: 0; }
+    margin-bottom: 0 !important; }
   body .scope-container .mar--md--only--bxs {
-    margin-bottom: 4px; }
+    margin-bottom: 4px !important; }
   body .scope-container .mar--md--only--bs {
-    margin-bottom: 8px; }
+    margin-bottom: 8px !important; }
   body .scope-container .mar--md--only--bm {
-    margin-bottom: 16px; }
+    margin-bottom: 16px !important; }
   body .scope-container .mar--md--only--bl {
-    margin-bottom: 24px; }
+    margin-bottom: 24px !important; }
   body .scope-container .mar--md--only--bxl {
-    margin-bottom: 32px; }
+    margin-bottom: 32px !important; }
   body .scope-container .mar--md--only--bxxl {
-    margin-bottom: 80px; }
+    margin-bottom: 80px !important; }
   body .scope-container .mar--md--only--ln {
-    margin-left: 0; }
+    margin-left: 0 !important; }
   body .scope-container .mar--md--only--lxs {
-    margin-left: 4px; }
+    margin-left: 4px !important; }
   body .scope-container .mar--md--only--ls {
-    margin-left: 8px; }
+    margin-left: 8px !important; }
   body .scope-container .mar--md--only--lm {
-    margin-left: 16px; }
+    margin-left: 16px !important; }
   body .scope-container .mar--md--only--ll {
-    margin-left: 24px; }
+    margin-left: 24px !important; }
   body .scope-container .mar--md--only--lxl {
-    margin-left: 32px; }
+    margin-left: 32px !important; }
   body .scope-container .mar--md--only--lxxl {
-    margin-left: 80px; } }
+    margin-left: 80px !important; } }
 @media (min-width: 1100px) {
   body .scope-container .mar--lg--n {
-    margin: 0; }
+    margin: 0 !important; }
   body .scope-container .mar--lg--xs {
-    margin: 4px; }
+    margin: 4px !important; }
   body .scope-container .mar--lg--s {
-    margin: 8px; }
+    margin: 8px !important; }
   body .scope-container .mar--lg--m {
-    margin: 16px; }
+    margin: 16px !important; }
   body .scope-container .mar--lg--l {
-    margin: 24px; }
+    margin: 24px !important; }
   body .scope-container .mar--lg--xl {
-    margin: 32px; }
+    margin: 32px !important; }
   body .scope-container .mar--lg--xxl {
-    margin: 80px; }
+    margin: 80px !important; }
   body .scope-container .mar--lg--tn {
-    margin-top: 0; }
+    margin-top: 0 !important; }
   body .scope-container .mar--lg--txs {
-    margin-top: 4px; }
+    margin-top: 4px !important; }
   body .scope-container .mar--lg--ts {
-    margin-top: 8px; }
+    margin-top: 8px !important; }
   body .scope-container .mar--lg--tm {
-    margin-top: 16px; }
+    margin-top: 16px !important; }
   body .scope-container .mar--lg--tl {
-    margin-top: 24px; }
+    margin-top: 24px !important; }
   body .scope-container .mar--lg--txl {
-    margin-top: 32px; }
+    margin-top: 32px !important; }
   body .scope-container .mar--lg--txxl {
-    margin-top: 80px; }
+    margin-top: 80px !important; }
   body .scope-container .mar--lg--rn {
-    margin-right: 0; }
+    margin-right: 0 !important; }
   body .scope-container .mar--lg--rxs {
-    margin-right: 4px; }
+    margin-right: 4px !important; }
   body .scope-container .mar--lg--rs {
-    margin-right: 8px; }
+    margin-right: 8px !important; }
   body .scope-container .mar--lg--rm {
-    margin-right: 16px; }
+    margin-right: 16px !important; }
   body .scope-container .mar--lg--rl {
-    margin-right: 24px; }
+    margin-right: 24px !important; }
   body .scope-container .mar--lg--rxl {
-    margin-right: 32px; }
+    margin-right: 32px !important; }
   body .scope-container .mar--lg--rxxl {
-    margin-right: 80px; }
+    margin-right: 80px !important; }
   body .scope-container .mar--lg--bn {
-    margin-bottom: 0; }
+    margin-bottom: 0 !important; }
   body .scope-container .mar--lg--bxs {
-    margin-bottom: 4px; }
+    margin-bottom: 4px !important; }
   body .scope-container .mar--lg--bs {
-    margin-bottom: 8px; }
+    margin-bottom: 8px !important; }
   body .scope-container .mar--lg--bm {
-    margin-bottom: 16px; }
+    margin-bottom: 16px !important; }
   body .scope-container .mar--lg--bl {
-    margin-bottom: 24px; }
+    margin-bottom: 24px !important; }
   body .scope-container .mar--lg--bxl {
-    margin-bottom: 32px; }
+    margin-bottom: 32px !important; }
   body .scope-container .mar--lg--bxxl {
-    margin-bottom: 80px; }
+    margin-bottom: 80px !important; }
   body .scope-container .mar--lg--ln {
-    margin-left: 0; }
+    margin-left: 0 !important; }
   body .scope-container .mar--lg--lxs {
-    margin-left: 4px; }
+    margin-left: 4px !important; }
   body .scope-container .mar--lg--ls {
-    margin-left: 8px; }
+    margin-left: 8px !important; }
   body .scope-container .mar--lg--lm {
-    margin-left: 16px; }
+    margin-left: 16px !important; }
   body .scope-container .mar--lg--ll {
-    margin-left: 24px; }
+    margin-left: 24px !important; }
   body .scope-container .mar--lg--lxl {
-    margin-left: 32px; }
+    margin-left: 32px !important; }
   body .scope-container .mar--lg--lxxl {
-    margin-left: 80px; } }
+    margin-left: 80px !important; } }
 @media (min-width: 1px) {
   body .scope-container .pad--sm--n {
-    padding: 0; }
+    padding: 0 !important; }
   body .scope-container .pad--sm--xs {
-    padding: 4px; }
+    padding: 4px !important; }
   body .scope-container .pad--sm--s {
-    padding: 8px; }
+    padding: 8px !important; }
   body .scope-container .pad--sm--m {
-    padding: 16px; }
+    padding: 16px !important; }
   body .scope-container .pad--sm--l {
-    padding: 24px; }
+    padding: 24px !important; }
   body .scope-container .pad--sm--xl {
-    padding: 32px; }
+    padding: 32px !important; }
   body .scope-container .pad--sm--xxl {
-    padding: 80px; }
+    padding: 80px !important; }
   body .scope-container .pad--sm--tn {
-    padding-top: 0; }
+    padding-top: 0 !important; }
   body .scope-container .pad--sm--txs {
-    padding-top: 4px; }
+    padding-top: 4px !important; }
   body .scope-container .pad--sm--ts {
-    padding-top: 8px; }
+    padding-top: 8px !important; }
   body .scope-container .pad--sm--tm {
-    padding-top: 16px; }
+    padding-top: 16px !important; }
   body .scope-container .pad--sm--tl {
-    padding-top: 24px; }
+    padding-top: 24px !important; }
   body .scope-container .pad--sm--txl {
-    padding-top: 32px; }
+    padding-top: 32px !important; }
   body .scope-container .pad--sm--txxl {
-    padding-top: 80px; }
+    padding-top: 80px !important; }
   body .scope-container .pad--sm--rn {
-    padding-right: 0; }
+    padding-right: 0 !important; }
   body .scope-container .pad--sm--rxs {
-    padding-right: 4px; }
+    padding-right: 4px !important; }
   body .scope-container .pad--sm--rs {
-    padding-right: 8px; }
+    padding-right: 8px !important; }
   body .scope-container .pad--sm--rm {
-    padding-right: 16px; }
+    padding-right: 16px !important; }
   body .scope-container .pad--sm--rl {
-    padding-right: 24px; }
+    padding-right: 24px !important; }
   body .scope-container .pad--sm--rxl {
-    padding-right: 32px; }
+    padding-right: 32px !important; }
   body .scope-container .pad--sm--rxxl {
-    padding-right: 80px; }
+    padding-right: 80px !important; }
   body .scope-container .pad--sm--bn {
-    padding-bottom: 0; }
+    padding-bottom: 0 !important; }
   body .scope-container .pad--sm--bxs {
-    padding-bottom: 4px; }
+    padding-bottom: 4px !important; }
   body .scope-container .pad--sm--bs {
-    padding-bottom: 8px; }
+    padding-bottom: 8px !important; }
   body .scope-container .pad--sm--bm {
-    padding-bottom: 16px; }
+    padding-bottom: 16px !important; }
   body .scope-container .pad--sm--bl {
-    padding-bottom: 24px; }
+    padding-bottom: 24px !important; }
   body .scope-container .pad--sm--bxl {
-    padding-bottom: 32px; }
+    padding-bottom: 32px !important; }
   body .scope-container .pad--sm--bxxl {
-    padding-bottom: 80px; }
+    padding-bottom: 80px !important; }
   body .scope-container .pad--sm--ln {
-    padding-left: 0; }
+    padding-left: 0 !important; }
   body .scope-container .pad--sm--lxs {
-    padding-left: 4px; }
+    padding-left: 4px !important; }
   body .scope-container .pad--sm--ls {
-    padding-left: 8px; }
+    padding-left: 8px !important; }
   body .scope-container .pad--sm--lm {
-    padding-left: 16px; }
+    padding-left: 16px !important; }
   body .scope-container .pad--sm--ll {
-    padding-left: 24px; }
+    padding-left: 24px !important; }
   body .scope-container .pad--sm--lxl {
-    padding-left: 32px; }
+    padding-left: 32px !important; }
   body .scope-container .pad--sm--lxxl {
-    padding-left: 80px; } }
+    padding-left: 80px !important; } }
 @media (min-width: 1px) and (max-width: 769px) {
   body .scope-container .pad--sm--only--n {
-    padding: 0; }
+    padding: 0 !important; }
   body .scope-container .pad--sm--only--xs {
-    padding: 4px; }
+    padding: 4px !important; }
   body .scope-container .pad--sm--only--s {
-    padding: 8px; }
+    padding: 8px !important; }
   body .scope-container .pad--sm--only--m {
-    padding: 16px; }
+    padding: 16px !important; }
   body .scope-container .pad--sm--only--l {
-    padding: 24px; }
+    padding: 24px !important; }
   body .scope-container .pad--sm--only--xl {
-    padding: 32px; }
+    padding: 32px !important; }
   body .scope-container .pad--sm--only--xxl {
-    padding: 80px; }
+    padding: 80px !important; }
   body .scope-container .pad--sm--only--tn {
-    padding-top: 0; }
+    padding-top: 0 !important; }
   body .scope-container .pad--sm--only--txs {
-    padding-top: 4px; }
+    padding-top: 4px !important; }
   body .scope-container .pad--sm--only--ts {
-    padding-top: 8px; }
+    padding-top: 8px !important; }
   body .scope-container .pad--sm--only--tm {
-    padding-top: 16px; }
+    padding-top: 16px !important; }
   body .scope-container .pad--sm--only--tl {
-    padding-top: 24px; }
+    padding-top: 24px !important; }
   body .scope-container .pad--sm--only--txl {
-    padding-top: 32px; }
+    padding-top: 32px !important; }
   body .scope-container .pad--sm--only--txxl {
-    padding-top: 80px; }
+    padding-top: 80px !important; }
   body .scope-container .pad--sm--only--rn {
-    padding-right: 0; }
+    padding-right: 0 !important; }
   body .scope-container .pad--sm--only--rxs {
-    padding-right: 4px; }
+    padding-right: 4px !important; }
   body .scope-container .pad--sm--only--rs {
-    padding-right: 8px; }
+    padding-right: 8px !important; }
   body .scope-container .pad--sm--only--rm {
-    padding-right: 16px; }
+    padding-right: 16px !important; }
   body .scope-container .pad--sm--only--rl {
-    padding-right: 24px; }
+    padding-right: 24px !important; }
   body .scope-container .pad--sm--only--rxl {
-    padding-right: 32px; }
+    padding-right: 32px !important; }
   body .scope-container .pad--sm--only--rxxl {
-    padding-right: 80px; }
+    padding-right: 80px !important; }
   body .scope-container .pad--sm--only--bn {
-    padding-bottom: 0; }
+    padding-bottom: 0 !important; }
   body .scope-container .pad--sm--only--bxs {
-    padding-bottom: 4px; }
+    padding-bottom: 4px !important; }
   body .scope-container .pad--sm--only--bs {
-    padding-bottom: 8px; }
+    padding-bottom: 8px !important; }
   body .scope-container .pad--sm--only--bm {
-    padding-bottom: 16px; }
+    padding-bottom: 16px !important; }
   body .scope-container .pad--sm--only--bl {
-    padding-bottom: 24px; }
+    padding-bottom: 24px !important; }
   body .scope-container .pad--sm--only--bxl {
-    padding-bottom: 32px; }
+    padding-bottom: 32px !important; }
   body .scope-container .pad--sm--only--bxxl {
-    padding-bottom: 80px; }
+    padding-bottom: 80px !important; }
   body .scope-container .pad--sm--only--ln {
-    padding-left: 0; }
+    padding-left: 0 !important; }
   body .scope-container .pad--sm--only--lxs {
-    padding-left: 4px; }
+    padding-left: 4px !important; }
   body .scope-container .pad--sm--only--ls {
-    padding-left: 8px; }
+    padding-left: 8px !important; }
   body .scope-container .pad--sm--only--lm {
-    padding-left: 16px; }
+    padding-left: 16px !important; }
   body .scope-container .pad--sm--only--ll {
-    padding-left: 24px; }
+    padding-left: 24px !important; }
   body .scope-container .pad--sm--only--lxl {
-    padding-left: 32px; }
+    padding-left: 32px !important; }
   body .scope-container .pad--sm--only--lxxl {
-    padding-left: 80px; } }
+    padding-left: 80px !important; } }
 @media (min-width: 769px) {
   body .scope-container .pad--md--n {
-    padding: 0; }
+    padding: 0 !important; }
   body .scope-container .pad--md--xs {
-    padding: 4px; }
+    padding: 4px !important; }
   body .scope-container .pad--md--s {
-    padding: 8px; }
+    padding: 8px !important; }
   body .scope-container .pad--md--m {
-    padding: 16px; }
+    padding: 16px !important; }
   body .scope-container .pad--md--l {
-    padding: 24px; }
+    padding: 24px !important; }
   body .scope-container .pad--md--xl {
-    padding: 32px; }
+    padding: 32px !important; }
   body .scope-container .pad--md--xxl {
-    padding: 80px; }
+    padding: 80px !important; }
   body .scope-container .pad--md--tn {
-    padding-top: 0; }
+    padding-top: 0 !important; }
   body .scope-container .pad--md--txs {
-    padding-top: 4px; }
+    padding-top: 4px !important; }
   body .scope-container .pad--md--ts {
-    padding-top: 8px; }
+    padding-top: 8px !important; }
   body .scope-container .pad--md--tm {
-    padding-top: 16px; }
+    padding-top: 16px !important; }
   body .scope-container .pad--md--tl {
-    padding-top: 24px; }
+    padding-top: 24px !important; }
   body .scope-container .pad--md--txl {
-    padding-top: 32px; }
+    padding-top: 32px !important; }
   body .scope-container .pad--md--txxl {
-    padding-top: 80px; }
+    padding-top: 80px !important; }
   body .scope-container .pad--md--rn {
-    padding-right: 0; }
+    padding-right: 0 !important; }
   body .scope-container .pad--md--rxs {
-    padding-right: 4px; }
+    padding-right: 4px !important; }
   body .scope-container .pad--md--rs {
-    padding-right: 8px; }
+    padding-right: 8px !important; }
   body .scope-container .pad--md--rm {
-    padding-right: 16px; }
+    padding-right: 16px !important; }
   body .scope-container .pad--md--rl {
-    padding-right: 24px; }
+    padding-right: 24px !important; }
   body .scope-container .pad--md--rxl {
-    padding-right: 32px; }
+    padding-right: 32px !important; }
   body .scope-container .pad--md--rxxl {
-    padding-right: 80px; }
+    padding-right: 80px !important; }
   body .scope-container .pad--md--bn {
-    padding-bottom: 0; }
+    padding-bottom: 0 !important; }
   body .scope-container .pad--md--bxs {
-    padding-bottom: 4px; }
+    padding-bottom: 4px !important; }
   body .scope-container .pad--md--bs {
-    padding-bottom: 8px; }
+    padding-bottom: 8px !important; }
   body .scope-container .pad--md--bm {
-    padding-bottom: 16px; }
+    padding-bottom: 16px !important; }
   body .scope-container .pad--md--bl {
-    padding-bottom: 24px; }
+    padding-bottom: 24px !important; }
   body .scope-container .pad--md--bxl {
-    padding-bottom: 32px; }
+    padding-bottom: 32px !important; }
   body .scope-container .pad--md--bxxl {
-    padding-bottom: 80px; }
+    padding-bottom: 80px !important; }
   body .scope-container .pad--md--ln {
-    padding-left: 0; }
+    padding-left: 0 !important; }
   body .scope-container .pad--md--lxs {
-    padding-left: 4px; }
+    padding-left: 4px !important; }
   body .scope-container .pad--md--ls {
-    padding-left: 8px; }
+    padding-left: 8px !important; }
   body .scope-container .pad--md--lm {
-    padding-left: 16px; }
+    padding-left: 16px !important; }
   body .scope-container .pad--md--ll {
-    padding-left: 24px; }
+    padding-left: 24px !important; }
   body .scope-container .pad--md--lxl {
-    padding-left: 32px; }
+    padding-left: 32px !important; }
   body .scope-container .pad--md--lxxl {
-    padding-left: 80px; } }
+    padding-left: 80px !important; } }
 @media (min-width: 769px) and (max-width: 1100px) {
   body .scope-container .pad--md--only--n {
-    padding: 0; }
+    padding: 0 !important; }
   body .scope-container .pad--md--only--xs {
-    padding: 4px; }
+    padding: 4px !important; }
   body .scope-container .pad--md--only--s {
-    padding: 8px; }
+    padding: 8px !important; }
   body .scope-container .pad--md--only--m {
-    padding: 16px; }
+    padding: 16px !important; }
   body .scope-container .pad--md--only--l {
-    padding: 24px; }
+    padding: 24px !important; }
   body .scope-container .pad--md--only--xl {
-    padding: 32px; }
+    padding: 32px !important; }
   body .scope-container .pad--md--only--xxl {
-    padding: 80px; }
+    padding: 80px !important; }
   body .scope-container .pad--md--only--tn {
-    padding-top: 0; }
+    padding-top: 0 !important; }
   body .scope-container .pad--md--only--txs {
-    padding-top: 4px; }
+    padding-top: 4px !important; }
   body .scope-container .pad--md--only--ts {
-    padding-top: 8px; }
+    padding-top: 8px !important; }
   body .scope-container .pad--md--only--tm {
-    padding-top: 16px; }
+    padding-top: 16px !important; }
   body .scope-container .pad--md--only--tl {
-    padding-top: 24px; }
+    padding-top: 24px !important; }
   body .scope-container .pad--md--only--txl {
-    padding-top: 32px; }
+    padding-top: 32px !important; }
   body .scope-container .pad--md--only--txxl {
-    padding-top: 80px; }
+    padding-top: 80px !important; }
   body .scope-container .pad--md--only--rn {
-    padding-right: 0; }
+    padding-right: 0 !important; }
   body .scope-container .pad--md--only--rxs {
-    padding-right: 4px; }
+    padding-right: 4px !important; }
   body .scope-container .pad--md--only--rs {
-    padding-right: 8px; }
+    padding-right: 8px !important; }
   body .scope-container .pad--md--only--rm {
-    padding-right: 16px; }
+    padding-right: 16px !important; }
   body .scope-container .pad--md--only--rl {
-    padding-right: 24px; }
+    padding-right: 24px !important; }
   body .scope-container .pad--md--only--rxl {
-    padding-right: 32px; }
+    padding-right: 32px !important; }
   body .scope-container .pad--md--only--rxxl {
-    padding-right: 80px; }
+    padding-right: 80px !important; }
   body .scope-container .pad--md--only--bn {
-    padding-bottom: 0; }
+    padding-bottom: 0 !important; }
   body .scope-container .pad--md--only--bxs {
-    padding-bottom: 4px; }
+    padding-bottom: 4px !important; }
   body .scope-container .pad--md--only--bs {
-    padding-bottom: 8px; }
+    padding-bottom: 8px !important; }
   body .scope-container .pad--md--only--bm {
-    padding-bottom: 16px; }
+    padding-bottom: 16px !important; }
   body .scope-container .pad--md--only--bl {
-    padding-bottom: 24px; }
+    padding-bottom: 24px !important; }
   body .scope-container .pad--md--only--bxl {
-    padding-bottom: 32px; }
+    padding-bottom: 32px !important; }
   body .scope-container .pad--md--only--bxxl {
-    padding-bottom: 80px; }
+    padding-bottom: 80px !important; }
   body .scope-container .pad--md--only--ln {
-    padding-left: 0; }
+    padding-left: 0 !important; }
   body .scope-container .pad--md--only--lxs {
-    padding-left: 4px; }
+    padding-left: 4px !important; }
   body .scope-container .pad--md--only--ls {
-    padding-left: 8px; }
+    padding-left: 8px !important; }
   body .scope-container .pad--md--only--lm {
-    padding-left: 16px; }
+    padding-left: 16px !important; }
   body .scope-container .pad--md--only--ll {
-    padding-left: 24px; }
+    padding-left: 24px !important; }
   body .scope-container .pad--md--only--lxl {
-    padding-left: 32px; }
+    padding-left: 32px !important; }
   body .scope-container .pad--md--only--lxxl {
-    padding-left: 80px; } }
+    padding-left: 80px !important; } }
 @media (min-width: 1100px) {
   body .scope-container .pad--lg--n {
-    padding: 0; }
+    padding: 0 !important; }
   body .scope-container .pad--lg--xs {
-    padding: 4px; }
+    padding: 4px !important; }
   body .scope-container .pad--lg--s {
-    padding: 8px; }
+    padding: 8px !important; }
   body .scope-container .pad--lg--m {
-    padding: 16px; }
+    padding: 16px !important; }
   body .scope-container .pad--lg--l {
-    padding: 24px; }
+    padding: 24px !important; }
   body .scope-container .pad--lg--xl {
-    padding: 32px; }
+    padding: 32px !important; }
   body .scope-container .pad--lg--xxl {
-    padding: 80px; }
+    padding: 80px !important; }
   body .scope-container .pad--lg--tn {
-    padding-top: 0; }
+    padding-top: 0 !important; }
   body .scope-container .pad--lg--txs {
-    padding-top: 4px; }
+    padding-top: 4px !important; }
   body .scope-container .pad--lg--ts {
-    padding-top: 8px; }
+    padding-top: 8px !important; }
   body .scope-container .pad--lg--tm {
-    padding-top: 16px; }
+    padding-top: 16px !important; }
   body .scope-container .pad--lg--tl {
-    padding-top: 24px; }
+    padding-top: 24px !important; }
   body .scope-container .pad--lg--txl {
-    padding-top: 32px; }
+    padding-top: 32px !important; }
   body .scope-container .pad--lg--txxl {
-    padding-top: 80px; }
+    padding-top: 80px !important; }
   body .scope-container .pad--lg--rn {
-    padding-right: 0; }
+    padding-right: 0 !important; }
   body .scope-container .pad--lg--rxs {
-    padding-right: 4px; }
+    padding-right: 4px !important; }
   body .scope-container .pad--lg--rs {
-    padding-right: 8px; }
+    padding-right: 8px !important; }
   body .scope-container .pad--lg--rm {
-    padding-right: 16px; }
+    padding-right: 16px !important; }
   body .scope-container .pad--lg--rl {
-    padding-right: 24px; }
+    padding-right: 24px !important; }
   body .scope-container .pad--lg--rxl {
-    padding-right: 32px; }
+    padding-right: 32px !important; }
   body .scope-container .pad--lg--rxxl {
-    padding-right: 80px; }
+    padding-right: 80px !important; }
   body .scope-container .pad--lg--bn {
-    padding-bottom: 0; }
+    padding-bottom: 0 !important; }
   body .scope-container .pad--lg--bxs {
-    padding-bottom: 4px; }
+    padding-bottom: 4px !important; }
   body .scope-container .pad--lg--bs {
-    padding-bottom: 8px; }
+    padding-bottom: 8px !important; }
   body .scope-container .pad--lg--bm {
-    padding-bottom: 16px; }
+    padding-bottom: 16px !important; }
   body .scope-container .pad--lg--bl {
-    padding-bottom: 24px; }
+    padding-bottom: 24px !important; }
   body .scope-container .pad--lg--bxl {
-    padding-bottom: 32px; }
+    padding-bottom: 32px !important; }
   body .scope-container .pad--lg--bxxl {
-    padding-bottom: 80px; }
+    padding-bottom: 80px !important; }
   body .scope-container .pad--lg--ln {
-    padding-left: 0; }
+    padding-left: 0 !important; }
   body .scope-container .pad--lg--lxs {
-    padding-left: 4px; }
+    padding-left: 4px !important; }
   body .scope-container .pad--lg--ls {
-    padding-left: 8px; }
+    padding-left: 8px !important; }
   body .scope-container .pad--lg--lm {
-    padding-left: 16px; }
+    padding-left: 16px !important; }
   body .scope-container .pad--lg--ll {
-    padding-left: 24px; }
+    padding-left: 24px !important; }
   body .scope-container .pad--lg--lxl {
-    padding-left: 32px; }
+    padding-left: 32px !important; }
   body .scope-container .pad--lg--lxxl {
-    padding-left: 80px; } }
+    padding-left: 80px !important; } }
 @media (min-width: 1px) {
   body .scope-container span.show-brkpoint--sm {
     display: inline-block; } }
@@ -1461,6 +1475,39 @@ body .scope-container span.show-brkpoint--md--only {
   @media (min-width: 769px) and (max-width: 1100px) {
     body .scope-container span.show-brkpoint--md--only {
       display: inline-block; } }
+body .scope-container .building-block {
+  padding: 16px 0; }
+  body .scope-container .building-block:hover {
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ;
+    cursor: move;
+    cursor: -webkit-grab;
+    border-color: #2a94d6;
+    border-style: dashed;
+    border-width: 1px;
+    margin: -1px -16px;
+    padding: 16px 15px; }
+  body .scope-container .building-block h1, body .scope-container .building-block h2, body .scope-container .building-block h3, body .scope-container .building-block h4, body .scope-container .building-block h5, body .scope-container .building-block h6, body .scope-container .building-block p {
+    margin: 0; }
+  body .scope-container .building-block p ~ p {
+    margin-top: 16px; }
+  body .scope-container .building-block.is-empty {
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    -webkit-transition: padding 0.2s ease;
+    -moz-transition: padding 0.2s ease;
+    -o-transition: padding 0.2s ease;
+    transition: padding 0.2s ease;
+    color: #fff;
+    padding: 8px 16px; }
+    body .scope-container .building-block.is-empty:hover {
+      padding: 48px;
+      color: #2a94d6; }
 
 body .scope-container [class^="column--"] {
   padding: 0 16px;
@@ -1777,19 +1824,21 @@ body .scope-container .left--12 {
   @media (min-width: 1px) and (max-width: 769px) {
     body .scope-container .left--12 {
       right: auto; } }
-body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small {
+body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small, body .scope-container .content--readable {
   padding: 0 16px; }
   @media (min-width: 1px) and (max-width: 768px) {
-    body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small {
+    body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small, body .scope-container .content--readable {
       max-width: 100%; } }
   @media (min-width: 769px) {
-    body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small {
+    body .scope-container .content, body .scope-container .content--full, body .scope-container .content--small, body .scope-container .content--readable {
       max-width: 1000px;
       min-height: 1px; } }
   body .scope-container .content--full {
     max-width: 100%; }
   body .scope-container .content--small {
     max-width: 324px; }
+  body .scope-container .content--readable {
+    max-width: 640px; }
 body .scope-container .row {
   margin-left: -16px;
   margin-right: -16px; }
@@ -1845,11 +1894,11 @@ body .scope-container .button--secondary, body .scope-container button.button--s
 
 body .scope-container .has-error input[type="text"], body .scope-container .has-error input[type="password"], body .scope-container .has-error input[type="number"], body .scope-container .has-error input[type="email"], body .scope-container input[type="text"], body .scope-container input[type="password"], body .scope-container input[type="number"], body .scope-container input[type="email"], body .scope-container input[type="tel"], body .scope-container textarea, .select2-search input, body .scope-container .input-size {
   display: block;
-  width: 100%;
   font-size: 16px;
   color: #686c70; }
 
 body .scope-container .has-error input[type="text"], body .scope-container .has-error input[type="password"], body .scope-container .has-error input[type="number"], body .scope-container .has-error input[type="email"], body .scope-container input[type="text"], body .scope-container input[type="password"], body .scope-container input[type="number"], body .scope-container input[type="email"], body .scope-container input[type="tel"], body .scope-container textarea, .select2-search input {
+  width: 100%;
   border: 1px solid #dadee2;
   background-color: #e8eaeb;
   background-image: none;
@@ -1895,7 +1944,7 @@ body .scope-container .input__wrap.has-icon--right .input__icon, body .scope-con
 body .scope-container .input__wrap.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left--special .input__icon {
   left: 0; }
 
-body .scope-container .button > .juicon:before, body .scope-container .button > .form__group.load-this:before, body .scope-container .button > .load-block:before, body .scope-container .panel__component > .close .button > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .button > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .button > b:before, body .scope-container .button > .select2-search-choice-close:before, body .scope-container .button > .close-modal-x:before, body .scope-container .label > .juicon:before, body .scope-container .label > .form__group.load-this:before, body .scope-container .label > .load-block:before, body .scope-container .panel__component > .close .label > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .label > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .label > b:before, body .scope-container .label > .select2-search-choice-close:before, body .scope-container .label > .close-modal-x:before, body .scope-container .inline-list__item a > .juicon:before, body .scope-container .inline-list__item a > .form__group.load-this:before, body .scope-container .inline-list__item a > .load-block:before, body .scope-container .inline-list__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .inline-list__item a > .component-remove-x:before, body .scope-container .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .inline-list__item a > b:before, body .scope-container .inline-list__item a > .select2-search-choice-close:before, body .scope-container .inline-list__item a > .close-modal-x:before, body .scope-container .nav-bar__list--item a > .juicon:before, body .scope-container .nav-bar__list--item a > .form__group.load-this:before, body .scope-container .nav-bar__list--item a > .load-block:before, body .scope-container .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, body .scope-container .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .nav-bar__list--item a > b:before, body .scope-container .nav-bar__list--item a > .select2-search-choice-close:before, body .scope-container .nav-bar__list--item a > .close-modal-x:before, body .scope-container .pagination__item a > .juicon:before, body .scope-container .pagination__item a > .form__group.load-this:before, body .scope-container .pagination__item a > .load-block:before, body .scope-container .pagination__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .pagination__item a > .component-remove-x:before, body .scope-container .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .pagination__item a > b:before, body .scope-container .pagination__item a > .select2-search-choice-close:before, body .scope-container .pagination__item a > .close-modal-x:before {
+body .scope-container .button > .juicon:before, body .scope-container .button > .form__group.load-this:before, body .scope-container .button > .load-block:before, body .scope-container .panel__component > .close .button > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .button > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .button > b:before, body .scope-container .button > .select2-search-choice-close:before, body .scope-container .button > .close-modal-x:before, body .scope-container button.button > .juicon:before, body .scope-container button.button > .form__group.load-this:before, body .scope-container button.button > .load-block:before, body .scope-container .panel__component > .close button.button > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow button.button > b:before, .select2-container .select2-choice .select2-arrow body .scope-container button.button > b:before, body .scope-container button.button > .select2-search-choice-close:before, body .scope-container button.button > .close-modal-x:before, body .scope-container span.juicon:before, body .scope-container span.form__group.load-this:before, body .scope-container span.load-block:before, body .scope-container .panel__component > .close span.component-remove-x:before, body .scope-container span.select2-search-choice-close:before, body .scope-container span.close-modal-x:before, body .scope-container span > .juicon:before, body .scope-container span > .form__group.load-this:before, body .scope-container span > .load-block:before, body .scope-container .panel__component > .close span > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow span > b:before, .select2-container .select2-choice .select2-arrow body .scope-container span > b:before, body .scope-container span > .select2-search-choice-close:before, body .scope-container span > .close-modal-x:before, body .scope-container strong.juicon:before, body .scope-container strong.form__group.load-this:before, body .scope-container strong.load-block:before, body .scope-container .panel__component > .close strong.component-remove-x:before, body .scope-container strong.select2-search-choice-close:before, body .scope-container strong.close-modal-x:before, body .scope-container strong > .juicon:before, body .scope-container strong > .form__group.load-this:before, body .scope-container strong > .load-block:before, body .scope-container .panel__component > .close strong > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow strong > b:before, .select2-container .select2-choice .select2-arrow body .scope-container strong > b:before, body .scope-container strong > .select2-search-choice-close:before, body .scope-container strong > .close-modal-x:before, body .scope-container b.juicon:before, body .scope-container b.form__group.load-this:before, body .scope-container b.load-block:before, body .scope-container .panel__component > .close b.component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b:before, .select2-container .select2-choice .select2-arrow body .scope-container b:before, body .scope-container b.select2-search-choice-close:before, body .scope-container b.close-modal-x:before, body .scope-container b > .juicon:before, body .scope-container b > .form__group.load-this:before, body .scope-container b > .load-block:before, body .scope-container .panel__component > .close b > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b > b:before, .select2-container .select2-choice .select2-arrow body .scope-container b > b:before, body .scope-container b > .select2-search-choice-close:before, body .scope-container b > .close-modal-x:before, body .scope-container a.juicon:before, body .scope-container a.form__group.load-this:before, body .scope-container a.load-block:before, body .scope-container .panel__component > .close a.component-remove-x:before, body .scope-container a.select2-search-choice-close:before, body .scope-container a.close-modal-x:before, body .scope-container a > .juicon:before, body .scope-container a > .form__group.load-this:before, body .scope-container a > .load-block:before, body .scope-container .panel__component > .close a > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container a > b:before, body .scope-container a > .select2-search-choice-close:before, body .scope-container a > .close-modal-x:before, body .scope-container .label > .juicon:before, body .scope-container .label > .form__group.load-this:before, body .scope-container .label > .load-block:before, body .scope-container .panel__component > .close .label > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .label > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .label > b:before, body .scope-container .label > .select2-search-choice-close:before, body .scope-container .label > .close-modal-x:before, body .scope-container .inline-list__item a > .juicon:before, body .scope-container .inline-list__item a > .form__group.load-this:before, body .scope-container .inline-list__item a > .load-block:before, body .scope-container .inline-list__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .inline-list__item a > .component-remove-x:before, body .scope-container .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .inline-list__item a > b:before, body .scope-container .inline-list__item a > .select2-search-choice-close:before, body .scope-container .inline-list__item a > .close-modal-x:before, body .scope-container .nav-bar__list--item a > .juicon:before, body .scope-container .nav-bar__list--item a > .form__group.load-this:before, body .scope-container .nav-bar__list--item a > .load-block:before, body .scope-container .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, body .scope-container .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .nav-bar__list--item a > b:before, body .scope-container .nav-bar__list--item a > .select2-search-choice-close:before, body .scope-container .nav-bar__list--item a > .close-modal-x:before, body .scope-container .pagination__item a > .juicon:before, body .scope-container .pagination__item a > .form__group.load-this:before, body .scope-container .pagination__item a > .load-block:before, body .scope-container .pagination__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .pagination__item a > .component-remove-x:before, body .scope-container .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .pagination__item a > b:before, body .scope-container .pagination__item a > .select2-search-choice-close:before, body .scope-container .pagination__item a > .close-modal-x:before {
   position: relative;
   top: 2px; }
 
@@ -2019,7 +2068,7 @@ body .scope-container {
     font-family: 'juicons';
     vertical-align: middle;
     line-height: 1; }
-  body .scope-container .dropdown-menu {
+  body .scope-container .dropdown-menu, body .scope-container .dropdown-menu--top-right {
     display: none;
     position: absolute;
     top: 100%;
@@ -2036,10 +2085,10 @@ body .scope-container {
     -o-border-radius: 4px ;
     border-radius: 4px ; }
     @media (min-width: 1px) and (max-width: 768px) {
-      body .scope-container .dropdown-menu {
+      body .scope-container .dropdown-menu, body .scope-container .dropdown-menu--top-right {
         max-width: 100%; } }
     @media (min-width: 769px) {
-      body .scope-container .dropdown-menu {
+      body .scope-container .dropdown-menu, body .scope-container .dropdown-menu--top-right {
         max-width: 512px; } }
     body .scope-container .dropdown-menu__list-item {
       display: block;
@@ -2055,7 +2104,12 @@ body .scope-container {
     body .scope-container .dropdown-menu--right {
       left: auto;
       right: 0; }
-  body .scope-container .open > .dropdown-menu {
+    body .scope-container .dropdown-menu--top-right {
+      left: auto;
+      right: 0;
+      bottom: 100%;
+      top: auto; }
+  body .scope-container .open > .dropdown-menu, body .scope-container .open > .dropdown-menu--top-right {
     display: block; }
   body .scope-container .dropdown-backdrop {
     position: fixed;
@@ -2394,7 +2448,7 @@ body .scope-container {
     margin-top: 1px;
     border: 0px solid #dadee2; }
     @media (min-width: 1px) and (max-width: 769px) {
-      body .scope-container .datepicker.dropdown-menu {
+      body .scope-container .datepicker.dropdown-menu, body .scope-container .datepicker.dropdown-menu--top-right {
         width: 100%;
         left: 0 !important; } }
     body .scope-container .datepicker table {
@@ -2478,7 +2532,7 @@ body .scope-container {
     top: 100px;
     left: 0px;
     margin-top: 1px; }
-    body .scope-container .daterangepicker.dropdown-menu {
+    body .scope-container .daterangepicker.dropdown-menu, body .scope-container .daterangepicker.dropdown-menu--top-right {
       max-width: none;
       z-index: 3000; }
     body .scope-container .daterangepicker.opensleft:before {
@@ -2989,6 +3043,10 @@ body .scope-container {
     border-bottom-right-radius: 4px ;
     background-color: rgba(56, 64, 71, 0.8);
     padding: 16px; }
+  body .scope-container .component__icon:hover, body .scope-container .component__icon--primary:hover {
+    color: #2a94d6; }
+  body .scope-container .component__icon--primary {
+    color: #2a94d6; }
   body .scope-container .avatar-container--lg {
     width: 40px;
     height: 40px; }
@@ -3081,7 +3139,7 @@ body .scope-container {
     body .scope-container .button.load-this > .juicon, body .scope-container .button.load-this > .required-field:after, body .scope-container .button.load-this > .button.load-this:after, body .scope-container .button.load-this > .form__group.load-this:before, body .scope-container .button.load-this > .load-block, body .scope-container .panel__component > .close .button.load-this > .component-remove-x, body .scope-container .select2-container .select2-choice .select2-arrow .button.load-this > b, .select2-container .select2-choice .select2-arrow body .scope-container .button.load-this > b, body .scope-container .button.load-this > .select2-search-choice-close, body .scope-container .button.load-this > .close-modal-x {
       display: none; }
     body .scope-container .button.load-this:after {
-      left: .5px;
+      left: 0;
       margin-left: 4px;
       top: 1px;
       content: " \e62a";
@@ -3091,7 +3149,7 @@ body .scope-container {
   body .scope-container .form__group.load-this .input__wrap.has-icon--right > .juicon, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .required-field:after, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .button.load-this:after, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .form__group.load-this:before, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .load-block, body .scope-container .form__group.load-this .panel__component > .close .input__wrap.has-icon--right > .component-remove-x, body .scope-container .panel__component > .close .form__group.load-this .input__wrap.has-icon--right > .component-remove-x, body .scope-container .form__group.load-this .select2-container .select2-choice .select2-arrow .input__wrap.has-icon--right > b, .select2-container .select2-choice .select2-arrow body .scope-container .form__group.load-this .input__wrap.has-icon--right > b, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .select2-search-choice-close, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .close-modal-x, body .scope-container .form__group.load-this .select__wrap > .juicon, body .scope-container .form__group.load-this .select2-container > .juicon, body .scope-container .form__group.load-this .select__wrap > .required-field:after, body .scope-container .form__group.load-this .select2-container > .required-field:after, body .scope-container .form__group.load-this .select__wrap > .button.load-this:after, body .scope-container .form__group.load-this .select2-container > .button.load-this:after, body .scope-container .form__group.load-this .select__wrap > .form__group.load-this:before, body .scope-container .form__group.load-this .select2-container > .form__group.load-this:before, body .scope-container .form__group.load-this .select__wrap > .load-block, body .scope-container .form__group.load-this .select2-container > .load-block, body .scope-container .form__group.load-this .panel__component > .close .select__wrap > .component-remove-x, body .scope-container .panel__component > .close .form__group.load-this .select__wrap > .component-remove-x, body .scope-container .form__group.load-this .panel__component > .close .select2-container > .component-remove-x, body .scope-container .panel__component > .close .form__group.load-this .select2-container > .component-remove-x, body .scope-container .form__group.load-this .select2-container .select2-choice .select2-arrow .select__wrap > b, .select2-container .select2-choice .select2-arrow body .scope-container .form__group.load-this .select__wrap > b, body .scope-container .form__group.load-this .select2-container .select2-choice .select2-arrow .select2-container > b, .select2-container .select2-choice .select2-arrow body .scope-container .form__group.load-this .select2-container > b, body .scope-container .form__group.load-this .select__wrap > .select2-search-choice-close, body .scope-container .form__group.load-this .select2-container > .select2-search-choice-close, body .scope-container .form__group.load-this .select__wrap > .close-modal-x, body .scope-container .form__group.load-this .select2-container > .close-modal-x {
     display: none; }
   body .scope-container .form__group.load-this:before {
-    right: .5px;
+    right: 0;
     bottom: 0;
     padding: 12px 16px;
     font-size: 1rem;
@@ -3100,7 +3158,7 @@ body .scope-container {
   body .scope-container .form__group.load-this input {
     padding-right: 48px; }
   body .scope-container .select2-container.load-this .select2-choice .select2-arrow b {
-    right: .5px; }
+    right: 0px; }
   body .scope-container .load-block {
     color: #9faab5;
     font-size: 300%;
@@ -3205,7 +3263,7 @@ body .scope-container {
       -moz-border-bottom-right-radius: 4px ;
       -o-border-bottom-right-radius: 4px ;
       border-bottom-right-radius: 4px ; }
-    body .scope-container .nav-bar .dropdown-menu, body .scope-container .nav-bar--solo .dropdown-menu {
+    body .scope-container .nav-bar .dropdown-menu, body .scope-container .nav-bar--solo .dropdown-menu, body .scope-container .nav-bar .dropdown-menu--top-right, body .scope-container .nav-bar--solo .dropdown-menu--top-right {
       -webkit-border-top-left-radius: 0 ;
       -ms-border-top-left-radius: 0 ;
       -moz-border-top-left-radius: 0 ;
@@ -3218,7 +3276,7 @@ body .scope-container {
       border-top-right-radius: 0 ;
       margin: 0; }
       @media (min-width: 1px) and (max-width: 769px) {
-        body .scope-container .nav-bar .dropdown-menu, body .scope-container .nav-bar--solo .dropdown-menu {
+        body .scope-container .nav-bar .dropdown-menu, body .scope-container .nav-bar--solo .dropdown-menu, body .scope-container .nav-bar .dropdown-menu--top-right, body .scope-container .nav-bar--solo .dropdown-menu--top-right {
           width: 100%;
           position: relative;
           border-left: 0;
@@ -3350,7 +3408,7 @@ body .scope-container {
         body .scope-container .nav-bar__menu-toggle {
           display: block; } }
     @media (min-width: 1px) and (max-width: 769px) {
-      body .scope-container .nav-bar .content, body .scope-container .nav-bar--solo .content, body .scope-container .nav-bar .content--full, body .scope-container .nav-bar--solo .content--full, body .scope-container .nav-bar .content--small, body .scope-container .nav-bar--solo .content--small {
+      body .scope-container .nav-bar .content, body .scope-container .nav-bar--solo .content, body .scope-container .nav-bar .content--full, body .scope-container .nav-bar--solo .content--full, body .scope-container .nav-bar .content--small, body .scope-container .nav-bar--solo .content--small, body .scope-container .nav-bar .content--readable, body .scope-container .nav-bar--solo .content--readable {
         padding: 0; } }
   body .scope-container .menu--open .nav-bar__menu-toggle {
     -webkit-border-bottom-left-radius: 0 ;

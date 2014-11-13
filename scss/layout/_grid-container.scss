@@ -21,6 +21,10 @@
     @extend .content;
     max-width: 324px;
   }
+  &--readable {
+    @extend .content;
+    max-width: 640px;
+  }
 }
 
 .row {

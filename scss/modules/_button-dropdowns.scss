@@ -49,6 +49,13 @@
     left: auto;
     right: 0;
   }
+  &--top-right {
+    @extend .dropdown-menu;
+    left: auto;
+    right: 0;
+    bottom: 100%;
+    top: auto;
+  }
 }
 
 .open > {

@@ -8,7 +8,7 @@
       @extend .juicon;
       @extend .spin-it;
       @extend .relative;
-      left: .5px;
+      left: 0;
       margin-left: 4px;
       top: 1px;
       content: " \e62a";
@@ -32,7 +32,7 @@
       @extend .juicon;
       @extend .spin-it;
       @extend .absolute;
-      right: .5px;
+      right: 0;
       bottom: 0;
       padding: ($base-h-padding * .75 + px ) ($base-h-padding+px);
       font-size: 1rem;
@@ -50,7 +50,7 @@
     .select2-choice .select2-arrow b {
       @extend .juicon-loading;
       @extend .spin-it;
-      right: .5px;
+      right: 0px;
     }
   }
 }

@@ -13,3 +13,38 @@
 span {
   @include show-brkpoints(inline-block);
 }
+
+.building-block {
+  padding: $base-h-padding+px 0;
+  &:hover {
+    @include radius();
+    cursor: move;
+    cursor: -webkit-grab;
+    border-color: $color-primary;
+    border-style: dashed;
+    border-width: 1px;
+    margin: (-1px) (-($base-h-padding+px));
+    padding: ($base-h-padding+px) ($base-h-padding - 1+px);
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  p ~ p {
+    margin-top: $base-h-padding+px;
+  }
+  &.is-empty {
+    @include single-transition(color);
+    @include single-transition(padding);
+
+    color: $white;
+    padding: $base-v-padding+px $base-h-padding+px;
+    &:hover {
+      @extend .pointer;
+      padding: $base-h-padding*3+px;
+      color: $color-primary;
+    }
+  }
+//  p:last-child {
+//    margin-bottom: $base-h-padding+px;
+//  }
+}

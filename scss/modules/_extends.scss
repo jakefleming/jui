@@ -65,13 +65,14 @@
 
 %control-base {
   display: block;
-  width: 100%;
+
   font-size: $base-font-size+px;
   color: $body-font-color;
 }
 
 %control {
   @extend %control-base;
+  width: 100%;
   border: 1px solid $input-border-color;
   background-color: $input-bg-color;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
