@@ -1,76 +1,88 @@
+%list-group__item-base {
+  @extend .pointer;
+  @extend %clearfix;
+  @extend .relative;
+  @include radius();
+  @extend .block;
+  @include single-transition(background-color);
+  margin-left: 0;
+  max-width: 100%;
+  a {
+    @extend .block;
+    @extend .dots;
+    @include single-transition(color);
+    color: $component-color;
+    padding: $base-v-padding+px $base-h-padding+px;
+  }
+  &:last-child {
+    border-bottom: 0;
+  }
+  &:hover, &.hover-this {
+    background-color: $component-bg-color-active;
+  }
+  &.active {
+    background-color: $color-primary;
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+  &.has-icon--right {
+    @extend %has-icon--right;
+    padding-right: $key-number*2+px;
+    &--special {
+      @extend %has-icon--right;
+      padding-right: $key-number*2.5+px;
+    }
+  }
+  &.has-icon--left {
+    @extend %has-icon--left;
+    padding-left: $key-number*2+px;
+    &--special {
+      @extend %has-icon--left;
+      padding-left: $key-number*2.5+px;
+
+    }
+  }
+  &.has-icon--left--special, &.has-icon--right--special {
+    margin-bottom: $base-v-padding+px;
+    .input__icon {
+      @include radius;
+      padding: $base-h-padding*.75+px;
+      background-color: $component-bg-color-active;
+    }
+
+    &.active {
+      .input__icon {
+        background-color: transparent;
+        color: $white;
+      }
+    }
+  }
+}
+
+
+
 .list-group {
   @extend .list-style-type-none;
   overflow: hidden;
   &--bordered {
-    @include border();
+    @include border($color: $component-border-color);
     @include radius();
-    .list-group__item {
+    .list-group__item, .list-group__item--multi {
       @include erase-radius();
-      background-color: $white;
       border-bottom: 1px solid $component-border-color-alt;
+      &:last-child {
+        border-bottom: 0;
+      }
     }
   }
   &__item {
-    @extend .pointer;
     @extend .dots;
-    @extend %clearfix;
-    @extend .relative;
-    @include radius();
-    @extend .block;
-    @include single-transition(background-color);
-    max-width: 100%;
-    a {
-      @extend .block;
-      @extend .dots;
-      @include single-transition(color);
-      color: $component-color;
-      padding: $base-v-padding+px $base-h-padding+px;
-    }
-    &:last-child {
-      border-bottom: 0;
-    }
-    &:hover {
-      background-color: $component-bg-color-active;
-    }
-    &.active {
-      background-color: $color-primary;
-      color: $white;
-      a {
-        color: $white;
-      }
-    }
-    &.has-icon--right {
-      @extend %has-icon--right;
-      padding-right: $key-number*2+px;
-      &--special {
-        @extend %has-icon--right;
-        padding-right: $key-number*2.5+px;
-      }
-    }
-    &.has-icon--left {
-      @extend %has-icon--left;
-      padding-left: $key-number*2+px;
-      &--special {
-        @extend %has-icon--left;
-        padding-left: $key-number*2.5+px;
-
-      }
-    }
-    &.has-icon--left--special, &.has-icon--right--special {
-      margin-bottom: $base-v-padding+px;
-      .input__icon {
-        @include radius;
-        padding: $base-h-padding*.75+px;
-        background-color: $component-bg-color-active;
-      }
-
-      &.active {
-        .input__icon {
-          background-color: transparent;
-          color: $white;
-        }
-      }
-    }
+    @extend %list-group__item-base;
+  }
+  &__item--multi {
+    @extend %list-group__item-base;
   }
 }
 

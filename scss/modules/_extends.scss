@@ -106,12 +106,16 @@
 %has-icon--right {
   .input__icon {
     right: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 
 %has-icon--left {
   .input__icon {
     left: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 

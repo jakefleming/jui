@@ -265,7 +265,7 @@
 .juicon-x:before, .alert-close-x:after, .close-modal-x:before, .panel__component > .close .component-remove-x:before, .select2-search-choice-close:before {
   content: "\e64a"; }
 
-.clearfix:after, .content:after, .content--full:after, .content--small:after, .content--readable:after, .row:after, .button-group:after, .button-group--collapse:after, .card:after, .range_inputs:after, .range_inputs_container:after, .range_buttons_container:after, .list-group__item:after, .modal__footer:after, .nav-bar:after, .nav-bar--solo:after, .nav-bar__top:after, .nav-bar__appendage:after, .pagination:after, .pagination--alt:after, .panel:after, .panel__top:after, .panel__bottom:after, .panel__component:after, .panel__body:after, .panel__box:after, .panel__content:after {
+.clearfix:after, .content:after, .content--full:after, .content--small:after, .content--readable:after, .row:after, .button-group:after, .button-group--collapse:after, .card:after, .range_inputs:after, .range_inputs_container:after, .range_buttons_container:after, .list-group__item:after, .list-group__item--multi:after, .modal__footer:after, .nav-bar:after, .nav-bar--solo:after, .nav-bar__top:after, .nav-bar__appendage:after, .pagination:after, .pagination--alt:after, .panel:after, .panel__top:after, .panel__bottom:after, .panel__component:after, .panel__body:after, .panel__box:after, .panel__content:after {
   content: "";
   display: table;
   clear: both; }
@@ -301,10 +301,10 @@
   .float--right-left {
     float: right; } }
 
-.pointer, .button, button.button, .alert-close-x, .alert .close-timeout .close-progress, .daterangepicker .ranges li, .component__icon, .component__icon--primary, .list-group__item, .nav-bar__list--item a, .nav-bar__menu-toggle, table tbody tr:hover, .sort-arrow, .select__wrap .input__icon, .select2-container .input__icon, .select__wrap select, .select2-container select, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b, .building-block.is-empty:hover {
+.pointer, .button, button.button, .alert-close-x, .alert .close-timeout .close-progress, .daterangepicker .ranges li, .component__icon, .component__icon--primary, .list-group__item, .list-group__item--multi, .nav-bar__list--item a, .nav-bar__menu-toggle, table tbody tr:hover, .sort-arrow, .select__wrap .input__icon, .select2-container .input__icon, .select__wrap select, .select2-container select, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
   cursor: pointer; }
 
-.relative, .alert, .button-group, .button-group .button, .button-group--collapse, .button-group--collapse .button, .input__wrap, .input__icon.juicon:before, .input__icon.form__group.load-this:before, .input__icon.load-block:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .input__icon.select2-search-choice-close:before, .button.load-this:after, .form__group.load-this, .list-group__item, .modal__body, .nav-bar__list--item, .pagination__item a, .panel__component, .panel__box, .panel__sidebar, .sort-it {
+.relative, .alert, .button-group, .button-group .button, .button-group--collapse, .button-group--collapse .button, .input__wrap, .input__icon.juicon:before, .input__icon.form__group.load-this:before, .input__icon.load-block:before, .input__icon.close-modal-x:before, .panel__component > .close .input__icon.component-remove-x:before, .select2-container .select2-choice .select2-arrow b.input__icon:before, .input__icon.select2-search-choice-close:before, .button.load-this:after, .form__group.load-this, .list-group__item, .list-group__item--multi, .modal__body, .nav-bar__list--item, .pagination__item a, .panel__component, .panel__box, .panel__sidebar, .sort-it {
   position: relative; }
 
 .absolute, .alert .close, .alert .close-timeout .close-progress, .daterangepicker, .daterangepicker.opensleft:before, .daterangepicker.opensleft:after, .daterangepicker.opensright:before, .daterangepicker.opensright:after, .daterangepicker.openscenter:before, .daterangepicker.openscenter:after, .input__icon, .form__group.load-this:before, .modal__top .close, .modal-scrollbar-measure, .panel__component > .close, .sort-arrow, .select2-container .select2-choice .select2-arrow b, .slider__handle, .tooltip, .tooltip-arrow {
@@ -318,9 +318,6 @@
 
 .text-left, .button.text-left, button.button.text-left, .dropdown-menu, .dropdown-menu--top-right {
   text-align: left; }
-
-.text-right {
-  text-align: right; }
 
 @media (min-width: 1px) and (max-width: 769px) {
   .text-right-left {
@@ -348,7 +345,7 @@ body, h1, h2, h3, h4, h5, h6 {
 *, .alert .close, .select__wrap select, .select2-container select, .select2-container .select2-choice {
   outline: none; }
 
-.dots, .dropdown-menu__list-item a, .card__heading, .card__subheading, .tile__title, .list-group__item, .list-group__item a, .page__heading, .panel__subheading, .page__subheading {
+.dots, .dropdown-menu__list-item a, .card__heading, .card__subheading, .tile__title, .list-group__item a, .list-group__item--multi a, .list-group__item, .page__heading, .panel__subheading, .page__subheading {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
@@ -364,7 +361,7 @@ body, h1, h2, h3, h4, h5, h6 {
   list-style-type: none;
   padding: 0; }
 
-.block, h1, h2, h3, h4, h5, h6, .button-group .button, .button-group--collapse .button, .card__heading, .card__subheading, .daterangepicker.show-calendar .calendar, .tile, .list-group__item, .list-group__item a, .nav-bar__list--item a, .appendage--open .nav-bar__appendage, .select2-container .select2-choice {
+.block, h1, h2, h3, h4, h5, h6, .button-group .button, .button-group--collapse .button, .card__heading, .card__subheading, .daterangepicker.show-calendar .calendar, .tile, .list-group__item, .list-group__item--multi, .list-group__item a, .list-group__item--multi a, .nav-bar__list--item a, .appendage--open .nav-bar__appendage, .select2-container .select2-choice {
   display: block; }
 
 .inline-block, .button-group, .tile-container, .label, .inline-list__item, .pagination--alt .select__wrap, .pagination--alt .select2-container {
@@ -434,6 +431,8 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .hide, .datepicker > div {
   display: none; }
+  .hide--i {
+    display: none !important; }
   @media (min-width: 1px) and (max-width: 769px) {
     .hide-brkpoint--sm {
       display: none; } }
@@ -460,7 +459,7 @@ body, h1, h2, h3, h4, h5, h6 {
   fill: #2a94d6; }
 
 .text-error, .required-field:after {
-  color: #c06057 !important; }
+  color: #c06057; }
 
 .text-strike {
   text-decoration: line-through; }
@@ -1272,11 +1271,15 @@ label {
   -o-border-bottom-right-radius: 0 ;
   border-bottom-right-radius: 0 ; }
 
-.input__wrap.has-icon--right .input__icon, .list-group__item.has-icon--right .input__icon, .list-group__item.has-icon--right--special .input__icon {
-  right: 0; }
+.input__wrap.has-icon--right .input__icon, .has-icon--right.list-group__item .input__icon, .has-icon--right.list-group__item--multi .input__icon, .has-icon--right--special.list-group__item .input__icon, .has-icon--right--special.list-group__item--multi .input__icon {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%); }
 
-.input__wrap.has-icon--left .input__icon, .list-group__item.has-icon--left .input__icon, .list-group__item.has-icon--left--special .input__icon {
-  left: 0; }
+.input__wrap.has-icon--left .input__icon, .has-icon--left.list-group__item .input__icon, .has-icon--left.list-group__item--multi .input__icon, .has-icon--left--special.list-group__item .input__icon, .has-icon--left--special.list-group__item--multi .input__icon {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .button > .juicon:before, .button > .form__group.load-this:before, .button > .load-block:before, .button > .close-modal-x:before, .panel__component > .close .button > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .button > b:before, .button > .select2-search-choice-close:before, button.button > .juicon:before, button.button > .form__group.load-this:before, button.button > .load-block:before, button.button > .close-modal-x:before, .panel__component > .close button.button > .component-remove-x:before, .select2-container .select2-choice .select2-arrow button.button > b:before, button.button > .select2-search-choice-close:before, span.juicon:before, span.form__group.load-this:before, span.load-block:before, span.close-modal-x:before, .panel__component > .close span.component-remove-x:before, span.select2-search-choice-close:before, span > .juicon:before, span > .form__group.load-this:before, span > .load-block:before, span > .close-modal-x:before, .panel__component > .close span > .component-remove-x:before, .select2-container .select2-choice .select2-arrow span > b:before, span > .select2-search-choice-close:before, strong.juicon:before, strong.form__group.load-this:before, strong.load-block:before, strong.close-modal-x:before, .panel__component > .close strong.component-remove-x:before, strong.select2-search-choice-close:before, strong > .juicon:before, strong > .form__group.load-this:before, strong > .load-block:before, strong > .close-modal-x:before, .panel__component > .close strong > .component-remove-x:before, .select2-container .select2-choice .select2-arrow strong > b:before, strong > .select2-search-choice-close:before, b.juicon:before, b.form__group.load-this:before, b.load-block:before, b.close-modal-x:before, .panel__component > .close b.component-remove-x:before, .select2-container .select2-choice .select2-arrow b:before, b.select2-search-choice-close:before, b > .juicon:before, b > .form__group.load-this:before, b > .load-block:before, b > .close-modal-x:before, .panel__component > .close b > .component-remove-x:before, .select2-container .select2-choice .select2-arrow b > b:before, b > .select2-search-choice-close:before, a.juicon:before, a.form__group.load-this:before, a.load-block:before, a.close-modal-x:before, .panel__component > .close a.component-remove-x:before, a.select2-search-choice-close:before, a > .juicon:before, a > .form__group.load-this:before, a > .load-block:before, a > .close-modal-x:before, .panel__component > .close a > .component-remove-x:before, .select2-container .select2-choice .select2-arrow a > b:before, a > .select2-search-choice-close:before, .label > .juicon:before, .label > .form__group.load-this:before, .label > .load-block:before, .label > .close-modal-x:before, .panel__component > .close .label > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .label > b:before, .label > .select2-search-choice-close:before, .inline-list__item a > .juicon:before, .inline-list__item a > .form__group.load-this:before, .inline-list__item a > .load-block:before, .inline-list__item a > .close-modal-x:before, .inline-list__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .inline-list__item a > .component-remove-x:before, .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .inline-list__item a > b:before, .inline-list__item a > .select2-search-choice-close:before, .nav-bar__list--item a > .juicon:before, .nav-bar__list--item a > .form__group.load-this:before, .nav-bar__list--item a > .load-block:before, .nav-bar__list--item a > .close-modal-x:before, .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .nav-bar__list--item a > b:before, .nav-bar__list--item a > .select2-search-choice-close:before, .pagination__item a > .juicon:before, .pagination__item a > .form__group.load-this:before, .pagination__item a > .load-block:before, .pagination__item a > .close-modal-x:before, .pagination__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .pagination__item a > .component-remove-x:before, .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .pagination__item a > b:before, .pagination__item a > .select2-search-choice-close:before {
   position: relative;
@@ -2543,73 +2546,76 @@ input[type=radio] {
   font-size: 300%;
   padding: 48px; }
 
+.list-group__item, .list-group__item--multi {
+  -webkit-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -o-border-radius: 4px ;
+  border-radius: 4px ;
+  -webkit-transition: background-color 0.2s ease;
+  -moz-transition: background-color 0.2s ease;
+  -o-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+  margin-left: 0;
+  max-width: 100%; }
+  .list-group__item a, .list-group__item--multi a {
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    color: #33536d;
+    padding: 8px 16px; }
+  .list-group__item:last-child, .list-group__item--multi:last-child {
+    border-bottom: 0; }
+  .list-group__item:hover, .list-group__item--multi:hover, .hover-this.list-group__item, .hover-this.list-group__item--multi {
+    background-color: #f5f6f7; }
+  .active.list-group__item, .active.list-group__item--multi {
+    background-color: #2a94d6;
+    color: #fff; }
+    .active.list-group__item a, .active.list-group__item--multi a {
+      color: #fff; }
+  .has-icon--right.list-group__item, .has-icon--right.list-group__item--multi {
+    padding-right: 32px; }
+    .has-icon--right--special.list-group__item, .has-icon--right--special.list-group__item--multi {
+      padding-right: 40px; }
+  .has-icon--left.list-group__item, .has-icon--left.list-group__item--multi {
+    padding-left: 32px; }
+    .has-icon--left--special.list-group__item, .has-icon--left--special.list-group__item--multi {
+      padding-left: 40px; }
+  .has-icon--left--special.list-group__item, .has-icon--left--special.list-group__item--multi, .has-icon--right--special.list-group__item, .has-icon--right--special.list-group__item--multi {
+    margin-bottom: 8px; }
+    .has-icon--left--special.list-group__item .input__icon, .has-icon--left--special.list-group__item--multi .input__icon, .has-icon--right--special.list-group__item .input__icon, .has-icon--right--special.list-group__item--multi .input__icon {
+      -webkit-border-radius: 4px ;
+      -ms-border-radius: 4px ;
+      -moz-border-radius: 4px ;
+      -o-border-radius: 4px ;
+      border-radius: 4px ;
+      padding: 12px;
+      background-color: #f5f6f7; }
+    .has-icon--left--special.active.list-group__item .input__icon, .has-icon--left--special.active.list-group__item--multi .input__icon, .has-icon--right--special.active.list-group__item .input__icon, .has-icon--right--special.active.list-group__item--multi .input__icon {
+      background-color: transparent;
+      color: #fff; }
+
 .list-group, .panel__sidebar__list-group {
   overflow: hidden; }
   .list-group--bordered {
     border-width: 1px 1px 1px 1px;
     border-style: solid;
-    border-color: #e8eaeb;
+    border-color: #dadee2;
     -webkit-border-radius: 4px ;
     -ms-border-radius: 4px ;
     -moz-border-radius: 4px ;
     -o-border-radius: 4px ;
     border-radius: 4px ; }
-    .list-group--bordered .list-group__item {
+    .list-group--bordered .list-group__item, .list-group--bordered .list-group__item--multi {
       -webkit-border-radius: 0 ;
       -ms-border-radius: 0 ;
       -moz-border-radius: 0 ;
       -o-border-radius: 0 ;
       border-radius: 0 ;
-      background-color: #fff;
       border-bottom: 1px solid #e8eaeb; }
-  .list-group__item {
-    -webkit-border-radius: 4px ;
-    -ms-border-radius: 4px ;
-    -moz-border-radius: 4px ;
-    -o-border-radius: 4px ;
-    border-radius: 4px ;
-    -webkit-transition: background-color 0.2s ease;
-    -moz-transition: background-color 0.2s ease;
-    -o-transition: background-color 0.2s ease;
-    transition: background-color 0.2s ease;
-    max-width: 100%; }
-    .list-group__item a {
-      -webkit-transition: color 0.2s ease;
-      -moz-transition: color 0.2s ease;
-      -o-transition: color 0.2s ease;
-      transition: color 0.2s ease;
-      color: #33536d;
-      padding: 8px 16px; }
-    .list-group__item:last-child {
-      border-bottom: 0; }
-    .list-group__item:hover {
-      background-color: #f5f6f7; }
-    .list-group__item.active {
-      background-color: #2a94d6;
-      color: #fff; }
-      .list-group__item.active a {
-        color: #fff; }
-    .list-group__item.has-icon--right {
-      padding-right: 32px; }
-      .list-group__item.has-icon--right--special {
-        padding-right: 40px; }
-    .list-group__item.has-icon--left {
-      padding-left: 32px; }
-      .list-group__item.has-icon--left--special {
-        padding-left: 40px; }
-    .list-group__item.has-icon--left--special, .list-group__item.has-icon--right--special {
-      margin-bottom: 8px; }
-      .list-group__item.has-icon--left--special .input__icon, .list-group__item.has-icon--right--special .input__icon {
-        -webkit-border-radius: 4px ;
-        -ms-border-radius: 4px ;
-        -moz-border-radius: 4px ;
-        -o-border-radius: 4px ;
-        border-radius: 4px ;
-        padding: 12px;
-        background-color: #f5f6f7; }
-      .list-group__item.has-icon--left--special.active .input__icon, .list-group__item.has-icon--right--special.active .input__icon {
-        background-color: transparent;
-        color: #fff; }
+      .list-group--bordered .list-group__item:last-child, .list-group--bordered .list-group__item--multi:last-child {
+        border-bottom: 0; }
 
 .list-heading__title {
   background-color: #f0f1f2;
@@ -4815,39 +4821,5 @@ span.show-brkpoint--md--only {
   @media (min-width: 769px) and (max-width: 1100px) {
     span.show-brkpoint--md--only {
       display: inline-block; } }
-
-.building-block {
-  padding: 16px 0; }
-  .building-block:hover {
-    -webkit-border-radius: 4px ;
-    -ms-border-radius: 4px ;
-    -moz-border-radius: 4px ;
-    -o-border-radius: 4px ;
-    border-radius: 4px ;
-    cursor: move;
-    cursor: -webkit-grab;
-    border-color: #2a94d6;
-    border-style: dashed;
-    border-width: 1px;
-    margin: -1px -16px;
-    padding: 16px 15px; }
-  .building-block h1, .building-block h2, .building-block h3, .building-block h4, .building-block h5, .building-block h6, .building-block p {
-    margin: 0; }
-  .building-block p ~ p {
-    margin-top: 16px; }
-  .building-block.is-empty {
-    -webkit-transition: color 0.2s ease;
-    -moz-transition: color 0.2s ease;
-    -o-transition: color 0.2s ease;
-    transition: color 0.2s ease;
-    -webkit-transition: padding 0.2s ease;
-    -moz-transition: padding 0.2s ease;
-    -o-transition: padding 0.2s ease;
-    transition: padding 0.2s ease;
-    color: #fff;
-    padding: 8px 16px; }
-    .building-block.is-empty:hover {
-      padding: 48px;
-      color: #2a94d6; }
 
 /*# sourceMappingURL=styles.css.map */

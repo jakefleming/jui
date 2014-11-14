@@ -265,7 +265,7 @@
 .juicon-x:before, body .scope-container .alert-close-x:after, body .scope-container .panel__component > .close .component-remove-x:before, .select2-search-choice-close:before, .close-modal-x:before {
   content: "\e64a"; }
 
-.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .content--readable:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__component:after, body .scope-container .panel__body:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
+.clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .content--readable:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .list-group__item--multi:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__component:after, body .scope-container .panel__body:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
   content: "";
   display: table;
   clear: both; }
@@ -301,10 +301,10 @@
   .float--right-left {
     float: right; } }
 
-.pointer, body .scope-container .building-block.is-empty:hover, body .scope-container .button, body .scope-container button.button, body .scope-container .alert-close-x, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker .ranges li, body .scope-container .component__icon, body .scope-container .component__icon--primary, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item a, body .scope-container .nav-bar__menu-toggle, body .scope-container .select__wrap .input__icon, body .scope-container .select2-container .input__icon, body .scope-container .select__wrap select, body .scope-container .select2-container select, body .scope-container table tbody tr:hover, body .scope-container .sort-arrow, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
+.pointer, body .scope-container .button, body .scope-container button.button, body .scope-container .alert-close-x, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker .ranges li, body .scope-container .component__icon, body .scope-container .component__icon--primary, body .scope-container .list-group__item, body .scope-container .list-group__item--multi, body .scope-container .nav-bar__list--item a, body .scope-container .nav-bar__menu-toggle, body .scope-container .select__wrap .input__icon, body .scope-container .select2-container .input__icon, body .scope-container .select__wrap select, body .scope-container .select2-container select, body .scope-container table tbody tr:hover, body .scope-container .sort-arrow, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow b {
   cursor: pointer; }
 
-.relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .input__icon.juicon:before, body .scope-container .input__icon.form__group.load-this:before, body .scope-container .input__icon.load-block:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b.input__icon:before, .select2-container .select2-choice .select2-arrow body .scope-container b.input__icon:before, body .scope-container .input__icon.select2-search-choice-close:before, body .scope-container .input__icon.close-modal-x:before, body .scope-container .button.load-this:after, body .scope-container .form__group.load-this, body .scope-container .list-group__item, body .scope-container .nav-bar__list--item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, body .scope-container .sort-it, .modal__body {
+.relative, body .scope-container .alert, body .scope-container .button-group, body .scope-container .button-group .button, body .scope-container .button-group--collapse, body .scope-container .button-group--collapse .button, body .scope-container .input__wrap, body .scope-container .input__icon.juicon:before, body .scope-container .input__icon.form__group.load-this:before, body .scope-container .input__icon.load-block:before, body .scope-container .panel__component > .close .input__icon.component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b.input__icon:before, .select2-container .select2-choice .select2-arrow body .scope-container b.input__icon:before, body .scope-container .input__icon.select2-search-choice-close:before, body .scope-container .input__icon.close-modal-x:before, body .scope-container .button.load-this:after, body .scope-container .form__group.load-this, body .scope-container .list-group__item, body .scope-container .list-group__item--multi, body .scope-container .nav-bar__list--item, body .scope-container .pagination__item a, body .scope-container .panel__component, body .scope-container .panel__box, body .scope-container .panel__sidebar, body .scope-container .sort-it, .modal__body {
   position: relative; }
 
 .absolute, body .scope-container .alert .close, body .scope-container .alert .close-timeout .close-progress, body .scope-container .daterangepicker, body .scope-container .daterangepicker.opensleft:before, body .scope-container .daterangepicker.opensleft:after, body .scope-container .daterangepicker.opensright:before, body .scope-container .daterangepicker.opensright:after, body .scope-container .daterangepicker.openscenter:before, body .scope-container .daterangepicker.openscenter:after, body .scope-container .input__icon, body .scope-container .form__group.load-this:before, body .scope-container .panel__component > .close, body .scope-container .slider__handle, body .scope-container .sort-arrow, body .scope-container .tooltip, body .scope-container .tooltip-arrow, .select2-container .select2-choice .select2-arrow b, .modal__top .close, .modal-scrollbar-measure {
@@ -318,9 +318,6 @@
 
 .text-left, body .scope-container .dropdown-menu, body .scope-container .dropdown-menu--top-right, body .scope-container .button.text-left, body .scope-container button.button.text-left {
   text-align: left; }
-
-.text-right {
-  text-align: right; }
 
 @media (min-width: 1px) and (max-width: 769px) {
   .text-right-left {
@@ -348,7 +345,7 @@ body .scope-container body, body .scope-container h1, body .scope-container h2, 
 body .scope-container *, *, body .scope-container .alert .close, body .scope-container .select__wrap select, body .scope-container .select2-container select, .select2-container .select2-choice {
   outline: none; }
 
-.dots, body .scope-container .dropdown-menu__list-item a, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .tile__title, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .page__heading, body .scope-container .panel__subheading, body .scope-container .page__subheading {
+.dots, body .scope-container .dropdown-menu__list-item a, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .tile__title, body .scope-container .list-group__item a, body .scope-container .list-group__item--multi a, body .scope-container .list-group__item, body .scope-container .page__heading, body .scope-container .panel__subheading, body .scope-container .page__subheading {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
@@ -364,7 +361,7 @@ body .scope-container .panel__box {
   list-style-type: none;
   padding: 0; }
 
-.block, body .scope-container h1, body .scope-container h2, body .scope-container h3, body .scope-container h4, body .scope-container h5, body .scope-container h6, body .scope-container .button-group .button, body .scope-container .button-group--collapse .button, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .daterangepicker.show-calendar .calendar, body .scope-container .tile, body .scope-container .list-group__item, body .scope-container .list-group__item a, body .scope-container .nav-bar__list--item a, .appendage--open body .scope-container .nav-bar__appendage, body .scope-container .appendage--open .nav-bar__appendage, .select2-container .select2-choice {
+.block, body .scope-container h1, body .scope-container h2, body .scope-container h3, body .scope-container h4, body .scope-container h5, body .scope-container h6, body .scope-container .button-group .button, body .scope-container .button-group--collapse .button, body .scope-container .card__heading, body .scope-container .card__subheading, body .scope-container .daterangepicker.show-calendar .calendar, body .scope-container .tile, body .scope-container .list-group__item, body .scope-container .list-group__item--multi, body .scope-container .list-group__item a, body .scope-container .list-group__item--multi a, body .scope-container .nav-bar__list--item a, .appendage--open body .scope-container .nav-bar__appendage, body .scope-container .appendage--open .nav-bar__appendage, .select2-container .select2-choice {
   display: block; }
 
 .inline-block, body .scope-container .button-group, body .scope-container .tile-container, body .scope-container .label, body .scope-container .inline-list__item, body .scope-container .pagination--alt .select__wrap, body .scope-container .pagination--alt .select2-container {
@@ -434,6 +431,8 @@ body .scope-container .panel__box {
 
 .hide, body .scope-container .datepicker > div {
   display: none; }
+  .hide--i {
+    display: none !important; }
   @media (min-width: 1px) and (max-width: 769px) {
     .hide-brkpoint--sm {
       display: none; } }
@@ -460,7 +459,7 @@ body .scope-container .panel__box {
   fill: #2a94d6; }
 
 .text-error, body .scope-container .required-field:after {
-  color: #c06057 !important; }
+  color: #c06057; }
 
 .text-strike {
   text-decoration: line-through; }
@@ -1470,39 +1469,6 @@ body .scope-container span.show-brkpoint--md--only {
   @media (min-width: 769px) and (max-width: 1100px) {
     body .scope-container span.show-brkpoint--md--only {
       display: inline-block; } }
-body .scope-container .building-block {
-  padding: 16px 0; }
-  body .scope-container .building-block:hover {
-    -webkit-border-radius: 4px ;
-    -ms-border-radius: 4px ;
-    -moz-border-radius: 4px ;
-    -o-border-radius: 4px ;
-    border-radius: 4px ;
-    cursor: move;
-    cursor: -webkit-grab;
-    border-color: #2a94d6;
-    border-style: dashed;
-    border-width: 1px;
-    margin: -1px -16px;
-    padding: 16px 15px; }
-  body .scope-container .building-block h1, body .scope-container .building-block h2, body .scope-container .building-block h3, body .scope-container .building-block h4, body .scope-container .building-block h5, body .scope-container .building-block h6, body .scope-container .building-block p {
-    margin: 0; }
-  body .scope-container .building-block p ~ p {
-    margin-top: 16px; }
-  body .scope-container .building-block.is-empty {
-    -webkit-transition: color 0.2s ease;
-    -moz-transition: color 0.2s ease;
-    -o-transition: color 0.2s ease;
-    transition: color 0.2s ease;
-    -webkit-transition: padding 0.2s ease;
-    -moz-transition: padding 0.2s ease;
-    -o-transition: padding 0.2s ease;
-    transition: padding 0.2s ease;
-    color: #fff;
-    padding: 8px 16px; }
-    body .scope-container .building-block.is-empty:hover {
-      padding: 48px;
-      color: #2a94d6; }
 
 body .scope-container [class^="column--"] {
   padding: 0 16px;
@@ -1933,11 +1899,15 @@ body .scope-container .has-error input[type="text"], body .scope-container .has-
   -o-border-bottom-right-radius: 0 ;
   border-bottom-right-radius: 0 ; }
 
-body .scope-container .input__wrap.has-icon--right .input__icon, body .scope-container .list-group__item.has-icon--right .input__icon, body .scope-container .list-group__item.has-icon--right--special .input__icon {
-  right: 0; }
+body .scope-container .input__wrap.has-icon--right .input__icon, body .scope-container .has-icon--right.list-group__item .input__icon, body .scope-container .has-icon--right.list-group__item--multi .input__icon, body .scope-container .has-icon--right--special.list-group__item .input__icon, body .scope-container .has-icon--right--special.list-group__item--multi .input__icon {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%); }
 
-body .scope-container .input__wrap.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left .input__icon, body .scope-container .list-group__item.has-icon--left--special .input__icon {
-  left: 0; }
+body .scope-container .input__wrap.has-icon--left .input__icon, body .scope-container .has-icon--left.list-group__item .input__icon, body .scope-container .has-icon--left.list-group__item--multi .input__icon, body .scope-container .has-icon--left--special.list-group__item .input__icon, body .scope-container .has-icon--left--special.list-group__item--multi .input__icon {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); }
 
 body .scope-container .button > .juicon:before, body .scope-container .button > .form__group.load-this:before, body .scope-container .button > .load-block:before, body .scope-container .panel__component > .close .button > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .button > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .button > b:before, body .scope-container .button > .select2-search-choice-close:before, body .scope-container .button > .close-modal-x:before, body .scope-container button.button > .juicon:before, body .scope-container button.button > .form__group.load-this:before, body .scope-container button.button > .load-block:before, body .scope-container .panel__component > .close button.button > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow button.button > b:before, .select2-container .select2-choice .select2-arrow body .scope-container button.button > b:before, body .scope-container button.button > .select2-search-choice-close:before, body .scope-container button.button > .close-modal-x:before, body .scope-container span.juicon:before, body .scope-container span.form__group.load-this:before, body .scope-container span.load-block:before, body .scope-container .panel__component > .close span.component-remove-x:before, body .scope-container span.select2-search-choice-close:before, body .scope-container span.close-modal-x:before, body .scope-container span > .juicon:before, body .scope-container span > .form__group.load-this:before, body .scope-container span > .load-block:before, body .scope-container .panel__component > .close span > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow span > b:before, .select2-container .select2-choice .select2-arrow body .scope-container span > b:before, body .scope-container span > .select2-search-choice-close:before, body .scope-container span > .close-modal-x:before, body .scope-container strong.juicon:before, body .scope-container strong.form__group.load-this:before, body .scope-container strong.load-block:before, body .scope-container .panel__component > .close strong.component-remove-x:before, body .scope-container strong.select2-search-choice-close:before, body .scope-container strong.close-modal-x:before, body .scope-container strong > .juicon:before, body .scope-container strong > .form__group.load-this:before, body .scope-container strong > .load-block:before, body .scope-container .panel__component > .close strong > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow strong > b:before, .select2-container .select2-choice .select2-arrow body .scope-container strong > b:before, body .scope-container strong > .select2-search-choice-close:before, body .scope-container strong > .close-modal-x:before, body .scope-container b.juicon:before, body .scope-container b.form__group.load-this:before, body .scope-container b.load-block:before, body .scope-container .panel__component > .close b.component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b:before, .select2-container .select2-choice .select2-arrow body .scope-container b:before, body .scope-container b.select2-search-choice-close:before, body .scope-container b.close-modal-x:before, body .scope-container b > .juicon:before, body .scope-container b > .form__group.load-this:before, body .scope-container b > .load-block:before, body .scope-container .panel__component > .close b > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow b > b:before, .select2-container .select2-choice .select2-arrow body .scope-container b > b:before, body .scope-container b > .select2-search-choice-close:before, body .scope-container b > .close-modal-x:before, body .scope-container a.juicon:before, body .scope-container a.form__group.load-this:before, body .scope-container a.load-block:before, body .scope-container .panel__component > .close a.component-remove-x:before, body .scope-container a.select2-search-choice-close:before, body .scope-container a.close-modal-x:before, body .scope-container a > .juicon:before, body .scope-container a > .form__group.load-this:before, body .scope-container a > .load-block:before, body .scope-container .panel__component > .close a > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container a > b:before, body .scope-container a > .select2-search-choice-close:before, body .scope-container a > .close-modal-x:before, body .scope-container .label > .juicon:before, body .scope-container .label > .form__group.load-this:before, body .scope-container .label > .load-block:before, body .scope-container .panel__component > .close .label > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .label > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .label > b:before, body .scope-container .label > .select2-search-choice-close:before, body .scope-container .label > .close-modal-x:before, body .scope-container .inline-list__item a > .juicon:before, body .scope-container .inline-list__item a > .form__group.load-this:before, body .scope-container .inline-list__item a > .load-block:before, body .scope-container .inline-list__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .inline-list__item a > .component-remove-x:before, body .scope-container .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .inline-list__item a > b:before, body .scope-container .inline-list__item a > .select2-search-choice-close:before, body .scope-container .inline-list__item a > .close-modal-x:before, body .scope-container .nav-bar__list--item a > .juicon:before, body .scope-container .nav-bar__list--item a > .form__group.load-this:before, body .scope-container .nav-bar__list--item a > .load-block:before, body .scope-container .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, body .scope-container .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .nav-bar__list--item a > b:before, body .scope-container .nav-bar__list--item a > .select2-search-choice-close:before, body .scope-container .nav-bar__list--item a > .close-modal-x:before, body .scope-container .pagination__item a > .juicon:before, body .scope-container .pagination__item a > .form__group.load-this:before, body .scope-container .pagination__item a > .load-block:before, body .scope-container .pagination__item .panel__component > .close a > .component-remove-x:before, body .scope-container .panel__component > .close .pagination__item a > .component-remove-x:before, body .scope-container .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .pagination__item a > b:before, body .scope-container .pagination__item a > .select2-search-choice-close:before, body .scope-container .pagination__item a > .close-modal-x:before {
   position: relative;
@@ -3158,73 +3128,75 @@ body .scope-container {
     color: #9faab5;
     font-size: 300%;
     padding: 48px; }
+  body .scope-container .list-group__item, body .scope-container .list-group__item--multi {
+    -webkit-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    border-radius: 4px ;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+    margin-left: 0;
+    max-width: 100%; }
+    body .scope-container .list-group__item a, body .scope-container .list-group__item--multi a {
+      -webkit-transition: color 0.2s ease;
+      -moz-transition: color 0.2s ease;
+      -o-transition: color 0.2s ease;
+      transition: color 0.2s ease;
+      color: #33536d;
+      padding: 8px 16px; }
+    body .scope-container .list-group__item:last-child, body .scope-container .list-group__item--multi:last-child {
+      border-bottom: 0; }
+    body .scope-container .list-group__item:hover, body .scope-container .list-group__item--multi:hover, body .scope-container .hover-this.list-group__item, body .scope-container .hover-this.list-group__item--multi {
+      background-color: #f5f6f7; }
+    body .scope-container .active.list-group__item, body .scope-container .active.list-group__item--multi {
+      background-color: #2a94d6;
+      color: #fff; }
+      body .scope-container .active.list-group__item a, body .scope-container .active.list-group__item--multi a {
+        color: #fff; }
+    body .scope-container .has-icon--right.list-group__item, body .scope-container .has-icon--right.list-group__item--multi {
+      padding-right: 32px; }
+      body .scope-container .has-icon--right--special.list-group__item, body .scope-container .has-icon--right--special.list-group__item--multi {
+        padding-right: 40px; }
+    body .scope-container .has-icon--left.list-group__item, body .scope-container .has-icon--left.list-group__item--multi {
+      padding-left: 32px; }
+      body .scope-container .has-icon--left--special.list-group__item, body .scope-container .has-icon--left--special.list-group__item--multi {
+        padding-left: 40px; }
+    body .scope-container .has-icon--left--special.list-group__item, body .scope-container .has-icon--left--special.list-group__item--multi, body .scope-container .has-icon--right--special.list-group__item, body .scope-container .has-icon--right--special.list-group__item--multi {
+      margin-bottom: 8px; }
+      body .scope-container .has-icon--left--special.list-group__item .input__icon, body .scope-container .has-icon--left--special.list-group__item--multi .input__icon, body .scope-container .has-icon--right--special.list-group__item .input__icon, body .scope-container .has-icon--right--special.list-group__item--multi .input__icon {
+        -webkit-border-radius: 4px ;
+        -ms-border-radius: 4px ;
+        -moz-border-radius: 4px ;
+        -o-border-radius: 4px ;
+        border-radius: 4px ;
+        padding: 12px;
+        background-color: #f5f6f7; }
+      body .scope-container .has-icon--left--special.active.list-group__item .input__icon, body .scope-container .has-icon--left--special.active.list-group__item--multi .input__icon, body .scope-container .has-icon--right--special.active.list-group__item .input__icon, body .scope-container .has-icon--right--special.active.list-group__item--multi .input__icon {
+        background-color: transparent;
+        color: #fff; }
   body .scope-container .list-group, body .scope-container .panel__sidebar__list-group {
     overflow: hidden; }
     body .scope-container .list-group--bordered {
       border-width: 1px 1px 1px 1px;
       border-style: solid;
-      border-color: #e8eaeb;
+      border-color: #dadee2;
       -webkit-border-radius: 4px ;
       -ms-border-radius: 4px ;
       -moz-border-radius: 4px ;
       -o-border-radius: 4px ;
       border-radius: 4px ; }
-      body .scope-container .list-group--bordered .list-group__item {
+      body .scope-container .list-group--bordered .list-group__item, body .scope-container .list-group--bordered .list-group__item--multi {
         -webkit-border-radius: 0 ;
         -ms-border-radius: 0 ;
         -moz-border-radius: 0 ;
         -o-border-radius: 0 ;
         border-radius: 0 ;
-        background-color: #fff;
         border-bottom: 1px solid #e8eaeb; }
-    body .scope-container .list-group__item {
-      -webkit-border-radius: 4px ;
-      -ms-border-radius: 4px ;
-      -moz-border-radius: 4px ;
-      -o-border-radius: 4px ;
-      border-radius: 4px ;
-      -webkit-transition: background-color 0.2s ease;
-      -moz-transition: background-color 0.2s ease;
-      -o-transition: background-color 0.2s ease;
-      transition: background-color 0.2s ease;
-      max-width: 100%; }
-      body .scope-container .list-group__item a {
-        -webkit-transition: color 0.2s ease;
-        -moz-transition: color 0.2s ease;
-        -o-transition: color 0.2s ease;
-        transition: color 0.2s ease;
-        color: #33536d;
-        padding: 8px 16px; }
-      body .scope-container .list-group__item:last-child {
-        border-bottom: 0; }
-      body .scope-container .list-group__item:hover {
-        background-color: #f5f6f7; }
-      body .scope-container .list-group__item.active {
-        background-color: #2a94d6;
-        color: #fff; }
-        body .scope-container .list-group__item.active a {
-          color: #fff; }
-      body .scope-container .list-group__item.has-icon--right {
-        padding-right: 32px; }
-        body .scope-container .list-group__item.has-icon--right--special {
-          padding-right: 40px; }
-      body .scope-container .list-group__item.has-icon--left {
-        padding-left: 32px; }
-        body .scope-container .list-group__item.has-icon--left--special {
-          padding-left: 40px; }
-      body .scope-container .list-group__item.has-icon--left--special, body .scope-container .list-group__item.has-icon--right--special {
-        margin-bottom: 8px; }
-        body .scope-container .list-group__item.has-icon--left--special .input__icon, body .scope-container .list-group__item.has-icon--right--special .input__icon {
-          -webkit-border-radius: 4px ;
-          -ms-border-radius: 4px ;
-          -moz-border-radius: 4px ;
-          -o-border-radius: 4px ;
-          border-radius: 4px ;
-          padding: 12px;
-          background-color: #f5f6f7; }
-        body .scope-container .list-group__item.has-icon--left--special.active .input__icon, body .scope-container .list-group__item.has-icon--right--special.active .input__icon {
-          background-color: transparent;
-          color: #fff; }
+        body .scope-container .list-group--bordered .list-group__item:last-child, body .scope-container .list-group--bordered .list-group__item--multi:last-child {
+          border-bottom: 0; }
   body .scope-container .list-heading__title {
     background-color: #f0f1f2;
     color: #8d9aa5;

@@ -39,6 +39,13 @@
   vertical-align: top;
 }
 
+%vertical-align {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 // For pseudo-elements
 
 %pseudos {
@@ -107,10 +114,6 @@
 
 .text-left {
   text-align: left
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-right-left {
@@ -264,6 +267,9 @@
 
 .hide {
   display: none;
+  &--i {
+    display: none!important;
+  }
   &-brkpoint {
     &--sm {
       @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
@@ -308,7 +314,7 @@
 }
 
 .text-error {
-  color: $color-error!important;
+  color: $color-error;
 }
 
 // text decoration
