@@ -139,7 +139,7 @@
 }
 
 .text-faded {
-  color: $grey;
+  color: $input-icon-color;
 }
 
 .fsl {
@@ -315,6 +315,14 @@
 
 .text-error {
   color: $color-error;
+}
+
+.text-success {
+  color: $color-success;
+}
+
+.text-warning {
+  color: $color-warning;
 }
 
 // text decoration

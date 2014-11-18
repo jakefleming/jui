@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px"
+	 height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#231F20;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{fill:none;}
+	.st3{display:inline;}
+	.st4{font-size:12;}
+	.st5{display:none;}
+]]>
+</style>
+<g id="Layer_1">
+	<path class="st0" d="M4.018,10.024L3.14,9h9.721l-0.878,1.024c-0.307,0.255-0.339,0.944,0.133,1.167
+		c0.217,0.1,0.471,0.067,0.654-0.085l3.01-2.634C15.919,8.355,16,8.183,16,8.001c0.001-0.183-0.08-0.356-0.221-0.473
+		c-1.219-1.017-3.01-2.635-3.01-2.635c-0.184-0.152-0.438-0.185-0.654-0.085c-0.472,0.223-0.439,0.912-0.133,1.167L12.86,7H3.14
+		l0.878-1.024c0.307-0.255,0.339-0.944-0.133-1.167c-0.217-0.1-0.471-0.067-0.654,0.085l-3.01,2.634C0.081,7.645,0,7.817,0,7.999
+		c-0.001,0.183,0.08,0.356,0.221,0.473c1.219,1.017,3.01,2.635,3.01,2.635c0.184,0.152,0.438,0.185,0.654,0.085
+		C4.356,10.969,4.324,10.279,4.018,10.024z"/>
+	<path class="st0" d="M5.975,4.018L7,3.14v9.721l-1.024-0.878c-0.255-0.307-0.944-0.339-1.167,0.133
+		c-0.1,0.217-0.067,0.471,0.085,0.654l2.634,3.01C7.644,15.919,7.817,16,7.999,16c0.183,0.001,0.356-0.08,0.473-0.221
+		c1.017-1.219,2.635-3.01,2.635-3.01c0.152-0.184,0.185-0.438,0.085-0.654c-0.223-0.472-0.912-0.439-1.167-0.133L9,12.861V3.14
+		l1.024,0.878c0.255,0.307,0.944,0.339,1.167-0.133c0.1-0.217,0.067-0.471-0.085-0.654l-2.634-3.01C8.355,0.082,8.182,0,8,0
+		C7.818,0,7.644,0.081,7.528,0.221c-1.017,1.219-2.635,3.01-2.635,3.01C4.741,3.415,4.708,3.668,4.808,3.885
+		C5.031,4.357,5.72,4.325,5.975,4.018z"/>
+</g>
+<g id="nyt_x5F_exporter_x5F_info" class="st5">
+	<text transform="matrix(1 0 0 1 -32 -32)" class="st3"><tspan x="0" y="0" class="st1 st4">&lt;nyt_prefs&gt;</tspan><tspan x="0" y="14.4" class="st1 st4">  &lt;nyt_prefix/&gt;</tspan><tspan x="0" y="28.8" class="st1 st4">  &lt;nyt_suffix/&gt;</tspan><tspan x="0" y="43.2" class="st1 st4">  &lt;nyt_base_path&gt;~/Desktop&lt;/nyt_base_path&gt;</tspan><tspan x="0" y="57.6" class="st1 st4">  &lt;nyt_scaling&gt;100%&lt;/nyt_scaling&gt;</tspan><tspan x="0" y="72" class="st1 st4">  &lt;nyt_transparency&gt;true&lt;/nyt_transparency&gt;</tspan><tspan x="0" y="86.4" class="st1 st4">  &lt;nyt_format&gt;PNG 24&lt;/nyt_format&gt;</tspan><tspan x="0" y="100.8" class="st1 st4">  &lt;nyt_export_code&gt;artboards&lt;/nyt_export_code&gt;</tspan><tspan x="0" y="115.2" class="st1 st4">&lt;/nyt_prefs&gt;</tspan></text>
+</g>
+</svg>

@@ -37,9 +37,6 @@
   -moz-osx-font-smoothing: grayscale;
   vertical-align: text-top; }
 
-.juicon-ban:before {
-  content: "\e64b"; }
-
 .juicon-alert:before {
   content: "\e600"; }
 
@@ -49,221 +46,245 @@
 .juicon-backward:before {
   content: "\e602"; }
 
-.juicon-bookmark:before {
+.juicon-ban:before {
   content: "\e603"; }
 
-.juicon-browser:before {
+.juicon-blocks:before {
   content: "\e604"; }
 
-.juicon-calendar:before {
+.juicon-bookmark:before {
   content: "\e605"; }
 
-.juicon-camera:before {
+.juicon-browser:before {
   content: "\e606"; }
 
-.juicon-chart-bar:before {
+.juicon-calendar:before {
   content: "\e607"; }
 
-.juicon-chart-pie:before {
+.juicon-camera:before {
   content: "\e608"; }
 
-.juicon-chat:before {
+.juicon-chart-bar:before {
   content: "\e609"; }
 
-.juicon-check-circle:before {
+.juicon-chart-pie:before {
   content: "\e60a"; }
 
-.juicon-check:before {
+.juicon-chat:before {
   content: "\e60b"; }
 
-.juicon-chevron-left:before {
+.juicon-check-circle:before {
   content: "\e60c"; }
 
-.juicon-chevron-right:before {
+.juicon-check:before {
   content: "\e60d"; }
 
-.juicon-clock:before {
+.juicon-chevron-left:before {
   content: "\e60e"; }
 
-.juicon-dashboard:before {
+.juicon-chevron-right:before {
   content: "\e60f"; }
 
-.juicon-document:before {
+.juicon-dashboard:before {
   content: "\e610"; }
 
-.juicon-documents-group:before {
+.juicon-database:before {
   content: "\e611"; }
 
-.juicon-documents:before {
+.juicon-dislike:before {
   content: "\e612"; }
 
-.juicon-dots:before {
+.juicon-document-code:before {
   content: "\e613"; }
 
-.juicon-down:before, body .scope-container .caret:after, .select2-container .select2-choice .select2-arrow b:before {
+.juicon-document-misc:before {
   content: "\e614"; }
 
-.juicon-download:before {
+.juicon-document:before {
   content: "\e615"; }
 
-.juicon-downward:before {
+.juicon-documents-group:before {
   content: "\e616"; }
 
-.juicon-envelope:before {
+.juicon-documents:before {
   content: "\e617"; }
 
-.juicon-exclamation-circle:before {
+.juicon-dots:before {
   content: "\e618"; }
 
-.juicon-exclamation:before {
+.juicon-down:before, body .scope-container .caret:after, .select2-container .select2-choice .select2-arrow b:before {
   content: "\e619"; }
 
-.juicon-expand:before {
+.juicon-download:before {
   content: "\e61a"; }
 
-.juicon-eye:before {
+.juicon-downward:before {
   content: "\e61b"; }
 
-.juicon-flag:before {
+.juicon-envelope:before {
   content: "\e61c"; }
 
-.juicon-flip:before {
+.juicon-exclamation-circle:before {
   content: "\e61d"; }
 
-.juicon-forward:before {
+.juicon-exclamation:before {
   content: "\e61e"; }
 
-.juicon-funnel:before {
+.juicon-expand:before {
   content: "\e61f"; }
 
-.juicon-gear:before {
+.juicon-eye:before {
   content: "\e620"; }
 
-.juicon-grid:before {
+.juicon-flag:before {
   content: "\e621"; }
 
-.juicon-group:before {
+.juicon-flip:before {
   content: "\e622"; }
 
-.juicon-heart:before {
+.juicon-forward:before {
   content: "\e623"; }
 
-.juicon-image:before {
+.juicon-funnel:before {
   content: "\e624"; }
 
-.juicon-info-circle:before {
+.juicon-gear:before {
   content: "\e625"; }
 
-.juicon-left:before {
+.juicon-grid:before {
   content: "\e626"; }
 
-.juicon-like:before {
+.juicon-group:before {
   content: "\e627"; }
 
-.juicon-link:before {
+.juicon-heart:before {
   content: "\e628"; }
 
-.juicon-list:before {
+.juicon-image:before {
   content: "\e629"; }
 
-.juicon-loading:before, body .scope-container .form__group.load-this:before, body .scope-container .select2-container.load-this .select2-choice .select2-arrow b:before, body .scope-container .load-block:before {
+.juicon-info-circle:before {
   content: "\e62a"; }
 
-.juicon-location:before {
+.juicon-info:before {
   content: "\e62b"; }
 
-.juicon-lock:before {
+.juicon-left:before {
   content: "\e62c"; }
 
-.juicon-menu:before {
+.juicon-like:before {
   content: "\e62d"; }
 
-.juicon-minus-circle:before {
+.juicon-link:before {
   content: "\e62e"; }
 
-.juicon-minus:before {
+.juicon-list:before {
   content: "\e62f"; }
 
-.juicon-move-vertical:before {
+.juicon-loading:before, body .scope-container .form__group.load-this:before, body .scope-container .select2-container.load-this .select2-choice .select2-arrow b:before, body .scope-container .load-block:before {
   content: "\e630"; }
 
-.juicon-new-window:before {
+.juicon-location:before {
   content: "\e631"; }
 
-.juicon-object:before {
+.juicon-lock:before {
   content: "\e632"; }
 
-.juicon-paperclip:before {
+.juicon-menu:before {
   content: "\e633"; }
 
-.juicon-pencil:before {
+.juicon-minus-circle:before {
   content: "\e634"; }
 
-.juicon-people:before {
+.juicon-minus:before {
   content: "\e635"; }
 
-.juicon-person-add:before {
+.juicon-move-horizontal:before {
   content: "\e636"; }
 
-.juicon-person:before {
+.juicon-move-vertical:before {
   content: "\e637"; }
 
-.juicon-phone-smart:before {
+.juicon-move:before {
   content: "\e638"; }
 
-.juicon-phone:before {
+.juicon-new-window:before {
   content: "\e639"; }
 
-.juicon-plus-circle:before {
+.juicon-paperclip:before {
   content: "\e63a"; }
 
-.juicon-plus:before {
+.juicon-pencil:before {
   content: "\e63b"; }
 
-.juicon-question-circle:before {
+.juicon-people:before {
   content: "\e63c"; }
 
-.juicon-question:before {
+.juicon-person-add:before {
   content: "\e63d"; }
 
-.juicon-refresh:before {
+.juicon-person:before {
   content: "\e63e"; }
 
-.juicon-reply:before {
+.juicon-phone-smart:before {
   content: "\e63f"; }
 
-.juicon-right:before {
+.juicon-phone:before {
   content: "\e640"; }
 
-.juicon-search:before {
+.juicon-plus-circle:before {
   content: "\e641"; }
 
-.juicon-share:before {
+.juicon-plus:before {
   content: "\e642"; }
 
-.juicon-signout:before {
+.juicon-question-circle:before {
   content: "\e643"; }
 
-.juicon-sort:before {
+.juicon-question:before {
   content: "\e644"; }
 
-.juicon-star:before {
+.juicon-refresh:before {
   content: "\e645"; }
 
-.juicon-trash:before {
+.juicon-reply:before {
   content: "\e646"; }
 
-.juicon-up:before {
+.juicon-right:before {
   content: "\e647"; }
 
-.juicon-upload:before {
+.juicon-search:before {
   content: "\e648"; }
 
-.juicon-upward:before {
+.juicon-share:before {
   content: "\e649"; }
 
-.juicon-x:before, body .scope-container .alert-close-x:after, body .scope-container .panel__component > .close .component-remove-x:before, .select2-search-choice-close:before, .close-modal-x:before {
+.juicon-signout:before {
   content: "\e64a"; }
+
+.juicon-sort:before {
+  content: "\e64b"; }
+
+.juicon-star:before {
+  content: "\e64c"; }
+
+.juicon-trash:before {
+  content: "\e64d"; }
+
+.juicon-up:before {
+  content: "\e64e"; }
+
+.juicon-upload:before {
+  content: "\e64f"; }
+
+.juicon-upward:before {
+  content: "\e650"; }
+
+.juicon-x-circle:before {
+  content: "\e651"; }
+
+.juicon-x:before, body .scope-container .alert-close-x:after, body .scope-container .panel__component > .close .component-remove-x:before, .select2-search-choice-close:before, .close-modal-x:before {
+  content: "\e652"; }
 
 .clearfix:after, body .scope-container .content:after, body .scope-container .content--full:after, body .scope-container .content--small:after, body .scope-container .content--readable:after, body .scope-container .row:after, body .scope-container .button-group:after, body .scope-container .button-group--collapse:after, body .scope-container .card:after, body .scope-container .range_inputs:after, body .scope-container .range_inputs_container:after, body .scope-container .range_buttons_container:after, body .scope-container .list-group__item:after, body .scope-container .list-group__item--multi:after, body .scope-container .nav-bar:after, body .scope-container .nav-bar--solo:after, body .scope-container .nav-bar__top:after, body .scope-container .nav-bar__appendage:after, body .scope-container .pagination:after, body .scope-container .pagination--alt:after, body .scope-container .panel:after, body .scope-container .panel__top:after, body .scope-container .panel__bottom:after, body .scope-container .panel__component:after, body .scope-container .panel__body:after, body .scope-container .panel__box:after, body .scope-container .panel__content:after, .modal__footer:after {
   content: "";
@@ -342,7 +363,7 @@ body .scope-container body, body .scope-container h1, body .scope-container h2, 
   line-height: 1.5; }
 
 .text-faded {
-  color: #8d9aa5; }
+  color: #9faab5; }
 
 .fsl {
   font-size: 32px; }
@@ -465,6 +486,12 @@ body .scope-container .panel__box {
 
 .text-error, body .scope-container .required-field:after {
   color: #c06057; }
+
+.text-success {
+  color: #43b66a; }
+
+.text-warning {
+  color: #e6b739; }
 
 .text-strike {
   text-decoration: line-through; }
@@ -3119,7 +3146,7 @@ body .scope-container {
   body .scope-container .form__group.load-this .input__wrap.has-icon--right > .juicon, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .required-field:after, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .button.load-this:after, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .form__group.load-this:before, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .load-block, body .scope-container .form__group.load-this .panel__component > .close .input__wrap.has-icon--right > .component-remove-x, body .scope-container .panel__component > .close .form__group.load-this .input__wrap.has-icon--right > .component-remove-x, body .scope-container .form__group.load-this .select2-container .select2-choice .select2-arrow .input__wrap.has-icon--right > b, .select2-container .select2-choice .select2-arrow body .scope-container .form__group.load-this .input__wrap.has-icon--right > b, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .select2-search-choice-close, body .scope-container .form__group.load-this .input__wrap.has-icon--right > .close-modal-x, body .scope-container .form__group.load-this .select__wrap > .juicon, body .scope-container .form__group.load-this .select2-container > .juicon, body .scope-container .form__group.load-this .select__wrap > .required-field:after, body .scope-container .form__group.load-this .select2-container > .required-field:after, body .scope-container .form__group.load-this .select__wrap > .button.load-this:after, body .scope-container .form__group.load-this .select2-container > .button.load-this:after, body .scope-container .form__group.load-this .select__wrap > .form__group.load-this:before, body .scope-container .form__group.load-this .select2-container > .form__group.load-this:before, body .scope-container .form__group.load-this .select__wrap > .load-block, body .scope-container .form__group.load-this .select2-container > .load-block, body .scope-container .form__group.load-this .panel__component > .close .select__wrap > .component-remove-x, body .scope-container .panel__component > .close .form__group.load-this .select__wrap > .component-remove-x, body .scope-container .form__group.load-this .panel__component > .close .select2-container > .component-remove-x, body .scope-container .panel__component > .close .form__group.load-this .select2-container > .component-remove-x, body .scope-container .form__group.load-this .select2-container .select2-choice .select2-arrow .select__wrap > b, .select2-container .select2-choice .select2-arrow body .scope-container .form__group.load-this .select__wrap > b, body .scope-container .form__group.load-this .select2-container .select2-choice .select2-arrow .select2-container > b, .select2-container .select2-choice .select2-arrow body .scope-container .form__group.load-this .select2-container > b, body .scope-container .form__group.load-this .select__wrap > .select2-search-choice-close, body .scope-container .form__group.load-this .select2-container > .select2-search-choice-close, body .scope-container .form__group.load-this .select__wrap > .close-modal-x, body .scope-container .form__group.load-this .select2-container > .close-modal-x {
     display: none; }
   body .scope-container .form__group.load-this:before {
-    right: 0;
+    right: .5px;
     bottom: 0;
     padding: 12px 16px;
     font-size: 1rem;
@@ -3128,7 +3155,9 @@ body .scope-container {
   body .scope-container .form__group.load-this input {
     padding-right: 48px; }
   body .scope-container .select2-container.load-this .select2-choice .select2-arrow b {
-    right: 0px; }
+    right: .5px; }
+    body .scope-container .select2-container.load-this .select2-choice .select2-arrow b:before {
+      top: 0 !important; }
   body .scope-container .load-block {
     color: #9faab5;
     font-size: 300%;
@@ -4444,6 +4473,8 @@ html[dir="rtl"] .select2-container-multi .select2-choices .select2-search-choice
   right: 4px;
   top: 4px;
   outline: none; }
+  .select2-search-choice-close:before {
+    top: 0 !important; }
 
 html[dir="rtl"] .select2-search-choice-close {
   right: auto;
