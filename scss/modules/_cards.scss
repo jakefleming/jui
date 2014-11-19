@@ -3,20 +3,71 @@
   @extend %clearfix;
   background-color: $white;
   border: 1px solid $component-border-color-light;
-  padding: $base-h-padding+px;
   margin-bottom: $base-h-padding+px;
 }
 
+$feature-side-unit: 66px;
+$feature-cap-unit: 200px;
+
 .card {
+  > img {
+    max-width: 100%;
+  }
+  &__feature {
+    background-size: cover;
+    background-position: center center;
+    &--top {
+      height: $feature-cap-unit;
+      @extend .card__feature;
+      @include radius-top();
+    }
+    &--bottom {
+      height: $feature-cap-unit;
+      @extend .card__feature;
+      @include radius-bottom();
+    }
+    &--left {
+      @extend .card__feature;
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        height: $feature-cap-unit;
+        @include radius-top();
+      }
+      @media (min-width: $brkpoint-md) {
+        @include radius-left();
+        height: $feature-side-unit;
+        width: $feature-side-unit;
+      }
+    }
+    &--right {
+      @extend .card__feature;
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        height: $feature-cap-unit;
+        @include radius-top();
+      }
+      @media (min-width: $brkpoint-md) {
+        @include radius-right();
+        height: $feature-side-unit;
+        width: $feature-side-unit;
+      }
+    }
+  }
+  &__top, &__bottom {
+    padding: $base-h-padding+px;
+    @extend %clearfix;
+  }
+  &__body {
+    padding: $base-h-padding+px;
+    .card__top {
+      padding: 0;
+    }
+  }
   &__heading {
     @extend .block;
-    @extend .dots;
     line-height: 1;
     margin: 0;
   }
   &__subheading {
     @extend .block;
-    @extend .dots;
     color: $grey;
     margin: 0;
   }
@@ -43,6 +94,20 @@
   >*:last-child {
     margin-bottom: 0;
   }
+}
+
+.part__left--fixed.card__feature--left {
+  @include erase-radius();
+  @include radius-left();
+  height: $feature-side-unit;
+  width: $feature-side-unit;
+}
+
+.part__left--fixed.card__feature--right {
+  @include erase-radius();
+  @include radius-right();
+  height: 66px;
+  width: 66px;
 }
 
 .card-set__timestamp {

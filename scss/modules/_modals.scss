@@ -84,10 +84,10 @@
   padding-right: 4rem;
   .close {
     @extend .absolute;
-    padding: .5rem 0;
-    font-size: 1rem;
-    top: 2rem;
-    right: 1.5rem;
+    padding: 0;
+    font-size: 150%;
+    top: $base-h-padding*2+px;
+    right: $base-h-padding*1.5+px;
     line-height: 1;
   }
 }
@@ -168,8 +168,10 @@ button.close {
 
 .max-modal {
   @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
-    .modal {
+    &.modal {
       overflow-y: hidden;
+    }
+    .modal {
       &__content {
         height: 100%;
         overflow: scroll;

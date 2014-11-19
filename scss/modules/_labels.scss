@@ -1,4 +1,6 @@
 .label {
+  min-width: $base-h-padding*1.5+px;
+  text-align: center;
   @extend .inline-block;
   @include radius();
   @each $theme, $color in $ui-colors {

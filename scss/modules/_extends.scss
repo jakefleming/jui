@@ -65,13 +65,12 @@
 
 %control-base {
   display: block;
-
   font-size: $base-font-size+px;
-  color: $body-font-color;
 }
 
 %control {
   @extend %control-base;
+  color: $body-font-color;
   width: 100%;
   border: 1px solid $input-border-color;
   background-color: $input-bg-color;
@@ -136,3 +135,5 @@
   overflow-x: auto;
   display: block;
 }
+
+// Parts

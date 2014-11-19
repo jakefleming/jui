@@ -117,3 +117,18 @@
     }
   }
 }
+
+.plain-list {
+  .has-icon--left {
+    .input__icon {
+      left: 0;
+      padding: $base-v-padding/2+px 0;
+    }
+  }
+  .has-icon--right {
+    .input__icon {
+      right: 0;
+      padding: $base-v-padding/2+px 0;
+    }
+  }
+}

@@ -46,6 +46,10 @@
   transform: translateY(-50%);
 }
 
+.vertical-align {
+  @extend %vertical-align;
+}
+
 // For pseudo-elements
 
 %pseudos {
@@ -101,7 +105,7 @@
 // Text
 
 %underline {
-  text-decoration: underline;
+  text-decoration: underline!important;
 }
 
 .text-center {
@@ -306,23 +310,23 @@
 // text color
 
 .text-primary {
-  color: $color-primary;
+  color: $color-primary!important;
 }
 
 .fill-primary {
-  fill: $color-primary;
+  fill: $color-primary!important;
 }
 
 .text-error {
-  color: $color-error;
+  color: $color-error!important;
 }
 
 .text-success {
-  color: $color-success;
+  color: $color-success!important;
 }
 
 .text-warning {
-  color: $color-warning;
+  color: $color-warning!important;
 }
 
 // text decoration
@@ -336,14 +340,21 @@
 @-webkit-keyframes spin-it {
   from{
     -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to{
     -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 .spin-it {
   -webkit-animation: spin-it 1s linear infinite;
+}
+
+.rotate-180 {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 // hidden items
@@ -360,5 +371,25 @@
 }
 
 
+// borders
 
+.has-border-left {
+  @media (min-width: $brkpoint-md) {
+    border-left: 1px solid $component-border-color-light;
+  }
+}
+
+.has-border-right {
+  @media (min-width: $brkpoint-md) {
+    border-right: 1px solid $component-border-color-light;
+  }
+}
+
+// make table
+
+.table--fixed {
+  table-layout: fixed;
+  width: 100%;
+  display: table;
+}
 
