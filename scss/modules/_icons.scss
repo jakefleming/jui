@@ -9,7 +9,7 @@
   @for $i from 0 to 20 {
     &:nth-child(#{$i + 1}) {
       .tile {
-        background-color: nth($all-colors, $i + 1);
+        background-color: nth($series-colors, $i + 1);
       }
     }
   }

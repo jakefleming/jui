@@ -146,8 +146,28 @@
   color: $input-icon-color;
 }
 
+.fsxxl {
+  font-size: $h1-font-size;
+}
+
+.fsxl {
+  font-size: $h2-font-size;
+}
+
 .fsl {
-  font-size: $base-font-size * 2 +px;
+  font-size: $h3-font-size;
+}
+
+.fsm {
+  font-size: $h4-font-size;
+}
+
+.fss {
+  font-size: $h5-font-size;
+}
+
+.fsxs {
+  font-size: $h6-font-size;
 }
 
 // Outline
@@ -307,7 +327,24 @@
   background-color: $bg-2!important;
 }
 
+.bg {
+  @each $theme, $color in $all-colors {
+    &--#{$theme} {
+      background-color: $color;
+    }
+  }
+}
+
+
 // text color
+
+.text-white {
+  color: $white;
+}
+
+.text-black {
+  color: $black;
+}
 
 .text-primary {
   color: $color-primary!important;

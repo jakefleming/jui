@@ -111,17 +111,16 @@ text {
   stroke:black;
   opacity:0.8;}
 
-$chart-series-colors: ($blue, $green, $purple, $turquoise, $pink, $gold, $salmon, $red, $blue3, $green3, $purple3, $orange, $pink2, $yellow, $brown, $blue2, $green5, $purple2, $orange3, $red2);
 
-@for $i from 0 to length($chart-series-colors) {
+@for $i from 0 to length($series-colors) {
   .custom-panel:hover  {
     .color-group {
       &:nth-child(#{$i + 1}) {
         .area, .chart-hover-circle {
-          fill: nth($chart-series-colors, $i + 1);
+          fill: nth($series-colors, $i + 1);
         }
         .line {
-          stroke: nth($chart-series-colors, $i + 1);
+          stroke: nth($series-colors, $i + 1);
         }
       }
     }
@@ -129,14 +128,14 @@ $chart-series-colors: ($blue, $green, $purple, $turquoise, $pink, $gold, $salmon
       g {
         &:nth-child(#{$i + 1}) {
           circle {
-            fill: nth($chart-series-colors, $i + 1);
+            fill: nth($series-colors, $i + 1);
           }
         }
       }
       .legend-item {
         &:nth-child(#{$i + 1}) {
           .legend-color {
-            background-color: nth($chart-series-colors, $i + 1);
+            background-color: nth($series-colors, $i + 1);
           }
         }
       }

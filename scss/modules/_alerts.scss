@@ -39,14 +39,14 @@
 
   }
   .close-timeout {
-    font-size: 12px;
-    right: $base-h-padding*1.5+px;
+    font-size: $base-font-size+px;
+    right: $base-h-padding*1.25+px;
     .close-progress {
       @extend .pointer;
       @extend .absolute;
       height: $key-number*2+px;
       width: $key-number*2+px;
-      right: -($base-h-padding*.625+px);
+      right: -($base-h-padding*.53125+px);
       top: ($base-h-padding*.75+px);
       opacity: 0;
       .progress {
