@@ -68,7 +68,7 @@ Version: 3.5.2 Timestamp: Sat Nov  1 14:43:36 EDT 2014
   @include has-icon-padding(right);
   margin: 0px;
   width: 100%;
-  height: $key-number*2.43+px;
+  height: $key-number*2.375+px;
   background: transparent;
   font-family: $font-family-primary;
   font-weight: $font-weight-light!important;
@@ -253,9 +253,12 @@ html[dir="rtl"] .select2-container .select2-choice .select2-arrow {
   @extend .juicon;
   @extend .juicon-down;
   @extend .absolute;
+  &:before {
+    vertical-align: text-top;
+  }
   right: 0px;
   top: 0px;
-  padding: ($key-number*.6875+px) ($key-number*.9375+px);
+  padding: ($key-number*.625+px) ($key-number*.9375+px);
   z-index: 0;
   color: $component-icon-color;
 }
@@ -589,7 +592,7 @@ html[dir="rtl"] .select2-container-multi .select2-choices li
 .select2-container-multi .select2-choices .select2-search-field input {
   padding: 5px;
   margin: 1px 0;
-  height: $key-number/.44444+px;
+  height: $key-number*2.375+px;
   font-family: sans-serif;
   font-size: 100%;
   color: #666;
@@ -674,7 +677,7 @@ html[dir="rtl"] .select2-search-choice-close {
 
 .select2-container-multi .select2-search-choice-close {
   left: 7px;
-  top: 7px;
+  top: 5px;
   color: $input-icon-color;
 }
 

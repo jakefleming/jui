@@ -32,7 +32,7 @@
       @extend .juicon;
       @extend .spin-it;
       @extend .absolute;
-      right: .5px;
+      right: 0;
       bottom: 0;
       padding: ($base-h-padding * .75 + px ) ($base-h-padding+px);
       font-size: 1rem;
@@ -53,7 +53,7 @@
       &:before {
         top: 0!important;
       }
-      right: .5px;
+      right: 0;
     }
   }
 }

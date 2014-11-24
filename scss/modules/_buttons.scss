@@ -31,7 +31,7 @@
     width: 100%;
   }
   > .juicon {
-    @extend %icon-before-fix;
+    //@extend %icon-before-fix;
   }
   &.width--full {
     @extend %center-align;
@@ -41,7 +41,14 @@
     border-color: $component-border-color-alt;
     color: $component-border-color;
   }
+  &--muted {
+    background: rgba(0, 0, 0, 0.07);
+    color: $grey-dark;
+  }
   &.text-left {
     @extend .text-left;
+    > .juicon {
+      padding-top: 2px;
+    }
   }
 }

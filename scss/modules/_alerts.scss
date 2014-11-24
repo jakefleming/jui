@@ -46,7 +46,7 @@
       @extend .absolute;
       height: $key-number*2+px;
       width: $key-number*2+px;
-      right: -($base-h-padding*.53125+px);
+      right: -($base-h-padding*.5+px);
       top: ($base-h-padding*.75+px);
       opacity: 0;
       .progress {

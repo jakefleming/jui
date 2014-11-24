@@ -374,19 +374,37 @@
 
 //rotate
 
-@-webkit-keyframes spin-it {
+@keyframes spin-it {
   from{
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   to{
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin-it {
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin-it {
+  from{
+    -moz-transform: rotate(0deg);
+  }
+  to{
+    -moz-transform: rotate(360deg);
   }
 }
 
 .spin-it {
   -webkit-animation: spin-it 1s linear infinite;
+  -moz-animation: spin-it 1s linear infinite;
+  animation: spin-it 1s linear infinite;
 }
 
 .rotate-180 {

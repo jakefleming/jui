@@ -36,6 +36,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   vertical-align: text-top; }
+  .juicon:before, .form__group.load-this:before, .load-block:before, .close-modal-x:before, .panel__component > .close .component-remove-x:before, .select2-container .select2-choice .select2-arrow b:before, .select2-search-choice-close:before {
+    vertical-align: middle; }
 
 .juicon-alert:before {
   content: "\e600"; }
@@ -406,10 +408,10 @@ body, h1, h2, h3, h4, h5, h6 {
 .block, h1, h2, h3, h4, h5, h6, .button-group .button, .button-group--collapse .button, .card__heading, .card__subheading, .daterangepicker.show-calendar .calendar, .tile, .list-group__item, .list-group__item--multi, .list-group__item a, .list-group__item--multi a, .nav-bar__list--item a, .appendage--open .nav-bar__appendage, .select2-container .select2-choice {
   display: block; }
 
-.inline-block, .button-group, .tile-container, .label, .inline-list__item, .pagination--alt .select__wrap, .pagination--alt .select2-container {
+.inline-block, .button-group, .tile-container, .inline-list__item, .pagination--alt .select__wrap, .pagination--alt .select2-container {
   display: inline-block; }
 
-.inline, .pagination, .pagination--alt, .pagination__item {
+.inline, .label, .pagination, .pagination--alt, .pagination__item {
   display: inline; }
 
 .table {
@@ -719,15 +721,25 @@ body, h1, h2, h3, h4, h5, h6 {
 .text-strike {
   text-decoration: line-through; }
 
-@-webkit-keyframes spin-it {
+@keyframes spin-it {
   from {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+@-webkit-keyframes spin-it {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+@-moz-keyframes spin-it {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
 .spin-it, .button.load-this:after, .form__group.load-this:before, .select2-container.load-this .select2-choice .select2-arrow b, .load-block {
-  -webkit-animation: spin-it 1s linear infinite; }
+  -webkit-animation: spin-it 1s linear infinite;
+  -moz-animation: spin-it 1s linear infinite;
+  animation: spin-it 1s linear infinite; }
 
 .rotate-180 {
   -webkit-transform: rotate(180deg);
@@ -1590,10 +1602,6 @@ label {
   top: 50%;
   transform: translateY(-50%); }
 
-.button > .juicon:before, .button > .form__group.load-this:before, .button > .load-block:before, .button > .close-modal-x:before, .panel__component > .close .button > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .button > b:before, .button > .select2-search-choice-close:before, button.button > .juicon:before, button.button > .form__group.load-this:before, button.button > .load-block:before, button.button > .close-modal-x:before, .panel__component > .close button.button > .component-remove-x:before, .select2-container .select2-choice .select2-arrow button.button > b:before, button.button > .select2-search-choice-close:before, span.juicon:before, span.form__group.load-this:before, span.load-block:before, span.close-modal-x:before, .panel__component > .close span.component-remove-x:before, span.select2-search-choice-close:before, span > .juicon:before, span > .form__group.load-this:before, span > .load-block:before, span > .close-modal-x:before, .panel__component > .close span > .component-remove-x:before, .select2-container .select2-choice .select2-arrow span > b:before, span > .select2-search-choice-close:before, strong.juicon:before, strong.form__group.load-this:before, strong.load-block:before, strong.close-modal-x:before, .panel__component > .close strong.component-remove-x:before, strong.select2-search-choice-close:before, strong > .juicon:before, strong > .form__group.load-this:before, strong > .load-block:before, strong > .close-modal-x:before, .panel__component > .close strong > .component-remove-x:before, .select2-container .select2-choice .select2-arrow strong > b:before, strong > .select2-search-choice-close:before, b.juicon:before, b.form__group.load-this:before, b.load-block:before, b.close-modal-x:before, .panel__component > .close b.component-remove-x:before, .select2-container .select2-choice .select2-arrow b:before, b.select2-search-choice-close:before, b > .juicon:before, b > .form__group.load-this:before, b > .load-block:before, b > .close-modal-x:before, .panel__component > .close b > .component-remove-x:before, .select2-container .select2-choice .select2-arrow b > b:before, b > .select2-search-choice-close:before, a.juicon:before, a.form__group.load-this:before, a.load-block:before, a.close-modal-x:before, .panel__component > .close a.component-remove-x:before, a.select2-search-choice-close:before, a > .juicon:before, a > .form__group.load-this:before, a > .load-block:before, a > .close-modal-x:before, .panel__component > .close a > .component-remove-x:before, .select2-container .select2-choice .select2-arrow a > b:before, a > .select2-search-choice-close:before, .label > .juicon:before, .label > .form__group.load-this:before, .label > .load-block:before, .label > .close-modal-x:before, .panel__component > .close .label > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .label > b:before, .label > .select2-search-choice-close:before, .inline-list__item a > .juicon:before, .inline-list__item a > .form__group.load-this:before, .inline-list__item a > .load-block:before, .inline-list__item a > .close-modal-x:before, .inline-list__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .inline-list__item a > .component-remove-x:before, .inline-list__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .inline-list__item a > b:before, .inline-list__item a > .select2-search-choice-close:before, .nav-bar__list--item a > .juicon:before, .nav-bar__list--item a > .form__group.load-this:before, .nav-bar__list--item a > .load-block:before, .nav-bar__list--item a > .close-modal-x:before, .nav-bar__list--item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .nav-bar__list--item a > .component-remove-x:before, .nav-bar__list--item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .nav-bar__list--item a > b:before, .nav-bar__list--item a > .select2-search-choice-close:before, .pagination__item a > .juicon:before, .pagination__item a > .form__group.load-this:before, .pagination__item a > .load-block:before, .pagination__item a > .close-modal-x:before, .pagination__item .panel__component > .close a > .component-remove-x:before, .panel__component > .close .pagination__item a > .component-remove-x:before, .pagination__item .select2-container .select2-choice .select2-arrow a > b:before, .select2-container .select2-choice .select2-arrow .pagination__item a > b:before, .pagination__item a > .select2-search-choice-close:before {
-  position: relative;
-  top: 2px; }
-
 .scroll-it-x {
   overflow-x: auto;
   display: block; }
@@ -1635,7 +1643,7 @@ label {
     .alert .close-timeout .close-progress {
       height: 32px;
       width: 32px;
-      right: -8.5px;
+      right: -8px;
       top: 12px;
       opacity: 0; }
       .alert .close-timeout .close-progress .progress {
@@ -1866,6 +1874,11 @@ label {
   background-color: #f0f1f2;
   border-color: #e8eaeb;
   color: #dadee2; }
+.button--muted, button.button--muted {
+  background: rgba(0, 0, 0, 0.07);
+  color: #686c70; }
+.button.text-left > .juicon, .button.dropdown-menu > .juicon, .button.dropdown-menu--top-right > .juicon, .button.text-left > .required-field:after, .button.dropdown-menu > .required-field:after, .button.dropdown-menu--top-right > .required-field:after, .button.text-left > .button.load-this:after, .button.dropdown-menu > .button.load-this:after, .button.dropdown-menu--top-right > .button.load-this:after, .button.text-left > .form__group.load-this:before, .button.dropdown-menu > .form__group.load-this:before, .button.dropdown-menu--top-right > .form__group.load-this:before, .button.text-left > .load-block, .button.dropdown-menu > .load-block, .button.dropdown-menu--top-right > .load-block, .button.text-left > .close-modal-x, .button.dropdown-menu > .close-modal-x, .button.dropdown-menu--top-right > .close-modal-x, .panel__component > .close .button.text-left > .component-remove-x, .panel__component > .close .button.dropdown-menu > .component-remove-x, .panel__component > .close .button.dropdown-menu--top-right > .component-remove-x, .select2-container .select2-choice .select2-arrow .button.text-left > b, .select2-container .select2-choice .select2-arrow .button.dropdown-menu > b, .select2-container .select2-choice .select2-arrow .button.dropdown-menu--top-right > b, .button.text-left > .select2-search-choice-close, .button.dropdown-menu > .select2-search-choice-close, .button.dropdown-menu--top-right > .select2-search-choice-close, button.button.text-left > .juicon, button.button.dropdown-menu > .juicon, button.button.dropdown-menu--top-right > .juicon, button.button.text-left > .required-field:after, button.button.dropdown-menu > .required-field:after, button.button.dropdown-menu--top-right > .required-field:after, button.button.text-left > .button.load-this:after, button.button.dropdown-menu > .button.load-this:after, button.button.dropdown-menu--top-right > .button.load-this:after, button.button.text-left > .form__group.load-this:before, button.button.dropdown-menu > .form__group.load-this:before, button.button.dropdown-menu--top-right > .form__group.load-this:before, button.button.text-left > .load-block, button.button.dropdown-menu > .load-block, button.button.dropdown-menu--top-right > .load-block, button.button.text-left > .close-modal-x, button.button.dropdown-menu > .close-modal-x, button.button.dropdown-menu--top-right > .close-modal-x, .panel__component > .close button.button.text-left > .component-remove-x, .panel__component > .close button.button.dropdown-menu > .component-remove-x, .panel__component > .close button.button.dropdown-menu--top-right > .component-remove-x, .select2-container .select2-choice .select2-arrow button.button.text-left > b, .select2-container .select2-choice .select2-arrow button.button.dropdown-menu > b, .select2-container .select2-choice .select2-arrow button.button.dropdown-menu--top-right > b, button.button.text-left > .select2-search-choice-close, button.button.dropdown-menu > .select2-search-choice-close, button.button.dropdown-menu--top-right > .select2-search-choice-close {
+  padding-top: 2px; }
 
 .button.button--action, button.button--action {
   width: 64px;
@@ -2707,7 +2720,7 @@ input[type=radio] {
 
 .input__icon {
   top: 0;
-  padding: 12px 16px;
+  padding: 10px 16px;
   font-size: 1rem;
   z-index: 1;
   color: #9faab5; }
@@ -2930,7 +2943,7 @@ input[type=radio] {
   -o-border-radius: 4px ;
   border-radius: 4px ;
   color: #fff;
-  padding: 0 8px; }
+  padding: 2px 8px; }
   .label--primary {
     background-color: #2a94d6; }
   .label--success {
@@ -2967,10 +2980,6 @@ input[type=radio] {
 .label > .juicon, .label > .required-field:after, .label > .button.load-this:after, .label > .form__group.load-this:before, .label > .load-block, .label > .close-modal-x, .panel__component > .close .label > .component-remove-x, .select2-container .select2-choice .select2-arrow .label > b, .label > .select2-search-choice-close {
   margin-left: -4px;
   margin-right: -4px; }
-  .label > .juicon + span, .label > .required-field:after + span, .label > .button.load-this:after + span, .label > .form__group.load-this:before + span, .label > .load-block + span, .label > .close-modal-x + span, .panel__component > .close .label > .component-remove-x + span, .select2-container .select2-choice .select2-arrow .label > b + span, .label > .select2-search-choice-close + span {
-    margin-left: 8px; }
-.label > span + .juicon, .label > span + .required-field:after, .label > span + .button.load-this:after, .label > span + .form__group.load-this:before, .label > span + .load-block, .label > span + .close-modal-x, .panel__component > .close .label > span + .component-remove-x, .select2-container .select2-choice .select2-arrow .label > span + b, .label > span + .select2-search-choice-close {
-  margin-left: 8px; }
 
 .list-group__item > .label {
   margin: 8px; }
@@ -2997,7 +3006,7 @@ input[type=radio] {
 .form__group.load-this .input__wrap.has-icon--right > .juicon, .form__group.load-this .input__wrap.has-icon--right > .required-field:after, .form__group.load-this .input__wrap.has-icon--right > .button.load-this:after, .form__group.load-this .input__wrap.has-icon--right > .form__group.load-this:before, .form__group.load-this .input__wrap.has-icon--right > .load-block, .form__group.load-this .input__wrap.has-icon--right > .close-modal-x, .form__group.load-this .panel__component > .close .input__wrap.has-icon--right > .component-remove-x, .panel__component > .close .form__group.load-this .input__wrap.has-icon--right > .component-remove-x, .form__group.load-this .select2-container .select2-choice .select2-arrow .input__wrap.has-icon--right > b, .select2-container .select2-choice .select2-arrow .form__group.load-this .input__wrap.has-icon--right > b, .form__group.load-this .input__wrap.has-icon--right > .select2-search-choice-close, .form__group.load-this .select__wrap > .juicon, .form__group.load-this .select2-container > .juicon, .form__group.load-this .select__wrap > .required-field:after, .form__group.load-this .select2-container > .required-field:after, .form__group.load-this .select__wrap > .button.load-this:after, .form__group.load-this .select2-container > .button.load-this:after, .form__group.load-this .select__wrap > .form__group.load-this:before, .form__group.load-this .select2-container > .form__group.load-this:before, .form__group.load-this .select__wrap > .load-block, .form__group.load-this .select2-container > .load-block, .form__group.load-this .select__wrap > .close-modal-x, .form__group.load-this .select2-container > .close-modal-x, .form__group.load-this .panel__component > .close .select__wrap > .component-remove-x, .panel__component > .close .form__group.load-this .select__wrap > .component-remove-x, .form__group.load-this .panel__component > .close .select2-container > .component-remove-x, .panel__component > .close .form__group.load-this .select2-container > .component-remove-x, .form__group.load-this .select2-container .select2-choice .select2-arrow .select__wrap > b, .select2-container .select2-choice .select2-arrow .form__group.load-this .select__wrap > b, .form__group.load-this .select2-container .select2-choice .select2-arrow .select2-container > b, .select2-container .select2-choice .select2-arrow .form__group.load-this .select2-container > b, .form__group.load-this .select__wrap > .select2-search-choice-close, .form__group.load-this .select2-container > .select2-search-choice-close {
   display: none; }
 .form__group.load-this:before {
-  right: .5px;
+  right: 0;
   bottom: 0;
   padding: 12px 16px;
   font-size: 1rem;
@@ -3007,7 +3016,7 @@ input[type=radio] {
   padding-right: 48px; }
 
 .select2-container.load-this .select2-choice .select2-arrow b {
-  right: .5px; }
+  right: 0; }
   .select2-container.load-this .select2-choice .select2-arrow b:before {
     top: 0 !important; }
 
@@ -3103,12 +3112,14 @@ input[type=radio] {
   .inline-list__item {
     padding: 0 4px; }
 
-.plain-list .has-icon--left .input__icon {
-  left: 0;
-  padding: 4px 0; }
-.plain-list .has-icon--right .input__icon {
-  right: 0;
-  padding: 4px 0; }
+.plain-list {
+  margin-left: 16px; }
+  .plain-list .has-icon--left .input__icon {
+    left: 0;
+    padding: 4px 0; }
+  .plain-list .has-icon--right .input__icon {
+    right: 0;
+    padding: 4px 0; }
 
 .modal-open {
   overflow: hidden; }
@@ -3859,7 +3870,7 @@ table {
   .select__wrap .input__icon, .select2-container .input__icon {
     right: 0px;
     top: 0px;
-    padding: 11px 15px;
+    padding: 10px 15px;
     z-index: 0; }
   .select__wrap select, .select2-container select {
     -webkit-appearance: none;
@@ -3924,7 +3935,7 @@ Version: 3.5.2 Timestamp: Sat Nov  1 14:43:36 EDT 2014
   padding-right: 3rem;
   margin: 0px;
   width: 100%;
-  height: 38.88px;
+  height: 38px;
   background: transparent;
   font-family: "ProximaNovaSoft", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300 !important;
@@ -4041,9 +4052,11 @@ html[dir="rtl"] .select2-container .select2-choice .select2-arrow {
 .select2-container .select2-choice .select2-arrow b {
   right: 0px;
   top: 0px;
-  padding: 11px 15px;
+  padding: 10px 15px;
   z-index: 0;
   color: #9faab5; }
+  .select2-container .select2-choice .select2-arrow b:before {
+    vertical-align: text-top; }
 
 html[dir="rtl"] .select2-container .select2-choice .select2-arrow b {
   background-position: 2px 1px; }
@@ -4266,7 +4279,7 @@ html[dir="rtl"] .select2-container-multi .select2-choices li {
 .select2-container-multi .select2-choices .select2-search-field input {
   padding: 5px;
   margin: 1px 0;
-  height: 36.00036px;
+  height: 38px;
   font-family: sans-serif;
   font-size: 100%;
   color: #666;
@@ -4329,7 +4342,7 @@ html[dir="rtl"] .select2-search-choice-close {
 
 .select2-container-multi .select2-search-choice-close {
   left: 7px;
-  top: 7px;
+  top: 5px;
   color: #9faab5; }
 
 html[dir="rtl"] .select2-container-multi .select2-search-choice-close {

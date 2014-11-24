@@ -127,7 +127,7 @@ input[type=radio] {
 .input__icon {
   @extend .absolute;
   top: 0;
-  padding: ($base-h-padding * .75 + px ) ($base-h-padding+px);
+  padding: ($base-h-padding * .625 + px ) ($base-h-padding+px);
   font-size: 1rem;
   z-index: 1;
   color: $input-icon-color;

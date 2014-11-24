@@ -113,12 +113,13 @@
     @extend .inline-block;
     padding: 0 $base-v-padding/2+px;
     a > .juicon {
-      @extend %icon-before-fix;
+      //@extend %icon-before-fix;
     }
   }
 }
 
 .plain-list {
+  margin-left: $base-h-padding+px;
   .has-icon--left {
     .input__icon {
       left: 0;

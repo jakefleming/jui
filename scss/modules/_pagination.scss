@@ -19,7 +19,7 @@
         background-color: $component-bg-color-active;
       }
       > .juicon {
-        @extend %icon-before-fix;
+        //@extend %icon-before-fix;
       }
     }
     &:first-child {

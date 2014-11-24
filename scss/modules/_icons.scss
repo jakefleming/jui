@@ -56,6 +56,6 @@
 
 span, strong, b, a {
   &.juicon, >.juicon {
-    @extend %icon-before-fix;
+    //@extend %icon-before-fix;
   }
 }

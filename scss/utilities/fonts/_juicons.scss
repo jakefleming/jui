@@ -21,6 +21,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   vertical-align: text-top;
+  &:before {
+    vertical-align: middle;
+  }
 }
 
 .juicon-alert:before {
