@@ -19,3 +19,16 @@ span {
 .has-radius {
   @include radius();
 }
+
+// tasks
+
+.panel__component {
+  .editInput {
+    display:none;
+  }
+  &.editMode {
+    .editInput {
+      display: block;
+    }
+  }
+}

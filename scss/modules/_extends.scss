@@ -19,6 +19,7 @@
   border-color: transparent;
   outline: none;
   white-space: nowrap;
+  background: transparent;
 }
 
 %btn--secondary {
@@ -106,6 +107,7 @@
   .input__icon {
     right: 0;
     top: 50%;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 }
@@ -114,6 +116,7 @@
   .input__icon {
     left: 0;
     top: 50%;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 }

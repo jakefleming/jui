@@ -588,7 +588,7 @@ body .scope-container body, body .scope-container h1, body .scope-container h2, 
   line-height: 1.5; }
 
 .text-faded {
-  color: #9faab5; }
+  color: #9faab5 !important; }
 
 .fsxxl {
   font-size: 200%; }
@@ -1986,6 +1986,10 @@ body .scope-container .has-radius {
   -moz-border-radius: 4px ;
   -o-border-radius: 4px ;
   border-radius: 4px ; }
+body .scope-container .panel__component .editInput {
+  display: none; }
+body .scope-container .panel__component.editMode .editInput {
+  display: block; }
 
 body .scope-container [class^="column--"] {
   padding: 0 16px;
@@ -2388,7 +2392,8 @@ body .scope-container .button, body .scope-container button.button {
   border-style: solid;
   border-color: transparent;
   outline: none;
-  white-space: nowrap; }
+  white-space: nowrap;
+  background: transparent; }
 
 body .scope-container .button--secondary, body .scope-container button.button--secondary {
   background-color: #fff;
@@ -2465,11 +2470,13 @@ body .scope-container .has-error input[type="text"], body .scope-container .has-
 body .scope-container .input__wrap.has-icon--right .input__icon, body .scope-container .has-icon--right.list-group__item .input__icon, body .scope-container .has-icon--right.list-group__item--multi .input__icon, body .scope-container .has-icon--right--special.list-group__item .input__icon, body .scope-container .has-icon--right--special.list-group__item--multi .input__icon {
   right: 0;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 body .scope-container .input__wrap.has-icon--left .input__icon, body .scope-container .has-icon--left.list-group__item .input__icon, body .scope-container .has-icon--left.list-group__item--multi .input__icon, body .scope-container .has-icon--left--special.list-group__item .input__icon, body .scope-container .has-icon--left--special.list-group__item--multi .input__icon {
   left: 0;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 .scroll-it-x {
