@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px"
+	 height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{display:inline;fill:#384047;}
+	.st1{display:inline;}
+	.st2{fill:#384047;}
+	.st3{display:none;}
+]]>
+</style>
+<g id="Bold" class="st3">
+	<g class="st1">
+		<g>
+			<path d="M7.5,3c-1.104,0-2,0.896-2,2v6c0,1.104,0.896,2,2,2h1c1.104,0,2-0.896,2-2V5c0-1.104-0.896-2-2-2H7.5z M8.5,11h-1V5h1V11
+				z"/>
+			<path d="M8.5,12c0,1.104,0.896,2,2,2v-4h-2V12z"/>
+		</g>
+	</g>
+</g>
+<g id="Medium">
+	<path d="M7.5,13h1c0.373,0,0.718,0,1.017,0c0.051,0.595,0.245,1,0.983,1v-1v-1V5c0-1.104-0.896-2-2-2h-1c-1.104,0-2,0.896-2,2v6
+		C5.5,12.104,6.396,13,7.5,13z M6.5,5c0-0.552,0.447-1,1-1h1c0.553,0,1,0.448,1,1v7h-2c-0.553,0-1-0.448-1-1V5z"/>
+</g>
+</svg>

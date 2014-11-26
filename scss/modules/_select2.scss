@@ -258,7 +258,7 @@ html[dir="rtl"] .select2-container .select2-choice .select2-arrow {
   }
   right: 0px;
   top: 0px;
-  padding: ($key-number*.625+px) ($key-number*.9375+px);
+  padding: ($key-number*.6875+px) ($key-number*.9375+px);
   z-index: 0;
   color: $component-icon-color;
 }

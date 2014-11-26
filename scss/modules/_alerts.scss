@@ -96,3 +96,53 @@
     }
   }
 }
+
+.snack-bar {
+  .close {
+    @extend .juicon;
+    @extend .juicon-x;
+    color: $white;
+    padding: $base-h-padding*1.125+px $base-h-padding+px;
+    position: absolute;
+    right: 0;
+    top:0;
+
+  }
+  &__container {
+    position: fixed;
+    right: 16px;
+    top: 0;
+    z-index: 99999;
+    opacity: 1;
+    @include translate3D();
+    @include double-transition(transform, opacity);
+    &.hide {
+      display: block!important;
+      opacity: 0;
+      @include translate3D(1000px);
+    }
+  }
+  @extend %clearfix;
+  @include radius();
+  color: $white;
+  background: $black;
+  padding: $base-h-padding+px;
+  padding-right: $base-h-padding*3.5+px;
+  margin-top: $base-h-padding+px;
+}
+
+.button--snack {
+  float: right;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  background-image: none; // fixes salesforce button
+  border-width: 0;
+  border-style: solid;
+  border-color: transparent;
+  outline: none;
+  white-space: nowrap;
+  background: transparent;
+  padding: 0;
+}

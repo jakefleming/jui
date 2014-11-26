@@ -327,6 +327,10 @@
   background-color: $bg-2!important;
 }
 
+.bg-grey {
+  background-color: $input-icon-color;
+}
+
 .bg {
   @each $theme, $color in $all-colors {
     &--#{$theme} {
