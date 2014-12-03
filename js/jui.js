@@ -1501,10 +1501,10 @@ $(document).ready(function () {
     });
 
     equalize();
-    var reszieTimer;
+    var resizeTimer;
     $(window).resize(function(){
-        clearTimeout(reszieTimer);
-        reszieTimer = setTimeout(equalize, 50);
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(equalize, 50);
     });
 });
 

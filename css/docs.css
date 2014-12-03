@@ -289,6 +289,24 @@
 .juicon-x:before, body .scope-container .alert-close-x:after, body .scope-container .snack-bar .close:before, body .scope-container .panel__component > .close .component-remove-x:before, .select2-search-choice-close:before, .close-modal-x:before {
   content: "\e652"; }
 
+.juicon-twitter:before {
+  content: "\e653"; }
+
+.juicon-linkedin:before {
+  content: "\e654"; }
+
+.juicon-google-plus:before {
+  content: "\e655"; }
+
+.juicon-facebook:before {
+  content: "\e656"; }
+
+.juicon-google-drive:before {
+  content: "\e657"; }
+
+.juicon-dropbox:before {
+  content: "\e658"; }
+
 @font-face {
   font-family: 'jui-lettering-bold';
   src: url("fonts/jui-lettering-bold.eot?24m7j7");
@@ -4139,7 +4157,7 @@ body .scope-container {
       font-size: 32px;
       height: 56px;
       margin-right: -16px;
-      padding: 8px 16px; }
+      padding: 4px 16px; }
       .menu--open body .scope-container .nav-bar__menu-toggle {
         -webkit-border-bottom-left-radius: 0 ;
         -ms-border-bottom-left-radius: 0 ;

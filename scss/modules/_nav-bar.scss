@@ -136,7 +136,7 @@
     font-size: $key-number*2+px;
     height: $base-h-padding*3.5+px;
     margin-right: -($base-h-padding+px);
-    padding: $base-v-padding+px $base-h-padding+px;
+    padding: $base-v-padding/2+px $base-h-padding+px;
     .menu--open & {
       @include erase-radius-bottom();
       @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
