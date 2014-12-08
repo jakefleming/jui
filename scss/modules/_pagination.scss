@@ -1,15 +1,19 @@
 .pagination {
-  @extend .inline;
+  @extend .inline-block;
   @extend .list-style-type-none;
   @extend %clearfix;
   margin: 0;
   &__item {
-    @extend .inline;
+    @extend .inline-block;
+    line-height: $base-v-padding*5+px;
+    ~ .pagination__item {
+      margin-left: -4px;
+    }
     a {
-      @extend .float--left;
+      //@extend .float--left;
       @extend .relative;
       @extend %center-align;
-      @include spacing(padding, ($base-v-padding - 1));
+      @include spacing(padding, ($base-v-padding + 1));
       @include border;
       @include single-transition(background-color);
       margin-left: -1px;
@@ -55,7 +59,7 @@
   display: inline-block;
   .pagination__item {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: -($base-v-padding/4+px);
     ~ .pagination__item {
       margin-left: -($base-v-padding/4+px);

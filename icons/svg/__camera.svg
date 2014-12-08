@@ -7,10 +7,43 @@
 <![CDATA[
 	.st0{fill:#231F20;}
 	.st1{fill:none;}
-	.st2{display:none;}
 ]]>
 </style>
-<g id="Layer_1">
+<g id="_x2D_Labels">
+</g>
+<g id="database">
+</g>
+<g id="eye">
+</g>
+<g id="image">
+</g>
+<g id="browser">
+</g>
+<g id="bookmark">
+</g>
+<g id="lock">
+</g>
+<g id="location">
+</g>
+<g id="calendar">
+</g>
+<g id="envelope">
+</g>
+<g id="link">
+</g>
+<g id="paperclip">
+</g>
+<g id="pencil">
+</g>
+<g id="search">
+</g>
+<g id="gear">
+</g>
+<g id="funnel">
+</g>
+<g id="trash">
+</g>
+<g id="camera">
 	<g>
 		<path class="st0" d="M2.374,13.142c4.306,1.191,6.929,1.1,11.229-0.005c1.785-0.457,1.821-7.789,0.023-8.273
 			c-0.953-0.257-1.818-0.447-2.646-0.589c0.083-0.801-0.099-1.822-0.883-2.005c-1.549-0.359-2.623-0.36-4.189,0
@@ -19,6 +52,8 @@
 		<circle class="st0" cx="7.999" cy="9" r="2.25"/>
 	</g>
 </g>
-<g id="nyt_x5F_exporter_x5F_info" class="st2">
+<g id="phone-smart">
+</g>
+<g id="phone">
 </g>
 </svg>

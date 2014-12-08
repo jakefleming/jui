@@ -7,16 +7,51 @@
 <![CDATA[
 	.st0{fill:#231F20;}
 	.st1{fill:none;}
-	.st2{display:none;}
 ]]>
 </style>
-<g id="Layer_1">
+<g id="_x2D_Labels">
+</g>
+<g id="database">
+</g>
+<g id="eye">
+</g>
+<g id="image">
+</g>
+<g id="browser">
+</g>
+<g id="bookmark">
+</g>
+<g id="lock">
 	<path class="st0" d="M8,0C5.869,0,4.143,1.727,4.143,3.857v3.142c-0.478,0-0.966,0-1.429,0c-0.504,0-0.949,0.331-1.095,0.814
 		c-0.648,2.171-0.635,4.832,0.04,7.002c0.131,0.42,0.491,0.728,0.927,0.792c3.567,0.524,7.261,0.524,10.828,0
 		c0.436-0.064,0.796-0.372,0.927-0.792c0.675-2.17,0.688-4.831,0.04-7.002c-0.146-0.484-0.59-0.814-1.095-0.814
 		c-0.463,0-0.951,0-1.429,0V3.857C11.857,1.727,10.131,0,8,0z M6.429,3.857c0-0.866,0.705-1.571,1.571-1.571
 		s1.571,0.705,1.571,1.571v3.142c-1.047,0-2.096,0-3.143,0V3.857z"/>
 </g>
-<g id="nyt_x5F_exporter_x5F_info" class="st2">
+<g id="location">
+</g>
+<g id="calendar">
+</g>
+<g id="envelope">
+</g>
+<g id="link">
+</g>
+<g id="paperclip">
+</g>
+<g id="pencil">
+</g>
+<g id="search">
+</g>
+<g id="gear">
+</g>
+<g id="funnel">
+</g>
+<g id="trash">
+</g>
+<g id="camera">
+</g>
+<g id="phone-smart">
+</g>
+<g id="phone">
 </g>
 </svg>

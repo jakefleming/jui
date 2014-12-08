@@ -7,13 +7,48 @@
 <![CDATA[
 	.st0{fill:#231F20;}
 	.st1{fill:none;}
-	.st2{display:none;}
 ]]>
 </style>
-<g id="Layer_1">
+<g id="_x2D_Labels">
+</g>
+<g id="database">
+</g>
+<g id="eye">
+</g>
+<g id="image">
+</g>
+<g id="browser">
+</g>
+<g id="bookmark">
+</g>
+<g id="lock">
+</g>
+<g id="location">
 	<path class="st0" d="M8,16c1,0,6-5,6-10c0-3.313-2.688-6-6-6C4.686,0,2,2.687,2,6C2,11,7,16,8,16z M5,6c0-1.656,1.342-3,3-3
 		c1.656,0,3,1.344,3,3S9.656,9,8,9C6.342,9,5,7.656,5,6z"/>
 </g>
-<g id="nyt_x5F_exporter_x5F_info" class="st2">
+<g id="calendar">
+</g>
+<g id="envelope">
+</g>
+<g id="link">
+</g>
+<g id="paperclip">
+</g>
+<g id="pencil">
+</g>
+<g id="search">
+</g>
+<g id="gear">
+</g>
+<g id="funnel">
+</g>
+<g id="trash">
+</g>
+<g id="camera">
+</g>
+<g id="phone-smart">
+</g>
+<g id="phone">
 </g>
 </svg>

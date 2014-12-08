@@ -350,6 +350,8 @@ $content-max-width: 1000;
 
 // Breakpoints
 
+$breakpoint-classes: (sm md lg);
+
 $brkpoint-sm    : 1px;
 $brkpoint-md    : 769px;
 $brkpoint-lg    : 1100px;
