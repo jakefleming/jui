@@ -1,7 +1,8 @@
 .label {
   min-width: $base-h-padding*1.5+px;
   text-align: center;
-  @extend .inline;
+  display: inline-block;
+  vertical-align: baseline;
   @include radius();
   @each $theme, $color in $ui-colors {
     &--#{$theme} {
@@ -9,7 +10,7 @@
     }
   }
   color: #fff;
-  padding: 2px $base-v-padding +px;
+  padding: 0 $base-v-padding +px;
   &--round {
     @include vendor-prefix(border-radius, 100px);
   }
@@ -38,15 +39,19 @@
 .label {
   > .juicon {
     //@extend %icon-before-fix;
+    &:before {
+      display: inline-block;
+    }
+    display: inline-block;
     margin-left: -($base-v-padding/2 +px);
     margin-right: -($base-v-padding/2 +px);
-//    + span {
-//      margin-left: $base-v-padding+px;
-//    }
+    //    + span {
+    //      margin-left: $base-v-padding+px;
+    //    }
   }
-//  > span + .juicon {
-//    margin-left: $base-v-padding+px;
-//  }
+  //  > span + .juicon {
+  //    margin-left: $base-v-padding+px;
+  //  }
 }
 
 .list-group__item {

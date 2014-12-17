@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ef72ac-7dca-49c3-8b73-f4f7b0075623" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/utilities/_modular-scale.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/blockwork-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/blockwork-master/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/blockwork-master/js/blockworks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/blockwork-master/navigation.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_forms.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_forms.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b46becb26c5bad4b33a83ccd1fbccba33562ae05/_functions.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b46becb26c5bad4b33a83ccd1fbccba33562ae05/_functions.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/94864c3225bb31178c8e99e2e965f86703e979a1/_grid-columns.scssc" afterPath="$PROJECT_DIR$/.sass-cache/94864c3225bb31178c8e99e2e965f86703e979a1/_grid-columns.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b46becb26c5bad4b33a83ccd1fbccba33562ae05/_index.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b46becb26c5bad4b33a83ccd1fbccba33562ae05/_index.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4c50c4eaf913de47a0af91deafbc1b390d58fd0a/docs.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4c50c4eaf913de47a0af91deafbc1b390d58fd0a/docs.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_forms.scss" afterPath="$PROJECT_DIR$/scss/modules/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/5a3916b5b69b31a5931dc9bdf6a808b91b752616/_juicons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/5a3916b5b69b31a5931dc9bdf6a808b91b752616/_juicons.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_labels.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ca16d55e2724725c9bf6338339cfe82df8e4614/_labels.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/layout/_grid-columns.scss" afterPath="$PROJECT_DIR$/scss/layout/_grid-columns.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/utilities/_index.scss" afterPath="$PROJECT_DIR$/scss/utilities/_index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss" afterPath="$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_labels.scss" afterPath="$PROJECT_DIR$/scss/modules/_labels.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/docs.css.map" afterPath="$PROJECT_DIR$/css/docs.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/docs.css" afterPath="$PROJECT_DIR$/css/docs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/docs.scss" afterPath="$PROJECT_DIR$/scss/docs.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles-scoped.css.map" afterPath="$PROJECT_DIR$/css/styles-scoped.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles-scoped.css" afterPath="$PROJECT_DIR$/css/styles-scoped.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css.map" afterPath="$PROJECT_DIR$/css/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/template__add-conditions.html" afterPath="$PROJECT_DIR$/templates/template__add-conditions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/template__sidebar.html" afterPath="$PROJECT_DIR$/templates/template__sidebar.html" />
     </list>
     <ignored path="jui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +46,18 @@
           <file leaf-file-name="_grid-columns.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/layout/_grid-columns.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.59375" vertical-offset="2639" max-vertical-offset="3705">
-                  <caret line="200" column="29" selection-start-line="200" selection-start-column="29" selection-end-line="200" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.23076923" vertical-offset="804" max-vertical-offset="3765">
+                  <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template__sidebar.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/template__sidebar.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-9.16" vertical-offset="67" max-vertical-offset="2115">
+                  <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
                   <folding />
                 </state>
               </provider>
@@ -64,7 +66,7 @@
           <file leaf-file-name="_config.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/utilities/_config.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-21.125" vertical-offset="4473" max-vertical-offset="5565">
+                <state vertical-scroll-proportion="0.0" vertical-offset="4980" max-vertical-offset="5565">
                   <caret line="332" column="22" selection-start-line="330" selection-start-column="0" selection-end-line="332" selection-end-column="22" />
                   <folding />
                 </state>
@@ -84,7 +86,7 @@
           <file leaf-file-name="_functions.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/utilities/_functions.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+                <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
                   <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
                   <folding />
                 </state>
@@ -114,7 +116,7 @@
           <file leaf-file-name="docs.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/docs.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.22449" vertical-offset="778" max-vertical-offset="1845">
+                <state vertical-scroll-proportion="0.0" vertical-offset="778" max-vertical-offset="1845">
                   <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
                   <folding />
                 </state>
@@ -124,7 +126,7 @@
           <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/modules/_forms.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.1" vertical-offset="2075" max-vertical-offset="3270">
+                <state vertical-scroll-proportion="0.0" vertical-offset="2075" max-vertical-offset="3270">
                   <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
                   <folding />
                 </state>
@@ -145,11 +147,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9239303" vertical-offset="6122" max-vertical-offset="23085">
-                  <caret line="447" column="28" selection-start-line="447" selection-start-column="28" selection-end-line="447" selection-end-column="28" />
+                <state vertical-scroll-proportion="-1.36" vertical-offset="9352" max-vertical-offset="23085">
+                  <caret line="628" column="10" selection-start-line="628" selection-start-column="10" selection-end-line="628" selection-end-column="10" />
                   <folding>
                     <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -166,8 +168,8 @@
           <file leaf-file-name="template__add-conditions.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/template__add-conditions.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.583333" vertical-offset="1906" max-vertical-offset="3135">
-                  <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
+                <state vertical-scroll-proportion="-35.875" vertical-offset="1209" max-vertical-offset="2340">
+                  <caret line="138" column="22" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -176,8 +178,28 @@
           <file leaf-file-name="_grid-container.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/layout/_grid-container.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-12.125" vertical-offset="834" max-vertical-offset="1710">
+                <state vertical-scroll-proportion="-22.75" vertical-offset="579" max-vertical-offset="1710">
                   <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_labels.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/modules/_labels.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1140">
+                  <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_juicons.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.4509284" vertical-offset="0" max-vertical-offset="4575">
+                  <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -198,8 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scss/shame/_shame.scss" />
-        <option value="$PROJECT_DIR$/lib/blockwork-master/index.html" />
         <option value="$PROJECT_DIR$/components/components__navbar--kit.html" />
         <option value="$PROJECT_DIR$/components/components__header--kit.html" />
         <option value="$PROJECT_DIR$/components/components__type.html" />
@@ -230,7 +250,6 @@
         <option value="$PROJECT_DIR$/js/docs.js" />
         <option value="$PROJECT_DIR$/components/components__forms.html" />
         <option value="$PROJECT_DIR$/scss/modules/_nav-bar.scss" />
-        <option value="$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss" />
         <option value="$PROJECT_DIR$/scss/utilities/_mixins.scss" />
         <option value="$PROJECT_DIR$/scss/layout/_grid-container.scss" />
         <option value="$PROJECT_DIR$/scss/layout/_flex-grid.scss" />
@@ -244,19 +263,22 @@
         <option value="$PROJECT_DIR$/scss/styles-test.scss" />
         <option value="$PROJECT_DIR$/scss/docs_test.scss" />
         <option value="$PROJECT_DIR$/scss/styles_test.scss" />
-        <option value="$PROJECT_DIR$/scss/layout/_grid-columns.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_forms.scss" />
-        <option value="$PROJECT_DIR$/templates/template__add-conditions.html" />
         <option value="$PROJECT_DIR$/scss/docs.scss" />
+        <option value="$PROJECT_DIR$/templates/template__add-conditions.html" />
+        <option value="$PROJECT_DIR$/templates/template__sidebar.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/layout/_grid-columns.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_labels.scss" />
+        <option value="$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="2026" />
-    <option name="height" value="1027" />
+    <option name="x" value="1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -284,7 +306,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,6 +340,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,7 +349,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="LayoutCode.rearrangeEntriesSCSS" value="false" />
   </component>
   <component name="RecentsManager">
@@ -357,15 +379,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -384,28 +406,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2026" height="1027" extended-state="0" />
+    <frame x="1440" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25991648" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15075377" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0923001" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -424,9 +446,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13483146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -450,21 +472,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/layout/_grid-container.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/shame/_shame.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3761" max-vertical-offset="4500">
@@ -691,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2916665" vertical-offset="3857" max-vertical-offset="4590">
-          <caret line="264" column="1" selection-start-line="264" selection-start-column="1" selection-end-line="264" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/utilities/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.791666" vertical-offset="5441" max-vertical-offset="6030">
@@ -776,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/utilities/_config.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.125" vertical-offset="4473" max-vertical-offset="5565">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4980" max-vertical-offset="5565">
           <caret line="332" column="22" selection-start-line="330" selection-start-column="0" selection-end-line="332" selection-end-column="22" />
           <folding />
         </state>
@@ -792,40 +791,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/utilities/_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layout/_grid-container.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.125" vertical-offset="834" max-vertical-offset="1710">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1" vertical-offset="2075" max-vertical-offset="3270">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2075" max-vertical-offset="3270">
           <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/docs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="778" max-vertical-offset="1845">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/template__add-conditions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.583333" vertical-offset="1906" max-vertical-offset="3135">
-          <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
+        <state vertical-scroll-proportion="-35.875" vertical-offset="1209" max-vertical-offset="2340">
+          <caret line="138" column="22" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_grid-container.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.75" vertical-offset="579" max-vertical-offset="1710">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/template__sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.16" vertical-offset="67" max-vertical-offset="2115">
+          <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_grid-columns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23076923" vertical-offset="804" max-vertical-offset="3765">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9239303" vertical-offset="6122" max-vertical-offset="23085">
-          <caret line="447" column="28" selection-start-line="447" selection-start-column="28" selection-end-line="447" selection-end-column="28" />
+        <state vertical-scroll-proportion="-1.36" vertical-offset="9352" max-vertical-offset="23085">
+          <caret line="628" column="10" selection-start-line="628" selection-start-column="10" selection-end-line="628" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -838,18 +861,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/docs.scss">
+    <entry file="file://$PROJECT_DIR$/scss/modules/_labels.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.22449" vertical-offset="778" max-vertical-offset="1845">
-          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layout/_grid-columns.scss">
+    <entry file="file://$PROJECT_DIR$/scss/utilities/fonts/_juicons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59375" vertical-offset="2639" max-vertical-offset="3705">
-          <caret line="200" column="29" selection-start-line="200" selection-start-column="29" selection-end-line="200" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.4509284" vertical-offset="0" max-vertical-offset="4575">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding />
         </state>
       </provider>

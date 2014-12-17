@@ -35,8 +35,7 @@
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  vertical-align: text-top; }
+  -moz-osx-font-smoothing: grayscale; }
   .juicon:before, .snack-bar .close:before, .form__group.load-this:before, .load-block:before, .close-modal-x:before, .panel__component > .close .component-remove-x:before, .select2-container .select2-choice .select2-arrow b:before, .select2-search-choice-close:before {
     vertical-align: middle; }
 
@@ -652,7 +651,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .inline-block, .button-group, .tile-container, .inline-list__item, .pagination, .pagination--alt, .pagination__item, .pagination--alt .select__wrap, .pagination--alt .select2-container {
   display: inline-block; }
 
-.inline, .label {
+.inline {
   display: inline; }
 
 .table {
@@ -1734,10 +1733,16 @@ label {
     -ms-flex-pack: distribute;
     justify-content: space-around; }
   .grid--vertical {
+    -webkit-flex-flow: column nowrap;
+    /* Safari 6.1+ */
+    -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
     align-items: stretch; }
     @media (min-width: 1px) and (max-width: 769px) {
       .grid--vertical--sm--only {
+        -webkit-flex-flow: column nowrap;
+        /* Safari 6.1+ */
+        -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
         align-items: stretch; } }
   .grid.blocks--1 {
@@ -3761,13 +3766,15 @@ input[type=radio] {
 .label {
   min-width: 24px;
   text-align: center;
+  display: inline-block;
+  vertical-align: baseline;
   -webkit-border-radius: 4px ;
   -ms-border-radius: 4px ;
   -moz-border-radius: 4px ;
   -o-border-radius: 4px ;
   border-radius: 4px ;
   color: #fff;
-  padding: 2px 8px; }
+  padding: 0 8px; }
   .label--primary {
     background-color: #2a94d6; }
   .label--success {
@@ -3802,8 +3809,11 @@ input[type=radio] {
   padding: .675em; }
 
 .label > .juicon, .snack-bar .label > .close, .label > .required-field:after, .label > .button.load-this:after, .label > .form__group.load-this:before, .label > .load-block, .label > .close-modal-x, .panel__component > .close .label > .component-remove-x, .select2-container .select2-choice .select2-arrow .label > b, .label > .select2-search-choice-close {
+  display: inline-block;
   margin-left: -4px;
   margin-right: -4px; }
+  .label > .juicon:before, .snack-bar .label > .close:before, .label > .form__group.load-this:before, .label > .load-block:before, .label > .close-modal-x:before, .panel__component > .close .label > .component-remove-x:before, .select2-container .select2-choice .select2-arrow .label > b:before, .label > .select2-search-choice-close:before {
+    display: inline-block; }
 
 .list-group__item > .label {
   margin: 8px; }

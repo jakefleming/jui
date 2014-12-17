@@ -35,8 +35,7 @@
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  vertical-align: text-top; }
+  -moz-osx-font-smoothing: grayscale; }
   .juicon:before, body .scope-container .snack-bar .close:before, body .scope-container .form__group.load-this:before, body .scope-container .load-block:before, body .scope-container .panel__component > .close .component-remove-x:before, .select2-container .select2-choice .select2-arrow b:before, .select2-search-choice-close:before, .close-modal-x:before {
     vertical-align: middle; }
 
@@ -652,7 +651,7 @@ body .scope-container .panel__box {
 .inline-block, body .scope-container .button-group, body .scope-container .tile-container, body .scope-container .inline-list__item, body .scope-container .pagination, body .scope-container .pagination--alt, body .scope-container .pagination__item, body .scope-container .pagination--alt .select__wrap, body .scope-container .pagination--alt .select2-container {
   display: inline-block; }
 
-.inline, body .scope-container .label {
+.inline {
   display: inline; }
 
 .table {
@@ -2374,10 +2373,16 @@ body .scope-container {
       -ms-flex-pack: distribute;
       justify-content: space-around; }
     body .scope-container .grid--vertical {
+      -webkit-flex-flow: column nowrap;
+      /* Safari 6.1+ */
+      -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
       align-items: stretch; }
       @media (min-width: 1px) and (max-width: 769px) {
         body .scope-container .grid--vertical--sm--only {
+          -webkit-flex-flow: column nowrap;
+          /* Safari 6.1+ */
+          -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
           align-items: stretch; } }
     body .scope-container .grid.blocks--1 {
@@ -4345,13 +4350,15 @@ body .scope-container {
   body .scope-container .label {
     min-width: 24px;
     text-align: center;
+    display: inline-block;
+    vertical-align: baseline;
     -webkit-border-radius: 4px ;
     -ms-border-radius: 4px ;
     -moz-border-radius: 4px ;
     -o-border-radius: 4px ;
     border-radius: 4px ;
     color: #fff;
-    padding: 2px 8px; }
+    padding: 0 8px; }
     body .scope-container .label--primary {
       background-color: #2a94d6; }
     body .scope-container .label--success {
@@ -4384,8 +4391,11 @@ body .scope-container {
     line-height: .675;
     padding: .675em; }
   body .scope-container .label > .juicon, body .scope-container .snack-bar .label > .close, body .scope-container .label > .required-field:after, body .scope-container .label > .button.load-this:after, body .scope-container .label > .form__group.load-this:before, body .scope-container .label > .load-block, body .scope-container .panel__component > .close .label > .component-remove-x, body .scope-container .select2-container .select2-choice .select2-arrow .label > b, .select2-container .select2-choice .select2-arrow body .scope-container .label > b, body .scope-container .label > .select2-search-choice-close, body .scope-container .label > .close-modal-x {
+    display: inline-block;
     margin-left: -4px;
     margin-right: -4px; }
+    body .scope-container .label > .juicon:before, body .scope-container .snack-bar .label > .close:before, body .scope-container .label > .form__group.load-this:before, body .scope-container .label > .load-block:before, body .scope-container .panel__component > .close .label > .component-remove-x:before, body .scope-container .select2-container .select2-choice .select2-arrow .label > b:before, .select2-container .select2-choice .select2-arrow body .scope-container .label > b:before, body .scope-container .label > .select2-search-choice-close:before, body .scope-container .label > .close-modal-x:before {
+      display: inline-block; }
   body .scope-container .list-group__item > .label {
     margin: 8px; }
   body .scope-container .list-group__item.active .label--secondary {
