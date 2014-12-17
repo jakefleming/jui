@@ -1,0 +1,46 @@
+// ==========================================================================
+// Modular Scale (Utilities)
+// ==========================================================================
+
+$ms-base-unit   : 16;
+$ms-key-number  : 14;
+$golden-ratio   : 1.618;
+
+// Get modular scale
+@function modular-scale($multiplier:1, $b-unit: $ms-base-unit, $ratio:$golden-ratio) {
+  @if $multiplier ==0 {
+    @error "Multiplier must be greater than 0"
+  }
+  @if $multiplier == 1 {
+    @return $ratio;
+  } @else {
+    @return pow($ratio,$multiplier);
+  }
+}
+
+// Get upper modular scale in px
+@function px-mod($exponent: 1) {
+  @return $ms-base-unit*modular-scale($exponent)+px;
+}
+
+// Get upper modular scale in em
+@function em-mod($exponent: 1) {
+  @return modular-scale($exponent)+em;
+}
+
+// Turn element to em
+@function em($context: $ms-base-unit, $b-unit: $ms-base-unit) {
+  @return $context/$b-unit + em;
+}
+
+// Turn element to px
+@function px($context: null) {
+  @return $context +px;
+}
+
+//body {
+//  font-size: px($ms-base-unit);
+//  line-height: modular-scale(1); // 1.618
+//  margin: 0 auto;
+//  max-width: em-mod(8);
+//}

@@ -99,13 +99,13 @@ section {
 }
 
 #gridFlex {
-  > .grid-block {
+  .grid, .grid-block {
     background: transparentize($input-icon-color, .9);
     @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
       min-height: 100px;
     }
     @media (min-width: $brkpoint-md) {
-      height: 100px;
+      min-height: 100px;
     }
     .grid-block {
       margin: $base-h-padding+px;

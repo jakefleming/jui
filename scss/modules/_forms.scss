@@ -140,7 +140,7 @@ input[type=radio] {
 }
 
 .input__group {
-  > [class^="column--"] {
+  > [class^="column--"], > [class^="grid-block"] {
     > * {
       @include erase-radius();
       width: 100%;
@@ -174,7 +174,7 @@ input[type=radio] {
     }
   }
   .has-error & {
-    > [class^="column--"] {
+    > [class^="column--"], > [class^="grid-block"] {
       &:last-child {
         > .button {
           border-color: $color-error;

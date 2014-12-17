@@ -55,22 +55,32 @@
 
 
 
-//flex
-
-@mixin grid-order($order: 0) {
-  order: $order;
+// flex
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 
-
-
-@mixin grid-offset($offset: false) {
-  @if ($offset != false) {
-    margin-left: percentage($offset / $grid-column-count);
-  }
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
 }
 
+@mixin order($val) {
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
+  order: $val;
+}
 
-@mixin grid-orient($direction: horizontal) {
+@mixin orient($direction: horizontal) {
   @if ($direction == vertical) {
     flex-flow: column nowrap;
     align-items: stretch;
@@ -80,204 +90,152 @@
   }
 }
 
-@mixin grid-align($align: left) {
-  $options: (
-          left: flex-start,
-          right: flex-end,
-          center: center,
-          justify: space-between,
-          spaced: space-around,
-  );
-  justify-content: map-get($options, $align);
-}
-
-@mixin grid-wrap($wrap: true) {
-  @if $wrap {
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-  @else {
-    flex-wrap: nowrap;
-    align-items: stretch;
-  }
-}
-
-@mixin grid-frame($size: expand, $vertical: false, $wrap: false, $align: left, $order: 0) {
-  display: flex;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-
-  @include grid-size($size);
-  @include grid-orient($vertical);
-  @include grid-wrap($wrap);
-  @include grid-align($align);
-  @include grid-order($order);
-}
-
-@mixin grid-size($size: expand) {
-  @if (type-of($size) == 'number') {
-    flex: 0 0 percentage($size / $grid-column-count);
-  }
-  @else if ($size == shrink) {
-    flex: 0 0 auto;
-  }
-  @else if ($size == expand) {
-    flex: 1 1;
+@mixin align($val) {
+  @if $val == right {
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  } @else if $val == left {
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  } @else if $val == justify {
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  } @else if $val == center {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  } @else if $val == spaced {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  } @else {
+    @error "$val must == 'right', 'left', 'justify', 'center', or 'spaced'"
   }
 }
 
-%block-core {
-  // Prevent flicker when grid items shift around
-  // transition: all 300ms ease;
-  backface-visibility: hidden;
-
-  // Block alignment
-  &.align-right   { @include grid-align(right); }
-  &.align-center  { @include grid-align(center); }
-  &.align-justify { @include grid-align(justify); }
-  &.align-spaced  { @include grid-align(spaced); }
-
-  // Stretch children along cross-axis
-  &.wrap { @include grid-wrap(true); }
+@mixin wrap($val:wrap) {
+  -webkit-flex-wrap: $val;
+  -ms-flex-wrap: $val;
+  flex-wrap: $val;
+  overflow: visible;
 }
 
-.grid-frame {
-  @extend %block-core;
-  @include grid-frame;
+%grid-core {
+  @include flexbox;
 }
 
-@mixin grid-block($size: expand, $vertical: false, $wrap: false, $align: left, $order: 0) {
-  @include grid-frame($size, $vertical, $wrap, $align, $order);
+%grid-block-core {
+  @include flex(1);
+}
 
-  // Reset the height used by frames
-  height: auto;
-
-  // Blocks will scroll by default if their content overflows
-  @if ($vertical) {
-    overflow-x: auto;
+.grid {
+  @extend %grid-core;
+  /* With gutters */
+  margin-left: -($key-number+px);
+  margin-right: -($key-number+px);
+  > [class^="grid-block"] {
+    padding-left: ($key-number+px);
+    padding-right: ($key-number+px);
   }
-  @else {
-    overflow-y: auto;
+  &.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+    > [class^="grid-block"] {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
-
-  // Add scrolling with inertia
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-%grid-block {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  -webkit-flex: 1 1;
-  -ms-flex: 1 1;
-  flex: 1 1;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  height: auto;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-
+  &--align--left {
+    @include align(left);
+  }
+  &--align--right {
+    @include align(right);
+  }
+  &--align--center {
+    @include align(center);
+  }
+  &--align--justify {
+    @include align(justify);
+  }
+  &--align--spaced {
+    @include align(spaced);
+  }
+  &--vertical {
+    @include orient(vertical);
+    &--sm--only {
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        @include orient(vertical);
+      }
+    }
+  }
+  @for $i from 1 through $grid-column-count {
+    &.blocks--#{$i} {
+      @include wrap();
+      > .grid-block {
+        flex: 0 0 percentage(1 / $i);
+      }
+    }
+    &.blocks--#{$i}--sm--only {
+      @include wrap();
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        > .grid-block {
+          flex: 0 0 percentage(1 / $i);
+        }
+      }
+    }
+  }
 }
 
 .grid-block {
-  @extend %grid-block;
-  @extend %block-core;
-  // Orientation classes
-  &.vertical {
-    @include grid-orient(vertical);
-  }
-  &.sm--vertical {
-    @media (min-width: $brkpoint-sm) {
-      @include grid-orient(vertical);
-    }
-    &--only {
-      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
-        @include grid-orient(vertical);
-      }
-    }
-  }
-  &.md--vertical {
-    @media (min-width: $brkpoint-md) {
-      @include grid-orient(vertical);
-    }
-    &--only {
-      @media (min-width: $brkpoint-md) and (max-width: $brkpoint-lg) {
-        @include grid-orient(vertical);
-      }
-    }
-  }
-  &.lg--vertical {
-    @media (min-width: $brkpoint-lg) {
-      @include grid-orient(vertical);
-    }
-  }
-
-  &.sm--horizontal {
-    @media (min-width: $brkpoint-sm) {
-      @include grid-orient(horizontal);
-    }
-    &--only {
-      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
-        @include grid-orient(horizontal);
-      }
-    }
-  }
-  &.md--horizontal {
-    @media (min-width: $brkpoint-md) {
-      @include grid-orient(horizontal);
-    }
-    &--only {
-      @media (min-width: $brkpoint-md) and (max-width: $brkpoint-lg) {
-        @include grid-orient(horizontal);
-      }
-    }
-  }
-  &.lg--horizontal {
-    @media (min-width: $brkpoint-lg) {
-      @include grid-orient(horizontal);
-    }
-  }
-
-
-
-
+  @extend %grid-block-core;
+  // general sizing
   @for $i from 1 through $grid-column-count {
-    &--md--#{$i}{
-      @extend %grid-block;
-      @extend %block-core;
+    &--#{$i} {
+      flex: 0 0 percentage($i / $grid-column-count);
+    }
+    &--#{$i}--sm--only {
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        flex: 0 0 percentage($i / $grid-column-count);
+      }
+    }
+    &--#{$i}--md {
       @media (min-width: $brkpoint-md) {
         flex: 0 0 percentage($i / $grid-column-count);
       }
     }
-  }
-  @for $i from 1 through $grid-column-count {
-    &--lg--#{$i} {
-      @extend %grid-block;
-      @extend %block-core;
-      @media (min-width: $brkpoint-lg) {
-        flex: 0 0 percentage($i / $grid-column-count);
-        min-height: 1px;
+    &--order--#{$i} {
+      @include order($i);
+    }
+    &--order--#{$i}--sm--only {
+      @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+        @include order($i);
       }
     }
   }
+}
+
+/* Alignment per row */
+.grid--top {
+  align-items: flex-start;
+}
+.grid--bottom {
+  align-items: flex-end;
+}
+.grid--center {
+  align-items: center;
+}
+
+/* Alignment per cell */
+.grid-block--top {
+  align-self: flex-start;
+}
+.grid-block--bottom {
+  align-self: flex-end;
+}
+.grid-block--center {
+  align-self: center;
 }
 
